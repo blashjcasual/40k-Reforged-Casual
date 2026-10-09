@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gameSystem name="40k Reforged" id="sys-c49b-9f87-36f1-c9b5" battleScribeVersion="2.03" revision="67" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Transport" id="3239-2096-a612-ed8e" hidden="false"/>
@@ -146,10 +146,8 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
     </profileType>
   </profileTypes>
   <publications>
-    <publication name="GitHub" id="f513-c3a0-5768-8dca" hidden="false" publisherUrl="https://github.com/KettleEngine/40k-Reforged"/>
+    <publication name="GitHub" id="f513-c3a0-5768-8dca" hidden="false" publisherUrl="https://github.com/blashjcasual/40k-Reforged-Casual.git"/>
   </publications>
-  <selectionEntries>
-  </selectionEntries>
   <sharedProfiles>
     <profile name="Teleport Homer" id="77ce-0080-b298-0daa" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
