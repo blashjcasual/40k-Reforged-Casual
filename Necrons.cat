@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="1841-e935-15ec-c764" name="Necrons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="46" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="1841-e935-15ec-c764" name="Necrons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="47" battleScribeVersion="2.03" type="catalogue">
   <sharedRules>
     <rule name="Gauss" id="b2e9-8420-cfb7-4bde" hidden="false">
       <description>For each attack made for this weapon, the Wound Roll for that attack is improved by 1 and the Saving Throw for that attack is worsened by 1.</description>
@@ -2148,7 +2148,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Canoptek Spyder" hidden="false" id="074d-4164-9a62-cbc0" sortIndex="22">
       <costs>
-        <cost name="pts" typeId="points" value="100" />
+        <cost name="pts" typeId="points" value="120" />
       </costs>
       <profiles>
         <profile name="Optimised Swarm" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b82c-a39f-8b20-3d18">

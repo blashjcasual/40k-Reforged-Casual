@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="18" revision="30" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="18" revision="31" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Army Rules (Reference)" hidden="false" id="23d8-3b8d-77df-8eb4" sortIndex="-3">
       <constraints>
@@ -1433,7 +1433,7 @@ c) RETRIBUTORS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Celestine, The living Saint" hidden="false" id="d9c5-19b0-9c68-0e69" sortIndex="9">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="110" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="1738-1300-9dbb-c5be" id="adb7-96f0-faa0-e57b" primary="false" name="Rare"/>
@@ -3726,7 +3726,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Retributors" hidden="false" id="b355-ff05-8aca-5ab1" sortIndex="23">
       <costs>
-        <cost name="pts" typeId="points" value="110"/>
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="9631-5c84-5bd6-4e03" primary="false" name="Infantry"/>
