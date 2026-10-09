@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3346-57cc-888c-c1d6" name="Drukhari" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="25" revision="26" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3346-57cc-888c-c1d6" name="Drukhari" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="25" revision="27" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.5" hidden="false" id="d4a4-79f5-d0c3-6cee" sortIndex="-1">
       <categoryLinks>
@@ -1110,7 +1110,7 @@ This unit may attach to a unit which already has an attached leader (other than 
         <categoryLink targetId="ccc6-6202-853c-23e4" id="d821-e1d4-b682-5179" primary="true" name="Support" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="100" />
       </costs>
       <profiles>
         <profile name="Slicing Jetbikes" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="830e-6437-c706-5950">
@@ -2232,7 +2232,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Incubi" hidden="false" id="cad8-a5b1-1925-9dcd" sortIndex="3">
       <costs>
-        <cost name="pts" typeId="points" value="80" />
+        <cost name="pts" typeId="points" value="120" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="4820-e2b5-9e00-bb68" id="09cd-0efb-c403-55a7" primary="true" name="Elites" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="14ba-fba9-02a2-388d" name="Craftworlds" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="6" revision="68" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="14ba-fba9-02a2-388d" name="Craftworlds" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="6" revision="69" battleScribeVersion="2.03" type="catalogue">
   <sharedRules>
     <rule name="Roaming Performers" id="c56f-e048-3acd-ec3d" hidden="false">
       <description>You may add one of the following Harlequins units to your Army
@@ -3402,7 +3402,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
         <categoryLink name="Infantry" hidden="false" id="6f58-f4ef-3ecc-fdad" targetId="205c-3072-067b-d808" primary="false" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <profiles>
         <profile name="Dragon’s Ruin" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ad32-4f62-2d4e-6535">
