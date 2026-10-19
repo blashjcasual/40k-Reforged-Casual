@@ -111,6 +111,7 @@
                       <entryLinks>
                         <entryLink import="true" name="Plasma Grenade" hidden="false" id="a936-0bf1-e88f-f9f7" type="selectionEntry" targetId="16c6-5a66-c200-152f">
                           <modifiers>
+                            <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon" />
                             <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
@@ -180,10 +181,11 @@
                         </entryLink>
                       </entryLinks>
                     </selectionEntry>
-                    <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="87e2-b060-85a4-830a" sortIndex="2">
+                    <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="87e2-b060-85a4-830a" sortIndex="2">
                       <entryLinks>
-                        <entryLink import="true" name="Power Weapon" hidden="false" id="2978-7e8d-eedf-7e62" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
+                        <entryLink import="true" name="Power Sword" hidden="false" id="2978-7e8d-eedf-7e62" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                           <modifiers>
+                            <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon" />
                             <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
@@ -216,13 +218,17 @@
                         </entryLink>
                       </entryLinks>
                     </selectionEntry>
-                  </selectionEntries>
-                  <selectionEntryGroups>
-                    <selectionEntryGroup name="Special Weapon" id="78a9-3383-cda0-9603" hidden="false">
+                    <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="78a9-3383-cda0-9603">
                       <constraints>
                         <constraint type="max" value="2" field="selections" scope="unit" shared="true" id="7a53-a04b-4edc-f290" includeChildSelections="true" />
                       </constraints>
-                      <selectionEntries>
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Replacement Weapon" id="8ebfc910-ffaf-40bc-8d63-6d6974acbaf7" hidden="false">
+                          <constraints>
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0d8a4b9e-4c8a-4eab-8ad5-4157d1e94f9e" includeChildSelections="false" />
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="123b9342-1e27-4b2a-8d1f-d7c902981f20" includeChildSelections="false" />
+                          </constraints>
+                          <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="58c1-6b8e-b31f-a120" sortIndex="1">
                           <entryLinks>
                             <entryLink import="true" name="Fusion Pistol" hidden="false" id="dd2c-ef44-22c7-3da0" type="selectionEntry" targetId="2a6b-b034-37f1-59fa">
@@ -241,7 +247,7 @@
                           <entryLinks>
                             <entryLink import="true" name="Neuro Disruptor" hidden="false" id="0ae5-2dde-5d77-9dc6" type="selectionEntry" targetId="7dc0-1f7b-a49c-295b">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
@@ -251,9 +257,11 @@
                             </entryLink>
                           </entryLinks>
                         </selectionEntry>
-                      </selectionEntries>
-                    </selectionEntryGroup>
-                  </selectionEntryGroups>
+                          </selectionEntries>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
+                    </selectionEntry>
+                  </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
             </selectionEntry>
@@ -775,10 +783,11 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="9d08-b390-cc6e-3202" sortIndex="2">
+                <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="9d08-b390-cc6e-3202" sortIndex="2">
                   <entryLinks>
-                    <entryLink import="true" name="Power Weapon" hidden="false" id="8206-7bc7-f478-4072" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
+                    <entryLink import="true" name="Power Sword" hidden="false" id="8206-7bc7-f478-4072" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                       <modifiers>
+                        <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon" />
                         <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
@@ -802,7 +811,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                     <entryLink import="true" name="Shuriken Pistol" hidden="false" id="5572-6de1-4fbe-c769" type="selectionEntry" targetId="4f77-9c86-d981-5252">
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a48-5be3-2ed7-f70c-min" includeChildSelections="false" />
@@ -829,7 +838,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                   <entryLinks>
                     <entryLink import="true" name="Neuro Disruptor" hidden="false" id="c678-2bec-7635-6cbc" type="selectionEntry" targetId="7dc0-1f7b-a49c-295b">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
@@ -1217,7 +1226,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                     <entryLink import="true" name="Shuriken Pistol" hidden="false" id="e499-639d-9860-36c9" type="selectionEntry" targetId="4f77-9c86-d981-5252">
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e8f4-67bf-a31f-6c67-min" includeChildSelections="false" />
@@ -1230,7 +1239,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                   <entryLinks>
                     <entryLink import="true" name="Neuro Disruptor" hidden="false" id="2385-7b88-9922-21bc" type="selectionEntry" targetId="7dc0-1f7b-a49c-295b">
                       <modifiers>
-                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>

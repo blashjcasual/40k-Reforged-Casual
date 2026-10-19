@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3336-6a64-b87f-ab82" name="Thousand Sons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="14" revision="36" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3336-6a64-b87f-ab82" name="Thousand Sons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="14" revision="37" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warpflame Pistol" hidden="false" id="9779-6b3e-5fd2-ee95">
       <profiles>
@@ -2254,7 +2254,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
     <entryLink import="true" name="Vindicator" hidden="false" id="21e8-6e69-7f27-fc57" targetId="7aa0-644a-fffd-220a" type="selectionEntry"/>
     <entryLink import="true" name="Contemptor Dreadnought" hidden="false" id="1ef0-298a-b6d6-043f" targetId="1214-e873-29cf-8d3f" type="selectionEntry"/>
     <entryLink import="true" name="Leviathan Dreadnought " hidden="false" id="3f57-7a0d-b5fe-b0dc" targetId="1a7c-eccc-baed-f5ff" type="selectionEntry"/>
-    <entryLink import="true" name="Predator" hidden="false" id="2bde-f8bb-68e8-7f48" targetId="0630-8454-7f40-51ee" type="selectionEntry">
+    <entryLink import="true" name="Chaos Predator" hidden="false" id="2bde-f8bb-68e8-7f48" targetId="f2f7-37cf-45cc-67d4" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Chaos" hidden="false" id="254e-c945-e732-d573" targetId="f809-9826-f58a-6b8d" primary="false"/>
       </categoryLinks>

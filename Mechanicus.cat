@@ -4174,7 +4174,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
     <entryLink import="true" name="Land Speeder" hidden="false" id="8792-6060-2574-9260" targetId="3459-4b91-484c-cb59" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Vindicator" hidden="false" id="8468-3a72-44d6-a9dc" targetId="9eba-7fb1-a2a2-e29d" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Whirlwind" hidden="false" id="9120-43a3-544c-33ed" targetId="dd4d-4f0c-d34a-b856" type="selectionEntry" sortIndex="6"/>
-    <entryLink import="true" name="Predator" hidden="false" id="8913-2f5c-7899-b593" targetId="0630-8454-7f40-51ee" type="selectionEntry" sortIndex="6"/>
+    <entryLink import="true" name="Predator" hidden="false" id="8913-2f5c-7899-b593" targetId="4ed9-7829-b53d-f70d" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Land Raider" hidden="false" id="cf3f-cb25-58bb-62b6" targetId="7128-e377-d8e2-17dc" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Rhino" hidden="false" id="3ecb-d570-3f67-63ac" targetId="9884-6337-d74d-e190" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Tank Commander" hidden="false" id="b8c8-6008-39a8-f614" targetId="a272-0554-6a79-2895" type="selectionEntry" sortIndex="5"/>

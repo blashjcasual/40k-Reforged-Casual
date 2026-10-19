@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="149d-ebd0-bba9-e9df" name="Chaos Space Marines" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="50" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="149d-ebd0-bba9-e9df" name="Chaos Space Marines" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="51" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Space Marines" id="1f6f-7689-e57a-87cd" targetId="189f-f42f-6f3b-5328" />
   </catalogueLinks>
@@ -2524,6 +2524,21 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
+                            <selectionEntry type="upgrade" import="true" name="Champion Boltgun" hidden="false" id="d3840e39-8798-4550-9d1b-585e5262344f" sortIndex="3">
+                              <entryLinks>
+                                <entryLink import="true" name="Boltgun" hidden="false" id="d8781c6a-ee48-4ca9-818f-028e57c11f1c" type="selectionEntry" targetId="7c03-84c7-a561-dfa9">
+                                  <modifiers>
+                                    <modifier type="set" value="Champion Boltgun" field="name" affects="profiles.Weapon" />
+                                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                  </modifiers>
+                                  <constraints>
+                                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f866f53-a004-47e2-929c-c31341543862" includeChildSelections="false" />
+                                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d35a5855-3916-49d9-9464-26d946289982" includeChildSelections="false" />
+                                  </constraints>
+                                </entryLink>
+                              </entryLinks>
+                            </selectionEntry>
                           </selectionEntries>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0c5e-92a8-6651-ca94-min" includeChildSelections="false" />
@@ -2536,11 +2551,11 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b59-8add-280f-556f-max" includeChildSelections="false" />
                           </constraints>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="0794-855d-509a-d5fa" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Daemon Hammer" hidden="false" id="0794-855d-509a-d5fa" sortIndex="1">
                               <entryLinks>
-                                <entryLink import="true" name="Chainsword" hidden="false" id="452c-a003-5ea5-b73b" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
+                                <entryLink import="true" name="Daemon Hammer" hidden="false" id="452c-a003-5ea5-b73b" type="selectionEntry" targetId="ea6e-1dec-e154-a575">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                   <constraints>
@@ -2550,7 +2565,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="3463-d574-665a-9868" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="3463-d574-665a-9868" sortIndex="2">
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="1ba5-a749-766a-d0f6" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
@@ -3117,12 +3132,13 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7f86-fd0d-f5d0-8c00-max" includeChildSelections="false" />
                           </constraints>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Chainsword" hidden="false" id="896d-391a-ef64-b8c5" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="896d-391a-ef64-b8c5" sortIndex="1">
                               <entryLinks>
-                                <entryLink import="true" name="Chainsword" hidden="false" id="3fdd-c1cb-462e-eead" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
+                                <entryLink import="true" name="Chainblade" hidden="false" id="3fdd-c1cb-462e-eead" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
                                   <modifiers>
                                     <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                    <modifier type="set" value="Chainblade" field="name" affects="profiles.Weapon" />
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bbf6-2c54-dc60-dac8-min" includeChildSelections="false" />
@@ -3131,7 +3147,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="8b34-d9d7-6d90-9712" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="8b34-d9d7-6d90-9712" sortIndex="2">
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="f95e-771f-bbbe-ddd6" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
@@ -3623,7 +3639,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="63c6-de7a-d19c-77fe" includeChildSelections="false" />
                       </constraints>
                       <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="7da3-096b-34c5-232a" sortIndex="1">
+                        <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="7da3-096b-34c5-232a" sortIndex="1">
                           <entryLinks>
                             <entryLink import="true" name="Power Weapon" hidden="false" id="444f-f4e4-6bc7-16c6" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                               <constraints>
@@ -3659,14 +3675,15 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                             </entryLink>
                           </entryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="ChainBlade" hidden="false" id="ae53-75bd-8ce7-053d" sortIndex="2">
+                        <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="ae53-75bd-8ce7-053d" sortIndex="2">
                           <entryLinks>
-                            <entryLink import="true" name="Chainsword" hidden="false" id="4565-d9db-4211-7d0a" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
+                            <entryLink import="true" name="Chainblade" hidden="false" id="4565-d9db-4211-7d0a" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
                                     <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                    <modifier type="set" value="Chainblade" field="name" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
                               </modifierGroups>
@@ -3853,6 +3870,10 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
           </profiles>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapons" id="2b2d-b0b2-1ba8-6fe8" hidden="false" defaultSelectionEntryId="b1d0-29b9-b6fc-6367">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e183-1f04-27df-4275-min" includeChildSelections="false" />
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e183-1f04-27df-4275-max" includeChildSelections="false" />
+              </constraints>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Lightning Claws" hidden="false" id="2198-c01f-b2b7-4219" sortIndex="3">
                   <constraints>
@@ -3988,7 +4009,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                             </entryLink>
                           </entryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="2e40-db78-8cbe-ca06" sortIndex="1">
+                        <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="2e40-db78-8cbe-ca06" sortIndex="1">
                           <entryLinks>
                             <entryLink import="true" name="Power Weapon" hidden="false" id="c6a9-f0a9-cc7e-8d10" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                               <modifiers>
@@ -4046,10 +4067,13 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="64c3-9528-0a8d-1edb" sortIndex="5">
                           <entryLinks>
-                            <entryLink import="true" name="Chainfist" hidden="false" id="b5ff-c4ab-c466-1bdd" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e">
+                            <entryLink import="true" name="Chainblade" hidden="false" id="b5ff-c4ab-c466-1bdd" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e">
                               <modifiers>
                                 <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+                                <modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon" />
+                                <modifier type="set" value="Chainblade" field="name" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eb07-6c17-f6a4-ceaf" includeChildSelections="false" />
@@ -4866,7 +4890,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="eb1b-4c88-4596-8f0f" sortIndex="3">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="eb1b-4c88-4596-8f0f" sortIndex="3">
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="895d-a96c-a438-be51" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifierGroups>
@@ -5025,7 +5049,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="7363-be11-63ef-2abd" sortIndex="7">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="7363-be11-63ef-2abd" sortIndex="7">
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="d32c-e47c-5338-2550" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifierGroups>
@@ -5498,9 +5522,29 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="f3cc-e1a0-1e1c-c262" includeChildSelections="true" />
                       </constraints>
                     </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Special Weapon" hidden="false" id="1164fe2c-3641-40f6-9876-7f9745302c76" sortIndex="2">
+                          <constraints>
+                            <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="22c24d50-1eb1-4286-9ef3-1fe0b1feda0c" includeChildSelections="true" />
+                          </constraints>
+                          <selectionEntryGroups>
+                            <selectionEntryGroup name="Weapon" id="39397d23-5932-4d70-9baf-34890267342e" hidden="false">
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a4a3190b-bf9d-4ac7-b3db-f6944971fd7a" includeChildSelections="false" />
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d181d979-cc23-43aa-9547-51811d70a8be" includeChildSelections="false" />
+                              </constraints>
+                              <entryLinks>
+                                <entryLink import="true" name="Flamer" hidden="false" id="a10cefbc-4a30-4f75-9337-68e598142f7f" type="selectionEntry" targetId="03f9-0500-4054-3904" />
+                                <entryLink import="true" name="Lascutter" hidden="false" id="3d9e76ab-8eb2-4a19-8d68-b67b40e37c19" type="selectionEntry" targetId="d061-aa2a-9bb8-3aec" />
+                                <entryLink import="true" name="Meltagun" hidden="false" id="34403247-1941-4e06-896d-48571c29ab51" type="selectionEntry" targetId="f6d5-883c-bdf3-ba7c" />
+                                <entryLink import="true" name="Graviton Gun" hidden="false" id="b3cfc53f-14b4-4784-957b-9bc3b28a0a43" type="selectionEntry" targetId="76bf-8aa5-0abc-cb79" />
+                                <entryLink import="true" name="Plasma Gun" hidden="false" id="d9bee339-03e4-490a-bef0-e1711790b67f" type="selectionEntry" targetId="fa55-8261-33ad-cc4f" />
+                              </entryLinks>
+                            </selectionEntryGroup>
+                          </selectionEntryGroups>
+                        </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups>
-                    <selectionEntryGroup name="Special Weapon" id="bedf-1826-409f-d363" hidden="false" sortIndex="2">
+                    <selectionEntryGroup name="Special Weapon" id="bedf-1826-409f-d363" hidden="true" sortIndex="2">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="547f-1608-4685-7d8f" includeChildSelections="true" />
                       </constraints>
@@ -5960,7 +6004,14 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="1ba2-5e22-0d8f-d3af" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="1ba2-5e22-0d8f-d3af" sortIndex="2">
+                              <modifiers>
+                                <modifier field="hidden" type="set" value="true">
+                                  <conditions>
+                                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="e800-7114-16da-4e36" shared="true" childName="Plasma Pistol" includeChildSelections="true" />
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="2d71-baf0-3ece-8948" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
@@ -5975,6 +6026,13 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                               </entryLinks>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Power Fist" hidden="false" id="73c7-7eda-00ff-cd6f" sortIndex="4">
+                              <modifiers>
+                                <modifier field="hidden" type="set" value="true">
+                                  <conditions>
+                                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="e800-7114-16da-4e36" shared="true" childName="Plasma Pistol" includeChildSelections="true" />
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
                               <entryLinks>
                                 <entryLink import="true" name="Power Fist" hidden="false" id="4a9b-4b73-79f5-db5d" type="selectionEntry" targetId="e9ab-47d0-5cce-0c1d">
                                   <modifiers>
@@ -5989,6 +6047,13 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                               </entryLinks>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Lightning Claw" hidden="false" id="53b3-8284-1ba4-5b00" sortIndex="3">
+                              <modifiers>
+                                <modifier field="hidden" type="set" value="true">
+                                  <conditions>
+                                    <condition type="lessThan" value="1" field="selections" scope="parent" childId="e800-7114-16da-4e36" shared="true" childName="Plasma Pistol" includeChildSelections="true" />
+                                  </conditions>
+                                </modifier>
+                              </modifiers>
                               <entryLinks>
                                 <entryLink import="true" name="Lightning Claw" hidden="false" id="597c-bd74-ff07-cd79" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                                   <modifiers>
@@ -6640,7 +6705,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="f8e9-ec0b-d922-2380" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="f8e9-ec0b-d922-2380" sortIndex="2">
                               <entryLinks>
                                 <entryLink import="true" name="Power Weapon" hidden="false" id="b66a-2978-7387-a51b" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
@@ -8052,22 +8117,81 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="This model is equipped with either:" id="a54255b5-066f-47ad-8963-03d80763af6c" hidden="false">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bec5e3ac-eed8-428a-8312-428efe416819" includeChildSelections="false" />
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9475ba5d-e260-4113-821b-3ef5c7c953a9" includeChildSelections="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Predator Autocannon" hidden="false" id="ce61-e5f9-065b-b272" type="selectionEntry" targetId="19ad-fec3-2f6d-b803" />
+                <entryLink import="true" name="Predator Twin Lascannon" hidden="false" id="6091-0a6f-109d-d607" type="selectionEntry" targetId="43b2-3610-cca5-fdbb" />
+                <entryLink import="true" name="Predator Twin Plasmacannon" hidden="false" id="8cda-8628-2c58-99a2" type="selectionEntry" targetId="3cde-554c-e40f-53b9" />
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="This model may also be equipped with either:" id="c3702030-fcd3-422d-94fb-ca3ece0d6611" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb08d7d-5b0e-4b5e-afad-d06f1cd09f12" includeChildSelections="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="764b-cc01-4888-c9f7" type="selectionEntry" targetId="a40b-783e-4918-5f3a" />
+                <entryLink import="true" name="Combi-Bolter" hidden="false" id="1189-075c-17d1-aa92" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="For an additional 10 points, this model may also be equipped with either:" id="d35dc7b6-c9c2-490b-849a-ca1a200cf4cb" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0c00ad60-3416-40ae-9e71-ef2e12a1f544" includeChildSelections="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Pintle Plasmagun" hidden="false" id="596e-2787-c869-9fec" type="selectionEntry" targetId="fccb-c56e-f6d3-17e4">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Pintle Meltagun" hidden="false" id="978e-0f25-cfee-4c44" type="selectionEntry" targetId="53a6-994d-4702-31c6">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Pintle Combi-Bolter" hidden="false" id="5177-75e4-6fae-ecba" type="selectionEntry" targetId="faec-89e5-997a-a0ac">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="For an additional 20 points, this model may also be equipped with either:" id="84bc77fd-e0a6-4dff-bec4-ab44ba1823ec" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9442bb70-393d-41c5-943d-6cb9f4853e9d" includeChildSelections="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Sponson Lascannons" hidden="false" id="0954-83c5-2839-b843" type="selectionEntry" targetId="3a4f-ee59-c9df-6895">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Sponson Plasmacannons" hidden="false" id="b88b-459b-d462-411b" type="selectionEntry" targetId="26ba-c47a-39e3-a109">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Sponson Heavy Bolters" hidden="false" id="4ffc-22e9-d15c-ef9e" type="selectionEntry" targetId="813c-5e6c-a1e0-e4e5">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink import="true" name="Dozer Spikes" hidden="false" id="a3de-3c4b-c74d-c7bd" type="selectionEntry" targetId="6a0c-882e-a0e2-f1a1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da18bdbd-0279-4173-a25d-03bba4bb7092" includeChildSelections="false" />
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
-        <entryLink import="true" name="Predator Autocannon" hidden="false" id="ce61-e5f9-065b-b272" type="selectionEntry" targetId="19ad-fec3-2f6d-b803" />
-        <entryLink import="true" name="Predator Twin Lascannon" hidden="false" id="6091-0a6f-109d-d607" type="selectionEntry" targetId="43b2-3610-cca5-fdbb" />
-        <entryLink import="true" name="Predator Twin Plasmacannon" hidden="false" id="8cda-8628-2c58-99a2" type="selectionEntry" targetId="3cde-554c-e40f-53b9" />
-        <entryLink import="true" name="Havoc Launcher" hidden="false" id="764b-cc01-4888-c9f7" type="selectionEntry" targetId="a40b-783e-4918-5f3a" />
-        <entryLink import="true" name="Combi-Bolter" hidden="false" id="1189-075c-17d1-aa92" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
-        <entryLink import="true" name="Pintle Plasmagun" hidden="false" id="596e-2787-c869-9fec" type="selectionEntry" targetId="fccb-c56e-f6d3-17e4" />
-        <entryLink import="true" name="Pintle Meltagun" hidden="false" id="978e-0f25-cfee-4c44" type="selectionEntry" targetId="53a6-994d-4702-31c6" />
-        <entryLink import="true" name="Pintle Combi-Bolter" hidden="false" id="5177-75e4-6fae-ecba" type="selectionEntry" targetId="faec-89e5-997a-a0ac" />
-        <entryLink import="true" name="Sponson Lascannons" hidden="false" id="0954-83c5-2839-b843" type="selectionEntry" targetId="3a4f-ee59-c9df-6895" />
-        <entryLink import="true" name="Sponson Plasmacannons" hidden="false" id="b88b-459b-d462-411b" type="selectionEntry" targetId="26ba-c47a-39e3-a109" />
-        <entryLink import="true" name="Sponson Heavy Bolters" hidden="false" id="4ffc-22e9-d15c-ef9e" type="selectionEntry" targetId="813c-5e6c-a1e0-e4e5" />
-        <entryLink import="true" name="Dozer Spikes" hidden="false" id="a3de-3c4b-c74d-c7bd" type="selectionEntry" targetId="6a0c-882e-a0e2-f1a1" />
-      </entryLinks>
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Basilisk" hidden="false" id="1459-4350-c6da-351a" sortIndex="1">
       <costs>

@@ -689,7 +689,7 @@ This unit does not count towards the leader capacity of your army list.</charact
               </constraints>
               <modifiers>
                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
-                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -1525,7 +1525,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <entryLink name="Hot-Shot Lasgun" id="0f39-2caa-320a-d17e" hidden="false" import="true" sortIndex="1" targetId="4204-1729-3aa8-ae00" type="selectionEntry">
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
-                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -1579,8 +1579,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
                             </entryLink>
-                            <entryLink name="Power Weapon" id="c3ab-d8ee-fa07-dcc0" hidden="false" import="true" sortIndex="3" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                            <entryLink name="Power Sword" id="c3ab-d8ee-fa07-dcc0" hidden="false" import="true" sortIndex="3" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                               <modifiers>
+                                <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
                               </modifiers>
@@ -1598,20 +1599,20 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <entryLinks>
                         <entryLink name="Flamer" id="b414-0c2f-b8ec-75b7" hidden="false" import="true" sortIndex="1" targetId="4cf9-1758-d00d-29c4" type="selectionEntry">
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="18"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="16"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                           </modifiers>
                         </entryLink>
                         <entryLink name="Meltagun" id="c723-27ee-9477-e3e9" hidden="false" import="true" sortIndex="2" targetId="4260-66c2-4887-4117" type="selectionEntry">
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
-                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
                           </modifiers>
                         </entryLink>
                         <entryLink name="Plasma Gun" id="4d27-a59c-c9ad-01a5" hidden="false" import="true" sortIndex="3" targetId="af5b-b208-be5c-ba5b" type="selectionEntry">
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
-                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
                           </modifiers>
                         </entryLink>
                         <entryLink name="Grenade Launcher" id="6294-4f1a-28e4-dc11" hidden="false" import="true" sortIndex="4" targetId="15c9-8839-7f65-9a7b" type="selectionEntry">
@@ -1622,9 +1623,51 @@ This unit does not count towards the leader capacity of your army list.</charact
                         </entryLink>
                         <entryLink name="Hot-Shot Volley Gun" id="da7a-f36f-063b-538c" hidden="false" import="true" sortIndex="5" targetId="8bf6-c294-2559-bf21" type="selectionEntry">
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          </modifiers>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup name="Special Weapons (+20 pts)" id="9e11-773a-0238-7a01" hidden="false" sortIndex="3">
+                      <constraints>
+                        <constraint id="9e11-773a-0238-7a02" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink name="Flamer" id="9e11-773a-0238-7a03" hidden="false" import="true" sortIndex="1" targetId="4cf9-1758-d00d-29c4" type="selectionEntry">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="16"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                          </modifiers>
+                          <costs><cost name="pts" typeId="points" value="20"/></costs>
+                        </entryLink>
+                        <entryLink name="Meltagun" id="9e11-773a-0238-7a04" hidden="false" import="true" sortIndex="2" targetId="4260-66c2-4887-4117" type="selectionEntry">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          </modifiers>
+                          <costs><cost name="pts" typeId="points" value="20"/></costs>
+                        </entryLink>
+                        <entryLink name="Plasma Gun" id="9e11-773a-0238-7a05" hidden="false" import="true" sortIndex="3" targetId="af5b-b208-be5c-ba5b" type="selectionEntry">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          </modifiers>
+                          <costs><cost name="pts" typeId="points" value="20"/></costs>
+                        </entryLink>
+                        <entryLink name="Grenade Launcher" id="9e11-773a-0238-7a06" hidden="false" import="true" sortIndex="4" targetId="15c9-8839-7f65-9a7b" type="selectionEntry">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
                           </modifiers>
+                          <costs><cost name="pts" typeId="points" value="20"/></costs>
+                        </entryLink>
+                        <entryLink name="Hot-Shot Volley Gun" id="9e11-773a-0238-7a07" hidden="false" import="true" sortIndex="5" targetId="8bf6-c294-2559-bf21" type="selectionEntry">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          </modifiers>
+                          <costs><cost name="pts" typeId="points" value="20"/></costs>
                         </entryLink>
                       </entryLinks>
                     </selectionEntryGroup>
@@ -1844,6 +1887,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     </selectionEntry>
                     <selectionEntry name="Sergeant" id="8261-631d-a9cb-dadf" hidden="false" import="true" type="upgrade">
                       <constraints>
+                        <constraint id="ad96-e5f4-7e66-813a" field="selections" includeChildSelections="true" scope="unit" shared="true" type="min" value="1"/>
                         <constraint id="ad96-e5f4-7e66-8139" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="1"/>
                       </constraints>
                       <selectionEntryGroups>
@@ -1875,8 +1919,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
                             </entryLink>
-                            <entryLink name="Power Weapon" id="c8dd-a963-9331-4607" hidden="false" import="true" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                            <entryLink name="Power Sword" id="c8dd-a963-9331-4607" hidden="false" import="true" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                               <modifiers>
+                                <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
@@ -2033,8 +2078,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Power Weapon" id="3dca-1f73-c3cb-3378" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                <entryLink name="Power Sword" id="3dca-1f73-c3cb-3378" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                   <modifiers>
+                    <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
@@ -2676,6 +2722,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                   <constraints>
                     <constraint id="404f-e59c-8b5d-a4f8" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="1"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
               <profiles>
@@ -2703,6 +2752,15 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                         <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                      </modifiers>
+                    </entryLink>
+                    <entryLink name="Flamer" id="4a40-4f72-8560-356c" hidden="false" import="true" sortIndex="4" targetId="4cf9-1758-d00d-29c4" type="selectionEntry">
+                      <constraints>
+                        <constraint id="4a40-4f72-8560-356c-max" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="9"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -2746,7 +2804,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                                 <modifier affects="profiles.Weapon" field="name" type="set" value="Squad Leader’s Autopistol "/>
                                 <modifier field="name" type="set" value="Squad Leader’s Autopistol "/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
-                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="12"/>
                               </modifiers>
                             </entryLink>
                             <entryLink name="Bolt Pistol" id="3022-58e1-1547-1cb8" hidden="false" import="true" sortIndex="3" targetId="dae5-9fbf-bdd8-7f79" type="selectionEntry">
@@ -2785,11 +2843,12 @@ This unit does not count towards the leader capacity of your army list.</charact
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="name" type="set" value="Squad Leader’s Trench Baton "/>
                                 <modifier field="name" type="set" value="Squad Leader’s Trench Baton "/>
-                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                               </modifiers>
                             </entryLink>
-                            <entryLink name="Power Weapon" id="8771-3b87-42ce-ff38" hidden="false" import="true" sortIndex="3" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                            <entryLink name="Power Sword" id="8771-3b87-42ce-ff38" hidden="false" import="true" sortIndex="3" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                               <modifiers>
+                                <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                               </modifiers>
@@ -2797,6 +2856,34 @@ This unit does not count towards the leader capacity of your army list.</charact
                           </entryLinks>
                         </selectionEntryGroup>
                       </selectionEntryGroups>
+                    </selectionEntry>
+                    <selectionEntry name="Mole Launcher Team" id="6140-640e-76bc-974e" hidden="false" import="true" type="model">
+                      <constraints>
+                        <constraint id="6140-640e-76bc-974e-max" field="selections" includeChildSelections="true" scope="unit" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20"/>
+                      </costs>
+                      <profiles>
+                        <profile name="Mole Launcher Team" id="6140-640e-76bc-974f" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
+                            <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                            <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
+                            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Mole Launcher" id="6140-640e-76bc-9750" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">-</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">-</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">-</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">-</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">After this unit’s Attacks step, select an obstacle, structure or enemy vehicle without Fly within 24” of this unit. Then, if you selected an obstacle or structure, all units within 2” of the selected terrain suffer D3+1 SW. If you selected a vehicle, that unit suffers 3+D6 SW.</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -2885,8 +2972,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="6+"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Power Weapon" id="cc8a-7195-5ba0-dbd0" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                <entryLink name="Power Sword" id="cc8a-7195-5ba0-dbd0" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                   <modifiers>
+                    <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
@@ -3033,8 +3121,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
                             </entryLink>
-                            <entryLink name="Power Weapon" id="0ac5-4b82-b9d0-c7a6" hidden="false" import="true" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                            <entryLink name="Power Sword" id="0ac5-4b82-b9d0-c7a6" hidden="false" import="true" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                               <modifiers>
+                                <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
@@ -3251,8 +3340,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Power Weapon" id="e8c1-d5b7-7e60-da7b" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
+                <entryLink name="Power Sword" id="e8c1-d5b7-7e60-da7b" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
                   <modifiers>
+                    <modifier affects="profiles.Weapon" field="name" type="set" value="Power Sword"/>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
@@ -4689,7 +4779,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <constraint id="ae29-6f4d-1b92-f7c6-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry name="Heavy Flamer" id="065f-367a-f4cb-657f" hidden="false" import="true" sortIndex="3" type="upgrade">
+                <selectionEntry name="Twin Heavy Flamer" id="065f-367a-f4cb-657f" hidden="false" import="true" sortIndex="3" type="upgrade">
                   <entryLinks>
                     <entryLink name="Heavy Flamer" id="4e17-8594-86d6-101d" hidden="false" import="true" targetId="5c44-7d31-605d-4b6f" type="selectionEntry">
                       <constraints>
@@ -4704,7 +4794,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
-                <selectionEntry name="Heavy Bolter" id="5ba9-8607-5b6e-df71" hidden="false" import="true" sortIndex="2" type="upgrade">
+                <selectionEntry name="Twin Heavy Bolter" id="5ba9-8607-5b6e-df71" hidden="false" import="true" sortIndex="2" type="upgrade">
                   <entryLinks>
                     <entryLink name="Heavy Bolter" id="5fbd-97f7-7d1a-6974" hidden="false" import="true" targetId="82a1-b562-e748-d5ad" type="selectionEntry">
                       <constraints>
@@ -4729,6 +4819,20 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="15"/>
                         <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                      </modifiers>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+                <selectionEntry name="Autocannon" id="90342e75-65bb-4b4e-b959-6cb27dcc2dae" hidden="false" import="true" sortIndex="4" type="upgrade">
+                  <entryLinks>
+                    <entryLink name="Autocannon" id="268226f6-fc59-4d13-992f-7035e08b64fc" hidden="false" import="true" targetId="a636-c9c9-ad6d-6db0" type="selectionEntry">
+                      <constraints>
+                        <constraint id="34ada33e-c6ed-4407-ba81-49257649e689" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
+                        <constraint id="2eaa23ea-33ec-45ff-b9fc-3fd2f15f3cb5" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+                      </constraints>
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>

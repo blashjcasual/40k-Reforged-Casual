@@ -1,6 +1,90 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="189f-f42f-6f3b-5328" name="Space Marines" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="1" revision="83" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
+    <selectionEntry type="upgrade" import="true" name="Predator Autocannon" hidden="false" id="11f8-9458-4826-42ef">
+      <profiles>
+        <profile name="Predator Autocannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="45a277fa-9299-4494-b487-3446e4df50da">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Predator Twin Lascannon" hidden="false" id="f0a1-3cba-7453-52c2">
+      <profiles>
+        <profile name="Predator Twin Lascannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f94e229e-6168-462d-bf22-ed7f35a0c3a6">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Predator Twin Plasmacannon" hidden="false" id="4e40-fdac-2718-7554">
+      <profiles>
+        <profile name="Predator Twin Plasmacannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="bbce5d38-4a79-4683-a7bb-89a216fc49bc">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pintle Plasmagun" hidden="false" id="b3d4-8df4-a7e4-9f6a">
+      <profiles>
+        <profile name="Pintle Plasmagun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="eb016ea5-b146-4df0-9d79-9b97c4b9b692">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pintle Meltagun" hidden="false" id="9249-4cf5-49c0-c288">
+      <profiles>
+        <profile name="Pintle Meltagun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="17b957d2-61ef-4dda-8d73-6c0c7db648b1">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4&quot;, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Pintle Combi-Bolter" hidden="false" id="3081-de15-13a3-524a">
+      <profiles>
+        <profile name="Pintle Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1bdfd935-7b6c-4b95-b761-69ad767630a4">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bolt Rifle" hidden="false" id="6802-fb1b-a361-36bb">
       <profiles>
         <profile name="Bolt Rifle" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ae74-14f6-d7b1-5950">
@@ -2865,7 +2949,7 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
@@ -4591,8 +4675,8 @@ d) CHAPLAIN</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
                       </characteristics>
                     </profile>
@@ -5421,7 +5505,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                       </characteristics>
                     </profile>
@@ -5628,15 +5712,22 @@ c) PHOBOS LIEUTENANT</characteristic>
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Dreadnought Powerfist" hidden="false" id="d231-4ff6-56a3-2273" sortIndex="8">
+                <selectionEntry type="upgrade" import="true" name="Dreadnought Power Fist" hidden="false" id="d231-4ff6-56a3-2273" sortIndex="8">
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="aaa3-c3be-516b-55cc" shared="true" childName="Dreadnought Chainfist" includeChildSelections="true" />
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <profiles>
-                    <profile name="Dreadnought Powerfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9c32-bce4-b68f-45b4">
+                    <profile name="Dreadnought Power Fist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9c32-bce4-b68f-45b4">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
@@ -5726,6 +5817,13 @@ c) PHOBOS LIEUTENANT</characteristic>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dreadnought Chainfist" hidden="false" id="aaa3-c3be-516b-55cc" sortIndex="7">
+                  <modifiers>
+                    <modifier field="hidden" type="set" value="true">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="d231-4ff6-56a3-2273" shared="true" childName="Dreadnought Power Fist" includeChildSelections="true" />
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                   <profiles>
                     <profile name="Dreadnought Chainfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ed1a-bb30-72a6-589d">
                       <characteristics>
@@ -5842,7 +5940,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="prepend" value="Duel" field="name" />
+                        <modifier type="prepend" value="Dual" field="name" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e993-6f57-fb3b-dbe5-min" includeChildSelections="false" />
@@ -5857,7 +5955,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="prepend" value="Duel" field="name" />
+                        <modifier type="prepend" value="Dual" field="name" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d08d-8e0f-809a-6481-min" includeChildSelections="false" />
@@ -5872,7 +5970,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="prepend" value="Duel" field="name" />
+                        <modifier type="prepend" value="Dual" field="name" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e78b-d529-0cef-2e8c-min" includeChildSelections="false" />
@@ -6624,8 +6722,8 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
@@ -6772,8 +6870,8 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>

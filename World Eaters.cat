@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac9e-cafe-1753-147e" name="World Eaters" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="23" revision="20" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac9e-cafe-1753-147e" name="World Eaters" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="23" revision="21" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.6" hidden="false" id="97a2-b298-c8e1-9b48" sortIndex="-1">
       <categoryLinks>
@@ -1892,7 +1892,7 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
     <entryLink import="true" name="Vindicator" hidden="false" id="addd-a44e-76e2-609b" targetId="7aa0-644a-fffd-220a" type="selectionEntry" />
     <entryLink import="true" name="Contemptor Dreadnought" hidden="false" id="6df6-25e3-4810-7d23" targetId="1214-e873-29cf-8d3f" type="selectionEntry" />
     <entryLink import="true" name="Leviathan Dreadnought " hidden="false" id="5076-4394-331c-f27b" targetId="1a7c-eccc-baed-f5ff" type="selectionEntry" />
-    <entryLink import="true" name="Predator" hidden="false" id="9daf-3579-a7e7-98a1" targetId="0630-8454-7f40-51ee" type="selectionEntry">
+    <entryLink import="true" name="Chaos Predator" hidden="false" id="9daf-3579-a7e7-98a1" targetId="f2f7-37cf-45cc-67d4" type="selectionEntry">
       <categoryLinks>
         <categoryLink name="Chaos" hidden="false" id="33ba-6c1f-2d65-5905" targetId="f809-9826-f58a-6b8d" primary="false" />
       </categoryLinks>
