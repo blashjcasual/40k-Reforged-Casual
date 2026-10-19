@@ -145,9 +145,8 @@
       <profiles>
         <profile name="Boltstorm Gauntlet" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5fdc-991a-571d-7453">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3" />
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3" >6</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
@@ -1481,8 +1480,8 @@
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8&quot;, Shred</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1498,8 +1497,8 @@
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8&quot;, Shred</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1733,7 +1732,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One-Shot, Indirect, Suppressive 1, Blast 2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 1, Blast 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2884,7 +2883,7 @@ Veteran Linebreakers: For each attack that targets this unit, if it is the close
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Haywire*, Suppressive 2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Haywire*, Suppressive 2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2931,10 +2930,8 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
       <profiles>
         <profile name="Hurricane Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="789b-66a3-b601-1a1d">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3" />
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
-            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3" >4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
           </characteristics>
@@ -2963,9 +2960,7 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
         <profile name="Eviscerator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3c4e-d2bb-2e97-44e2">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3" />
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3" >2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
@@ -4019,7 +4014,7 @@ b) JUMP PACK CHAPLAIN</characteristic>
                     <profile name="Grenade Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2c40-f0a9-07bf-0fe8">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -9953,8 +9948,8 @@ b) ASSAULT TERMINATORS</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4&quot;, Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10477,8 +10472,8 @@ d) REIVERS</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4&quot;, Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

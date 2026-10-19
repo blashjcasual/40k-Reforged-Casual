@@ -2193,7 +2193,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                                 <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                                <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                                 <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
                               </characteristics>

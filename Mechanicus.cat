@@ -147,7 +147,7 @@ This unit may instead not attach to anything.</characteristic>
                   <profiles>
                     <profile name="Volkite Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3b70-221a-eb03-6452">
                       <characteristics>
-                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Mv</characteristic>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
@@ -397,7 +397,7 @@ This unit may instead not attach to anything.</characteristic>
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
@@ -1581,7 +1581,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <profile name="Lightning Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c5fe-fd9c-b132-4cb1">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1598,11 +1598,11 @@ b) SKITARII VANGUARDS</characteristic>
                         <profile name="Power Fists" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6879-deb8-2cfd-5a62">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2379,11 +2379,11 @@ b) SKITARII VANGUARDS</characteristic>
                         <profile name="Flechette Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="d52d-5e97-1816-e785">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>

@@ -1127,7 +1127,7 @@ b) IMMORTALS</characteristic>
           </constraints>
           <entryLinks>
           <entryLink name="Warriors" id="8fb29448-1d3c-4b8b-83af-434def1bec04" hidden="false" import="true" sortIndex="1" targetId="6922-faaf-ce69-d438" type="selectionEntry"/>
-          <entryLink name="Immortals" id="16a5e186-7629-4f51-9866-0f9867efb7d6" hidden="false" import="true" sortIndex="2" targetId="8549-292d-751e-335f" type="selectionEntry"/>
+          <entryLink name="Immortals" id="16a5e186-7629-4f51-9866-0f9867efb7d6" hidden="false" import="true" sortIndex="2" targetId="8549-292d-751e-335f" type="selectionEntry"><modifiers><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" /></modifiers></entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1827,7 +1827,7 @@ d) CRYPTOTHRALLS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Warscythe" hidden="false" id="8471-3e10-6893-c2c4" type="selectionEntry" targetId="619f-cb0f-6cf2-4055">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
@@ -2350,7 +2350,7 @@ FABRICATE: After this unit’s Move step, if there is a friendly CANOPTEK SCARA
                 <profile name="Particle Beamers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cc44-b179-e87f-ae26">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2591,7 +2591,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                         <profile name="Transdimensional Beamer " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7799-ff6c-2b6f-a24d">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2836,11 +2836,11 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <profile name="Gauss Destructor" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3ac5-1a53-bde7-4e87">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Guass, Breach</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss, Colossal 2</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2854,7 +2854,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <profile name="Enmitic Exterminator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4a3a-3b56-e5f3-b650">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">15</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -3140,10 +3140,10 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss, Breach</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Colossal 2, Gauss</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

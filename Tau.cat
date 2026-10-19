@@ -830,8 +830,8 @@ b) BREACHER TEAM</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+5</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 12", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1031,8 +1031,8 @@ b) BREACHER TEAM</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+8</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, Pierce</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, Pierce, Colossal 2</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1080,8 +1080,8 @@ b) BREACHER TEAM</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 12", Shred</characteristic>
                   </characteristics>
                 </profile>
               </profiles>

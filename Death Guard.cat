@@ -393,7 +393,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Plague Sprayer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9355-6962-c378-bee1">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -517,7 +517,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Balesword" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="dad1-3787-db5d-5c01">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -859,7 +859,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Cursed Bell" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2649-816f-4e8b-074c">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2033,7 +2033,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Plague Boltgun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="baac-869b-c8bd-aeee">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2150,7 +2150,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
           </characteristics>
@@ -2757,7 +2757,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                                 <profile name="Plague Daemon Sword" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e58b-4657-29dd-f098">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>

@@ -31,8 +31,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Death Spinner" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="eb4d-6281-b214-4a9e">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
@@ -51,8 +51,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
             <characteristic name="A" typeId="13c5-f234-c120-afc3" />
             <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -90,7 +90,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Reaper Launcher (Starshot)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5d0f-def9-312a-f327">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -181,7 +181,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <profiles>
         <profile name="Shuriken Catapult" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9c06-a6e5-d3ac-ac9c">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3" />
             <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
@@ -291,9 +291,9 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <profiles>
         <profile name="Avenger Shuriken Catapult" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c2bf-3d8a-cee1-a8af">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">15</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shuriken</characteristic>
@@ -323,8 +323,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Lasblaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4b41-1600-80a2-9338">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">16</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
@@ -527,8 +527,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach</characteristic>
           </characteristics>
         </profile>
@@ -624,7 +624,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Aeldari Missile Launcher (Starshot)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7193-d9ba-336c-97d5">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -1329,7 +1329,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each wound the model with this weapon is selected to suffer, roll a D6. On a 5+, that attack fails.</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shield 5+</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2779,7 +2779,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                             <entryLink import="true" name="Banshee Blade" hidden="false" id="3441-9c29-d8db-3448" type="selectionEntry" targetId="7cf7-1c42-d47f-4233">
                               <modifiers>
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d6d-899d-1d0a-4e96-min" includeChildSelections="false" />
@@ -2803,7 +2803,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                             <entryLink import="true" name="Banshee Blade" hidden="false" id="55b7-ca73-f0d4-a99c" type="selectionEntry" targetId="7cf7-1c42-d47f-4233">
                               <modifiers>
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ba4b-1641-ec74-0b11-min" includeChildSelections="false" />
@@ -3179,8 +3179,8 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                       <entryLinks>
                         <entryLink import="true" name="Dragon Fusion Gun" hidden="false" id="8a7d-4ced-431b-e0ec" type="selectionEntry" targetId="5d9a-4723-f544-9215">
                           <modifiers>
-                            <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a24f-9e25-caa1-f3c5-min" includeChildSelections="false" />
@@ -4126,8 +4126,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, While selecting a target for this weapon, you may select an enemy unit within 40” of this unit instead of 32”.</characteristic>
                           </characteristics>
                         </profile>
@@ -4174,7 +4174,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                 <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+6</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6+2D3</characteristic>
                 <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, While selecting a target for this weapon, you may select an enemy unit up 40” away instead of 32”.</characteristic>
               </characteristics>
             </profile>
@@ -4472,8 +4472,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="05e9-a000-9677-4aba" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a47-3650-4323-ad2e" includeChildSelections="false" />
@@ -4506,8 +4506,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                             </entryLink>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="12ae-369b-86ad-710c" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="prepend" value="Exarch" field="name" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
@@ -4611,8 +4611,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="3646-9499-432d-ea36" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="prepend" value="Exarch" field="name" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>

@@ -2243,7 +2243,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Nemesis, Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Nemesis, Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2281,7 +2281,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Nemesis</characteristic>
                       </characteristics>
@@ -2299,7 +2299,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <profile name="Gatling Psilencer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="25c3-b0da-cc7f-5fa7">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2319,7 +2319,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <profile name="Heavy Incinerator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="22c2-9d3c-1c93-1908">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2641,7 +2641,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Nemesis</characteristic>
                       </characteristics>
                     </profile>

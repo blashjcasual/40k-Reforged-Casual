@@ -1638,7 +1638,7 @@ c) RETRIBUTORS</characteristic>
                 <profile name="The Ardent Blade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8dd6-49c6-8133-b5d5">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -1659,7 +1659,7 @@ c) RETRIBUTORS</characteristic>
                 <profile name="The Ardent Blade Flame" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="946f-0baa-02f2-7956">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1722,7 +1722,7 @@ c) RETRIBUTORS</characteristic>
                 <profile name="Chirurgeon’s Tools" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="462c-92c4-df44-2d44">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2388,8 +2388,8 @@ c) RETRIBUTORS</characteristic>
                         <profile name="Grenade Launchers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c006-4f32-6a56-2296">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 5, Indirect</characteristic>
@@ -2511,11 +2511,11 @@ c) RETRIBUTORS</characteristic>
                         <profile name="Warmace" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7622-bf65-e8c3-bbf6">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>

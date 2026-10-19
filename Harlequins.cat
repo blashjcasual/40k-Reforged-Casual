@@ -171,7 +171,7 @@
                       <entryLinks>
                         <entryLink import="true" name="Harlequin’s Kiss" hidden="false" id="9f64-1e39-679d-5557" type="selectionEntry" targetId="2b2a-6b9a-72af-4117">
                           <modifiers>
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                           <constraints>
@@ -608,7 +608,7 @@ Captive Audience: For each attack that targets this unit, that attack gains Cr
                     <entryLink import="true" name="Haywire Cannon" hidden="false" id="ad2d-de61-47cd-f54d" type="selectionEntry" targetId="1958-e3e6-79fd-ed99">
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
@@ -1066,7 +1066,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                     <entryLink import="true" name="Haywire Cannon" hidden="false" id="0637-71fb-82a8-cc1f" type="selectionEntry" targetId="1958-e3e6-79fd-ed99">
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                         <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                       </modifiers>
@@ -1239,7 +1239,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                   <entryLinks>
                     <entryLink import="true" name="Neuro Disruptor" hidden="false" id="2385-7b88-9922-21bc" type="selectionEntry" targetId="7dc0-1f7b-a49c-295b">
                       <modifiers>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>

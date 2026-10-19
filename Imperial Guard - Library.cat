@@ -1144,7 +1144,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive 1, One Shot</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Suppressive 1</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1252,11 +1252,11 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <profile name="Heavy Mortar" id="fc85-595d-92ef-75ec" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">6+</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Ignore Cover, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 1+2D3 SW.</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Ignore Cover, Colossal 3, For each successful Wound Roll made for this weapon&apos;s attacks, the target unit suffers 3D3 SW.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1275,7 +1275,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 3, Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive 1</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1425,11 +1425,11 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <profile name="Heavy Lascannon" id="8950-20b0-3643-b61a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Colossal 2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1706,11 +1706,11 @@ This unit does not count towards the leader capacity of your army list.</charact
                               <profiles>
                                 <profile name="Melta Mine" id="3997-89fa-9275-8bc3" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
                                   <characteristics>
-                                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">1+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+4</characteristic>
+                                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                                   </characteristics>
                                 </profile>
@@ -3487,9 +3487,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Plasma Destroyer " id="5215-2c9b-db36-e439" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
           </characteristics>
@@ -3501,9 +3499,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Punisher Gatling Cannon" id="851a-598a-b820-92f5" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">30</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
@@ -3520,9 +3516,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Vanquisher Cannon" id="b581-ad13-e2f9-d9b9" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, Pierce</characteristic>
           </characteristics>
@@ -3625,11 +3619,11 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Hot-Shot Marksman Rifle" id="cd99-0575-1dc7-62c0" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt, Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3639,9 +3633,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Longlas" id="5cf7-e0b7-7128-d7de" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
           </characteristics>
@@ -3679,7 +3671,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Demolisher Cannon" id="ef19-0317-83d0-9d13" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
@@ -4606,8 +4598,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8&quot;, Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5867,8 +5859,8 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Pierce, For each attack made for this weapon that targets a vehicle or monster without Fly, add 1 to the Hit Roll.</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Pierce, For each attack made for this weapon that targets a vehicle or monster without Fly, add 1 to the Hit Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>

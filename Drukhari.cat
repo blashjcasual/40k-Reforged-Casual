@@ -260,11 +260,11 @@ c) INCUBI</characteristic>
                 <profile name="Haemonculus Tools" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6f65-2f05-8fb5-430c">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Precision</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Isolate</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -360,7 +360,7 @@ c) INCUBI</characteristic>
                 <profile name="Archite Glaive" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2355-8e70-2cd7-86c9">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -370,18 +370,29 @@ c) INCUBI</characteristic>
               </profiles>
             </selectionEntry>
           </selectionEntries>
-          <entryLinks>
-            <entryLink import="true" name="Agoniser" hidden="false" id="b66d-bf45-cde0-b1c0" type="selectionEntry" targetId="4c06-5829-c3a6-f409">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a344-b211-d64c-4ac2-min" includeChildSelections="false" />
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a344-b211-d64c-4ac2-max" includeChildSelections="false" />
-              </constraints>
-              <modifiers>
-                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-              </modifiers>
-            </entryLink>
-          </entryLinks>
+          <selectionEntryGroups>
+                      <selectionEntryGroup name="Weapon" id="6d94c64d-4997-4461-8a1b-339b91a17df3" hidden="false" defaultSelectionEntryId="bf5aaa2a-3382-47e9-9cc4-577c03f1d5c9">
+                        <constraints>
+                          <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="724c4189-3241-4e61-b064-e363841e8bbd" includeChildSelections="false" />
+                          <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9ab2b3c3-4339-4a1a-8170-079bb442129c" includeChildSelections="false" />
+                        </constraints>
+                        <entryLinks>
+                          <entryLink import="true" name="Agoniser" hidden="false" id="bf5aaa2a-3382-47e9-9cc4-577c03f1d5c9" type="selectionEntry" targetId="4c06-5829-c3a6-f409" sortIndex="1">
+                            <modifiers>
+                              <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            </modifiers>
+                          </entryLink>
+                          <entryLink import="true" name="Splinter Pistol" hidden="false" id="e7a608b0-19e3-4e75-990c-17c5ab8cb2d7" type="selectionEntry" targetId="c1e1-cb6d-2d98-2f2b" sortIndex="2">
+                            <modifiers>
+                              <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            </modifiers>
+                          </entryLink>
+                          <entryLink import="true" name="Blast Pistol" hidden="false" id="c8629993-3395-4183-8b05-50f52f0f0e7f" type="selectionEntry" targetId="028c-ee1f-5eb4-8541" sortIndex="3" />
+                        </entryLinks>
+                      </selectionEntryGroup>
+                    </selectionEntryGroups>
           <profiles>
             <profile name="Succubus" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9c45-ca00-9527-a926">
               <characteristics>
@@ -704,7 +715,7 @@ c) INCUBI</characteristic>
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
@@ -770,17 +781,17 @@ c) INCUBI</characteristic>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="985e-0d12-3427-9fec" includeChildSelections="false" />
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Haywire Grenade" hidden="false" id="020a-e50b-8717-70e7" type="selectionEntry" targetId="85bd-3cdb-98f8-8c48">
+                    <entryLink import="true" name="Haywire Grenade" hidden="false" id="020a-e50b-8717-70e7" type="selectionEntry" targetId="85bd-3cdb-98f8-8c48"><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
-                    </entryLink>
+                    </entryLink><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                     <entryLink import="true" name="Plasma Grenade" hidden="false" id="c103-ed72-5fad-2ade" type="selectionEntry" targetId="16c6-5a66-c200-152f">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Venomous Shardbomb" hidden="false" id="b93a-0b01-5c4d-f259" type="selectionEntry" targetId="c1c1-cd04-2a41-d22b" />
+                    <entryLink import="true" name="Venomous Shardbomb" hidden="false" id="b93a-0b01-5c4d-f259" type="selectionEntry" targetId="c1c1-cd04-2a41-d22b" ><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers></entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
                 <selectionEntryGroup name="Weapon" id="a1d6-3b02-19d8-e90a" hidden="false" defaultSelectionEntryId="984e-9aaf-eec4-6305">
@@ -1025,7 +1036,7 @@ c) INCUBI</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Splinter Rifle" hidden="false" id="fca9-cb06-1b6e-6730" type="selectionEntry" targetId="f00a-0bd2-ba2b-8f6a" sortIndex="1">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -1050,7 +1061,7 @@ c) INCUBI</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Splinter Pistol" hidden="false" id="4895-fb46-1fe0-eb69" type="selectionEntry" targetId="c1e1-cb6d-2d98-2f2b">
                       <modifiers>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84f9-9dfb-17dc-cc14-min" includeChildSelections="false" />
@@ -1073,7 +1084,7 @@ c) INCUBI</characteristic>
                         </entryLink>
                         <entryLink import="true" name="Agoniser" hidden="false" id="4ad8-5bfd-0203-3ba5" type="selectionEntry" targetId="4c06-5829-c3a6-f409" sortIndex="2">
                           <modifiers>
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                         </entryLink>
@@ -1227,7 +1238,7 @@ c) INCUBI</characteristic>
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
@@ -1548,7 +1559,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                   <profiles>
                     <profile name="Talos Gauntlet" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0a5b-27ae-8e97-222e">
                       <characteristics>
-                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
@@ -1914,7 +1925,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Precision</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Isolate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1938,7 +1949,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Poison, Suppressive 1, Blast 2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 2, Poison, Suppressive 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2000,10 +2011,10 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Splinter Pistol" hidden="false" id="8a3b-5b4a-ce92-ed15" type="selectionEntry" targetId="c1e1-cb6d-2d98-2f2b" sortIndex="1">
                               <modifiers>
-                                <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                              </modifiers>
+                                <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                             </entryLink>
-                            <entryLink import="true" name="Blast Pistol" hidden="false" id="a015-545a-9521-f31e" type="selectionEntry" targetId="028c-ee1f-5eb4-8541" sortIndex="2" />
+                            <entryLink import="true" name="Blast Pistol" hidden="false" id="a015-545a-9521-f31e" type="selectionEntry" targetId="028c-ee1f-5eb4-8541" sortIndex="2" ><modifiers><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers></entryLink>
                           </entryLinks>
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Melee" id="80dc-c95f-5164-74ab" hidden="false" defaultSelectionEntryId="8a3b-5b4a-ce92-ed15" sortIndex="2">
@@ -2014,8 +2025,8 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Agoniser" hidden="false" id="30cd-2bf4-dc77-225c" type="selectionEntry" targetId="4c06-5829-c3a6-f409" sortIndex="1">
                               <modifiers>
-                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                              </modifiers>
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                             </entryLink>
                             <entryLink import="true" name="Power Weapon" hidden="false" id="1b47-9306-1d70-129c" type="selectionEntry" targetId="dfed-4c14-cafd-626d" sortIndex="2">
                               <modifiers>
@@ -2140,7 +2151,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                         <profile name="Klaive" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c156-76ca-fe26-8ecb">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2248,7 +2259,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Hexrifle" hidden="false" id="f200-1ed0-08f6-b604" type="selectionEntry" targetId="9486-4787-95d0-70e8" sortIndex="1" />
-                    <entryLink import="true" name="Liquifier Gun" hidden="false" id="83d5-23f6-6909-06ad" type="selectionEntry" targetId="d933-f771-25ef-a690" sortIndex="2" />
+                    <entryLink import="true" name="Liquifier Gun" hidden="false" id="83d5-23f6-6909-06ad" type="selectionEntry" targetId="d933-f771-25ef-a690" sortIndex="2" ><modifiers><modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" /></modifiers></entryLink>
                     <entryLink import="true" name="Ossefactor" hidden="false" id="5c40-bb4b-425b-51c4" type="selectionEntry" targetId="f5b5-50a4-0793-451f" sortIndex="3" />
                   </entryLinks>
                 </selectionEntryGroup>
@@ -2334,7 +2345,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Splinter Pistol" hidden="false" id="e855-0bdd-9bcd-7334" type="selectionEntry" targetId="c1e1-cb6d-2d98-2f2b" sortIndex="1">
                               <modifiers>
-                                <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -2353,8 +2364,8 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Agoniser" hidden="false" id="be4e-a5b7-88da-2d46" type="selectionEntry" targetId="4c06-5829-c3a6-f409" sortIndex="1">
                               <modifiers>
-                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="18" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Power Weapon" hidden="false" id="f1ad-e43d-1358-9bb5" type="selectionEntry" targetId="dfed-4c14-cafd-626d" sortIndex="2">
@@ -2498,19 +2509,19 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                     <entryLink import="true" name="Hexrifle" hidden="false" id="d71c-7b08-79db-4633" type="selectionEntry" targetId="9486-4787-95d0-70e8" sortIndex="1">
                       <modifiers>
                         <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Liquifier Gun" hidden="false" id="39fb-654c-cc0f-9f33" type="selectionEntry" targetId="d933-f771-25ef-a690" sortIndex="2">
                       <modifiers>
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="13" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Ossefactor" hidden="false" id="e4f5-daa4-7cfc-3e7a" type="selectionEntry" targetId="f5b5-50a4-0793-451f" sortIndex="3">
                       <modifiers>
-                        <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -2592,7 +2603,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
@@ -2644,11 +2655,11 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
         <profile name="Hexrifle" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="bcfa-cc99-2d22-6067">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Precision</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Isolate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2680,7 +2691,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
         <profile name="Ossefactor" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e18c-ec01-9c71-6168">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2766,7 +2777,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Agoniser" hidden="false" id="4d70-88b6-6553-a2e8" type="selectionEntry" targetId="4c06-5829-c3a6-f409">
                               <modifiers>
-                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -2898,7 +2909,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                           <entryLinks>
                             <entryLink import="true" name="Agoniser" hidden="false" id="70b4-6100-1454-2775" type="selectionEntry" targetId="4c06-5829-c3a6-f409">
                               <modifiers>
-                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -2912,7 +2923,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                               <modifiers>
                                 <modifier type="prepend" value="Syren" field="name" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                           </entryLinks>
@@ -2926,8 +2937,8 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                             <entryLink import="true" name="Splinter Pistol" hidden="false" id="8ba4-dfd7-de42-8774" type="selectionEntry" targetId="c1e1-cb6d-2d98-2f2b">
                               <modifiers>
                                 <modifier type="prepend" value="Syren" field="name" affects="profiles.Weapon" />
-                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Blast Pistol" hidden="false" id="0bf6-0e7c-578b-c38e" type="selectionEntry" targetId="028c-ee1f-5eb4-8541">
@@ -2976,17 +2987,17 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3d05-bb8e-6890-394c" includeChildSelections="false" />
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Haywire Grenade" hidden="false" id="296e-9adc-ec84-b71a" type="selectionEntry" targetId="85bd-3cdb-98f8-8c48">
+                    <entryLink import="true" name="Haywire Grenade" hidden="false" id="296e-9adc-ec84-b71a" type="selectionEntry" targetId="85bd-3cdb-98f8-8c48"><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
-                    </entryLink>
+                    </entryLink><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
                     <entryLink import="true" name="Plasma Grenade" hidden="false" id="4123-4275-3520-4d3a" type="selectionEntry" targetId="16c6-5a66-c200-152f">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
                     </entryLink>
-                    <entryLink import="true" name="Venomous Shardbomb" hidden="false" id="b569-d1c5-3c4c-e1c5" type="selectionEntry" targetId="c1c1-cd04-2a41-d22b" />
+                    <entryLink import="true" name="Venomous Shardbomb" hidden="false" id="b569-d1c5-3c4c-e1c5" type="selectionEntry" targetId="c1c1-cd04-2a41-d22b" ><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers></entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -3093,7 +3104,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                     <profile name="Talons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f9ee-defc-661f-612c">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -3176,8 +3187,8 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3288,7 +3299,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Splinter Pods" hidden="false" id="c7e5-48d7-9b35-91ff" type="selectionEntry" targetId="0325-490e-5a2a-8b45" />
+        <entryLink import="true" name="Splinter Pods" hidden="false" id="c7e5-48d7-9b35-91ff" type="selectionEntry" targetId="0325-490e-5a2a-8b45" ><modifiers><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" /></modifiers></entryLink>
         <entryLink import="true" name="Agoniser" hidden="false" id="ec0a-090e-9528-ae73" type="selectionEntry" targetId="4c06-5829-c3a6-f409" />
       </entryLinks>
     </selectionEntry>
