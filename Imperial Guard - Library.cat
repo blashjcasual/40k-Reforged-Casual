@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Imperial Guard" id="f178-f218-fb11-d21a" battleScribeVersion="2.03" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="9" library="false" revision="53" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Imperial Guard" id="f178-f218-fb11-d21a" battleScribeVersion="2.03" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="9" library="true" revision="54" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
   </categoryEntries>
   <entryLinks>
