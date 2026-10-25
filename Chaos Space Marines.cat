@@ -22,6 +22,11 @@
         <categoryLink name="Configuration" hidden="false" id="bbcb-18b8-7d17-24ec" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
       <profiles>
+        <profile name="Chaos Space Marine Legions" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e4a0ad28-a872-4a46-ae3f-765f388ed075">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, select one legion from this document. Use the relics table from that legion’s section. You may add units from that section, or from the Chaos Space Marines section to your army list. You may use that legion’s customisation options.</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Iron Armoury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="86ff-0b20-e7be-a2ed">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, for each of your LEGIONARIES units with 4 or more Boltguns and your CHOSEN units, that unit may gain the following ability:</characteristic>
@@ -634,7 +639,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Warband Selector" hidden="false" id="0d55-c4d7-2f79-c0b9" sortIndex="-5">
+    <selectionEntry type="upgrade" import="true" name="Legion Selector" hidden="false" id="0d55-c4d7-2f79-c0b9" sortIndex="-5">
       <constraints>
         <constraint type="min" value="1" field="selections" scope="force" shared="true" id="7228-d293-e908-64f3" includeChildSelections="false" />
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8cde-25e9-3b37-4751" includeChildSelections="false" />
@@ -643,7 +648,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         <categoryLink name="Configuration" hidden="false" id="e183-c139-c62c-381e" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Warband" id="4503-1af6-0d4e-2793" hidden="false">
+        <selectionEntryGroup name="Legion" id="4503-1af6-0d4e-2793" hidden="false">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6f52-1df6-011a-f042" includeChildSelections="false" />
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="eced-6fed-4ac8-2439" includeChildSelections="false" />

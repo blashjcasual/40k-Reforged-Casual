@@ -4108,7 +4108,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
   <sharedProfiles>
     <profile name="Acts of Faith" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8597-c126-833c-8a98">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each of your infantry units, after the last model in that unit dies, before removing it from the battlefield, that unit makes an ‘Act of Faith’ roll. To do so, roll 1 D6. If the result is 6, the roll is successful and all remaining attacks targeting that unit fail. Instead of dying and being removed from the battlefield, that unit Heals 2+D3 and becomes ready.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each of your infantry units, after the last model in that unit dies, before removing it from the battlefield, that unit makes an ‘Act of Faith’ roll. To do so, roll a D6. If the result is 6, the roll is successful and all remaining attacks targeting that unit fail. Then, instead of dying and being removed from the battlefield, that unit Heals 2+D3 and becomes ready.</characteristic>
       </characteristics>
     </profile>
     <profile name="Choir of the Faithful (X”)" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2fe1-71fb-63e5-c48d">

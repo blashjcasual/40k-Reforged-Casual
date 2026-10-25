@@ -331,7 +331,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Great Traitors’ Arsenal" id="9e01-7a0b-c633-4761" hidden="false" targetId="cba5-864c-9321-8088" type="profile"/>
+        <infoLink name="Great Traitors’ Arsenal" id="9e01-7a0b-c633-4761" hidden="false" targetId="acbf3fa5-c07c-4cfd-a767-2b6445ebab99" type="profile"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Discborn Exalted Sorcerer" hidden="false" id="9a09-390b-2968-8fee" sortIndex="2">
@@ -2278,6 +2278,11 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
 Arcane Endowment: For each Psychic Test this unit makes, add 1 D6 to that Psychic Test.
 
 Ruinous Spellcraft: For each SW an enemy unit suffers, the Saving Throw for that attack is worsened by 1.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Great Traitors’ Arsenal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="acbf3fa5-c07c-4cfd-a767-2b6445ebab99">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your army list from the “Chaos Space Marines” document.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

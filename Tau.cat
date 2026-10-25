@@ -20,6 +20,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Support Turrets" id="a367-6f60-84c8-0475" hidden="false" type="profile" targetId="5bd5-af4f-e95c-c787" />
+        <infoLink name="Drones" id="88877787-d312-4725-850d-ffb34c1926fb" hidden="false" type="profile" targetId="46b3b749-31bc-45d5-8240-7eca5c64c766" />
         <infoLink name="Marked" id="3fa4-f299-21e3-ceb4" hidden="false" type="rule" targetId="70a4-a7cf-d04d-e951" />
         <infoLink name="Markerlights" id="3e6f-aae5-8bdb-8796" hidden="false" type="profile" targetId="1f6c-1316-7984-a1b7" />
         <infoLink name="Shield Drone" id="d769-1aa6-a28e-7153" hidden="false" type="profile" targetId="e51d-8c9d-76ff-f5ba" />
@@ -1493,6 +1494,11 @@ Marked: For each ranged attack made by a T’au unit that targets this unit, a
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more'drone'models in your units, for each wound a model in those units is selected to suffer, after you roll a Saving Throw of 1, you may use'saviour protocols'. If you do, one drone model from that unit dies and reroll that Saving Throw.</characteristic>
       </characteristics>
     </profile>
+    <profile name="Drones" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="46b3b749-31bc-45d5-8240-7eca5c64c766">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">‘Drone’ models (Shield Drones, Missile Drones, Gun Drones, Marker Drones, etc), do not count as models while selecting a model to suffer a wound or while selecting models for Suppressed. After the last non-drone model in a unit dies, each drone model in that unit dies.</characteristic>
+      </characteristics>
+    </profile>
     <profile name="Shield Drone" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e51d-8c9d-76ff-f5ba">
       <characteristics>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has one or more SHIELD DRONE or SHIELDED M ISSILE DRONE models, after a model in this unit is selected to suffer a wound, roll a D6. On a 5+, the Saving Throw for that wound always succeeds.</characteristic>
@@ -1547,7 +1553,7 @@ Mont’ka: For each attack made by a T’au unit that targets this unit from wi
         <infoLink name="Heavy Armour" id="6684-6401-4213-1674" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
       <profiles>
-        <profile name="Turret Emplacement" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4327-b6a1-eeac-b688">
+        <profile name="Heavy Armour Turret Emplacement" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4327-b6a1-eeac-b688">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During this unit's Move step, do not make any Move Rolls for this Move step. This unit cannot Advance, Reposition or Pile In. After this unit's End step, if this turn was your first turn in a row, take another turn.</characteristic>
           </characteristics>

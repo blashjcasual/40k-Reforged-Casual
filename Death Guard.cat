@@ -17,7 +17,7 @@
         <infoLink name="Suppressive (X)" id="f752-2932-fc36-2191" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Putrid" id="95c0-8f26-f5d5-8862" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Nurgle’s Gifts" id="9809-c380-c147-1088" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Great Traitors’ Arsenal" id="1745-f363-5cb2-aeac" hidden="false" targetId="cba5-864c-9321-8088" type="profile" />
+        <infoLink name="Great Traitors’ Arsenal" id="1745-f363-5cb2-aeac" hidden="false" targetId="8a538810-7ab2-4640-a4f9-d3d0e20d85b5" type="profile" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Psychic Powers (Reference)" hidden="false" id="aa32-ae3b-7939-cce1" sortIndex="-3">
@@ -1916,6 +1916,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
     <profile name="Rustplate Resilience" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f608-9c5b-d98a-6032">
       <characteristics>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 21" of this unit, those units gain Resilient 6+. If those units are a Death Guard unit, they gain the following ability instead:</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Great Traitors’ Arsenal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8a538810-7ab2-4640-a4f9-d3d0e20d85b5">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the “Chaos Space Marines” document.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

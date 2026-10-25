@@ -291,6 +291,7 @@
         <infoLink name="Martial Ka’tah" id="8ee7-8f77-0451-673c" hidden="false" type="profile" targetId="e499-7601-0c40-dc24"/>
         <infoLink name="Emperor’s Talons" id="46e7-8c57-5b02-14da" hidden="false" type="profile" targetId="7901-894b-cf6d-d4ff"/>
         <infoLink name="Pride of the Ten Thousand" id="aa6f-cba3-6ad7-4b49" hidden="false" targetId="dc49-d5ef-7c28-c0a6" type="profile"/>
+        <infoLink name="Left Hand of the Emperor" id="66c58dbf-090c-4fad-a272-5f90f863f7ee" hidden="false" type="profile" targetId="31f8b2dc-bfa2-49c1-85d5-2e49e44081b6"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Techniques" hidden="false" id="ba76-f0fb-7e8b-be61" type="selectionEntry" targetId="9ef8-9802-e8e8-b5b6"/>
@@ -1440,7 +1441,7 @@ Critical Opening: For each attack made by an Adeptus Custodes unit that target
     </profile>
     <profile name="Martial Ka’tah" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e499-7601-0c40-dc24">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After one of your Adeptus Custodes infantry units is Activated, you may have that unit ‘perform a technique’. After any enemy unit’s Move step and before resolving any other effects, you may select one of your Adeptus Custodes infantry units and have that unit perform a technique. To have a unit perform a technique, select one of the following ‘technique’ abilities. That unit gains the selected ability until the End step.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After one of your Adeptus Custodes infantry units is Activated, you may have that unit ‘perform a technique’. After any enemy unit’s Move step, as a reaction, you may select one of your Adeptus Custodes infantry units and have that unit perform a technique. To have a unit perform a technique, select one of the following ‘technique’ abilities. That unit gains the selected ability until the End step.</characteristic>
       </characteristics>
     </profile>
     <profile name="Infallible Instruction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="62ce-f561-3981-5e38">
@@ -1467,6 +1468,11 @@ Voxed Movement: For each attack made by an Adeptus Custodes unit that targets 
     <profile name="Pride of the Ten Thousand" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="dc49-d5ef-7c28-c0a6">
       <characteristics>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Models in your units count as 3 models for capturing an objective, and count as 5 models for defending an objective.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Left Hand of the Emperor" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="31f8b2dc-bfa2-49c1-85d5-2e49e44081b6">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the “Sisters of Silence” document.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

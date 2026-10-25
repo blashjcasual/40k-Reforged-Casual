@@ -22,6 +22,7 @@
       <infoLinks>
         <infoLink name="Power from Pain" id="6de8-444e-e525-ced1" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
         <infoLink name="Poison" id="5c74-eeac-9a4b-0866" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
+        <infoLink name="Roaming Performers" id="fe681c4d-7fe9-40c2-a5cf-e62fde461741" hidden="false" type="rule" targetId="621b4b8f-b51a-492f-937a-a567419f0f9f" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Relics (Reference)" hidden="false" id="2462-79b7-2fea-37b4" sortIndex="-3">
@@ -1791,6 +1792,17 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
   <sharedRules>
     <rule name="Poison" id="dda4-31db-bf0a-2af4" hidden="false">
       <description>For each attack made for this weapon that targets an infantry or monster unit, a Hit Roll of 6+ for that attack causes that attack to always wound.</description>
+    </rule>
+    <rule name="Roaming Performers" id="621b4b8f-b51a-492f-937a-a567419f0f9f" hidden="false">
+      <description>You may add one of the following Harlequins units to your Army List:
+● TROUPE MASTER
+● SHADOWSEER
+and one of either:
+● LIGHT TROUPE
+● DARK TROUPE
+● TWILIGHT TROUPE
+
+If you do add one or more of those units to your Army List, your Army Rules gains Mocking Misstep, Allegro Advance, Prismatic Pirouette and Kaleidoscopic Cavalcade.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>

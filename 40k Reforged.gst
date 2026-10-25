@@ -11665,7 +11665,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
       <profiles>
         <profile name="Plasma Blaster" id="0284-277e-7a8b-a855" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
-            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>

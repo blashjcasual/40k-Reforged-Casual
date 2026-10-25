@@ -8003,7 +8003,13 @@ c) ASSAULT INTERCESSORS without Fly</characteristic>
       <profiles>
         <profile name="Space Marine Chapters" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bf03-6c7d-1a9f-9519">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, select one chapter from this document. Use the relics table and psychic powers from that chapter’s section. You may add units from that section, or from the Space Marines section to your army list.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, select one chapter from below:
+● Ultramarines
+● Blood Angels
+● Space Wolves
+● Salamanders
+
+Use the relics table and psychic powers from that chapter’s section in this document. You may add units from the chapter section and from the Space Marines section to your army list.</characteristic>
           </characteristics>
         </profile>
         <profile name="Captain Ability: Battlefield Scholar" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="8dd3-a193-1b7e-363e">
