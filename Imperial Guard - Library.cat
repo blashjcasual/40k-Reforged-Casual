@@ -44,7 +44,7 @@
         </profile>
         <profile id="d409-dc37-03af-f75b" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
           <characteristics>
-            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either of the following units, even if there is another leader attached to it:
+            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either of the following units, even if there is another leader attached to it:
 a) CADIAN PLATOON COMMANDER
 b) DEATH KORPS PLATOON COMMANDER
 c) MORDIAN PLATOON COMMANDER
@@ -180,7 +180,7 @@ This unit does not count towards the leader maximum of the army list</characteri
       <profiles>
         <profile id="d10a-9d5a-0d0d-a45f" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
           <characteristics>
-            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either of the following units, even if there is another leader attached to it:
+            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either of the following units, even if there is another leader attached to it:
 a) CADIAN PLATOON COMMANDER
 b) DEATH KORPS PLATOON COMMANDER
 c) MORDIAN PLATOON COMMANDER
