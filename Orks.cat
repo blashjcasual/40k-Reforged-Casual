@@ -130,13 +130,6 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Ork Boyz" hidden="false" id="3ceb-5574-ab8d-69e9" type="selectionEntry" targetId="09d6-9346-3c7c-1df5" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f17f-64e2-04e6-4dec" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -217,14 +210,6 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
                 <entryLink import="true" name="Boss’s Big Choppa" hidden="false" id="0395-8adf-7a50-b166" type="selectionEntry" targetId="de05-096f-576a-f3e1" sortIndex="2"/>
               </entryLinks>
             </selectionEntryGroup>
-        <selectionEntryGroup name="Leader" id="45babb7d-385e-4e9c-941e-9ff25e004a50" hidden="false">
-          <constraints>
-            <constraint id="6a0e3fcc-b3e9-4080-8914-da682e8a6904" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <entryLinks>
-          <entryLink name="Ork Boyz" id="dccc14cf-0f6f-4077-bcb6-56c1df95694e" hidden="false" import="true" sortIndex="1" targetId="09d6-9346-3c7c-1df5" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
             <entryLink import="true" name="Shoota" hidden="false" id="4c69-8850-9584-da26" type="selectionEntry" targetId="0392-3e6d-4b99-dcd6">
@@ -249,6 +234,25 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
           </profiles>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attached Leaders" id="d03f9de8-97c4-48d0-a7d4-8dddb744e101" hidden="false">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e102" includeChildSelections="false"/>
+          </constraints>
+          <entryLinks>
+            <entryLink import="true" name="Nob" hidden="false" id="d03f9de8-97c4-48d0-a7d4-8dddb744e103" type="selectionEntry" targetId="b920-ac50-d0cb-05a3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e104" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Painboy" hidden="false" id="d03f9de8-97c4-48d0-a7d4-8dddb744e105" type="selectionEntry" targetId="7c23-883d-10b9-b98e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e106" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Warboss in Mega Armour" hidden="false" id="5489-d538-8006-b195" sortIndex="2">
       <costs>
@@ -287,13 +291,6 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
           </characteristics>
         </profile>
       </profiles>
-      <entryLinks>
-        <entryLink import="true" name="Ork Boyz" hidden="false" id="61bd-e21c-4928-1a92" type="selectionEntry" targetId="09d6-9346-3c7c-1df5" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0e40-7f38-61e2-14fa" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <modifiers>
         <modifier type="set" value="true" field="hidden">
           <conditions>
@@ -341,12 +338,21 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="5f5a5cb5-3ce4-4ce6-8609-fe6f02eedcde" hidden="false">
+        <selectionEntryGroup name="Attached Leaders" id="d03f9de8-97c4-48d0-a7d4-8dddb744e107" hidden="false">
           <constraints>
-            <constraint id="92150e45-5f57-4494-8f27-5b6842f47772" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e108" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Ork Boyz" id="8e0e4427-12db-4caf-bc2a-92b9b236859d" hidden="false" import="true" sortIndex="1" targetId="09d6-9346-3c7c-1df5" type="selectionEntry"/>
+            <entryLink import="true" name="Nob" hidden="false" id="d03f9de8-97c4-48d0-a7d4-8dddb744e109" type="selectionEntry" targetId="b920-ac50-d0cb-05a3">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e110" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Painboy" hidden="false" id="d03f9de8-97c4-48d0-a7d4-8dddb744e111" type="selectionEntry" targetId="7c23-883d-10b9-b98e">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d03f9de8-97c4-48d0-a7d4-8dddb744e112" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -381,13 +387,6 @@ This unit does not count towards the Army List’s leader unit capacity.</charac
         </infoLink>
         <infoLink name="Solid Greenskin" id="c4f8-0696-afdc-b729" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Ork Boyz" hidden="false" id="c675-40b9-48ae-ff26" type="selectionEntry" targetId="09d6-9346-3c7c-1df5">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="065f-c299-3049-f342" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Nob" hidden="false" id="ec02-ebec-4615-5bf4">
           <constraints>
@@ -656,13 +655,6 @@ This unit does not count towards the Army List’s leader unit capacity</charact
         </infoLink>
         <infoLink name="Solid Greenskin" id="7d5d-ad16-ff4b-dfd4" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Kommandos" hidden="false" id="f4af-ca14-e7dd-2dce" type="selectionEntry" targetId="ed66-9b58-22a2-218f">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3338-3377-8497-8215" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Komando Nob" hidden="false" id="f2df-6622-12b6-e409">
           <constraints>
@@ -858,13 +850,6 @@ This unit does not count towards the Army List’s leader unit capacity</charact
         </infoLink>
         <infoLink name="Solid Greenskin" id="586e-6865-1f27-f586" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb"/>
       </infoLinks>
-      <entryLinks>
-        <entryLink import="true" name="Ork Boyz" hidden="false" id="2d76-5fa2-e362-1196" type="selectionEntry" targetId="09d6-9346-3c7c-1df5">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a32d-9d9d-94ee-fc4b" includeChildSelections="false"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Painboy" hidden="false" id="73e7-ee49-a474-e64b">
           <constraints>
@@ -905,16 +890,6 @@ This unit does not count towards the Army List’s leader unit capacity</charact
           </profiles>
         </selectionEntry>
       </selectionEntries>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="92c2a18f-a043-474e-908e-e008b3b4bad1" hidden="false">
-          <constraints>
-            <constraint id="36ae31ab-b85d-4ae7-a923-516e485aed6f" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <entryLinks>
-          <entryLink name="Ork Boyz" id="0fa75d45-4e7c-41bf-b94b-2c27bf3f6f37" hidden="false" import="true" sortIndex="1" targetId="09d6-9346-3c7c-1df5" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tellyporta Mekboy" hidden="false" id="b712-c91e-4937-0abf" sortIndex="6">
       <costs>
@@ -3229,6 +3204,54 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="eb44-3c3e-7488-81e9-max" includeChildSelections="false"/>
           </constraints>
         </selectionEntryGroup>
+        <selectionEntryGroup name="Attached Leaders" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94001" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Warboss With Attack Squig" hidden="false" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94002" type="selectionEntry" targetId="6cfd-7e1a-d53e-d94a">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94003" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Warboss in Mega Armour" hidden="false" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94004" type="selectionEntry" targetId="5489-d538-8006-b195">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94005" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Nob" hidden="false" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94006" type="selectionEntry" targetId="b920-ac50-d0cb-05a3">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6cfd-7e1a-d53e-d94a" shared="true" includeChildSelections="true" childName="Warboss With Attack Squig"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5489-d538-8006-b195" shared="true" includeChildSelections="true" childName="Warboss in Mega Armour"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94007" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+            <entryLink import="true" name="Painboy" hidden="false" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94008" type="selectionEntry" targetId="7c23-883d-10b9-b98e">
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="6cfd-7e1a-d53e-d94a" shared="true" includeChildSelections="true" childName="Warboss With Attack Squig"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" value="true" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="parent" childId="5489-d538-8006-b195" shared="true" includeChildSelections="true" childName="Warboss in Mega Armour"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94009" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Resilient (X)" id="549f-9a27-9644-e195" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
@@ -3580,6 +3603,15 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
             <constraint type="min" value="9" field="selections" scope="parent" shared="true" id="3265-973a-58c9-256d-min" includeChildSelections="false"/>
             <constraint type="max" value="9" field="selections" scope="parent" shared="true" id="3265-973a-58c9-256d-max" includeChildSelections="false"/>
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Attached Leaders" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94010" hidden="false">
+          <entryLinks>
+            <entryLink import="true" name="Komando Nob" hidden="false" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94011" type="selectionEntry" targetId="4d63-e803-968c-58bb">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8d2ea0f1-7336-4d3e-80f3-0aab67f94012" includeChildSelections="false"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
