@@ -53,18 +53,6 @@ This unit does not count towards the leader maximum of the army list.</character
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="41fdd483-3067-4453-9772-2eb5e0556cfc" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15e0b822-8c6c-42af-a04e-a2496199bdfb" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="198cfa90-2dbe-482f-98f9-482174a2f953" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="175b8bdd-1c82-446c-9136-03b228892532" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="da47341c-8079-492d-951f-497a399ef6c7" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Standard Bearer" id="35d3-9f32-c64f-cd77" hidden="false" import="true" type="model">
           <constraints>
@@ -127,18 +115,6 @@ This unit does not count towards the leader maximum of the army list</characteri
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="e9f01fae-725e-46de-ae9d-333c38255e20" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a224cff-ec69-4037-a556-367cbf58e57c" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="a139d9c1-2fcd-40fc-bc0c-4480f689ddd9" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="805218d8-2863-4890-84ee-c386c363fe03" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="68b2da7b-4ec0-4e0f-970d-e960d2aac5dd" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Master Vox Operator" id="3276-5f25-7f35-8a36" hidden="false" import="true" type="model">
           <constraints>
@@ -196,18 +172,6 @@ Range Finders: While enemy units are visible to this unit, each time you roll 2
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="fb240aa7-eb33-4917-9276-21e6b406ff0b" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73568cca-6ee5-4b07-af5b-cd28cfe6489e" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="53e46801-4ecb-4d8b-b5fe-d989508811dd" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="790ee65b-e771-400c-9f6c-b86ad8ef9fb9" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="72f522dc-2129-426c-b105-6ba3edbf0994" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Master of Ordnance" id="9db4-dc0c-e630-4748" hidden="false" import="true" type="model">
           <constraints>
@@ -263,18 +227,6 @@ Only one OFFICER OF THE FLEET unit may attach to any one unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="f28e2cfe-6617-4ee7-ac25-2ca2fb92bc31" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b9a7a96-90f6-4ff0-b3cb-2afe6763cd3a" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="627c9eb3-8930-40e3-a51c-ddd62645cccf" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="a027cfeb-9d79-4979-ab55-eba67743d908" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="147842d0-4a01-4bcf-932a-4836bfe47a7c" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Officer of the Fleet" id="741d-a360-a89d-2c87" hidden="false" import="true" type="model">
           <constraints>
@@ -332,18 +284,6 @@ Only one ASTROPATH unit may attach to any one unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="16226edc-7240-4a07-94dc-19533564730d" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39ec1fb8-d1c4-4e39-a536-a20ff29c6c4a" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="f783f5b6-7689-4e3a-ac2d-9ff38d054cff" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="81624a99-e15f-476b-9ca9-bc24f8ba5863" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="ffbfeb71-412c-432b-b0dd-b7632d072c76" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Psychic Powers" id="0f63-86b9-af4b-a710" hidden="false" import="true" type="upgrade">
           <constraints>
@@ -5926,18 +5866,6 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
           </characteristics>
         </profile>
       </profiles>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="33c154d7-eba9-4455-94c9-d2a638cbbf77" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb7cd1d-bee4-41cb-8c6f-c678d9bbfb76" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="5e596406-2840-48e1-9513-c43a4c8d6411" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="79610a7c-d557-45ec-a4de-94503f77bf19" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="20590d27-bd6d-40ae-b21c-8e56e60bd1a0" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Medic" id="d45a-fef4-00e2-88fd" hidden="false" import="true" type="model">
           <constraints>
@@ -5972,18 +5900,6 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <entryLink name="Power Sword" id="4c34-25b3-137e-078d" hidden="false" import="true" targetId="ccde-c0d6-e2fd-023a" type="selectionEntry"/>
         <entryLink name="Power Fist" id="0328-1a93-1a7a-7a5f" hidden="false" import="true" targetId="38ee-c6a0-1cec-7e62" type="selectionEntry"/>
       </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="20ed7f00-5d7f-4ca4-956c-1d3b60d0d8b1" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b0667b0-024c-473c-a13a-39d2359e5a7c" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="a2e61dfb-ae40-41b1-a7f0-47b66fc7aa5d" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="7147c03c-7e66-445f-8d2b-200778c72b91" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="8bf6de57-c220-4881-9949-7c7dc3be032c" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Bodyguard" id="5c91-be01-c419-c051" hidden="false" import="true" type="model">
           <constraints>
@@ -6017,18 +5933,6 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <entryLink name="Meltagun" id="de7e-69c5-bfb5-7adb" hidden="false" import="true" targetId="3b2e-b26d-a171-e690" type="selectionEntry"/>
         <entryLink name="Plasma Gun" id="0add-e4fd-9683-65e8" hidden="false" import="true" targetId="3293-1d5d-54c9-5cf6" type="selectionEntry"/>
       </entryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="4f9cae89-934b-463d-9f70-ef0c2b93c25e" hidden="true" sortIndex="1">
-          <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff99c2f7-5983-42ed-98d0-74faab71797d" includeChildSelections="false" />
-          </constraints>
-          <entryLinks>
-            <entryLink name="Cadian Platoon Commander" id="6d72d101-6966-46b6-9222-a89ea497e290" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
-            <entryLink name="Death Korps Platoon Commander" id="f640f338-bfd9-4958-a24e-4a2d974117df" hidden="false" import="true" targetId="03e3-17a9-14d9-64d1" type="selectionEntry" />
-            <entryLink name="Mordian Platoon Commander" id="a0f0614b-8996-4c59-bf60-4b6e988012c5" hidden="false" import="true" targetId="9392-ea0d-0cba-557f" type="selectionEntry" />
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Weapons Specialist" id="1443-2b68-aa7a-88fa" hidden="false" import="true" type="model">
           <constraints>
