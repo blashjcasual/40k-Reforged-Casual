@@ -54,9 +54,9 @@ This unit does not count towards the leader maximum of the army list.</character
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="41fdd483-3067-4453-9772-2eb5e0556cfc" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="41fdd483-3067-4453-9772-2eb5e0556cfc" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="15e0b822-8c6c-42af-a04e-a2496199bdfb" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15e0b822-8c6c-42af-a04e-a2496199bdfb" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="198cfa90-2dbe-482f-98f9-482174a2f953" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -128,9 +128,9 @@ This unit does not count towards the leader maximum of the army list</characteri
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="e9f01fae-725e-46de-ae9d-333c38255e20" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="e9f01fae-725e-46de-ae9d-333c38255e20" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a224cff-ec69-4037-a556-367cbf58e57c" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a224cff-ec69-4037-a556-367cbf58e57c" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="a139d9c1-2fcd-40fc-bc0c-4480f689ddd9" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -197,9 +197,9 @@ Range Finders: While enemy units are visible to this unit, each time you roll 2
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="fb240aa7-eb33-4917-9276-21e6b406ff0b" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="fb240aa7-eb33-4917-9276-21e6b406ff0b" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="73568cca-6ee5-4b07-af5b-cd28cfe6489e" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73568cca-6ee5-4b07-af5b-cd28cfe6489e" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="53e46801-4ecb-4d8b-b5fe-d989508811dd" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -264,9 +264,9 @@ Only one OFFICER OF THE FLEET unit may attach to any one unit.</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="f28e2cfe-6617-4ee7-ac25-2ca2fb92bc31" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="f28e2cfe-6617-4ee7-ac25-2ca2fb92bc31" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0b9a7a96-90f6-4ff0-b3cb-2afe6763cd3a" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b9a7a96-90f6-4ff0-b3cb-2afe6763cd3a" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="627c9eb3-8930-40e3-a51c-ddd62645cccf" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -333,9 +333,9 @@ Only one ASTROPATH unit may attach to any one unit.</characteristic>
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="16226edc-7240-4a07-94dc-19533564730d" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="16226edc-7240-4a07-94dc-19533564730d" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="39ec1fb8-d1c4-4e39-a536-a20ff29c6c4a" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39ec1fb8-d1c4-4e39-a536-a20ff29c6c4a" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="f783f5b6-7689-4e3a-ac2d-9ff38d054cff" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -666,7 +666,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="f2d8a675-ba0e-46ce-9899-ac172053a552" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9844af31-a201-400f-a193-c0ec7becaaa8" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9844af31-a201-400f-a193-c0ec7becaaa8" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Shock Troops" id="e63daf71-399c-497d-b3d4-2145051573ed" hidden="false" import="true" targetId="124f-9c5c-5379-f96b" type="selectionEntry" />
@@ -2049,6 +2049,20 @@ This unit does not count towards the leader capacity of your army list.</charact
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attached Leaders" id="a101-0000-0000-0001" hidden="false">
+          <entryLinks>
+            <entryLink name="Astropath" id="a102-0000-0000-0001" hidden="false" import="true" targetId="cf4c-6bec-10c3-511e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0001" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Bodyguard" id="a102-0000-0000-0002" hidden="false" import="true" targetId="dbc7-74da-e487-e736" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0002" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master of Ordnance" id="a102-0000-0000-0003" hidden="false" import="true" targetId="75ca-3292-ce3c-933e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0003" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master Vox Operator" id="a102-0000-0000-0004" hidden="false" import="true" targetId="f58d-87f6-b14c-600d" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0004" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Medic" id="a102-0000-0000-0005" hidden="false" import="true" targetId="c224-6a0e-59cd-d58a" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0005" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Officer of the Fleet" id="a102-0000-0000-0006" hidden="false" import="true" targetId="7b9c-0f95-64b8-19ec" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0006" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Standard Bearer" id="a102-0000-0000-0007" hidden="false" import="true" targetId="7dde-b2e2-fb5b-2bf2" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0007" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Weapons Specialist" id="a102-0000-0000-0008" hidden="false" import="true" targetId="8934-4666-47a0-4039" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a103-0000-0000-0008" includeChildSelections="false"/></constraints></entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Cadian Platoon Commander" id="1233-404b-a5f0-e257" hidden="false" import="true" type="model">
           <constraints>
@@ -2937,6 +2951,20 @@ This unit does not count towards the leader capacity of your army list.</charact
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attached Leaders" id="b101-0000-0000-0001" hidden="false">
+          <entryLinks>
+            <entryLink name="Astropath" id="b102-0000-0000-0001" hidden="false" import="true" targetId="cf4c-6bec-10c3-511e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0001" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Bodyguard" id="b102-0000-0000-0002" hidden="false" import="true" targetId="dbc7-74da-e487-e736" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0002" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master of Ordnance" id="b102-0000-0000-0003" hidden="false" import="true" targetId="75ca-3292-ce3c-933e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0003" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master Vox Operator" id="b102-0000-0000-0004" hidden="false" import="true" targetId="f58d-87f6-b14c-600d" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0004" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Medic" id="b102-0000-0000-0005" hidden="false" import="true" targetId="c224-6a0e-59cd-d58a" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0005" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Officer of the Fleet" id="b102-0000-0000-0006" hidden="false" import="true" targetId="7b9c-0f95-64b8-19ec" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0006" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Standard Bearer" id="b102-0000-0000-0007" hidden="false" import="true" targetId="7dde-b2e2-fb5b-2bf2" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0007" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Weapons Specialist" id="b102-0000-0000-0008" hidden="false" import="true" targetId="8934-4666-47a0-4039" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b103-0000-0000-0008" includeChildSelections="false"/></constraints></entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Death Korps Platoon Commander" id="4a6a-75cc-64b5-93d3" hidden="false" import="true" type="model">
           <constraints>
@@ -3285,6 +3313,20 @@ This unit does not count towards the leader capacity of your army list.</charact
           </characteristics>
         </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Attached Leaders" id="c101-0000-0000-0001" hidden="false">
+          <entryLinks>
+            <entryLink name="Astropath" id="c102-0000-0000-0001" hidden="false" import="true" targetId="cf4c-6bec-10c3-511e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0001" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Bodyguard" id="c102-0000-0000-0002" hidden="false" import="true" targetId="dbc7-74da-e487-e736" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0002" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master of Ordnance" id="c102-0000-0000-0003" hidden="false" import="true" targetId="75ca-3292-ce3c-933e" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0003" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Master Vox Operator" id="c102-0000-0000-0004" hidden="false" import="true" targetId="f58d-87f6-b14c-600d" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0004" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Medic" id="c102-0000-0000-0005" hidden="false" import="true" targetId="c224-6a0e-59cd-d58a" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0005" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Officer of the Fleet" id="c102-0000-0000-0006" hidden="false" import="true" targetId="7b9c-0f95-64b8-19ec" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0006" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Standard Bearer" id="c102-0000-0000-0007" hidden="false" import="true" targetId="7dde-b2e2-fb5b-2bf2" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0007" includeChildSelections="false"/></constraints></entryLink>
+            <entryLink name="Weapons Specialist" id="c102-0000-0000-0008" hidden="false" import="true" targetId="8934-4666-47a0-4039" type="selectionEntry"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c103-0000-0000-0008" includeChildSelections="false"/></constraints></entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <selectionEntries>
         <selectionEntry name="Mordian Platoon Commander" id="46b0-8393-763f-a935" hidden="false" import="true" type="model">
           <constraints>
@@ -5885,9 +5927,9 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="33c154d7-eba9-4455-94c9-d2a638cbbf77" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="33c154d7-eba9-4455-94c9-d2a638cbbf77" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6cb7cd1d-bee4-41cb-8c6f-c678d9bbfb76" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb7cd1d-bee4-41cb-8c6f-c678d9bbfb76" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="5e596406-2840-48e1-9513-c43a4c8d6411" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -5931,9 +5973,9 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <entryLink name="Power Fist" id="0328-1a93-1a7a-7a5f" hidden="false" import="true" targetId="38ee-c6a0-1cec-7e62" type="selectionEntry"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="20ed7f00-5d7f-4ca4-956c-1d3b60d0d8b1" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="20ed7f00-5d7f-4ca4-956c-1d3b60d0d8b1" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b0667b0-024c-473c-a13a-39d2359e5a7c" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b0667b0-024c-473c-a13a-39d2359e5a7c" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="a2e61dfb-ae40-41b1-a7f0-47b66fc7aa5d" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -5976,9 +6018,9 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <entryLink name="Plasma Gun" id="0add-e4fd-9683-65e8" hidden="false" import="true" targetId="3293-1d5d-54c9-5cf6" type="selectionEntry"/>
       </entryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Leader" id="4f9cae89-934b-463d-9f70-ef0c2b93c25e" hidden="false" sortIndex="1">
+        <selectionEntryGroup name="Leader" id="4f9cae89-934b-463d-9f70-ef0c2b93c25e" hidden="true" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ff99c2f7-5983-42ed-98d0-74faab71797d" includeChildSelections="true" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff99c2f7-5983-42ed-98d0-74faab71797d" includeChildSelections="false" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="6d72d101-6966-46b6-9222-a89ea497e290" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />

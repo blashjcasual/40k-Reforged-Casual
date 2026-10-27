@@ -102,9 +102,6 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink import="true" name="Medic" hidden="false" id="2903-9b78-96f6-7e8c" type="selectionEntry" targetId="c224-6a0e-59cd-d58a" sortIndex="99" />
-    <entryLink import="true" name="Bodyguard" hidden="false" id="64a9-d9f2-bdbe-7ce2" type="selectionEntry" targetId="dbc7-74da-e487-e736" sortIndex="99" />
-    <entryLink import="true" name="Weapons Specialist" hidden="false" id="ad34-484d-47e9-9bee" type="selectionEntry" targetId="8934-4666-47a0-4039" sortIndex="99" />
     <entryLink import="true" name="Kasrkins" hidden="true" id="8ee4-4172-db40-e2b3" type="selectionEntry" targetId="c6e4-a3ae-dc8a-bcd2" sortIndex="99">
       <modifiers>
         <modifier type="set" value="false" field="hidden">
