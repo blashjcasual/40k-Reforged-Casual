@@ -56,7 +56,7 @@ This unit does not count towards the leader maximum of the army list.</character
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="41fdd483-3067-4453-9772-2eb5e0556cfc" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="15e0b822-8c6c-42af-a04e-a2496199bdfb" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="15e0b822-8c6c-42af-a04e-a2496199bdfb" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="198cfa90-2dbe-482f-98f9-482174a2f953" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -130,7 +130,7 @@ This unit does not count towards the leader maximum of the army list</characteri
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="e9f01fae-725e-46de-ae9d-333c38255e20" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1a224cff-ec69-4037-a556-367cbf58e57c" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="1a224cff-ec69-4037-a556-367cbf58e57c" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="a139d9c1-2fcd-40fc-bc0c-4480f689ddd9" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -199,7 +199,7 @@ Range Finders: While enemy units are visible to this unit, each time you roll 2
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="fb240aa7-eb33-4917-9276-21e6b406ff0b" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="73568cca-6ee5-4b07-af5b-cd28cfe6489e" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="73568cca-6ee5-4b07-af5b-cd28cfe6489e" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="53e46801-4ecb-4d8b-b5fe-d989508811dd" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -266,7 +266,7 @@ Only one OFFICER OF THE FLEET unit may attach to any one unit.</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="f28e2cfe-6617-4ee7-ac25-2ca2fb92bc31" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0b9a7a96-90f6-4ff0-b3cb-2afe6763cd3a" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="0b9a7a96-90f6-4ff0-b3cb-2afe6763cd3a" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="627c9eb3-8930-40e3-a51c-ddd62645cccf" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -335,7 +335,7 @@ Only one ASTROPATH unit may attach to any one unit.</characteristic>
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="16226edc-7240-4a07-94dc-19533564730d" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="39ec1fb8-d1c4-4e39-a536-a20ff29c6c4a" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="39ec1fb8-d1c4-4e39-a536-a20ff29c6c4a" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="f783f5b6-7689-4e3a-ac2d-9ff38d054cff" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -666,7 +666,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="f2d8a675-ba0e-46ce-9899-ac172053a552" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9844af31-a201-400f-a193-c0ec7becaaa8" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9844af31-a201-400f-a193-c0ec7becaaa8" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Shock Troops" id="e63daf71-399c-497d-b3d4-2145051573ed" hidden="false" import="true" targetId="124f-9c5c-5379-f96b" type="selectionEntry" />
@@ -5887,7 +5887,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="33c154d7-eba9-4455-94c9-d2a638cbbf77" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6cb7cd1d-bee4-41cb-8c6f-c678d9bbfb76" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="6cb7cd1d-bee4-41cb-8c6f-c678d9bbfb76" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="5e596406-2840-48e1-9513-c43a4c8d6411" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -5933,7 +5933,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="20ed7f00-5d7f-4ca4-956c-1d3b60d0d8b1" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2b0667b0-024c-473c-a13a-39d2359e5a7c" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="2b0667b0-024c-473c-a13a-39d2359e5a7c" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="a2e61dfb-ae40-41b1-a7f0-47b66fc7aa5d" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
@@ -5978,7 +5978,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="4f9cae89-934b-463d-9f70-ef0c2b93c25e" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ff99c2f7-5983-42ed-98d0-74faab71797d" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="force" shared="true" id="ff99c2f7-5983-42ed-98d0-74faab71797d" includeChildSelections="true" />
           </constraints>
           <entryLinks>
             <entryLink name="Cadian Platoon Commander" id="6d72d101-6966-46b6-9222-a89ea497e290" hidden="false" import="true" targetId="7797-0a49-618c-60ad" type="selectionEntry" />
