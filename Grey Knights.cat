@@ -1055,11 +1055,6 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance or Reposition, this unit may move up to an additional 4" if that move would end within 4" of any enemy units within 24" of one or more friendly leader units.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Warp Shunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="140d-9357-0e75-030a">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Grey Knight Brotherhood Champion" hidden="false" id="2bd2-815a-9694-0999">
@@ -1074,6 +1069,21 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
                     <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Warp Shunt" hidden="false" id="d0e7f48e-30cc-4b64-bca0-64487c2de140">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="11ef7acf-b150-4f0f-9d7e-9fcc45d11d89" includeChildSelections="false" />
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10" />
+          </costs>
+          <profiles>
+            <profile name="Warp Shunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e30edf5e-3f17-4dbe-a764-a0f08d6f7665">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there.</characteristic>
               </characteristics>
             </profile>
           </profiles>
