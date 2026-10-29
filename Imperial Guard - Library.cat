@@ -5253,24 +5253,28 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                 <constraint id="1072-c9f2-5bc5-3caa" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <entryLinks>
-                <entryLink name="Storm Bolter" id="141b-57c5-1e9e-1c65" hidden="false" import="true" targetId="d215-60bd-f49d-295e" type="selectionEntry">
+                <entryLink name="Pintle Storm Bolter" id="141b-57c5-1e9e-1c65" hidden="false" import="true" targetId="d215-60bd-f49d-295e" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20"/>
                   </costs>
                   <modifiers>
                     <modifier affects="profiles.Weapon" field="name" type="prepend" value="Pintle"/>
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="10"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                   </modifiers>
                 </entryLink>
-                <entryLink name="Heavy Stubber" id="c1f7-fcb1-e7a7-dea9" hidden="false" import="true" targetId="4b7a-633d-1e19-061d" type="selectionEntry">
+                <entryLink name="Pintle Heavy Stubber" id="c1f7-fcb1-e7a7-dea9" hidden="false" import="true" targetId="4b7a-633d-1e19-061d" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20"/>
                   </costs>
                   <modifiers>
                     <modifier affects="profiles.Weapon" field="name" type="prepend" value="Pintle"/>
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                    <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="2"/>
+                    <modifier affects="profiles.Weapon" field="d93f-70ee-72bc-5ef9" type="set" value="Suppressive 1"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
