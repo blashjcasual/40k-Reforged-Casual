@@ -697,7 +697,7 @@ b) BREACHER TEAM</characteristic>
                       <modifiers>
                         <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
+                        <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                       </modifiers>
                     </modifierGroup>
                   </modifierGroups>
@@ -1144,7 +1144,7 @@ b) BREACHER TEAM</characteristic>
                   <modifiers>
                     <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                    <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
+                    <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -1219,7 +1219,7 @@ b) BREACHER TEAM</characteristic>
                   <modifiers>
                     <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                    <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
+                    <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                   </modifiers>
                 </modifierGroup>
               </modifierGroups>
@@ -1298,7 +1298,9 @@ b) BREACHER TEAM</characteristic>
                           <modifiers>
                             <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                          </modifiers>
+                          
+                        <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
+                      </modifiers>
                         </modifierGroup>
                       </modifierGroups>
                     </entryLink>
@@ -1348,7 +1350,7 @@ b) BREACHER TEAM</characteristic>
                 <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d0fb-1280-7165-c622" includeChildSelections="false" />
               </constraints>
               <modifiers>
-                <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
+                <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -1720,13 +1722,13 @@ Mont’ka: For each attack made by a T’au unit that targets this unit from wi
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="cbb8-3eea-130a-a01d" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+        <infoLink name="Shred" id="0192-01f2-6494-48e4" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Plasma Rifle" hidden="false" id="e874-d698-d372-227f">
@@ -2106,7 +2108,8 @@ Mont’ka: For each attack made by a T’au unit that targets this unit from wi
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -2119,7 +2122,8 @@ Mont’ka: For each attack made by a T’au unit that targets this unit from wi
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -2336,7 +2340,12 @@ Mont’ka: For each attack made by a T’au unit that targets this unit from wi
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Burst Cannon" hidden="false" id="959e-a4f0-9fbd-17b6" type="selectionEntry" targetId="9e4c-7240-51c1-0a9d" />
+        <entryLink import="true" name="Burst Cannon" hidden="false" id="959e-a4f0-9fbd-17b6" type="selectionEntry" targetId="9e4c-7240-51c1-0a9d">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Pulse Carbines" hidden="false" id="52fd-ba19-ac34-36a9" type="selectionEntry" targetId="3dd6-5bc6-dcef-f84a" />
         <entryLink import="true" name="Smart Missile Systems" hidden="false" id="d554-2a91-e127-543c" type="selectionEntry" targetId="cdaa-4188-47fc-c602" />
         <entryLink import="true" name="Seeker Missile" hidden="false" id="071e-e391-312d-8bbc" type="selectionEntry" targetId="d67e-fac1-0cdb-abe4" />

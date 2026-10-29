@@ -303,7 +303,7 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
           <entryLinks>
             <entryLink import="true" name="Boss’s Big Choppa" hidden="false" id="278e-8718-6159-44d1" type="selectionEntry" targetId="de05-096f-576a-f3e1">
               <modifiers>
-                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f395-33e6-a99f-0d97-min" includeChildSelections="false"/>
@@ -417,6 +417,8 @@ This unit does not count towards the Army List’s leader unit capacity.</charac
                     <entryLink import="true" name="Slugga" hidden="false" id="0ddc-5f45-61c7-281b" type="selectionEntry" targetId="efe4-3139-2e58-93af">
                       <modifiers>
                         <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                      
+                        <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1c0c-49eb-d6c9-5dc1-min" includeChildSelections="false"/>
@@ -1017,6 +1019,8 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <entryLink import="true" name="Slugga" hidden="false" id="93ab-5f39-cf62-6bff" type="selectionEntry" targetId="efe4-3139-2e58-93af" sortIndex="2">
                       <modifiers>
                         <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                      
+                        <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                       </modifiers>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="model" shared="true" id="c66e-4cf0-872b-57ba" includeChildSelections="true"/>
@@ -1137,7 +1141,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                         </entryLink>
                         <entryLink import="true" name="Kombi-Skorcha" hidden="false" id="4806-0f2f-4fad-8aa5" type="selectionEntry" targetId="f85f-e91a-1c5c-e4ee">
                           <modifiers>
-                            <modifier type="set" value="15" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="14" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7737-4a2d-1e84-fb65" includeChildSelections="false"/>
@@ -2941,7 +2945,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Blast 3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 3</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3042,7 +3046,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 </entryLink>
                 <entryLink import="true" name="Choppa" hidden="false" id="abb1-e85c-9581-7242" type="selectionEntry" targetId="dcb2-429a-7ee6-dae4">
                   <modifiers>
-                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="db1a-0619-8029-fa7f-min" includeChildSelections="false"/>
@@ -3533,7 +3537,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                           <entryLinks>
                             <entryLink import="true" name="Shoota" hidden="false" id="5aa9-7fdd-3460-30a5" type="selectionEntry" targetId="0392-3e6d-4b99-dcd6">
                               <modifiers>
-                                <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="846a-e132-42c6-23e1-min" includeChildSelections="false"/>
@@ -3586,7 +3590,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 6, One Shot</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 6, Rearm</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3816,11 +3820,31 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Kombi-Shoota" hidden="false" id="32de-009f-4711-fe69" type="selectionEntry" targetId="8fdd-8b70-2f90-6b60" />
-        <entryLink import="true" name="Kombi-Skorcha" hidden="false" id="a8c8-6963-a279-c5c2" type="selectionEntry" targetId="f85f-e91a-1c5c-e4ee" />
-        <entryLink import="true" name="Kombi-Rokkit" hidden="false" id="0191-776e-d165-98bc" type="selectionEntry" targetId="2db5-eb12-df0c-082a" />
-        <entryLink import="true" name="Kustom Shoota" hidden="false" id="c427-db5c-f7b3-e935" type="selectionEntry" targetId="c4e0-218d-3d86-67b8" />
-        <entryLink import="true" name="Killsaw" hidden="false" id="75a5-02fc-73c5-27ed" type="selectionEntry" targetId="3559-4417-827f-f5b0" />
-        <entryLink import="true" name="Power Klaw" hidden="false" id="5bbe-7763-fdbb-a907" type="selectionEntry" targetId="d5aa-4bd1-fb77-325b" />
+        <entryLink import="true" name="Kombi-Skorcha" hidden="false" id="a8c8-6963-a279-c5c2" type="selectionEntry" targetId="f85f-e91a-1c5c-e4ee">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="7"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Kombi-Rokkit" hidden="false" id="0191-776e-d165-98bc" type="selectionEntry" targetId="2db5-eb12-df0c-082a">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Kustom Shoota" hidden="false" id="c427-db5c-f7b3-e935" type="selectionEntry" targetId="c4e0-218d-3d86-67b8">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="9"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Killsaw" hidden="false" id="75a5-02fc-73c5-27ed" type="selectionEntry" targetId="3559-4417-827f-f5b0">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Power Klaw" hidden="false" id="5bbe-7763-fdbb-a907" type="selectionEntry" targetId="d5aa-4bd1-fb77-325b">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Killa Kans" hidden="false" id="5130-cbdb-6351-53b7" sortIndex="1">
@@ -3872,11 +3896,26 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Big Shoota" hidden="false" id="aa3e-c82e-9631-467c" type="selectionEntry" targetId="cc57-8885-c7c0-c76a" />
-        <entryLink import="true" name="Rokkit" hidden="false" id="01bd-a0a1-f83c-ff84" type="selectionEntry" targetId="31f4-a334-113c-c54b" />
+        <entryLink import="true" name="Big Shoota" hidden="false" id="aa3e-c82e-9631-467c" type="selectionEntry" targetId="cc57-8885-c7c0-c76a">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Rokkit" hidden="false" id="01bd-a0a1-f83c-ff84" type="selectionEntry" targetId="31f4-a334-113c-c54b">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Skorcha" hidden="false" id="e551-8c6d-b0ca-ba52" type="selectionEntry" targetId="c74b-68c4-f3ec-f3fc" />
         <entryLink import="true" name="Grotzooka" hidden="false" id="e7c8-62aa-a1e2-bccb" type="selectionEntry" targetId="01a0-b0ba-2e44-ca4c" />
-        <entryLink import="true" name="Kustom Mega Blasta" hidden="false" id="6d88-0db5-278d-117d" type="selectionEntry" targetId="a9e1-8ddc-1a60-4e14" />
+        <entryLink import="true" name="Kustom Mega Blasta" hidden="false" id="6d88-0db5-278d-117d" type="selectionEntry" targetId="a9e1-8ddc-1a60-4e14">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Kan Klaw" hidden="false" id="5648-b443-06eb-dcb2" type="selectionEntry" targetId="63bd-976b-7d0b-8213" />
       </entryLinks>
     </selectionEntry>
@@ -3920,10 +3959,28 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Grot Tank Shoota" hidden="false" id="8d33-5522-5521-884e" type="selectionEntry" targetId="d910-57ae-0fc8-39ab" />
-        <entryLink import="true" name="Rokkit" hidden="false" id="ad06-6501-6be8-e23b" type="selectionEntry" targetId="31f4-a334-113c-c54b" />
-        <entryLink import="true" name="Skorcha" hidden="false" id="fcc0-df2c-a686-e760" type="selectionEntry" targetId="c74b-68c4-f3ec-f3fc" />
-        <entryLink import="true" name="Grotzooka" hidden="false" id="9f73-3f66-e95f-eb80" type="selectionEntry" targetId="01a0-b0ba-2e44-ca4c" />
-        <entryLink import="true" name="Kustom Mega Blasta" hidden="false" id="443e-0436-bd18-899e" type="selectionEntry" targetId="a9e1-8ddc-1a60-4e14" />
+        <entryLink import="true" name="Rokkit" hidden="false" id="ad06-6501-6be8-e23b" type="selectionEntry" targetId="31f4-a334-113c-c54b">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Skorcha" hidden="false" id="fcc0-df2c-a686-e760" type="selectionEntry" targetId="c74b-68c4-f3ec-f3fc">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="12"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Grotzooka" hidden="false" id="9f73-3f66-e95f-eb80" type="selectionEntry" targetId="01a0-b0ba-2e44-ca4c">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Kustom Mega Blasta" hidden="false" id="443e-0436-bd18-899e" type="selectionEntry" targetId="a9e1-8ddc-1a60-4e14">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Pintle/Hull Shoota" hidden="false" id="0afa-ec9b-14fb-d8db" type="selectionEntry" targetId="986c-c0af-7239-5721" />
       </entryLinks>
     </selectionEntry>

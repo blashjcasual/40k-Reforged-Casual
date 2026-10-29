@@ -71,7 +71,7 @@
           </modifiers>
           <comment>Night Lords</comment>
         </profile>
-      <profile typeId="dac299e9-caff-4c53-8c7b-76b4cca997e5" typeName="Weapon" hidden="false" id="dcf42e25" name="Missile Launcher"><characteristics><characteristic name="Tp" typeId="7c373bf4-69f5-4b25-96ff-d475afea5e88">Hv</characteristic></characteristics></profile></profiles>
+      </profiles>
       <infoLinks>
         <infoLink name="Blast (X)" id="e357-a8db-91a5-c755" hidden="true" type="rule" targetId="308a-e96e-90f7-855e">
           <modifiers>
@@ -2796,9 +2796,9 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                             <profile name="Assault Weapon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0239-a6a9-81e1-7f4a">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                                <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                                <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                                 <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
                               </characteristics>
@@ -4584,7 +4584,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6029-b06c-6ee0-8053-max" includeChildSelections="false" />
               </constraints>
               <infoLinks>
-                <infoLink name="Pierce" id="d4f7-29ff-ee7e-8671" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                <infoLink name="Shred" id="d4f7-29ff-ee7e-8671" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
               </infoLinks>
               <profiles>
                 <profile name="Melta Tendril" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7b65-5239-5bf3-4666">
@@ -4593,8 +4593,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5753,7 +5753,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7516,7 +7516,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7668,7 +7669,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7716,7 +7718,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7780,7 +7783,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7793,7 +7797,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7823,7 +7828,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7868,7 +7874,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7960,7 +7967,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -8114,15 +8122,27 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <entryLink import="true" name="Defiler Battle Cannon" hidden="false" id="c9e9-eb18-71d8-bf0e" type="selectionEntry" targetId="297d-9a8f-e2cd-476e" />
         <entryLink import="true" name="Defiler Ectoplasma Cannon" hidden="false" id="5175-db2a-12fc-b2f1" type="selectionEntry" targetId="2fcf-b9c1-f5fb-84e3" />
         <entryLink import="true" name="Defiler Claws" hidden="false" id="3bfe-ffd3-418b-8ff8" type="selectionEntry" targetId="7788-8991-a3c3-b51c" />
-        <entryLink import="true" name="Reaper Autocannon" hidden="false" id="0673-768b-6278-299a" type="selectionEntry" targetId="02d4-f10f-7394-2296" />
+        <entryLink import="true" name="Reaper Autocannon" hidden="false" id="0673-768b-6278-299a" type="selectionEntry" targetId="02d4-f10f-7394-2296">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Twin Lascannon" hidden="false" id="407a-fae4-7cee-55b9" type="selectionEntry" targetId="a1cf-f092-4d2e-7e3a" />
         <entryLink import="true" name="Twin Heavy Bolter" hidden="false" id="c776-7c31-0f7e-73b0" type="selectionEntry" targetId="39b0-a797-9685-d09f" />
         <entryLink import="true" name="Twin Heavy Flamer" hidden="false" id="83a7-48e2-840d-bbf4" type="selectionEntry" targetId="b057-0af2-378f-cc67" />
-        <entryLink import="true" name="Havoc Launcher" hidden="false" id="5163-8110-0bae-253f" type="selectionEntry" targetId="a40b-783e-4918-5f3a" />
+        <entryLink import="true" name="Havoc Launcher" hidden="false" id="5163-8110-0bae-253f" type="selectionEntry" targetId="a40b-783e-4918-5f3a">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Missile Launcher" hidden="false" id="6dc5-917a-7671-3af3" type="selectionEntry" targetId="2a12-ac3f-3a0c-bb89" />
         <entryLink import="true" name="Electroscourge" hidden="false" id="a6f1-e869-94c7-8c61" type="selectionEntry" targetId="b69d-1b78-a287-645f" />
         <entryLink import="true" name="Excruciator Cannons" hidden="false" id="4dbf-a39c-bee7-6628" type="selectionEntry" targetId="9727-bd84-06f3-3ffb" />
-        <entryLink import="true" name="Magma Cutters" hidden="false" id="1a11-5ea3-0f18-403b" type="selectionEntry" targetId="d3d3-fe95-d83d-7250" />
+        <entryLink import="true" name="Magma Cutters" hidden="false" id="1a11-5ea3-0f18-403b" type="selectionEntry" targetId="d3d3-fe95-d83d-7250">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Predator" hidden="false" id="f2f7-37cf-45cc-67d4" sortIndex="1">
@@ -8166,7 +8186,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb08d7d-5b0e-4b5e-afad-d06f1cd09f12" includeChildSelections="false" />
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Havoc Launcher" hidden="false" id="764b-cc01-4888-c9f7" type="selectionEntry" targetId="a40b-783e-4918-5f3a" />
+                <entryLink import="true" name="Havoc Launcher" hidden="false" id="764b-cc01-4888-c9f7" type="selectionEntry" targetId="a40b-783e-4918-5f3a">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+                  </modifiers>
+                </entryLink>
                 <entryLink import="true" name="Combi-Bolter" hidden="false" id="1189-075c-17d1-aa92" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
               </entryLinks>
             </selectionEntryGroup>
@@ -8310,7 +8334,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <entryLink import="true" name="Beamer" hidden="false" id="e831-1500-bc01-707e" type="selectionEntry" targetId="d62d-41d7-3ee6-a7d5" />
         <entryLink import="true" name="Chainfist" hidden="false" id="07d8-c93f-c4de-360a" type="selectionEntry" targetId="aa97-0f03-f76b-b7a5" />
         <entryLink import="true" name="Power Fist" hidden="false" id="4656-cbd2-727d-e910" type="selectionEntry" targetId="43bc-47fe-f208-8817" />
-        <entryLink import="true" name="Combi-Bolter" hidden="false" id="3982-6a7b-c8f3-c4a2" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
+        <entryLink import="true" name="Combi-Bolter" hidden="false" id="3982-6a7b-c8f3-c4a2" type="selectionEntry" targetId="9aca-6746-ceac-f4fd">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Graviton Gun" hidden="false" id="54b0-1411-7153-df5a" type="selectionEntry" targetId="76bf-8aa5-0abc-cb79" />
         <entryLink import="true" name="Heavy Flamer" hidden="false" id="36ce-b2ed-ee3d-01c3" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c" />
         <entryLink import="true" name="Meltagun" hidden="false" id="15ce-7aea-ff4f-ff52" type="selectionEntry" targetId="3e64-4706-d7e4-3c17" />

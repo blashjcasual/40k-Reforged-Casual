@@ -1687,6 +1687,8 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                     <entryLink import="true" name="Chainfists" hidden="false" id="dfb0-60fd-e1df-96e6" type="selectionEntry" targetId="42d0-4698-378a-b42b" sortIndex="3">
                       <modifiers>
                         <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      
+                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Lightning Claws" hidden="false" id="d46b-2007-7502-46a3" type="selectionEntry" targetId="f6a8-b0b8-1d07-7cab" sortIndex="5" />

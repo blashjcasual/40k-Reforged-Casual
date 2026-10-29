@@ -743,6 +743,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                         <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                      
+                        <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -788,6 +790,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                              
+                                <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                               </modifiers>
                             </entryLink>
                             <entryLink name="Plasma Pistol" id="74b0-0988-ad56-e9ee" hidden="false" import="true" sortIndex="3" targetId="6894-2cf4-78df-13e8" type="selectionEntry">
@@ -841,6 +845,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                          
+                            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -893,6 +899,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                          
+                            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -1065,7 +1073,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Ignores Cover, Blast 2</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 2, Ignore Cover</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1466,6 +1474,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                         <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                      
+                        <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -1484,7 +1494,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <entryLink name="Hot-Shot Laspistol" id="6834-cc7e-87ea-5bd7" hidden="false" import="true" sortIndex="1" targetId="8190-2575-d36d-e4b2" type="selectionEntry">
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
-                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                              
+                                <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                               </modifiers>
                             </entryLink>
                             <entryLink name="Plasma Pistol" id="23c5-1eb5-7db8-f392" hidden="false" import="true" sortIndex="3" targetId="6894-2cf4-78df-13e8" type="selectionEntry">
@@ -1565,6 +1577,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          
+                            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -1606,6 +1620,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                          
+                            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                           </modifiers>
                           <costs><cost name="pts" typeId="points" value="20"/></costs>
                         </entryLink>
@@ -1618,7 +1634,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                       <entryLinks>
                         <entryLink name="Hot-Shot Marksman Rifle" id="7486-65ca-453b-0296" hidden="false" import="true" sortIndex="1" targetId="e9d4-ac65-9e88-4805" type="selectionEntry">
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
                           </modifiers>
                         </entryLink>
@@ -1633,7 +1649,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                               </constraints>
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
-                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                              
+                                <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                               </modifiers>
                             </entryLink>
                           </entryLinks>
@@ -1651,7 +1669,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">1+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Pierce, Shred</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -1843,7 +1861,11 @@ This unit does not count towards the leader capacity of your army list.</charact
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
                             </entryLink>
-                            <entryLink name="Laspistol" id="dc99-6e9d-679a-95cd" hidden="false" import="true" sortIndex="2" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry"/>
+                            <entryLink name="Laspistol" id="dc99-6e9d-679a-95cd" hidden="false" import="true" sortIndex="2" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry">
+                              <modifiers>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                              </modifiers>
+                            </entryLink>
                             <entryLink name="Drum-Fed Autogun" id="ae4b-ada7-da86-bcab" hidden="false" import="true" sortIndex="1" targetId="b6e1-4833-e0a4-7dd1" type="selectionEntry"/>
                           </entryLinks>
                         </selectionEntryGroup>
@@ -1916,7 +1938,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <entryLink name="Mortar" id="2626-326f-2f7b-c143" hidden="false" import="true" sortIndex="4" targetId="41f7-2ab6-7e6c-8e01" type="selectionEntry">
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
-                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -2451,6 +2473,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                          
+                            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -2470,6 +2494,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                                 <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                              
+                                <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                               </modifiers>
                             </entryLink>
                             <entryLink name="Bolt Pistol" id="ed07-c57c-90de-7185" hidden="false" import="true" sortIndex="2" targetId="dae5-9fbf-bdd8-7f79" type="selectionEntry">
@@ -3107,6 +3133,10 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <constraint id="759a-4436-14dc-5b1d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
                             <constraint id="759a-4436-14dc-5b1d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
+                        
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                          </modifiers>
                         </entryLink>
                         <entryLink name="Bayonet" id="0a7f-3312-efde-142b" hidden="false" import="true" targetId="582d-b6ff-13db-9d86" type="selectionEntry">
                           <constraints>
@@ -3114,8 +3144,8 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <constraint id="b220-7ae3-2d47-9a7a-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
                           </constraints>
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
-                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -3372,11 +3402,6 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
-        <profile name="Missile Launcher" id="f3ab1195" hidden="false" typeId="282613e7-88a5-4977-b599-6874890f4b5d" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Tp" typeId="f15bd91a-abbf-41b5-a41b-50b8bbd33452">Hv</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry name="Drum-Fed Autogun" id="b6e1-4833-e0a4-7dd1" hidden="false" import="true" type="upgrade">
@@ -3445,6 +3470,20 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
       </profiles>
     </selectionEntry>
+    <selectionEntry name="Heavy Bolter" id="82a1-b562-e748-d5ad" hidden="false" import="true" type="upgrade">
+      <profiles>
+        <profile name="Heavy Bolter" id="82a1-b562-e748-d5ae" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
     <selectionEntry name="Missile Launcher" id="e03f-db1b-d6b0-b70f" hidden="false" import="true" type="upgrade"/>
     <selectionEntry name="Nova Cannon" id="c490-8803-47b5-14af" hidden="false" import="true" type="upgrade">
       <profiles>
@@ -3470,6 +3509,8 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
           </characteristics>
@@ -3482,8 +3523,10 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">30</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3499,6 +3542,8 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, Pierce</characteristic>
           </characteristics>
@@ -3514,7 +3559,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3528,7 +3573,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3542,7 +3587,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3588,7 +3633,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Side Arm</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3616,6 +3661,8 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
           </characteristics>
@@ -5318,7 +5365,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                 </entryLink>
                 <entryLink name="Demolisher Cannon" id="75ef-0fd9-4cbd-5bb9" hidden="false" import="true" sortIndex="2" targetId="f3f1-6bf2-63c1-83ca" type="selectionEntry">
                   <modifiers>
-                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                   </modifiers>
                 </entryLink>
                 <entryLink name="Nova Cannon" id="7d1f-897f-860b-8eed" hidden="false" import="true" sortIndex="3" targetId="c490-8803-47b5-14af" type="selectionEntry"/>
@@ -5461,6 +5508,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5561,6 +5609,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5677,7 +5726,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <infoLink name="Shred" id="4223-b09b-9457-aa18" hidden="false" targetId="4a04-e9da-d7b5-e035" type="rule"/>
       </infoLinks>
       <profiles>
-        <profile name="Shotgun" id="496b-e35f-8af4-9c73" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+        <profile name="Shotgun (Sweep)" id="496b-e35f-8af4-9c73" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
@@ -5687,17 +5736,28 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Shred</characteristic>
           </characteristics>
         </profile>
+        <profile name="Shotgun (Strike)" id="3f7b-cac2-95e3-7f6a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="CQ 4 4+ 3 2 Strike Autopistol" id="2e1b-caf0-3835-33fa" hidden="false" import="true" type="upgrade">
+    <selectionEntry name="Autopistol" id="2e1b-caf0-3835-33fa" hidden="false" import="true" type="upgrade">
       <profiles>
-        <profile name="CQ 4 4+ 3 2 Strike Autopistol" id="33a6-4591-7d0b-a60e" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+        <profile name="Autopistol" id="33a6-4591-7d0b-a60e" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5728,6 +5788,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5857,7 +5918,11 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       </costs>
       <entryLinks>
         <entryLink name="Lasgun" id="9356-bc75-ffde-cec8" hidden="false" import="true" targetId="0b54-6ba9-f583-4b19" type="selectionEntry"/>
-        <entryLink name="Laspistol" id="342e-d5c8-aa3e-cc82" hidden="false" import="true" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry"/>
+        <entryLink name="Laspistol" id="342e-d5c8-aa3e-cc82" hidden="false" import="true" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
       <profiles>
         <profile name="Medical Supplies" id="be41-bab3-d44f-9392" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -5894,8 +5959,16 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <cost name="pts" typeId="points" value="10"/>
       </costs>
       <entryLinks>
-        <entryLink name="Lasgun" id="5c40-66e2-d673-0aea" hidden="false" import="true" targetId="0b54-6ba9-f583-4b19" type="selectionEntry"/>
-        <entryLink name="Laspistol" id="7f4f-2e89-98d2-bb2d" hidden="false" import="true" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry"/>
+        <entryLink name="Lasgun" id="5c40-66e2-d673-0aea" hidden="false" import="true" targetId="0b54-6ba9-f583-4b19" type="selectionEntry">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+          </modifiers>
+        </entryLink>
+        <entryLink name="Laspistol" id="7f4f-2e89-98d2-bb2d" hidden="false" import="true" targetId="c7f1-1050-a6b5-63ea" type="selectionEntry">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+          </modifiers>
+        </entryLink>
         <entryLink name="Chainsword" id="02da-2b72-63df-1aa3" hidden="false" import="true" targetId="6532-77a1-b02e-b458" type="selectionEntry"/>
         <entryLink name="Power Sword" id="4c34-25b3-137e-078d" hidden="false" import="true" targetId="ccde-c0d6-e2fd-023a" type="selectionEntry"/>
         <entryLink name="Power Fist" id="0328-1a93-1a7a-7a5f" hidden="false" import="true" targetId="38ee-c6a0-1cec-7e62" type="selectionEntry"/>
@@ -5929,7 +6002,11 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       </costs>
       <entryLinks>
         <entryLink name="Flamer" id="a446-12f5-8ad8-0009" hidden="false" import="true" targetId="f2ff-b929-4628-42ff" type="selectionEntry"/>
-        <entryLink name="Grenade Launcher" id="6015-4d93-cc52-b089" hidden="false" import="true" targetId="15c9-8839-7f65-9a7b" type="selectionEntry"/>
+        <entryLink name="Grenade Launcher" id="6015-4d93-cc52-b089" hidden="false" import="true" targetId="15c9-8839-7f65-9a7b" type="selectionEntry">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
         <entryLink name="Meltagun" id="de7e-69c5-bfb5-7adb" hidden="false" import="true" targetId="3b2e-b26d-a171-e690" type="selectionEntry"/>
         <entryLink name="Plasma Gun" id="0add-e4fd-9683-65e8" hidden="false" import="true" targetId="3293-1d5d-54c9-5cf6" type="selectionEntry"/>
       </entryLinks>

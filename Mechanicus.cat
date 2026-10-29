@@ -138,7 +138,10 @@ This unit may instead not attach to anything.</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Conversion Beamer" hidden="false" id="f69e-4c63-e09d-8621" type="selectionEntry" targetId="8004-44a4-150e-3506">
                   <modifiers>
-                    <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                  
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+                    <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="2"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -362,7 +365,7 @@ This unit may instead not attach to anything.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abe2-3a0c-29bb-cb81" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -949,6 +952,8 @@ b) SKITARII VANGUARDS</characteristic>
                           <modifiers>
                             <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                          
+                            <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="678e-9d52-347d-4e9c-min" includeChildSelections="false"/>
@@ -1167,6 +1172,8 @@ b) SKITARII VANGUARDS</characteristic>
                                   </constraints>
                                   <modifiers>
                                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                  
+                                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                                   </modifiers>
                                 </entryLink>
                               </entryLinks>
@@ -1418,8 +1425,9 @@ b) SKITARII VANGUARDS</characteristic>
                           <modifiers>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                             <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
-                            <modifier type="prepend" value="Heavy" field="name" affects="profiles.Weapon"/>
-                            <modifier type="prepend" value="Heavy" field="name"/>
+                            <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/>
+                            <modifier type="prepend" value="Heavy " field="name" affects="profiles.Weapon"/>
+                            <modifier type="prepend" value="Heavy " field="name"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b237-a9c2-ebdd-85b9-min" includeChildSelections="false"/>
@@ -1495,8 +1503,9 @@ b) SKITARII VANGUARDS</characteristic>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                         <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
-                        <modifier type="prepend" value="Heavy" field="name" affects="profiles.Weapon"/>
-                        <modifier type="prepend" value="Heavy" field="name"/>
+                        <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/>
+                        <modifier type="prepend" value="Heavy " field="name" affects="profiles.Weapon"/>
+                        <modifier type="prepend" value="Heavy " field="name"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Torsion Cannon" hidden="false" id="d244-9353-a413-7dcf" type="selectionEntry" targetId="800a-36db-c8eb-33c3" sortIndex="2"/>
@@ -1757,6 +1766,10 @@ b) SKITARII VANGUARDS</characteristic>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="131e-c212-98ca-8f50-min" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="131e-c212-98ca-8f50-max" includeChildSelections="false"/>
                           </constraints>
+                        
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                          </modifiers>
                         </entryLink>
                       </entryLinks>
                     </selectionEntry>
@@ -1771,8 +1784,17 @@ b) SKITARII VANGUARDS</characteristic>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="106d-91f1-fa1a-bad9-max" includeChildSelections="false"/>
                           </constraints>
                           <entryLinks>
-                            <entryLink import="true" name="Phased Plasma-Fusil" hidden="false" id="f33a-aa31-1e0d-e234" type="selectionEntry" targetId="c10a-4a1f-e2b5-082f" sortIndex="1"/>
-                            <entryLink import="true" name="Photon Thruster" hidden="false" id="3753-04db-2c24-491d" type="selectionEntry" targetId="b684-bd45-c923-96cf" sortIndex="2"/>
+                            <entryLink import="true" name="Phased Plasma-Fusil" hidden="false" id="f33a-aa31-1e0d-e234" type="selectionEntry" targetId="c10a-4a1f-e2b5-082f" sortIndex="1">
+                              <modifiers>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                              </modifiers>
+                            </entryLink>
+                            <entryLink import="true" name="Photon Thruster" hidden="false" id="3753-04db-2c24-491d" type="selectionEntry" targetId="b684-bd45-c923-96cf" sortIndex="2">
+                              <modifiers>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+                              </modifiers>
+                            </entryLink>
                             <entryLink import="true" name="Multi-Melta" hidden="false" id="5177-9bf6-56ea-e066" type="selectionEntry" targetId="8cdb-d231-cc0f-a98f" sortIndex="3">
                               <modifiers>
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
@@ -1837,13 +1859,13 @@ b) SKITARII VANGUARDS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Lightning Gun" hidden="false" id="9ef3-1b4c-1b84-df07" type="selectionEntry" targetId="1769-d884-97c0-86c7" sortIndex="1">
                       <modifiers>
-                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                        <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Irad Cleanser" hidden="false" id="eefe-e393-82cd-0f8f" type="selectionEntry" targetId="f635-1e34-45c6-d4ec" sortIndex="2">
                       <modifiers>
-                        <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                       </modifiers>
                     </entryLink>
@@ -2227,7 +2249,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">snip snip, Pierce</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2244,7 +2266,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+1</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
                   </characteristics>
                 </profile>
@@ -2254,7 +2276,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+1</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
                   </characteristics>
                 </profile>
@@ -2314,7 +2336,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Suppressive 2D3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 2D3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2478,7 +2500,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2645,6 +2667,8 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                     <modifier type="append" value="s" field="name" join=""/>
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="append" value="s" field="name" affects="profiles.Weapon" join=""/>
+                  
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="15"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -2734,7 +2758,7 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Suppressive 2D3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 2D3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3029,12 +3053,12 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Pierce" id="1529-78d3-ca73-021c" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+                <infoLink name="Shred" id="1529-78d3-ca73-021c" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Termite Drill" hidden="false" id="37e9-8d99-e079-97b7">
@@ -3050,7 +3074,7 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">After the target for this weapon’s attacks is selected, this weapon’s A is improved by a number equal to the T of the target unit.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">After the target for this weapon’s attacks is selected, this weapon’s A is improved by a number equal to twice the T of the target unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3363,7 +3387,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Indirect, Barrage, Ignores Cover, Pierce, This weapon can only select targets for its attacks once per battle round.</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Indirect, Barrage, Ignore Cover, Pierce, This weapon can only select targets for its attacks once per battle round.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

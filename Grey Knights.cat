@@ -869,7 +869,8 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -912,9 +913,19 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Storm Bolter" hidden="false" id="9f5c-ba61-6dd0-e959" type="selectionEntry" targetId="086a-23f4-526e-9772" />
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="9f5c-ba61-6dd0-e959" type="selectionEntry" targetId="086a-23f4-526e-9772">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Force Weapon" hidden="false" id="7984-1d5e-8f3a-fbe0" type="selectionEntry" targetId="b35f-4c9c-64a0-4924" />
-        <entryLink import="true" name="Force Falchions" hidden="false" id="17f9-ed8d-2aac-2693" type="selectionEntry" targetId="1dad-85f1-40a8-9b49" />
+        <entryLink import="true" name="Force Falchions" hidden="false" id="17f9-ed8d-2aac-2693" type="selectionEntry" targetId="1dad-85f1-40a8-9b49">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="16"/>
+            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Daemon Hammer" hidden="false" id="9478-1f4e-9643-4b64" type="selectionEntry" targetId="6c4e-c870-e191-b780" />
       </entryLinks>
     </selectionEntry>
@@ -953,9 +964,22 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Omnissian Axe" hidden="false" id="d8b6-6443-d475-a200" type="selectionEntry" targetId="1be9-e73a-2c60-e545" />
-        <entryLink import="true" name="Force Weapon" hidden="false" id="7599-0dbd-559f-399c" type="selectionEntry" targetId="b35f-4c9c-64a0-4924" />
-        <entryLink import="true" name="Daemon Hammer" hidden="false" id="ce97-966c-8b26-17b8" type="selectionEntry" targetId="6c4e-c870-e191-b780" />
-        <entryLink import="true" name="Force Stave" hidden="false" id="0882-6a58-a3d5-138d" type="selectionEntry" targetId="6c80-983e-a949-23d7" />
+        <entryLink import="true" name="Force Weapon" hidden="false" id="7599-0dbd-559f-399c" type="selectionEntry" targetId="b35f-4c9c-64a0-4924">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Daemon Hammer" hidden="false" id="ce97-966c-8b26-17b8" type="selectionEntry" targetId="6c4e-c870-e191-b780">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Force Stave" hidden="false" id="0882-6a58-a3d5-138d" type="selectionEntry" targetId="6c80-983e-a949-23d7">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="4"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Grav-Pistol" hidden="false" id="1c83-70b1-6dd6-09e3" type="selectionEntry" targetId="df1e-3c98-b40a-f42f" />
         <entryLink import="true" name="Plasma Pistol" hidden="false" id="8a31-5da6-8da3-e472" type="selectionEntry" targetId="600d-6fb7-3a27-2273" />
         <entryLink import="true" name="Bolt Pistol" hidden="false" id="ac8b-04d1-6833-ae28" type="selectionEntry" targetId="e10f-a5e8-bc29-7ed1" />
@@ -1056,11 +1080,34 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Force Weapon" hidden="false" id="5c56-3fc5-c57a-ccfe" type="selectionEntry" targetId="b35f-4c9c-64a0-4924" />
-        <entryLink import="true" name="Force Falchions" hidden="false" id="31dd-5705-817e-497f" type="selectionEntry" targetId="1dad-85f1-40a8-9b49" />
-        <entryLink import="true" name="Daemon Hammer" hidden="false" id="9eff-f7d9-6f6d-2d95" type="selectionEntry" targetId="6c4e-c870-e191-b780" />
-        <entryLink import="true" name="Storm Bolter" hidden="false" id="0e61-e780-d2b7-8a02" type="selectionEntry" targetId="086a-23f4-526e-9772" />
-        <entryLink import="true" name="Force Stave" hidden="false" id="b496-a239-15ae-7a05" type="selectionEntry" targetId="6c80-983e-a949-23d7" />
+        <entryLink import="true" name="Force Weapon" hidden="false" id="5c56-3fc5-c57a-ccfe" type="selectionEntry" targetId="b35f-4c9c-64a0-4924">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Force Falchions" hidden="false" id="31dd-5705-817e-497f" type="selectionEntry" targetId="1dad-85f1-40a8-9b49">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="11"/>
+            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Daemon Hammer" hidden="false" id="9eff-f7d9-6f6d-2d95" type="selectionEntry" targetId="6c4e-c870-e191-b780">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="0e61-e780-d2b7-8a02" type="selectionEntry" targetId="086a-23f4-526e-9772">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Force Stave" hidden="false" id="b496-a239-15ae-7a05" type="selectionEntry" targetId="6c80-983e-a949-23d7">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="4"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Grey Knight Dreadnought" hidden="false" id="afe9-1819-c6b0-ae29" sortIndex="1">
@@ -1116,12 +1163,32 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <entryLink import="true" name="Power Scourge" hidden="false" id="d70b-c8a0-18c3-a87e" type="selectionEntry" targetId="ed36-f9c4-ccef-0198" />
         <entryLink import="true" name="Nemesis Doomglaive" hidden="false" id="50cf-fa4f-d462-fad4" type="selectionEntry" targetId="be23-dc0d-4668-a50c" />
         <entryLink import="true" name="Nemesis Doomfist" hidden="false" id="5bf6-5978-f96f-5eda" type="selectionEntry" targetId="9e32-de3b-a3f4-7c37" />
-        <entryLink import="true" name="Storm Bolter" hidden="false" id="01f2-56bc-3060-1d9f" type="selectionEntry" targetId="086a-23f4-526e-9772" />
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="01f2-56bc-3060-1d9f" type="selectionEntry" targetId="086a-23f4-526e-9772">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Heavy Flamer" hidden="false" id="af57-e814-bb47-d9e8" type="selectionEntry" targetId="0324-52cc-2766-af59" />
-        <entryLink import="true" name="Incinerator" hidden="false" id="5ae2-5d09-298c-32b0" type="selectionEntry" targetId="302a-b831-3210-5084" />
+        <entryLink import="true" name="Incinerator" hidden="false" id="5ae2-5d09-298c-32b0" type="selectionEntry" targetId="302a-b831-3210-5084">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="7"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Missile Launcher" hidden="false" id="cdbf-d2b1-a786-c39a" type="selectionEntry" targetId="e8ec-a36f-a9f0-76be" />
-        <entryLink import="true" name="Psycannon" hidden="false" id="bf3a-3cd1-25c0-b45c" type="selectionEntry" targetId="cd1a-11be-9f06-71ee" />
-        <entryLink import="true" name="Psilencer" hidden="false" id="c841-8d35-2d80-7873" type="selectionEntry" targetId="b66d-2be5-d375-8ab1" />
+        <entryLink import="true" name="Psycannon" hidden="false" id="bf3a-3cd1-25c0-b45c" type="selectionEntry" targetId="cd1a-11be-9f06-71ee">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+            <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="4"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Psilencer" hidden="false" id="c841-8d35-2d80-7873" type="selectionEntry" targetId="b66d-2be5-d375-8ab1">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="16"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Multi-Melta" hidden="false" id="591d-3085-4530-5e59" type="selectionEntry" targetId="e13e-adcf-3a2e-a530" />
         <entryLink import="true" name="Plasma Cannon" hidden="false" id="ea7c-e3fe-a464-a141" type="selectionEntry" targetId="69c9-9a4d-be3c-9711" />
         <entryLink import="true" name="Twin Lascannon" hidden="false" id="a5a1-2064-decc-a6e9" type="selectionEntry" targetId="5c13-e86c-b6f6-47a6" />
@@ -1350,7 +1417,9 @@ b) GREY KNIGHT PALADIN</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Force Falchions" hidden="false" id="95a1-d460-4de0-47c6" type="selectionEntry" targetId="1dad-85f1-40a8-9b49">
                       <modifiers>
-                        <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      
+                        <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="3"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>

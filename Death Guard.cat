@@ -372,13 +372,14 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9d7c-d601-632e-0d97-max" includeChildSelections="false" />
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Dual Plague Knives" hidden="false" id="455d-5ab1-5ec1-4904" type="selectionEntry" targetId="643f-017d-ea70-c997">
+            <entryLink import="true" name="Plague Knife" hidden="false" id="455d-5ab1-5ec1-4904" type="selectionEntry" targetId="643f-017d-ea70-c997">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ab0-fa89-f996-81e1-min" includeChildSelections="false" />
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4ab0-fa89-f996-81e1-max" includeChildSelections="false" />
               </constraints>
               <modifiers>
-                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="Plague Knife" field="name" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Blight Grenade" hidden="false" id="85df-7a65-bed8-1c11" type="selectionEntry" targetId="b2d1-1122-5503-1e0f" />
@@ -397,7 +398,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Plague, Ignores Cover</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Plague, Ignore Cover</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -626,7 +627,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 3, Putrid, Ignores Cover, Plague</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 3, Putrid, Ignore Cover, Plague</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -645,13 +646,14 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Dual Plague Knives" hidden="false" id="2d05-92ac-6ec5-27a0" type="selectionEntry" targetId="643f-017d-ea70-c997">
+            <entryLink import="true" name="Plague Knife" hidden="false" id="2d05-92ac-6ec5-27a0" type="selectionEntry" targetId="643f-017d-ea70-c997">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b19e-8219-5aba-178b-min" includeChildSelections="false" />
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b19e-8219-5aba-178b-max" includeChildSelections="false" />
               </constraints>
               <modifiers>
                 <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="Plague Knife" field="name" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
             <entryLink import="true" name="Blight Grenade" hidden="false" id="7b3d-2ac1-9425-d1f3" type="selectionEntry" targetId="b2d1-1122-5503-1e0f" />
@@ -949,7 +951,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Poisoned Quill " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4b7d-3fc7-cd02-2ec6">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1042,7 +1044,11 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="ec3b-ea7a-9409-3721" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
-                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="bd23-fad7-08e3-1ca5" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4" />
+                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="bd23-fad7-08e3-1ca5" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                      </modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="416d-17ed-4784-b810" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -1076,6 +1082,10 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="51b8-955b-756f-a4e4-min" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="51b8-955b-756f-a4e4-max" includeChildSelections="false" />
                           </constraints>
+                        
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                          </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="d5f0-79ab-c056-c4a7" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
                           <constraints>
@@ -1338,7 +1348,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               </constraints>
                               <modifiers>
                                 <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                           </entryLinks>
@@ -1961,7 +1971,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignores Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2018,12 +2028,12 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dual Plague Knives" hidden="false" id="643f-017d-ea70-c997">
       <profiles>
-        <profile name="Duel Plague Knives" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="61c8-56f9-7781-eb9a">
+        <profile name="Dual Plague Knives" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="61c8-56f9-7781-eb9a">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
@@ -2429,7 +2439,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignores Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2489,7 +2499,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="ff44-ba84-ab73-db9e" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
-                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="143c-16d4-88c8-810b" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4" />
+                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="143c-16d4-88c8-810b" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                      </modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="fb94-4374-867c-1f21" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -2523,6 +2537,10 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6692-4c52-e50c-b33d" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="89b1-d67a-71ee-02e6" includeChildSelections="false" />
                           </constraints>
+                        
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                          </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="4f74-ae46-9383-40c4" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
                           <constraints>
@@ -2628,7 +2646,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="49f0-0b27-84e3-9262" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
-                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="fb60-624e-5a67-9056" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4" />
+                    <entryLink import="true" name="Bubotic Weapon" hidden="false" id="fb60-624e-5a67-9056" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                      </modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="ab4e-7b9a-b4ce-5f79" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -2665,6 +2687,10 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ce46-a2ee-c474-2090" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b6a2-fcde-d905-fbd9" includeChildSelections="false" />
                           </constraints>
+                        
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                          </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="e487-7440-1a68-b75a" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
                           <constraints>
@@ -2751,7 +2777,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba02-a2d0-c21f-0348-max" includeChildSelections="false" />
                                   </constraints>
                                   <modifiers>
-                                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="prepend" value="Champion" field="name" affects="profiles.Weapon" />
                                   </modifiers>
                                 </entryLink>
@@ -3192,7 +3218,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
       <entryLinks>
         <entryLink import="true" name="Plagueburst Mortar" hidden="false" id="1a38-c11c-8269-d895" type="selectionEntry" targetId="6148-4ac6-0e7e-2adb" />
         <entryLink import="true" name="Entropy Cannons" hidden="false" id="a574-9542-519d-9351" type="selectionEntry" targetId="caa5-01d2-06d6-ea78" />
-        <entryLink import="true" name="Plaguespitters" hidden="false" id="e396-9fb3-0c03-7f9b" type="selectionEntry" targetId="50ae-2a9a-e27c-ba19" />
+        <entryLink import="true" name="Plaguespitters" hidden="false" id="e396-9fb3-0c03-7f9b" type="selectionEntry" targetId="50ae-2a9a-e27c-ba19">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Rothail Volley Gun" hidden="false" id="c329-28ba-ebdf-c583" type="selectionEntry" targetId="d5ff-34b6-2c0a-b2b3" />
         <entryLink import="true" name="Heavy Slugger" hidden="false" id="58be-b32a-521b-33e7" type="selectionEntry" targetId="c7cd-f232-fcdb-fe5f" />
         <entryLink import="true" name="Bulldozer Blade" hidden="false" id="265f-b6dc-1a7e-07ed" type="selectionEntry" targetId="f57f-65df-4665-f3b2" />

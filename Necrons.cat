@@ -2336,7 +2336,7 @@ FABRICATE: After this unit’s Move step, if there is a friendly CANOPTEK SCARA
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">That unit uses Living Metal</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3025,7 +3025,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Guass</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3096,7 +3096,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
                       </characteristics>
                     </profile>

@@ -13,7 +13,7 @@
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
           </characteristics>
         </profile>
-      <profile typeId="5275215c-f22b-40e6-b56e-b2b0b8667648" typeName="Weapon" hidden="false" id="25ccdfa5" name="Prismatic Cannon"><characteristics><characteristic name="Tp" typeId="90cd3fab-3bfc-4d05-a937-ad14b9497797">Aslt</characteristic><characteristic name="D" typeId="6620e1b8-8db9-4877-a74f-a469ef1fa67e">3+1</characteristic></characteristics></profile></profiles>
+</profiles>
       <infoLinks>
         <infoLink name="Hunt" id="016c-fd4d-6af2-a0e2" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805" />
       </infoLinks>

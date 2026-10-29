@@ -628,12 +628,13 @@ c) INCUBI</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, Isolate</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Shred" id="27dd-182f-7bf2-f42e" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                    <infoLink name="Isolate" id="c7d2-29d2-8ed2-48a9" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Baleblast" hidden="false" id="e6a6-d815-3e32-f9f7">
@@ -649,12 +650,13 @@ c) INCUBI</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, Isolate, Ignore Cover</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Shred" id="1158-9b62-7423-be4a" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                    <infoLink name="Isolate" id="9945-73ea-a2a1-4481" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
                     <infoLink name="Ignore Cover" id="0a89-530f-a721-3fe3" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
                   </infoLinks>
                 </selectionEntry>
@@ -786,7 +788,7 @@ c) INCUBI</characteristic>
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
-                    </entryLink><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Plasma Grenade" hidden="false" id="c103-ed72-5fad-2ade" type="selectionEntry" targetId="16c6-5a66-c200-152f">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -839,6 +841,7 @@ c) INCUBI</characteristic>
                             <entryLink import="true" name="Blast Pistol" hidden="false" id="c6ad-637e-9b46-6224" type="selectionEntry" targetId="028c-ee1f-5eb4-8541" sortIndex="2">
                               <modifiers>
                                 <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                                 <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -1050,7 +1053,8 @@ c) INCUBI</characteristic>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="afc3-a313-8b77-30cc-max" includeChildSelections="false" />
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                    <modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -1461,7 +1465,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                 <entryLink import="true" name="Splinter Cannon" hidden="false" id="f0b6-74ce-6bcc-951d" type="selectionEntry" targetId="0d3c-7c03-8827-c4e6" sortIndex="1">
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Haywire Blaster" hidden="false" id="939d-0e91-0a0f-fdbc" type="selectionEntry" targetId="f95b-b62d-484e-3453" sortIndex="2">
@@ -2262,6 +2266,10 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6bba-a475-4d9c-502b-min" includeChildSelections="false" />
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bba-a475-4d9c-502b-max" includeChildSelections="false" />
                   </constraints>
+                  <modifiers>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                  </modifiers>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -2508,7 +2516,8 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb77-d40a-e48e-0531-max" includeChildSelections="false" />
                   </constraints>
                   <modifiers>
-                    <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -2725,7 +2734,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Precision, Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Isolate, Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2950,7 +2959,8 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                               <modifiers>
                                 <modifier type="prepend" value="Syren" field="name" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="Poison" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Blast Pistol" hidden="false" id="0bf6-0e7c-578b-c38e" type="selectionEntry" targetId="028c-ee1f-5eb4-8541">
@@ -3003,7 +3013,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
                       </costs>
-                    </entryLink><modifiers><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" /></modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Plasma Grenade" hidden="false" id="4123-4275-3520-4d3a" type="selectionEntry" targetId="16c6-5a66-c200-152f">
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -3312,7 +3322,12 @@ If you do add one or more of those units to your Army List, your Army Rules gain
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Splinter Pods" hidden="false" id="c7e5-48d7-9b35-91ff" type="selectionEntry" targetId="0325-490e-5a2a-8b45" ><modifiers><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" /></modifiers></entryLink>
-        <entryLink import="true" name="Agoniser" hidden="false" id="ec0a-090e-9528-ae73" type="selectionEntry" targetId="4c06-5829-c3a6-f409" />
+        <entryLink import="true" name="Agoniser" hidden="false" id="ec0a-090e-9528-ae73" type="selectionEntry" targetId="4c06-5829-c3a6-f409">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lhamaean" hidden="false" id="8f79-5a43-b8aa-af12" sortIndex="1">

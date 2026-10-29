@@ -854,7 +854,11 @@ This unit does not count towards the leader maximum of the army list.</character
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf05-9b3e-bcb1-71b9-max" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Inferno Combi-Bolter" hidden="false" id="dcfd-5767-2a4f-8c2d" type="selectionEntry" targetId="538d-3054-aab9-ecb6" sortIndex="1"/>
+                <entryLink import="true" name="Inferno Combi-Bolter" hidden="false" id="dcfd-5767-2a4f-8c2d" type="selectionEntry" targetId="538d-3054-aab9-ecb6" sortIndex="1">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+                  </modifiers>
+                </entryLink>
                 <entryLink import="true" name="Sorcerer Staff" hidden="false" id="b55f-ccde-920c-d63c" type="selectionEntry" targetId="3ee6-8ec7-9b5b-c9ce" sortIndex="2">
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
@@ -1001,7 +1005,11 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                   </constraints>
                   <entryLinks>
                     <entryLink import="true" name="Inferno Boltgun" hidden="false" id="70c2-ac14-d010-8bcb" type="selectionEntry" targetId="5e89-6a0d-ed0a-a5f6" sortIndex="1"/>
-                    <entryLink import="true" name="Warpflamer" hidden="false" id="ee7c-4b45-067c-1976" type="selectionEntry" targetId="888e-ae4b-43a5-49b6" sortIndex="2"/>
+                    <entryLink import="true" name="Warpflamer" hidden="false" id="ee7c-4b45-067c-1976" type="selectionEntry" targetId="888e-ae4b-43a5-49b6" sortIndex="2">
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                      </modifiers>
+                    </entryLink>
                     <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="c43a-ecc2-65ae-2860" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="3">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="ac2f-9348-1f18-05b8" includeChildSelections="true"/>
@@ -1184,7 +1192,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Inferno Combi-Bolter" hidden="false" id="b4c2-df3e-ca9a-e360" type="selectionEntry" targetId="538d-3054-aab9-ecb6" sortIndex="1">
                       <modifiers>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -1202,7 +1210,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                             <profile name="Heavy Warpflamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="fa75-33fc-cbf0-e873">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">11</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>

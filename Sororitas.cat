@@ -202,6 +202,8 @@ a) BATTLE SISTERS</characteristic>
                       <modifiers>
                         <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                      
+                        <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa14-c73d-968b-88f9-min" includeChildSelections="false"/>
@@ -1049,6 +1051,8 @@ c) RETRIBUTORS</characteristic>
                                   <modifiers>
                                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                  
+                                    <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e37c-614c-bdf5-a1a3-min" includeChildSelections="false"/>
@@ -1061,7 +1065,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Hand Flamer" hidden="false" id="65ed-f904-5015-24c3" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                                   <modifiers>
-                                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df30-97c3-f5d5-e9f8-min" includeChildSelections="false"/>
@@ -1821,6 +1825,8 @@ c) RETRIBUTORS</characteristic>
                               <modifiers>
                                 <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                              
+                                <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fb9e-a498-edac-96a2-min" includeChildSelections="false"/>
@@ -2279,6 +2285,8 @@ c) RETRIBUTORS</characteristic>
                                   <modifiers>
                                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                  
+                                    <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e939-7c0f-5108-c61b-min" includeChildSelections="false"/>
@@ -2734,6 +2742,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                           <modifiers>
                             <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                            <modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a754-9044-7d0a-1d31-min" includeChildSelections="false"/>
@@ -3165,6 +3174,8 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                           <modifiers>
                             <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                          
+                            <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                           </modifiers>
                         </entryLink>
                       </entryLinks>
@@ -4021,7 +4032,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                               <entryLinks>
                                 <entryLink import="true" name="Condemnor Boltgun" hidden="false" id="70e0-aafd-1319-355c" type="selectionEntry" targetId="e511-a19f-8557-dda6">
                                   <modifiers>
-                                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
@@ -4037,6 +4048,8 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                                   <modifiers>
                                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                  
+                                    <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5fb2-5787-c7e5-f448-min" includeChildSelections="false"/>
@@ -4049,7 +4062,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                               <entryLinks>
                                 <entryLink import="true" name="Hand Flamer" hidden="false" id="962e-a2c0-7e4b-c354" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                                   <modifiers>
-                                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="13" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b111-a8e7-67b7-b040-min" includeChildSelections="false"/>
@@ -4134,12 +4147,12 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Holy Trinity, Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Holy Trinity, Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="aa0a-750c-d200-c955" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+        <infoLink name="Shred" id="a0e8-faf2-2160-4694" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
         <infoLink name="Holy Trinity" id="a7e5-9de9-2076-0fae" hidden="false" type="rule" targetId="5328-f292-f3b4-de07"/>
       </infoLinks>
     </selectionEntry>
@@ -4169,13 +4182,12 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Holy Trinity, For each attack made for this weapon targeting a chaos unit or a unit with Psyker X, that attack gains Pierce.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Psyker, that attack gains Pierce.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Pierce" id="9985-1956-699f-fcc9" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
-        <infoLink name="Holy Trinity" id="54fc-4025-b36c-baa1" hidden="false" type="rule" targetId="5328-f292-f3b4-de07"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Munitorum Cherub" hidden="false" id="2772-031f-6d96-99c5">
@@ -4285,7 +4297,8 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>

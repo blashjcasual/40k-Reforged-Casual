@@ -1120,8 +1120,16 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e599-c9bb-90ac-2a1f-max" includeChildSelections="false" />
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Heavy Venom Cannon" hidden="false" id="ea18-a777-a230-4c79" type="selectionEntry" targetId="a391-602f-fd75-1db7" sortIndex="4" />
-                <entryLink import="true" name="Stranglethorn Cannon" hidden="false" id="74a9-ceb3-6384-1f37" type="selectionEntry" targetId="3518-6226-731a-d7f7" sortIndex="5" />
+                <entryLink import="true" name="Heavy Venom Cannon" hidden="false" id="ea18-a777-a230-4c79" type="selectionEntry" targetId="a391-602f-fd75-1db7" sortIndex="4">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Stranglethorn Cannon" hidden="false" id="74a9-ceb3-6384-1f37" type="selectionEntry" targetId="3518-6226-731a-d7f7" sortIndex="5">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
+                  </modifiers>
+                </entryLink>
               </entryLinks>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Carnifex Crushing Claws" hidden="false" id="13b5-b6b4-e903-fffb" sortIndex="2">
@@ -1146,7 +1154,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <profile name="Carnifex Death Spitter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6938-4533-5394-837a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1164,7 +1172,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                             <modifier type="set" value="Carnifex Scything Talons " field="name" />
                             <modifier type="set" value="Carnifex Scything Talons " field="name" affects="profiles.Weapon" />
@@ -1196,7 +1204,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                   <modifierGroups>
                     <modifierGroup type="and">
                       <modifiers>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="Carnifex Scything Talons " field="name" />
                         <modifier type="set" value="Carnifex Scything Talons " field="name" affects="profiles.Weapon" />
@@ -1769,18 +1777,18 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                 <profile name="Bio-Plasmic Cannon (Strike)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="d285-b3e2-4bb5-98ce">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Breach, Pierce</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Bio-Plasmic Cannon (Sweep)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cdad-cb06-f315-09a5">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">16</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Pierce</characteristic>
@@ -2899,7 +2907,8 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -2912,7 +2921,8 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -2925,7 +2935,8 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -2973,7 +2984,8 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -3090,7 +3102,12 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Scything Talons" hidden="false" id="515e-c34b-eee2-26b9" type="selectionEntry" targetId="3abd-eddf-7562-c736" />
+        <entryLink import="true" name="Scything Talons" hidden="false" id="515e-c34b-eee2-26b9" type="selectionEntry" targetId="3abd-eddf-7562-c736">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="10"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Wings" hidden="false" id="96ac-f940-087e-4b06" type="selectionEntry" targetId="5d00-ed5e-c9a2-a4c2" />
       </entryLinks>
     </selectionEntry>
@@ -3149,11 +3166,25 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Scything Talons" hidden="false" id="ad7a-5df6-ed9f-ade6" type="selectionEntry" targetId="3abd-eddf-7562-c736" />
+        <entryLink import="true" name="Scything Talons" hidden="false" id="ad7a-5df6-ed9f-ade6" type="selectionEntry" targetId="3abd-eddf-7562-c736">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Rending Claws" hidden="false" id="65e4-6a92-1c51-a1a7" type="selectionEntry" targetId="deeb-cd62-949e-b277" />
-        <entryLink import="true" name="Bone Sword" hidden="false" id="fe8e-230e-283f-9633" type="selectionEntry" targetId="895c-af4a-f45f-d1ae" />
+        <entryLink import="true" name="Bone Sword" hidden="false" id="fe8e-230e-283f-9633" type="selectionEntry" targetId="895c-af4a-f45f-d1ae">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Rending Claw" hidden="false" id="5b7c-678d-23dd-e95a" type="selectionEntry" targetId="116e-d903-3fb6-735a" />
-        <entryLink import="true" name="Lash Whip" hidden="false" id="03ed-fae9-f480-90e7" type="selectionEntry" targetId="994e-6591-7b08-aac1" />
+        <entryLink import="true" name="Lash Whip" hidden="false" id="03ed-fae9-f480-90e7" type="selectionEntry" targetId="994e-6591-7b08-aac1">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Death Spitter" hidden="false" id="04d3-be41-f374-e00f" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc" />
         <entryLink import="true" name="Venom Cannon" hidden="false" id="2131-7696-a837-a739" type="selectionEntry" targetId="ea43-76b9-cd3d-4cc0" />
         <entryLink import="true" name="Barbed Strangler" hidden="false" id="887c-95f8-a474-300e" type="selectionEntry" targetId="3a02-948d-7aa5-8ca4" />
@@ -3299,7 +3330,11 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Ravener Claws and Talons" hidden="false" id="9fb2-ddc3-de7d-7b85" type="selectionEntry" targetId="289f-bae5-686b-5d88" />
-        <entryLink import="true" name="Death Spitter" hidden="false" id="acf0-d5fe-378e-1dda" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc" />
+        <entryLink import="true" name="Death Spitter" hidden="false" id="acf0-d5fe-378e-1dda" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Devourer" hidden="false" id="1577-c685-85a1-676f" type="selectionEntry" targetId="b1c2-26fb-9e50-8dd3" />
         <entryLink import="true" name="Spinefist" hidden="false" id="aeb9-20fe-8f4a-a0be" type="selectionEntry" targetId="08ab-80f6-80b4-e933" />
       </entryLinks>

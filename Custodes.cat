@@ -254,7 +254,7 @@
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Pierce</characteristic>
           </characteristics>
         </profile>
@@ -605,7 +605,7 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
               <entryLinks>
                 <entryLink import="true" name="Pyrithite Spear" hidden="false" id="b4b0-702c-4feb-d24a" type="selectionEntry" targetId="ee7a-3c29-3c1a-23cb" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="self.entries.e101-1d84-20ff-ccd2.profiles.Weapon"/>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="self.entries.e101-1d84-20ff-ccd2.profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -744,11 +744,12 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="255d-7317-751f-b708-max" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Hurricane Bolter" hidden="false" id="b0a3-8d7a-2b3e-7694" type="selectionEntry" targetId="14ea-3595-4572-a02d" sortIndex="2">
+                <entryLink import="true" name="Sponson Hurricane Bolters" hidden="false" id="b0a3-8d7a-2b3e-7694" type="selectionEntry" targetId="14ea-3595-4572-a02d" sortIndex="2">
                   <modifiers>
-                    <modifier type="prepend" value="Sponson" field="name" affects="profiles.Weapon"/>
-                    <modifier type="set" value="18" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="Sponson Hurricane Bolters" field="name" affects="profiles.Weapon"/>
+                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -1107,7 +1108,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
               <entryLinks>
                 <entryLink import="true" name="Pyrithite Spear" hidden="false" id="4c15-bc59-2b6b-5fb6" type="selectionEntry" targetId="ee7a-3c29-3c1a-23cb" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="self.entries.e101-1d84-20ff-ccd2.profiles.Weapon"/>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="self.entries.e101-1d84-20ff-ccd2.profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>

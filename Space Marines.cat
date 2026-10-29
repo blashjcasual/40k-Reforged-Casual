@@ -147,9 +147,10 @@
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3" >6</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" ></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2932,8 +2933,10 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3" >4</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" ></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2947,12 +2950,12 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="89e9-e03d-82a4-737e" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+        <infoLink name="Shred" id="89e9-e03d-82a4-737e" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="ab06-0f46-9b20-e308">
@@ -2961,6 +2964,8 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3" >2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
@@ -3073,7 +3078,7 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3110,6 +3115,10 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="8a31-4fbb-ec91-bf86" includeChildSelections="true" />
                       </constraints>
+                    
+                      <modifiers>
+                        <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
+                      </modifiers>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -3696,6 +3705,10 @@ b) JUMP PACK CHAPLAIN</characteristic>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c60f-ebcd-811f-4992" includeChildSelections="false" />
                                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4dcd-12cf-279f-3a03" includeChildSelections="false" />
                                   </constraints>
+                                
+                                  <modifiers>
+                                    <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
+                                  </modifiers>
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
@@ -4202,7 +4215,7 @@ b) JUMP PACK CHAPLAIN</characteristic>
                                     <modifierGroup type="and">
                                       <modifiers>
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </modifierGroup>
                                   </modifierGroups>
@@ -4437,7 +4450,7 @@ b) JUMP PACK CHAPLAIN</characteristic>
                                     <modifierGroup type="and">
                                       <modifiers>
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </modifierGroup>
                                   </modifierGroups>
@@ -4463,7 +4476,7 @@ b) JUMP PACK CHAPLAIN</characteristic>
                                     <modifierGroup type="and">
                                       <modifiers>
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </modifierGroup>
                                   </modifierGroups>
@@ -4670,8 +4683,8 @@ d) CHAPLAIN</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
                       </characteristics>
                     </profile>
@@ -5159,7 +5172,7 @@ d) CHAPLAIN</characteristic>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb6-e5aa-c9fd-6535-max" includeChildSelections="false" />
                           </constraints>
                           <modifiers>
-                            <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                         </entryLink>
@@ -5500,13 +5513,13 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pierce" id="feeb-d236-acd1-e5d3" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Shred" id="feeb-d236-acd1-e5d3" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Leviathan Storm Cannon" hidden="false" id="cd93-7e89-7252-c4ef" sortIndex="2">
@@ -6068,7 +6081,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Blast 9</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Blast 9</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6086,7 +6099,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Barrage, Blast 5, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 5, Ignore Cover</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6408,7 +6421,7 @@ c) PHOBOS LIEUTENANT</characteristic>
               <profiles>
                 <profile name="Demolisher Cannon " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7b7e-6c6c-1b98-ae0e">
                   <characteristics>
-                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
@@ -6994,7 +7007,8 @@ c) PHOBOS LIEUTENANT</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7093,7 +7107,8 @@ c) PHOBOS LIEUTENANT</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7207,7 +7222,8 @@ c) PHOBOS LIEUTENANT</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -7358,10 +7374,25 @@ c) PHOBOS LIEUTENANT</characteristic>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Combat Knife" hidden="false" id="161f-7f89-ac1d-0cf5" type="selectionEntry" targetId="a0e3-54ef-3ad5-3039" />
+        <entryLink import="true" name="Combat Knife" hidden="false" id="161f-7f89-ac1d-0cf5" type="selectionEntry" targetId="a0e3-54ef-3ad5-3039">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Shock Grenade" hidden="false" id="f1e2-7d2f-8a8f-cf0e" type="selectionEntry" targetId="fb45-0b07-1d60-a161" />
-        <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="1237-4f20-e117-89b9" type="selectionEntry" targetId="051d-4a2c-81be-094d" />
-        <entryLink import="true" name="Bolt Carbine" hidden="false" id="5496-ba23-65f7-8691" type="selectionEntry" targetId="71d2-7131-6b87-c38b" />
+        <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="1237-4f20-e117-89b9" type="selectionEntry" targetId="051d-4a2c-81be-094d">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Bolt Carbine" hidden="false" id="5496-ba23-65f7-8691" type="selectionEntry" targetId="71d2-7131-6b87-c38b">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Devastators" hidden="false" id="a07a-7b42-1533-a436" sortIndex="1">
@@ -7411,7 +7442,12 @@ c) PHOBOS LIEUTENANT</characteristic>
         <entryLink import="true" name="Grav Pistol" hidden="false" id="0456-5c11-7cd7-522e" type="selectionEntry" targetId="b13a-1e24-79e9-3e50" />
         <entryLink import="true" name="Power Fist" hidden="false" id="ca24-fc73-d046-314c" type="selectionEntry" targetId="821a-5dca-6214-061c" />
         <entryLink import="true" name="Power Weapon" hidden="false" id="f9ab-c310-d307-00f8" type="selectionEntry" targetId="0925-8050-b215-3458" />
-        <entryLink import="true" name="Lightning Claw" hidden="false" id="f8a7-a109-e79f-844b" type="selectionEntry" targetId="6e69-532c-9a66-4cb2" />
+        <entryLink import="true" name="Lightning Claw" hidden="false" id="f8a7-a109-e79f-844b" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Chainsword" hidden="false" id="bec4-01d1-5803-588e" type="selectionEntry" targetId="955e-464c-174e-dd5a" />
         <entryLink import="true" name="Thunder Hammer" hidden="false" id="a43f-32c0-4419-dbcf" type="selectionEntry" targetId="a26d-bbe4-6e1d-51af" />
         <entryLink import="true" name="Combi-Bolter" hidden="false" id="565d-639e-8190-9629" type="selectionEntry" targetId="712e-0b49-4851-f066" />
@@ -7555,7 +7591,11 @@ c) PHOBOS LIEUTENANT</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="48751ac2-79bd-4d33-9424-d0dcb779eb7a" includeChildSelections="false" />
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="4dc3-4322-769d-0022" type="selectionEntry" targetId="1691-93be-411a-e7d8" />
+                <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="4dc3-4322-769d-0022" type="selectionEntry" targetId="1691-93be-411a-e7d8">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+                  </modifiers>
+                </entryLink>
                 <entryLink import="true" name="Storm Bolter" hidden="false" id="49c4-3ae7-07af-08b3" type="selectionEntry" targetId="012c-11b9-e02e-9b7c" />
               </entryLinks>
             </selectionEntryGroup>
@@ -7659,6 +7699,10 @@ c) PHOBOS LIEUTENANT</characteristic>
           <constraints>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="10c60d80-8282-456a-b9d9-7edebbd405e9" includeChildSelections="false" />
           </constraints>
+        
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
         </entryLink>
       </entryLinks>
       <selectionEntryGroups>
@@ -11405,7 +11449,7 @@ b) ASSAULT TERMINATORS</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                       </characteristics>
                     </profile>

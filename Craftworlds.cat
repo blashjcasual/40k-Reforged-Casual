@@ -706,7 +706,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -719,7 +720,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -800,7 +802,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -847,7 +850,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-          </characteristics>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+</characteristics>
         </profile>
       </profiles>
     </selectionEntry>
@@ -938,16 +942,36 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <entryLinks>
         <entryLink import="true" name="Shuriken Pistol" hidden="false" id="fbe1-6183-1813-965f" type="selectionEntry" targetId="748f-7dc0-24ce-cc28" />
         <entryLink import="true" name="Death Spinner" hidden="false" id="e302-080e-ed76-ad33" type="selectionEntry" targetId="cf8a-26ed-56bd-dda3" />
-        <entryLink import="true" name="Dragon Fusion Gun" hidden="false" id="ba0b-6fad-00a7-298f" type="selectionEntry" targetId="5d9a-4723-f544-9215" />
+        <entryLink import="true" name="Dragon Fusion Gun" hidden="false" id="ba0b-6fad-00a7-298f" type="selectionEntry" targetId="5d9a-4723-f544-9215">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Fusion Pistol" hidden="false" id="1532-626d-97bd-091c" type="selectionEntry" targetId="f6fa-3a46-19b4-e537" />
-        <entryLink import="true" name="Prism Rifle" hidden="false" id="6b91-975c-05b5-4041" type="selectionEntry" targetId="b092-d1e7-ff8e-dac4" />
+        <entryLink import="true" name="Prism Rifle" hidden="false" id="6b91-975c-05b5-4041" type="selectionEntry" targetId="b092-d1e7-ff8e-dac4">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="1+"/>
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Lasblaster" hidden="false" id="34d2-e367-e55b-2737" type="selectionEntry" targetId="2a32-0cc5-2028-dbcf" />
         <entryLink import="true" name="Avenger Shuriken Catapult" hidden="false" id="fcf4-baf1-7df0-a741" type="selectionEntry" targetId="6e38-a547-ff51-eb74" />
         <entryLink import="true" name="Reaper Launcher Starshot" hidden="false" id="4f0a-d62b-7548-d587" type="selectionEntry" targetId="9eac-f1e5-2fa1-04ed" />
         <entryLink import="true" name="Starswarm" hidden="false" id="1b87-053b-da7c-12f0" type="selectionEntry" targetId="54e7-1c28-d79a-431f" />
-        <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="fa68-8ca2-843b-a0ca" type="selectionEntry" targetId="371a-257c-f256-a58c" />
+        <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="fa68-8ca2-843b-a0ca" type="selectionEntry" targetId="371a-257c-f256-a58c">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="10"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+            <modifier type="set" value="Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon" />
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Star Glaive" hidden="false" id="cfd6-e5af-504e-3606" type="selectionEntry" targetId="79a8-1b3f-f980-c589" />
-        <entryLink import="true" name="Banshee Blade" hidden="false" id="9efd-bf96-3fed-df42" type="selectionEntry" targetId="7cf7-1c42-d47f-4233" />
+        <entryLink import="true" name="Banshee Blade" hidden="false" id="9efd-bf96-3fed-df42" type="selectionEntry" targetId="7cf7-1c42-d47f-4233">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+            <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Wave Serpent" hidden="false" id="b189-9e8c-e657-1696" sortIndex="1">
@@ -2171,6 +2195,8 @@ b) WINDRIDERS</characteristic>
                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                     <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                     <modifier type="prepend" value="Twin" field="name" affects="profiles.Weapon" />
+                  
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                   </modifiers>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4be1-ffac-bb4a-33fd-min" includeChildSelections="false" />
@@ -3570,6 +3596,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="prepend" value="Twin" field="name" />
+                      
+                        <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e0f3-8e67-96ec-ea59-min" includeChildSelections="false" />
@@ -4109,6 +4137,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <selectionEntry type="upgrade" import="true" name="Prism Rifle" hidden="false" id="9bb4-7417-c534-febd" sortIndex="1">
                       <entryLinks>
                         <entryLink import="true" name="Prism Rifle" hidden="false" id="46ae-30ec-e903-cfd3" type="selectionEntry" targetId="b092-d1e7-ff8e-dac4">
+                          <modifiers>
+                            <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                          </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9579-03c0-e9e8-6996-min" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9579-03c0-e9e8-6996-max" includeChildSelections="false" />
@@ -4323,6 +4354,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="prepend" value="Hull" field="name" affects="profiles.Weapon" />
+                      
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7a1a-6d80-78f7-d0de" includeChildSelections="false" />
@@ -4472,9 +4505,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="05e9-a000-9677-4aba" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                              </modifiers>
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="Isolate, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon" /></modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9a47-3650-4323-ad2e" includeChildSelections="false" />
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76f5-8905-5ad8-7cad" includeChildSelections="false" />
@@ -4506,10 +4539,10 @@ a) GUARDIAN DEFENDERS</characteristic>
                             </entryLink>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="12ae-369b-86ad-710c" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="prepend" value="Exarch" field="name" affects="profiles.Weapon" />
-                              </modifiers>
+                              <modifier type="set" value="Isolate, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon" /></modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="66c6-3e12-3742-9ec0" includeChildSelections="false" />
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6a10-2162-37f1-c23f" includeChildSelections="false" />
@@ -4611,10 +4644,10 @@ a) GUARDIAN DEFENDERS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Scorpion Chainsword" hidden="false" id="3646-9499-432d-ea36" type="selectionEntry" targetId="371a-257c-f256-a58c">
                               <modifiers>
-                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="prepend" value="Exarch" field="name" affects="profiles.Weapon" />
-                              </modifiers>
+                              <modifier type="set" value="Isolate, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon" /></modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0744-b21f-72ab-9b8c" includeChildSelections="false" />
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8b5a-f77f-f22f-c77f" includeChildSelections="false" />
