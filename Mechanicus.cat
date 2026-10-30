@@ -3194,9 +3194,9 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     </profile>
                   </profiles>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Iran Cleansers" hidden="false" id="1387-2e33-92c0-aa7d" sortIndex="5">
+                <selectionEntry type="upgrade" import="true" name="Irad Cleansers" hidden="false" id="1387-2e33-92c0-aa7d" sortIndex="5">
                   <profiles>
-                    <profile name="Iran Cleansers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="82e0-609e-72af-30cb">
+                    <profile name="Irad Cleansers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="82e0-609e-72af-30cb">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>

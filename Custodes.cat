@@ -723,7 +723,7 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Velocity, Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Velocity, Pierce</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

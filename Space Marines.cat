@@ -240,7 +240,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3078,7 +3078,7 @@ Observed: For each ranged attack that targets this unit, if that unit has cove
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6935,7 +6935,7 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -10528,7 +10528,7 @@ d) REIVERS</characteristic>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pierce" id="4211-aad0-7af2-417f" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Shred" id="4211-aad0-7af2-417f" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -11450,12 +11450,12 @@ b) ASSAULT TERMINATORS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pierce" id="f057-86a7-6609-405b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Shred" id="f057-86a7-6609-405b" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -12727,13 +12727,13 @@ d) AGGRESSORS</characteristic>
                                 <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink name="Pierce" id="e8bc-94b9-5b58-ba2d" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                            <infoLink name="Shred" id="e8bc-94b9-5b58-ba2d" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Combi-Plasma" hidden="false" id="7107-14f6-4b6b-80c4" sortIndex="1">

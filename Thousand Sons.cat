@@ -99,7 +99,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Inferno</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2139,7 +2139,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Inferno</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>

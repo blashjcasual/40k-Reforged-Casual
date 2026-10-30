@@ -786,7 +786,7 @@
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
                               </characteristics>
                             </profile>
                             <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e45b-f127-94ae-3f53">
@@ -801,7 +801,7 @@
                             </profile>
                           </profiles>
                           <infoLinks>
-                            <infoLink name="Pierce" id="044c-04ec-40b8-2795" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                            <infoLink name="Shred" id="044c-04ec-40b8-2795" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                           </infoLinks>
                         </selectionEntry>
                       </selectionEntries>

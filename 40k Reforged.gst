@@ -11684,7 +11684,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher to the target’s Toughness.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11698,7 +11698,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher to the target’s Toughness.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11712,7 +11712,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher to the target’s Toughness.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11795,7 +11795,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive (1)</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11840,7 +11840,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher to the target’s Toughness.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>

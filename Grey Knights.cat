@@ -115,7 +115,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Blast 4, For each of this weapon’s attacks which target a unit with Psyker or Daemonic, change that attack’s Blast 4 to Blast 6.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 4, For each of this weapon’s attacks which target a unit with Psyker or Daemonic, change that attack’s Blast 4 to Blast 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>

@@ -2777,18 +2777,39 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="fb75-3924-9ec3-90d6" includeChildSelections="true" />
                       </constraints>
-                      <entryLinks>
-                        <entryLink import="true" name="Blast Pistol" hidden="false" id="a3ef-172f-e6d4-7811" type="selectionEntry" targetId="028c-ee1f-5eb4-8541">
+                      <selectionEntryGroups>
+                        <selectionEntryGroup name="Pistol" id="91d9-95a6-d172-2d52" hidden="false" defaultSelectionEntryId="a3ef-172f-e6d4-7811">
                           <constraints>
-                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="cdd4-2694-f196-0c07-min" includeChildSelections="false" />
-                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdd4-2694-f196-0c07-max" includeChildSelections="false" />
+                            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="22ca-13eb-d52c-9ab1-min" includeChildSelections="false" />
+                            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="22ca-13eb-d52c-9ab1-max" includeChildSelections="false" />
                           </constraints>
-                          <modifiers>
-                            <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                            <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                          </modifiers>
-                        </entryLink>
-                      </entryLinks>
+                          <entryLinks>
+                            <selectionEntry type="upgrade" import="true" name="Hekatrix Splinter Pistol" hidden="false" id="db64-9507-49b2-01cb">
+                              <profiles>
+                                <profile name="Hekatrix Splinter Pistol" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3ddc0027-1201-4667-80dc-55e47e73fbb2">
+                                  <characteristics>
+                                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison</characteristic>
+                                  </characteristics>
+                                </profile>
+                              </profiles>
+                              <infoLinks>
+                                <infoLink name="Poison" id="b723cd91-13dd-4c12-8d15-c226a5489f01" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
+                              </infoLinks>
+                            </selectionEntry>
+                            <entryLink import="true" name="Blast Pistol" hidden="false" id="a3ef-172f-e6d4-7811" type="selectionEntry" targetId="028c-ee1f-5eb4-8541">
+                              <modifiers>
+                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                              </modifiers>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntryGroup>
+                      </selectionEntryGroups>
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Melee" id="1683-4df5-13ce-2e51" hidden="false" defaultSelectionEntryId="4d70-88b6-6553-a2e8">
                           <constraints>

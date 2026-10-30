@@ -7922,7 +7922,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that, attack's S is 1 higher than the target's Toughness.</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8033,7 +8033,34 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <entryLink import="true" name="Combi-Bolter" hidden="false" id="9896-a733-b0d8-1fff" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
         <entryLink import="true" name="Heavy Flamer" hidden="false" id="638b-1c1d-1bc3-261e" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c" />
         <entryLink import="true" name="Power Scourge" hidden="false" id="1d27-6b48-dba7-3c75" type="selectionEntry" targetId="fcd0-a3e6-1f23-f3e5" />
-        <entryLink import="true" name="Missile Launcher" hidden="false" id="e520-235d-99bb-4a73" type="selectionEntry" targetId="2a12-ac3f-3a0c-bb89" />
+        <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="e520-235d-99bb-4a73">
+          <profiles>
+            <profile name="Missile Launcher (Strike)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a6bb2f4d-8a11-48d3-83c9-419e2d80da13">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Missile Launcher (Sweep)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="675aa84b-09b9-4c0a-a263-8710d61204c9">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast (X)" id="6692b35d-9715-47cd-8e08-e544d0e7bbab" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+            <infoLink name="Strike or Sweep (X)" id="cbd60f0a-018a-44ce-9255-16a50aa3d816" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+          </infoLinks>
+        </selectionEntry>
         <entryLink import="true" name="Multi-Melta" hidden="false" id="ec88-93b2-5f1a-da21" type="selectionEntry" targetId="d238-153a-c7ff-db1c" />
         <entryLink import="true" name="Plasma Cannon" hidden="false" id="cc4c-f1ac-dfa8-c1fc" type="selectionEntry" targetId="68c0-63fd-b081-a51a" />
         <entryLink import="true" name="Twin Lascannon" hidden="false" id="e518-551c-870f-2bd1" type="selectionEntry" targetId="a1cf-f092-4d2e-7e3a" />
@@ -8135,7 +8162,34 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Missile Launcher" hidden="false" id="6dc5-917a-7671-3af3" type="selectionEntry" targetId="2a12-ac3f-3a0c-bb89" />
+        <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="6dc5-917a-7671-3af3">
+          <profiles>
+            <profile name="Missile Launcher (Strike)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e553c374-d6e3-48ee-9e75-85959180a126">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+              </characteristics>
+            </profile>
+            <profile name="Missile Launcher (Sweep)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e253faf1-820e-4e06-9a9b-685e3d3bd0f1">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Blast (X)" id="3dbbfdae-dbd5-4bab-9cf9-772d293c9ea4" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+            <infoLink name="Strike or Sweep (X)" id="8cf5b016-4212-4549-ae3b-8154d0942928" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+          </infoLinks>
+        </selectionEntry>
         <entryLink import="true" name="Electroscourge" hidden="false" id="a6f1-e869-94c7-8c61" type="selectionEntry" targetId="b69d-1b78-a287-645f" />
         <entryLink import="true" name="Excruciator Cannons" hidden="false" id="4dbf-a39c-bee7-6628" type="selectionEntry" targetId="9727-bd84-06f3-3ffb" />
         <entryLink import="true" name="Magma Cutters" hidden="false" id="1a11-5ea3-0f18-403b" type="selectionEntry" targetId="d3d3-fe95-d83d-7250">

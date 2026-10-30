@@ -2962,12 +2962,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 2 3+ 3 1 Sweep (frag), Blast 7, Melt 8", Shred</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Blast (X)" id="65ab-94f0-28ba-f33f" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
       <infoLink name="Shred" id="5560-efef-c2e4-e888" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
       </infoLinks>
     </selectionEntry>
