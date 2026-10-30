@@ -992,7 +992,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike (krak)</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="Missile Launcher (Sweep)" id="0bdd-db78-c683-47c7" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -1002,7 +1002,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep (frag), Blast 7</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1299,7 +1299,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit is Activated, if it is an infantry unit, you may remove it from the battlefield. Then, it Heals 10. Then, Deploy this unit wholly within your deployment zone, and this unit loses this relic.</characteristic>
           </characteristics>
         </profile>
-        <profile name="4 Artillery Transponder (Earthshaker Cannon Rear Support)" id="3e84-6c9b-4133-d978" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+        <profile name="Earthshaker Cannon Rear Support" id="3e84-6c9b-4133-d978" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
@@ -1309,7 +1309,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Suppressive 4, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
           </characteristics>
         </profile>
-        <profile name="5 Valkyrie Authorisation (Valkyrie Multi-Laser)" id="6c50-8d0d-1fcc-baa5" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
+        <profile name="Valkyrie Multi-Laser" id="6c50-8d0d-1fcc-baa5" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">30</characteristic>
@@ -1956,7 +1956,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike (krak)</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="Missile Launcher (Sweep)" id="911d-eb16-0658-f79a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -1966,7 +1966,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep (frag), Blast 7</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4035,7 +4035,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike (krak)</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="Missile Launcher (Sweep)" id="6ebe-dff7-6fd5-b0c1" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -4045,7 +4045,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep (frag), Blast 7</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4205,7 +4205,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Barrage, Blast 3, Suppressive 1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive 1</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4526,26 +4526,6 @@ This unit does not count towards the leader capacity of your army list.</charact
               </characteristics>
             </profile>
           </profiles>
-          <selectionEntries>
-            <selectionEntry name="Grinding Tracks" id="27d5-45ed-cab5-846e" hidden="false" import="true" type="upgrade">
-              <constraints>
-                <constraint id="ad77-8f00-0402-fb2d-min" field="selections" includeChildSelections="false" scope="parent" shared="true" type="min" value="1"/>
-                <constraint id="ad77-8f00-0402-fb2d-max" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-              </constraints>
-              <profiles>
-                <profile name="Grinding Tracks" id="f93c-fb91-bda4-95a8" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
-                  <characteristics>
-                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
           <selectionEntryGroups>
             <selectionEntryGroup name="Pintle Weapon" id="3672-fa3e-c84c-dea0" hidden="false">
               <constraints>
@@ -5147,7 +5127,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike (krak)</characteristic>
                           </characteristics>
                         </profile>
                         <profile name="Missile Launcher (Sweep)" id="f919-d228-c45e-2ae6" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5157,7 +5137,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep (frag), Blast 7</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -5570,7 +5550,6 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
     </selectionEntry>
     <selectionEntry name="Lascannon" id="83c4-e2d4-5554-6c2e" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Blast (X)" id="a0c9-ad89-49b6-a9c4" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
         <infoLink name="Breach" id="3f0f-1a6d-d51d-58da" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
       </infoLinks>
       <profiles>
@@ -5581,7 +5560,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 2 4+ 3 1 Sweep (frag), Blast 7, Breach</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5840,7 +5819,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">without Fly, add 1 to the Hit Roll.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Pierce, For each attack made for this weapon that targets a vehicle or monster without Fly, add 1 to the Hit Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
