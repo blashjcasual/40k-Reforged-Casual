@@ -879,10 +879,15 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <cost name="pts" typeId="points" value="140" />
       </costs>
       <categoryLinks>
-        <categoryLink targetId="ccc6-6202-853c-23e4" id="536a-0f1d-f97c-0f1f" primary="true" name="Support" />
+        <categoryLink targetId="2886-2afd-f65f-9d8e" id="536a-0f1d-f97c-0f1f" primary="true" name="Leaders" />
         <categoryLink targetId="205c-3072-067b-d808" id="4c3e-67d1-ca7d-2055" primary="false" name="Infantry" />
       </categoryLinks>
       <profiles>
+        <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="96644e45-7127-441e-bb5b-3af6df5eee69">
+          <characteristics>
+            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit cannot attach to anything.</characteristic>
+          </characteristics>
+        </profile>
         <profile name="Guiding Will" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="dcee-98c6-c180-7f35">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for ranged attacks or psychic powers for any of your Grey Knights units, enemy units within engagement range of this unit may be selected from an additional 4" away.</characteristic>
