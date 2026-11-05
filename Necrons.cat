@@ -558,15 +558,18 @@ c) LYCHGUARD</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Gauss Cannon" hidden="false" id="b8ce-f035-72f0-14f6" type="selectionEntry" targetId="1204-6118-b8e6-75ec">
                   <modifiers>
-                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                  </modifiers>
+                  <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+<modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon" />
+</modifiers>
                 </entryLink>
                 <entryLink import="true" name="Tesla Cannon" hidden="false" id="ad4b-2135-4892-4092" type="selectionEntry" targetId="c6dc-e264-4072-80a5">
                   <modifiers>
-                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                  </modifiers>
+                  <modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -1683,7 +1686,7 @@ d) CRYPTOTHRALLS</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                           </characteristics>
                         </profile>

@@ -121,7 +121,13 @@
                     <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Eviscerator" hidden="false" id="9fe9-45a6-8451-64ca" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="2" />
+                <entryLink import="true" name="Eviscerator" hidden="false" id="9fe9-45a6-8451-64ca" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="2" >
+<modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+<modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Pistol" id="7f65-ec1f-83ef-3657" hidden="false" defaultSelectionEntryId="81af-3998-7b50-4544">
@@ -215,7 +221,9 @@
                 <entryLink import="true" name="Eviscerator" hidden="false" id="717a-27c9-9065-4ba6" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="2">
                   <modifiers>
                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                  </modifiers>
+                  <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+<modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -518,8 +526,9 @@
                   <entryLinks>
                     <entryLink import="true" name="Eviscerator" hidden="false" id="7b8f-8436-f8cf-57ed" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="3">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                     </entryLink>
                     <entryLink import="true" name="Power Axe" hidden="false" id="77e9-1945-4518-2e76" type="selectionEntry" targetId="2d40-0672-6885-33af" sortIndex="2">
                       <modifiers>
@@ -529,7 +538,7 @@
                     <entryLink import="true" name="Chainfists" hidden="false" id="f784-78ff-fa73-f970" type="selectionEntry" targetId="42d0-4698-378a-b42b" sortIndex="1" />
                     <entryLink import="true" name="Berserker Chainblade" hidden="false" id="9750-cb1b-f619-111d" type="selectionEntry" targetId="2e07-8bd1-0fa2-a780" sortIndex="4">
                       <modifiers>
-                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Lightning Claws" hidden="false" id="e737-da6d-cc83-3535" type="selectionEntry" targetId="f6a8-b0b8-1d07-7cab" sortIndex="5" />
@@ -774,7 +783,7 @@
                           </profiles>
                           <infoLinks>
                             <infoLink name="Overcharge" id="589b-d34e-c611-03ca" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                            <infoLink name="Pierce" id="f89f-5020-f339-e462" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                            <infoLink name="Breach" id="f89f-5020-f339-e462" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                           </infoLinks>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Combi-Bolter &amp; Combi-Melta" hidden="false" id="17fb-2f1e-aa8b-a482" sortIndex="4">
@@ -876,7 +885,7 @@
                           <entryLinks>
                             <entryLink import="true" name="Chainfist" hidden="false" id="5c06-d217-a571-e946" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e">
                               <modifiers>
-                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
@@ -1168,7 +1177,7 @@
                             <entryLink import="true" name="Chainfist" hidden="false" id="58a6-8cee-3337-f367" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e">
                               <modifiers>
                                 <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3af7-b352-932a-48d8" includeChildSelections="false" />
@@ -1424,7 +1433,7 @@
                                 <modifierGroup type="and">
                                   <modifiers>
                                     <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
                               </modifierGroups>
@@ -1560,12 +1569,21 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b02-4682-4a2e-d50f-max" includeChildSelections="false" />
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Berserker Chainblade" hidden="false" id="39bc-0596-60e1-858c" type="selectionEntry" targetId="2e07-8bd1-0fa2-a780" sortIndex="1" />
+                    <entryLink import="true" name="Berserker Chainblade" hidden="false" id="39bc-0596-60e1-858c" type="selectionEntry" targetId="2e07-8bd1-0fa2-a780" sortIndex="1" >
+<modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                     <entryLink import="true" name="Eviscerator" hidden="false" id="7e50-0404-6134-4f02" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="2">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="e342-eae0-39f0-af40" includeChildSelections="true" />
                       </constraints>
-                    </entryLink>
+                    <modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+<modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1606,9 +1624,9 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
         <profile name="Eviscerator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="571e-068f-cb0b-039b">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
@@ -1666,8 +1684,10 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                   <entryLinks>
                     <entryLink import="true" name="Eviscerator" hidden="false" id="8b4d-5107-be37-465e" type="selectionEntry" targetId="e6b8-6952-b6dc-4547" sortIndex="1">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+<modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                     </entryLink>
                     <entryLink import="true" name="Power Axe" hidden="false" id="cb10-bba3-684b-d20f" type="selectionEntry" targetId="2d40-0672-6885-33af" sortIndex="2">
                       <modifiers>
@@ -1676,9 +1696,9 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                     </entryLink>
                     <entryLink import="true" name="Chainfists" hidden="false" id="dfb0-60fd-e1df-96e6" type="selectionEntry" targetId="42d0-4698-378a-b42b" sortIndex="3">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       
-                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
+                        <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Lightning Claws" hidden="false" id="d46b-2007-7502-46a3" type="selectionEntry" targetId="f6a8-b0b8-1d07-7cab" sortIndex="5" />
@@ -1786,9 +1806,9 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
         <profile name="Chainfists" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6bdd-b7c0-f461-f0a4">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>

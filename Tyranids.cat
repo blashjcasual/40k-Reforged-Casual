@@ -199,7 +199,9 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                      </modifiers>
+                      <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon" />
+</modifiers>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -1122,8 +1124,9 @@ GARGOYLES</characteristic>
                 </entryLink>
                 <entryLink import="true" name="Stranglethorn Cannon" hidden="false" id="74a9-ceb3-6384-1f37" type="selectionEntry" targetId="3518-6226-731a-d7f7" sortIndex="5">
                   <modifiers>
-                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
-                  </modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                  <modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon" />
+</modifiers>
                 </entryLink>
               </entryLinks>
               <selectionEntries>
@@ -2828,14 +2831,14 @@ GARGOYLES</characteristic>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Pierce" id="40f8-8526-7eca-ac5f" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="40f8-8526-7eca-ac5f" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bloated Tick" hidden="false" id="a953-88a5-a5a7-a9d6">
@@ -3173,7 +3176,11 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </entryLink>
         <entryLink import="true" name="Death Spitter" hidden="false" id="04d3-be41-f374-e00f" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc" />
         <entryLink import="true" name="Venom Cannon" hidden="false" id="2131-7696-a837-a739" type="selectionEntry" targetId="ea43-76b9-cd3d-4cc0" />
-        <entryLink import="true" name="Barbed Strangler" hidden="false" id="887c-95f8-a474-300e" type="selectionEntry" targetId="3a02-948d-7aa5-8ca4" />
+        <entryLink import="true" name="Barbed Strangler" hidden="false" id="887c-95f8-a474-300e" type="selectionEntry" targetId="3a02-948d-7aa5-8ca4" >
+<modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
         <entryLink import="true" name="Devourer" hidden="false" id="5a86-5db9-3d44-0594" type="selectionEntry" targetId="b1c2-26fb-9e50-8dd3" />
         <entryLink import="true" name="Spinefists" hidden="false" id="e2a1-d775-9907-b9c4" type="selectionEntry" targetId="80ca-e8de-9957-3c15" />
         <entryLink import="true" name="Prime Wings" hidden="false" id="c79d-0fa2-20c3-a48d" type="selectionEntry" targetId="1252-6ab8-dce3-47a6" />
@@ -3483,7 +3490,11 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Screamer-Killer Scything Talons" hidden="false" id="b490-9332-06cd-80f4" type="selectionEntry" targetId="5330-7449-a8d7-7552" />
-        <entryLink import="true" name="Bio-Plasma Discharge" hidden="false" id="9cb4-ae30-4376-8134" type="selectionEntry" targetId="ef8a-2fb7-34cc-cf78" />
+        <entryLink import="true" name="Bio-Plasma Discharge" hidden="false" id="9cb4-ae30-4376-8134" type="selectionEntry" targetId="ef8a-2fb7-34cc-cf78">
+          <modifiers>
+            <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+          </modifiers>
+        </entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Tyrannofex" hidden="false" id="e0fa-dd05-f5c5-631d" sortIndex="1">

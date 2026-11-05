@@ -744,7 +744,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
                 <entryLink import="true" name="Sponson Hurricane Bolters" hidden="false" id="b0a3-8d7a-2b3e-7694" type="selectionEntry" targetId="14ea-3595-4572-a02d" sortIndex="2">
                   <modifiers>
                     <modifier type="set" value="Sponson Hurricane Bolters" field="name" affects="profiles.Weapon"/>
-                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="20" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/>
                   </modifiers>

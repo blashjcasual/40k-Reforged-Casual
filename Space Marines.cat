@@ -1546,7 +1546,7 @@
         <cost name="pts" typeId="points" value="120" />
       </costs>
       <infoLinks>
-        <infoLink name="Breach" id="0c10-8366-0732-aca5" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
+        <infoLink name="Pierce" id="0c10-8366-0732-aca5" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
         <infoLink name="Heavy Armour" id="2c2a-a35b-edf5-52bc" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
       <profiles>
@@ -2595,7 +2595,7 @@ Unnerved: For each attack that targets this unit, that attack gains Suppressiv
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Pierce" id="11ac-e75d-8631-7196" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                        <infoLink name="Breach" id="11ac-e75d-8631-7196" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                         <infoLink name="Overcharge" id="5ecf-7191-0ed9-20c1" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
                       </infoLinks>
                     </selectionEntry>
@@ -5165,7 +5165,7 @@ d) CHAPLAIN</characteristic>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cdb6-e5aa-c9fd-6535-max" includeChildSelections="false" />
                           </constraints>
                           <modifiers>
-                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                         </entryLink>
@@ -6022,7 +6022,7 @@ c) PHOBOS LIEUTENANT</characteristic>
               <entryLinks>
                 <entryLink import="true" name="Cyclone Missile Launcher" hidden="false" id="06c8-5568-c5ea-f259" type="selectionEntry" targetId="78e2-4475-2bc1-1385">
                   <modifiers>
-                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                     <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                   <constraints>
@@ -7112,15 +7112,15 @@ c) PHOBOS LIEUTENANT</characteristic>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="f93c-4506-627b-5ee1" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="7747-b72b-4a49-2522" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="7747-b72b-4a49-2522" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Combi-Melta" hidden="false" id="210b-beff-653a-6d5e">
@@ -7203,7 +7203,7 @@ c) PHOBOS LIEUTENANT</characteristic>
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="7ae9-ffa9-ec6a-8f3e" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="b416-6d9f-a58c-90b7" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="b416-6d9f-a58c-90b7" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sponson Heavy Bolters" hidden="false" id="f5f1-b712-4ec2-a16e">
@@ -7376,13 +7376,13 @@ c) PHOBOS LIEUTENANT</characteristic>
         <entryLink import="true" name="Shock Grenade" hidden="false" id="f1e2-7d2f-8a8f-cf0e" type="selectionEntry" targetId="fb45-0b07-1d60-a161" />
         <entryLink import="true" name="Heavy Bolt Pistol" hidden="false" id="1237-4f20-e117-89b9" type="selectionEntry" targetId="051d-4a2c-81be-094d">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Bolt Carbine" hidden="false" id="5496-ba23-65f7-8691" type="selectionEntry" targetId="71d2-7131-6b87-c38b">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
           </modifiers>
         </entryLink>
@@ -7444,10 +7444,18 @@ c) PHOBOS LIEUTENANT</characteristic>
         <entryLink import="true" name="Chainsword" hidden="false" id="bec4-01d1-5803-588e" type="selectionEntry" targetId="955e-464c-174e-dd5a" />
         <entryLink import="true" name="Thunder Hammer" hidden="false" id="a43f-32c0-4419-dbcf" type="selectionEntry" targetId="a26d-bbe4-6e1d-51af" />
         <entryLink import="true" name="Combi-Bolter" hidden="false" id="565d-639e-8190-9629" type="selectionEntry" targetId="712e-0b49-4851-f066" />
-        <entryLink import="true" name="Combi-Plasma" hidden="false" id="a46c-d8c3-06cb-7394" type="selectionEntry" targetId="3781-2be2-6161-5f62" />
+        <entryLink import="true" name="Combi-Plasma" hidden="false" id="a46c-d8c3-06cb-7394" type="selectionEntry" targetId="3781-2be2-6161-5f62">
+          <modifiers>
+            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+          </modifiers>
+        </entryLink>
         <entryLink import="true" name="Combi-Melta" hidden="false" id="683a-c9d8-f4da-8e9c" type="selectionEntry" targetId="210b-beff-653a-6d5e" />
         <entryLink import="true" name="Combi-Grav" hidden="false" id="1d6a-002c-10aa-9879" type="selectionEntry" targetId="7a67-109b-6cb0-23d3" />
-        <entryLink import="true" name="Combi-Flamer" hidden="false" id="ea6e-a185-6b18-5ad3" type="selectionEntry" targetId="90a8-6099-8649-56cd" />
+        <entryLink import="true" name="Combi-Flamer" hidden="false" id="ea6e-a185-6b18-5ad3" type="selectionEntry" targetId="90a8-6099-8649-56cd" >
+<modifiers>
+<modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Suppressors" hidden="false" id="c5d1-6e49-85a7-f79a" sortIndex="1">
@@ -7886,7 +7894,7 @@ c) ASSAULT INTERCESSORS without Fly</characteristic>
                         <modifierGroup type="and">
                           <modifiers>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                         </modifierGroup>
                       </modifierGroups>
@@ -9937,7 +9945,7 @@ b) ASSAULT TERMINATORS</characteristic>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="770d-8d54-b886-77d2" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="abba-e1de-3b1b-8c90" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="abba-e1de-3b1b-8c90" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Combi-Flamer" hidden="false" id="148a-92bf-83a4-d192">
@@ -10461,7 +10469,7 @@ d) REIVERS</characteristic>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="3e67-2fac-78f5-1df2" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="dc4b-7a28-6e32-52fe" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="dc4b-7a28-6e32-52fe" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Combi-Flamer" hidden="false" id="6c8f-4167-4907-5928">
@@ -10724,7 +10732,7 @@ c) ASSAULT INTERCESSORS without Fly</characteristic>
                         <modifierGroup type="and">
                           <modifiers>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                         </modifierGroup>
                       </modifierGroups>
@@ -11388,7 +11396,7 @@ b) ASSAULT TERMINATORS</characteristic>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="0735-d6e4-8b23-5419" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="fe13-77fb-938b-b158" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="fe13-77fb-938b-b158" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Combi-Flamer" hidden="false" id="9a91-be5e-9be6-48aa">
@@ -11661,8 +11669,8 @@ d) VANGUARD VETERANS</characteristic>
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                         </modifierGroup>
                       </modifierGroups>
@@ -11684,7 +11692,7 @@ d) VANGUARD VETERANS</characteristic>
                         <modifierGroup type="and">
                           <modifiers>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                         </modifierGroup>
                       </modifierGroups>
@@ -11837,7 +11845,7 @@ d) AGGRESSORS</characteristic>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Pierce" id="6616-4725-4980-e0a0" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                        <infoLink name="Breach" id="6616-4725-4980-e0a0" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                         <infoLink name="Overcharge" id="e763-204e-fa93-36fa" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
                       </infoLinks>
                     </selectionEntry>
@@ -11856,8 +11864,8 @@ d) AGGRESSORS</characteristic>
                       </profiles>
                       <infoLinks>
                         <infoLink name="Overcharge" id="ce92-9bf4-92d4-6b16" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                        <infoLink name="Pierce" id="3e39-d031-7487-16b3" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
-                        <infoLink name="Pierce" id="c7a7-858c-3f67-7ccc" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                        <infoLink name="Breach" id="3e39-d031-7487-16b3" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
+                        
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -11878,7 +11886,7 @@ d) AGGRESSORS</characteristic>
                       </profiles>
                       <infoLinks>
                         <infoLink name="Overcharge" id="20ee-cf7e-8f83-1b9b" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                        <infoLink name="Pierce" id="908c-b6fd-1c07-84d0" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                        <infoLink name="Breach" id="908c-b6fd-1c07-84d0" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                       </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="10" />
@@ -12757,7 +12765,7 @@ d) AGGRESSORS</characteristic>
                           </profiles>
                           <infoLinks>
                             <infoLink name="Overcharge" id="1361-d339-7611-7b79" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                            <infoLink name="Pierce" id="f56d-d5f2-3e1d-329c" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                            <infoLink name="Breach" id="f56d-d5f2-3e1d-329c" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                           </infoLinks>
                         </selectionEntry>
                       </selectionEntries>
@@ -13751,7 +13759,7 @@ d) AGGRESSORS</characteristic>
                       <modifiers>
                         <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -14224,8 +14232,8 @@ e) GREY HUNTERS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Thunder Hammer" hidden="false" id="ca00-85b0-ba46-a344" type="selectionEntry" targetId="a26d-bbe4-6e1d-51af">
                               <modifiers>
-                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1dcd-c118-22db-5637-min" includeChildSelections="false" />

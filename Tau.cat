@@ -1104,7 +1104,7 @@ b) BREACHER TEAM</characteristic>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Pierce" id="5f19-1421-c0d2-ba97" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                <infoLink name="Breach" id="5f19-1421-c0d2-ba97" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                 <infoLink name="Overcharge" id="b12d-f8fb-e359-92e1" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
               </infoLinks>
             </selectionEntry>
@@ -1734,14 +1734,14 @@ b) BREACHER TEAM</characteristic>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="0468-085c-3a5d-640a" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+        <infoLink name="Breach" id="0468-085c-3a5d-640a" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Strike Team" hidden="false" id="924d-e232-4847-e31e" sortIndex="5">
@@ -2338,12 +2338,17 @@ b) BREACHER TEAM</characteristic>
       <entryLinks>
         <entryLink import="true" name="Burst Cannon" hidden="false" id="959e-a4f0-9fbd-17b6" type="selectionEntry" targetId="9e4c-7240-51c1-0a9d">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Pulse Carbines" hidden="false" id="52fd-ba19-ac34-36a9" type="selectionEntry" targetId="3dd6-5bc6-dcef-f84a" />
-        <entryLink import="true" name="Smart Missile Systems" hidden="false" id="d554-2a91-e127-543c" type="selectionEntry" targetId="cdaa-4188-47fc-c602" />
+        <entryLink import="true" name="Smart Missile Systems" hidden="false" id="d554-2a91-e127-543c" type="selectionEntry" targetId="cdaa-4188-47fc-c602" >
+<modifiers>
+<modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
         <entryLink import="true" name="Seeker Missile" hidden="false" id="071e-e391-312d-8bbc" type="selectionEntry" targetId="d67e-fac1-0cdb-abe4" />
       </entryLinks>
     </selectionEntry>

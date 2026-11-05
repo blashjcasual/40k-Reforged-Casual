@@ -606,9 +606,10 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
                     <entryLink import="true" name="Haywire Cannon" hidden="false" id="ad2d-de61-47cd-f54d" type="selectionEntry" targetId="1958-e3e6-79fd-ed99">
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
-                      </modifiers>
+                      <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="750e-7c67-29c5-3767-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="750e-7c67-29c5-3767-max" includeChildSelections="false" />
@@ -1053,7 +1054,7 @@ c) TWILIGHT TROUPE</characteristic>
                       <modifiers>
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                         <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+                        <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                         <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>

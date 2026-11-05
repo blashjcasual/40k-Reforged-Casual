@@ -121,9 +121,9 @@
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3" />
             <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -270,7 +270,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="03d9-b593-91f5-944f" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+        <infoLink name="Breach" id="03d9-b593-91f5-944f" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Avenger Shuriken Catapult" hidden="false" id="6e38-a547-ff51-eb74">
@@ -956,7 +956,8 @@
           <modifiers>
             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="2+"/>
-          </modifiers>
+          <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
         </entryLink>
       </entryLinks>
     </selectionEntry>
@@ -1006,7 +1007,12 @@
         <entryLink import="true" name="Twin Starcannon" hidden="false" id="7b29-d877-a198-4660" type="selectionEntry" targetId="d4e2-a441-8761-4fb5" />
         <entryLink import="true" name="Twin Shuriken Cannon" hidden="false" id="bbef-00ec-125b-bb14" type="selectionEntry" targetId="6dfa-2e0d-e760-27fb" />
         <entryLink import="true" name="Twin Aeldari Missile Launcher Starshot" hidden="false" id="7fc0-cc48-4174-9f61" type="selectionEntry" targetId="d3db-3dc7-44a1-0b81" />
-        <entryLink import="true" name="Sunburst" hidden="false" id="51ad-ba0e-12ec-27f9" type="selectionEntry" targetId="2fef-4b4b-5385-dacb" />
+        <entryLink import="true" name="Sunburst" hidden="false" id="51ad-ba0e-12ec-27f9" type="selectionEntry" targetId="2fef-4b4b-5385-dacb" >
+<modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
       </entryLinks>
     </selectionEntry>
 </sharedSelectionEntries>
@@ -1015,7 +1021,11 @@
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9ef4-5a4e-122b-a9b5" includeChildSelections="false" />
       </constraints>
-    </entryLink>
+    <modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
     <entryLink import="true" name="Shadowseer" hidden="false" id="2ecf-ac74-ad45-bc06" type="selectionEntry" targetId="5be0-2b38-78af-32bf">
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="fb58-2b10-69f2-f968" includeChildSelections="false" />
@@ -1137,7 +1147,10 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84cf-6d8c-2c7b-624b" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a33-1350-6244-a84a" includeChildSelections="false" />
                       </constraints>
-                    </entryLink>
+                    <modifiers>
+<modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                   </entryLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="a45e-24bd-7d61-af6b" sortIndex="2">
@@ -1172,9 +1185,10 @@
                   <entryLinks>
                     <entryLink import="true" name="Starcannon" hidden="false" id="7e2f-5e6f-2d74-440b" type="selectionEntry" targetId="eb4b-d315-afd6-0110">
                       <modifiers>
-                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a03e-bf0c-777f-84c1" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="081d-741f-5c9b-db15" includeChildSelections="false" />
@@ -1228,7 +1242,7 @@
                   <entryLinks>
                     <entryLink import="true" name="Ghostglaive" hidden="false" id="c7d5-03bc-f775-dc84" type="selectionEntry" targetId="05ae-5780-59ce-9204">
                       <modifiers>
-                        <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="13" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="abb9-6ca2-988a-b332" includeChildSelections="false" />
@@ -1392,8 +1406,9 @@
                     <entryLink import="true" name="Starcannon" hidden="false" id="f0dd-02ac-b255-a201" type="selectionEntry" targetId="eb4b-d315-afd6-0110">
                       <modifiers>
                         <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="da14-62fb-0b9a-3777-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="da14-62fb-0b9a-3777-max" includeChildSelections="false" />
@@ -3526,8 +3541,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <entryLink import="true" name="Starcannon" hidden="false" id="f3fe-b454-dc51-187a" type="selectionEntry" targetId="eb4b-d315-afd6-0110">
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2269-0959-6d52-8158-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2269-0959-6d52-8158-max" includeChildSelections="false" />
@@ -3537,7 +3553,12 @@ a) GUARDIAN DEFENDERS</characteristic>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Aeldari Missile Launcher" hidden="false" id="2acc-413c-07be-ac43" sortIndex="5">
                   <entryLinks>
-                    <entryLink import="true" name="Aeldari Missile Launcher" hidden="false" id="a1b4-f7ab-d60d-48e0" type="selectionEntry" targetId="b528-4ef5-1788-be8e" />
+                    <entryLink import="true" name="Aeldari Missile Launcher" hidden="false" id="a1b4-f7ab-d60d-48e0" type="selectionEntry" targetId="b528-4ef5-1788-be8e" >
+<modifiers>
+<modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                   </entryLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -3552,8 +3573,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Shuriken Cannon" hidden="false" id="3f4a-35c1-c6a3-394a" type="selectionEntry" targetId="3de8-f8bb-0dc7-7dc8">
                       <modifiers>
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="39f8-e2d3-2dcc-8087-min" includeChildSelections="false" />
@@ -3934,15 +3955,18 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f441-8a5d-392b-a56c-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f441-8a5d-392b-a56c-max" includeChildSelections="false" />
                       </constraints>
-                    </entryLink>
+                    <modifiers>
+<modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                   </entryLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Bright Lance" hidden="false" id="44c5-fe88-720f-6677" sortIndex="2">
                   <entryLinks>
                     <entryLink import="true" name="Bright Lance" hidden="false" id="ca8b-95ad-a703-ee56" type="selectionEntry" targetId="92dd-6279-6da9-82bc">
                       <modifiers>
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f6fe-d950-42ef-4e3e-min" includeChildSelections="false" />
@@ -3956,7 +3980,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <entryLink import="true" name="Scatter Laser" hidden="false" id="e02b-43bd-7365-75f0" type="selectionEntry" targetId="0822-c1d9-aa91-521d">
                       <modifiers>
                         <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="24" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ae3-51a9-8f4a-1ac0-min" includeChildSelections="false" />
@@ -3969,9 +3993,10 @@ a) GUARDIAN DEFENDERS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Starcannon" hidden="false" id="6ec1-1e3b-7653-0c7f" type="selectionEntry" targetId="eb4b-d315-afd6-0110">
                       <modifiers>
-                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2f1-0568-51da-c496-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2f1-0568-51da-c496-max" includeChildSelections="false" />
@@ -4040,7 +4065,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Ghostglaive" hidden="false" id="6619-b0d1-dcfb-86da" type="selectionEntry" targetId="05ae-5780-59ce-9204">
                       <modifiers>
-                        <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ecbc-51a8-03b3-ba9d-min" includeChildSelections="false" />
@@ -4392,8 +4417,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <entryLink import="true" name="Starcannon" hidden="false" id="6148-b9db-85cc-9873" type="selectionEntry" targetId="eb4b-d315-afd6-0110">
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                      </modifiers>
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      <modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6625-dfa7-9098-5e32" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1b1a-6fb8-56b5-1b20" includeChildSelections="false" />

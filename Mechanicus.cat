@@ -1130,7 +1130,11 @@ b) SKITARII VANGUARDS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Radium Pistol" hidden="false" id="a567-7877-0ce1-6a61" type="selectionEntry" targetId="4de8-019c-c699-96bb" sortIndex="1"/>
                             <entryLink import="true" name="Arc Pistol" hidden="false" id="3c69-ff67-2ab5-ea00" type="selectionEntry" targetId="c91d-e5cc-7b41-4777" sortIndex="2"/>
-                            <entryLink import="true" name="Phosphor Pistol" hidden="false" id="61ea-597a-199f-8e66" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3"/>
+                            <entryLink import="true" name="Phosphor Pistol" hidden="false" id="61ea-597a-199f-8e66" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3">
+<modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                           </entryLinks>
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Melee" id="d59f-1769-e139-ecf1" hidden="false" defaultSelectionEntryId="b662-b59b-c986-6d47">
@@ -1279,7 +1283,11 @@ b) SKITARII VANGUARDS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Radium Pistol" hidden="false" id="6dd9-3004-4f90-170e" type="selectionEntry" targetId="4de8-019c-c699-96bb" sortIndex="1"/>
                             <entryLink import="true" name="Arc Pistol" hidden="false" id="220b-ed8a-ea33-d2ce" type="selectionEntry" targetId="c91d-e5cc-7b41-4777" sortIndex="2"/>
-                            <entryLink import="true" name="Phosphor Pistol" hidden="false" id="2fdb-9ca1-c41d-2724" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3"/>
+                            <entryLink import="true" name="Phosphor Pistol" hidden="false" id="2fdb-9ca1-c41d-2724" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3">
+<modifiers>
+<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                           </entryLinks>
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Melee" id="29ec-23c1-23fe-e8e7" hidden="false" defaultSelectionEntryId="ec38-ca12-ed84-dd77">
@@ -1783,7 +1791,7 @@ b) SKITARII VANGUARDS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Phased Plasma-Fusil" hidden="false" id="f33a-aa31-1e0d-e234" type="selectionEntry" targetId="c10a-4a1f-e2b5-082f" sortIndex="1">
                               <modifiers>
-                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                                <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Photon Thruster" hidden="false" id="3753-04db-2c24-491d" type="selectionEntry" targetId="b684-bd45-c923-96cf" sortIndex="2">
@@ -2182,6 +2190,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <entryLink import="true" name="Heavy Phosphor Blaster" hidden="false" id="6cd1-bfc7-d0e4-bb7a" type="selectionEntry" targetId="9294-7ee8-16b4-b8e1" sortIndex="2">
                   <modifiers>
                     <modifier type="set" value="Twin Heavy Phosphor Blaster" field="name"/>
+                    <modifier type="set" value="15" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
@@ -3148,7 +3157,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pierce" id="5c8a-2b4f-7842-fa28" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+                    <infoLink name="Breach" id="5c8a-2b4f-7842-fa28" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Conversion Beamer" hidden="false" id="3c42-54f4-e80b-9efd" sortIndex="2">
@@ -3375,13 +3384,13 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Indirect, Barrage, Ignore Cover, Pierce, This weapon can only select targets for its attacks once per battle round.</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Overcharge, Breach, Ignore Cover, This weapon can only select targets for its attacks once per battle round.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="e99b-c18f-deb2-d648" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
-                    <infoLink name="Pierce" id="b6ee-2f0b-a1b3-6028" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+                    <infoLink name="Breach" id="b6ee-2f0b-a1b3-6028" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
                     <infoLink name="Indirect" id="dc56-4cb7-2ea1-e5b6" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10"/>
                     <infoLink name="Barrage" id="47dc-1a05-0c33-ae67" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83"/>
                     <infoLink name="Ignore Cover" id="6af2-41ac-1be3-0bf6" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
@@ -3785,7 +3794,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="848e-400b-066a-1d35" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+        <infoLink name="Breach" id="848e-400b-066a-1d35" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
         <infoLink name="Overcharge" id="d7e6-b5cf-66ac-1e0c" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
       </infoLinks>
     </selectionEntry>
@@ -3831,7 +3840,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="c523-74d3-0e19-95d6" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+        <infoLink name="Breach" id="c523-74d3-0e19-95d6" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
         <infoLink name="Overcharge" id="0827-4146-f0f7-4065" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
       </infoLinks>
     </selectionEntry>
@@ -3898,7 +3907,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pierce" id="7cc1-c884-aba5-4081" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+        <infoLink name="Breach" id="7cc1-c884-aba5-4081" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Photon Thruster" hidden="false" id="b684-bd45-c923-96cf">

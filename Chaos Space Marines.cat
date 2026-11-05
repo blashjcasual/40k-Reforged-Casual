@@ -757,11 +757,11 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                     <profile name="Combi-Plasma Gun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9669-ee84-8408-b58e">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a34b-2e5b-31eb-1859">
@@ -777,7 +777,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="47d1-b749-a93e-6042" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="4117-141d-66a1-6dc4" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="4117-141d-66a1-6dc4" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Combi-Bolter &amp; Combi-Meltagun" hidden="false" id="959b-bf4f-7499-5df9" sortIndex="4">
@@ -895,7 +895,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                   <entryLinks>
                     <entryLink import="true" name="Power Fist" hidden="false" id="02db-ed49-993f-7954" type="selectionEntry" targetId="e9ab-47d0-5cce-0c1d">
                       <modifiers>
-                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
@@ -1668,11 +1668,11 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                 <profile name="Combi-Plasma Gun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="733c-a52c-e0ba-3e31">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                                   </characteristics>
                                 </profile>
                                 <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9afc-cdd3-7931-a466">
@@ -1688,7 +1688,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                               </profiles>
                               <infoLinks>
                                 <infoLink name="Overcharge" id="02b3-2466-ee78-c139" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                                <infoLink name="Pierce" id="8751-a67c-3057-82ca" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                                <infoLink name="Breach" id="8751-a67c-3057-82ca" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                               </infoLinks>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Combi-Bolter &amp; Combi-Meltagun" hidden="false" id="ce90-3db9-e79c-ca27" sortIndex="5">
@@ -1751,7 +1751,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a5cc-1143-a3ef-cb02-max" includeChildSelections="false" />
                                       </constraints>
                                       <modifiers>
-                                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </entryLink>
                                   </entryLinks>
@@ -1827,7 +1827,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                     <modifierGroup type="and">
                                       <modifiers>
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </modifierGroup>
                                   </modifierGroups>
@@ -1908,7 +1908,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                             <modifierGroup type="and">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </modifierGroup>
                           </modifierGroups>
@@ -2313,7 +2313,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                   <entryLinks>
                                     <entryLink import="true" name="Autocannon" hidden="false" id="2601-c313-9cda-b36c" type="selectionEntry" targetId="a636-c9c9-ad6d-6db0">
                                       <modifiers>
-                                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                       </modifiers>
                                       <constraints>
@@ -3202,7 +3202,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                               <entryLinks>
                                 <entryLink import="true" name="Lightning Claw" hidden="false" id="7abf-ce9c-8a36-820b" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                   <constraints>
@@ -3339,7 +3339,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                   </constraints>
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                    <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -4779,7 +4779,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                         </modifierGroup>
@@ -5380,9 +5380,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                                     <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                                   </characteristics>
                                 </profile>
                                 <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9eac-2783-3c02-670c">
@@ -5398,7 +5398,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                               </profiles>
                               <infoLinks>
                                 <infoLink name="Overcharge" id="1cbd-9ce2-0511-1432" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                                <infoLink name="Pierce" id="70b5-b9b9-71c5-1b47" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                                <infoLink name="Breach" id="70b5-b9b9-71c5-1b47" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                               </infoLinks>
                               <costs>
                                 <cost name="pts" typeId="points" value="10" />
@@ -5503,7 +5503,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                     <modifierGroup type="and">
                                       <modifiers>
                                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </modifierGroup>
                                   </modifierGroups>
@@ -6074,7 +6074,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                               <entryLinks>
                                 <entryLink import="true" name="Lightning Claw" hidden="false" id="597c-bd74-ff07-cd79" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                                   <modifiers>
-                                    <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                   <constraints>
@@ -7323,7 +7323,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="6010-c8e3-4195-79d0" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="0fb4-4e06-6cf0-728c" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="0fb4-4e06-6cf0-728c" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Maulerfiend Fists" hidden="false" id="ac36-abc8-691e-fa46" sortIndex="3">
@@ -7418,7 +7418,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </profiles>
                   <infoLinks>
                     <infoLink name="Overcharge" id="ba5c-f89b-26af-3bed" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-                    <infoLink name="Pierce" id="f5ec-c67f-b6ab-46ca" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="f5ec-c67f-b6ab-46ca" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -7520,7 +7520,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Pierce" id="13d7-7ca0-0094-dc30" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="13d7-7ca0-0094-dc30" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Electroscourge" hidden="false" id="b69d-1b78-a287-645f">
@@ -7607,7 +7607,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="303b-62ba-f226-42bc" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="3525-c06e-b07d-6835" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="3525-c06e-b07d-6835" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pintle Plasmagun" hidden="false" id="fccb-c56e-f6d3-17e4">
@@ -7625,7 +7625,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="4472-64af-a060-5c17" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="e5a4-e925-3ec5-c280" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="e5a4-e925-3ec5-c280" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pintle Meltagun" hidden="false" id="53a6-994d-4702-31c6">
@@ -7691,7 +7691,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="f4b5-b4d2-ac43-a95a" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="eaee-eabd-a4d3-2093" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="eaee-eabd-a4d3-2093" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sponson Heavy Bolters" hidden="false" id="813c-5e6c-a1e0-e4e5">
@@ -7839,15 +7839,15 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
       <infoLink name="Overcharge" id="8dab-cfff-0d4a-cbc6" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
-      <infoLink name="Pierce" id="736a-ed41-b4ca-d486" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Breach" id="736a-ed41-b4ca-d486" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Cyclone Missiles" hidden="false" id="241d-c374-f065-9144">
@@ -8136,7 +8136,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <entryLink import="true" name="Defiler Claws" hidden="false" id="3bfe-ffd3-418b-8ff8" type="selectionEntry" targetId="7788-8991-a3c3-b51c" />
         <entryLink import="true" name="Reaper Autocannon" hidden="false" id="0673-768b-6278-299a" type="selectionEntry" targetId="02d4-f10f-7394-2296">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="10"/>
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Twin Lascannon" hidden="false" id="407a-fae4-7cee-55b9" type="selectionEntry" targetId="a1cf-f092-4d2e-7e3a" />
@@ -8144,7 +8144,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <entryLink import="true" name="Twin Heavy Flamer" hidden="false" id="83a7-48e2-840d-bbf4" type="selectionEntry" targetId="b057-0af2-378f-cc67" />
         <entryLink import="true" name="Havoc Launcher" hidden="false" id="5163-8110-0bae-253f" type="selectionEntry" targetId="a40b-783e-4918-5f3a">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
           </modifiers>
         </entryLink>
         <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="6dc5-917a-7671-3af3">
@@ -8230,7 +8230,11 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Combi-Bolter" hidden="false" id="1189-075c-17d1-aa92" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" />
+                <entryLink import="true" name="Combi-Bolter" hidden="false" id="1189-075c-17d1-aa92" type="selectionEntry" targetId="9aca-6746-ceac-f4fd" >
+<modifiers>
+<modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="For an additional 10 points, this model may also be equipped with either:" id="d35dc7b6-c9c2-490b-849a-ca1a200cf4cb" hidden="false">
@@ -8242,7 +8246,10 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   <costs>
                     <cost name="pts" typeId="points" value="10" />
                   </costs>
-                </entryLink>
+                <modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                 <entryLink import="true" name="Pintle Meltagun" hidden="false" id="978e-0f25-cfee-4c44" type="selectionEntry" targetId="53a6-994d-4702-31c6">
                   <costs>
                     <cost name="pts" typeId="points" value="10" />
@@ -8381,8 +8388,16 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <entryLink import="true" name="Graviton Gun" hidden="false" id="54b0-1411-7153-df5a" type="selectionEntry" targetId="76bf-8aa5-0abc-cb79" />
         <entryLink import="true" name="Heavy Flamer" hidden="false" id="36ce-b2ed-ee3d-01c3" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c" />
         <entryLink import="true" name="Meltagun" hidden="false" id="15ce-7aea-ff4f-ff52" type="selectionEntry" targetId="3e64-4706-d7e4-3c17" />
-        <entryLink import="true" name="Plasma Blaster" hidden="false" id="3c10-2da1-41b2-5267" type="selectionEntry" targetId="99f9-3972-a2ac-88f8" />
-        <entryLink import="true" name="Cyclone Missiles" hidden="false" id="f704-bb4d-10f7-4a5a" type="selectionEntry" targetId="241d-c374-f065-9144" />
+        <entryLink import="true" name="Plasma Blaster" hidden="false" id="3c10-2da1-41b2-5267" type="selectionEntry" targetId="99f9-3972-a2ac-88f8">
+          <modifiers>
+            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Cyclone Missiles" hidden="false" id="f704-bb4d-10f7-4a5a" type="selectionEntry" targetId="241d-c374-f065-9144" >
+<modifiers>
+<modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
       </entryLinks>
     </selectionEntry>
 </sharedSelectionEntries>
@@ -8588,7 +8603,10 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <costs>
         <cost name="pts" typeId="points" value="140" />
       </costs>
-    </entryLink>
+    <modifiers>
+<modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
     <entryLink targetId="1214-e873-29cf-8d3f" id="a550-bb02-bce4-af0c" type="selectionEntry" name="Contemptor Dreadnought" hidden="false" sortIndex="26" />
       <entryLink import="true" name="Chaos Defiler" hidden="false" id="352c-3bd0-7682-4259" type="selectionEntry" targetId="cd36-85c8-d071-0d29" sortIndex="99" />
     <entryLink import="true" name="Chaos Predator" hidden="false" id="ee9e-6663-07a7-d78d" type="selectionEntry" targetId="f2f7-37cf-45cc-67d4" sortIndex="99" />

@@ -508,7 +508,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9386-2905-7c51-eb30-max" includeChildSelections="false" />
               </constraints>
               <modifiers>
-                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -761,7 +761,10 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="31e2-9b91-1a45-1cf8-min" includeChildSelections="false" />
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="31e2-9b91-1a45-1cf8-max" includeChildSelections="false" />
               </constraints>
-            </entryLink>
+            <modifiers>
+<modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
           </entryLinks>
           <profiles>
             <profile name="Malignant Plaguecaster" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7e77-85fc-81a6-72b5">
@@ -1046,7 +1049,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="ec3b-ea7a-9409-3721" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
                     <entryLink import="true" name="Bubotic Weapon" hidden="false" id="bd23-fad7-08e3-1ca5" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
                       <modifiers>
-                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="416d-17ed-4784-b810" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
@@ -1084,7 +1087,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                           </constraints>
                         
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="d5f0-79ab-c056-c4a7" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
@@ -1106,14 +1109,26 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="923e-a099-1826-fdeb-max" includeChildSelections="false" />
                           </constraints>
                           <entryLinks>
-                            <entryLink import="true" name="Blight Launcher" hidden="false" id="f0a5-1581-e490-e115" type="selectionEntry" targetId="b0b7-68db-5952-a972" sortIndex="1" />
-                            <entryLink import="true" name="Plague Spewer" hidden="false" id="8942-bffd-b167-3db3" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="2" />
-                            <entryLink import="true" name="Flail of Corruption" hidden="false" id="75cb-264f-635e-71f5" type="selectionEntry" targetId="cf45-e281-1709-6e78" sortIndex="3" />
+                            <entryLink import="true" name="Blight Launcher" hidden="false" id="f0a5-1581-e490-e115" type="selectionEntry" targetId="b0b7-68db-5952-a972" sortIndex="1" >
+<modifiers>
+<modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
+                            <entryLink import="true" name="Plague Spewer" hidden="false" id="8942-bffd-b167-3db3" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="2" >
+<modifiers>
+<modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
+                            <entryLink import="true" name="Flail of Corruption" hidden="false" id="75cb-264f-635e-71f5" type="selectionEntry" targetId="cf45-e281-1709-6e78" sortIndex="3" >
+<modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                             <entryLink import="true" name="Great Plague Cleaver" hidden="false" id="e22f-8602-22de-c82f" type="selectionEntry" targetId="b04f-81c2-cd03-0d71" sortIndex="4" />
                             <entryLink import="true" name="Meltagun" hidden="false" id="3317-04c3-2fe3-4c12" type="selectionEntry" targetId="4260-66c2-4887-4117" sortIndex="5">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Plasma Gun" hidden="false" id="04fb-1b0e-ee26-0740" type="selectionEntry" targetId="af5b-b208-be5c-ba5b" sortIndex="6">
@@ -1233,6 +1248,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Combi-Plague Bolter" hidden="false" id="7f23-44b0-24bb-c660" type="selectionEntry" targetId="c37c-090d-dde8-ead8" sortIndex="1">
                                   <modifiers>
+                                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </entryLink>
@@ -1246,6 +1262,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c42-1864-08b5-4ae3-max" includeChildSelections="false" />
                                       </constraints>
                                       <modifiers>
+                                        <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                         <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
@@ -1318,6 +1335,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Combi-Plague Bolter" hidden="false" id="b20f-d6a2-838f-2806" type="selectionEntry" targetId="c37c-090d-dde8-ead8" sortIndex="1">
                                   <modifiers>
+                                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </entryLink>
@@ -1333,7 +1351,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cad9-b502-5d90-0def-max" includeChildSelections="false" />
                               </constraints>
                               <modifiers>
-                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -1347,7 +1365,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8177-5838-a492-8e4b-max" includeChildSelections="false" />
                               </constraints>
                               <modifiers>
-                                <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -1361,7 +1379,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4a84-74ba-8d55-8154-max" includeChildSelections="false" />
                               </constraints>
                               <modifiers>
-                                <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="18" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -1427,6 +1445,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               <modifiers>
                                 <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b343-dc5f-1a8a-d48a" includeChildSelections="false" />
@@ -1451,10 +1470,11 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="2fbd-d16f-a911-e2d4" sortIndex="5">
                           <entryLinks>
-                            <entryLink import="true" name="Chainfist" hidden="false" id="9d20-c03b-b9f0-5b50" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e">
+                            <entryLink import="true" name="Chainsword" hidden="false" id="9d20-c03b-b9f0-5b50" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
                               <modifiers>
                                 <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="Chainblade" field="name" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c4d-bc1a-2f82-d77b" includeChildSelections="false" />
@@ -1639,7 +1659,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
-                                    <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
@@ -1671,7 +1691,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
-                                    <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
@@ -1759,6 +1779,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                                   <modifiers>
                                     <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                    <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
                               </modifierGroups>
@@ -2310,14 +2331,14 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                           <entryLinks>
                             <entryLink import="true" name="Blight Launcher" hidden="false" id="7da3-7155-02ff-5aa2" type="selectionEntry" targetId="b0b7-68db-5952-a972" sortIndex="2">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Plague Spewer" hidden="false" id="ed9a-0f6f-4608-8a10" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="3">
                               <modifiers>
                                 <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                           </entryLinks>
@@ -2351,7 +2372,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -2367,7 +2388,10 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c04f-3157-1880-6413" includeChildSelections="false" />
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9c5b-4dc1-d383-9ea5" includeChildSelections="false" />
                   </constraints>
-                </entryLink>
+                <modifiers>
+<modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
               </entryLinks>
             </selectionEntry>
           </selectionEntries>
@@ -2499,7 +2523,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="ff44-ba84-ab73-db9e" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
                     <entryLink import="true" name="Bubotic Weapon" hidden="false" id="143c-16d4-88c8-810b" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
                       <modifiers>
-                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="fb94-4374-867c-1f21" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
@@ -2537,7 +2561,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                           </constraints>
                         
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="4f74-ae46-9383-40c4" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
@@ -2559,14 +2583,26 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="3c6e-b5d4-9049-2e1e" includeChildSelections="false" />
                           </constraints>
                           <entryLinks>
-                            <entryLink import="true" name="Blight Launcher" hidden="false" id="e77f-fe0d-0d3c-5fe1" type="selectionEntry" targetId="b0b7-68db-5952-a972" sortIndex="1" />
-                            <entryLink import="true" name="Plague Spewer" hidden="false" id="7e53-b83d-da21-d9fc" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="2" />
-                            <entryLink import="true" name="Flail of Corruption" hidden="false" id="085f-1a33-1237-cff1" type="selectionEntry" targetId="cf45-e281-1709-6e78" sortIndex="3" />
+                            <entryLink import="true" name="Blight Launcher" hidden="false" id="e77f-fe0d-0d3c-5fe1" type="selectionEntry" targetId="b0b7-68db-5952-a972" sortIndex="1" >
+<modifiers>
+<modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
+                            <entryLink import="true" name="Plague Spewer" hidden="false" id="7e53-b83d-da21-d9fc" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="2" >
+<modifiers>
+<modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
+                            <entryLink import="true" name="Flail of Corruption" hidden="false" id="085f-1a33-1237-cff1" type="selectionEntry" targetId="cf45-e281-1709-6e78" sortIndex="3" >
+<modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                             <entryLink import="true" name="Great Plague Cleaver" hidden="false" id="bd43-5d9d-309d-0588" type="selectionEntry" targetId="b04f-81c2-cd03-0d71" sortIndex="4" />
                             <entryLink import="true" name="Meltagun" hidden="false" id="9649-f857-2fc9-e4f0" type="selectionEntry" targetId="4260-66c2-4887-4117" sortIndex="5">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Plasma Gun" hidden="false" id="07b7-531b-c163-e7a3" type="selectionEntry" targetId="af5b-b208-be5c-ba5b" sortIndex="6">
@@ -2646,7 +2682,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                     <entryLink import="true" name="Dual Plague Knives" hidden="false" id="49f0-0b27-84e3-9262" type="selectionEntry" targetId="643f-017d-ea70-c997" sortIndex="3" />
                     <entryLink import="true" name="Bubotic Weapon" hidden="false" id="fb60-624e-5a67-9056" type="selectionEntry" targetId="e541-6c55-f01a-f69f" sortIndex="4">
                       <modifiers>
-                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Dual Bubotic Weapons" hidden="false" id="ab4e-7b9a-b4ce-5f79" type="selectionEntry" targetId="e376-f651-4b32-2dac" sortIndex="5">
@@ -2687,7 +2723,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                           </constraints>
                         
                           <modifiers>
-                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Plague Knife" hidden="false" id="e487-7440-1a68-b75a" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
@@ -2713,17 +2749,26 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="f8f9-9bc9-1b58-fd89" includeChildSelections="true" />
                               </constraints>
-                            </entryLink>
+                            <modifiers>
+<modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                             <entryLink import="true" name="Plague Spewer" hidden="false" id="87b7-094f-993c-6f1d" type="selectionEntry" targetId="844f-38f1-c894-d8ab" sortIndex="2">
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="d4cc-ddbd-d318-0425" includeChildSelections="true" />
                               </constraints>
-                            </entryLink>
+                            <modifiers>
+<modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                             <entryLink import="true" name="Flail of Corruption" hidden="false" id="dad4-e6bf-e23f-df32" type="selectionEntry" targetId="cf45-e281-1709-6e78" sortIndex="3">
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="9d10-9181-d867-4942" includeChildSelections="true" />
                               </constraints>
-                            </entryLink>
+                            <modifiers>
+<modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                             <entryLink import="true" name="Great Plague Cleaver" hidden="false" id="07c6-b138-a47b-d3fd" type="selectionEntry" targetId="b04f-81c2-cd03-0d71" sortIndex="4">
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="7684-dab7-6e1a-bc59" includeChildSelections="true" />
@@ -2775,7 +2820,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ba02-a2d0-c21f-0348-max" includeChildSelections="false" />
                                   </constraints>
                                   <modifiers>
-                                    <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="prepend" value="Champion" field="name" affects="profiles.Weapon" />
                                   </modifiers>
                                 </entryLink>
@@ -3175,7 +3220,11 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Fleshmower" hidden="false" id="8162-02dd-2015-b7ba" type="selectionEntry" targetId="2be6-9736-ca2f-0f54" />
-        <entryLink import="true" name="Plaguespitters" hidden="false" id="440c-d5c7-627a-3d0c" type="selectionEntry" targetId="50ae-2a9a-e27c-ba19" />
+        <entryLink import="true" name="Plaguespitters" hidden="false" id="440c-d5c7-627a-3d0c" type="selectionEntry" targetId="50ae-2a9a-e27c-ba19" >
+<modifiers>
+<modifier type="set" value="14" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
         <entryLink import="true" name="Heavy Blight Launcher" hidden="false" id="69ad-8b51-c3f5-8000" type="selectionEntry" targetId="c9d8-92d7-86c0-bfae" />
       </entryLinks>
     </selectionEntry>
@@ -3217,7 +3266,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <entryLink import="true" name="Entropy Cannons" hidden="false" id="a574-9542-519d-9351" type="selectionEntry" targetId="caa5-01d2-06d6-ea78" />
         <entryLink import="true" name="Plaguespitters" hidden="false" id="e396-9fb3-0c03-7f9b" type="selectionEntry" targetId="50ae-2a9a-e27c-ba19">
           <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="6"/>
           </modifiers>
         </entryLink>
         <entryLink import="true" name="Rothail Volley Gun" hidden="false" id="c329-28ba-ebdf-c583" type="selectionEntry" targetId="d5ff-34b6-2c0a-b2b3" />

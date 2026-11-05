@@ -183,7 +183,7 @@ a) BATTLE SISTERS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Plasma Pistol" hidden="false" id="b90c-86d5-1665-ec2f" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                       </modifiers>
                       <constraints>
@@ -1062,7 +1062,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Hand Flamer" hidden="false" id="65ed-f904-5015-24c3" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                                   <modifiers>
-                                    <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="df30-97c3-f5d5-e9f8-min" includeChildSelections="false"/>
@@ -1806,7 +1806,7 @@ c) RETRIBUTORS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Hand Flamer" hidden="false" id="3ca1-c31f-411a-4bdb" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                               <modifiers>
-                                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                 <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -2296,7 +2296,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Hand Flamer" hidden="false" id="68fd-e9a9-5add-e66c" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                                   <modifiers>
-                                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                   </modifiers>
                                 </entryLink>
                               </entryLinks>
@@ -3139,7 +3139,7 @@ c) RETRIBUTORS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Hand Flamer" hidden="false" id="64cc-c076-1d0b-636e" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                           <modifiers>
-                            <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ef07-dd6d-5f1c-06bb-min" includeChildSelections="false"/>
@@ -3818,7 +3818,7 @@ c) RETRIBUTORS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Heavy Bolter" hidden="false" id="093b-a5c2-509b-3358" type="selectionEntry" targetId="82a1-b562-e748-d5ad">
                           <modifiers>
-                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="append" value="Holy Trinity" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
@@ -4051,7 +4051,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Hand Flamer" hidden="false" id="962e-a2c0-7e4b-c354" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                                   <modifiers>
-                                    <modifier type="set" value="13" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b111-a8e7-67b7-b040-min" includeChildSelections="false"/>
@@ -4347,7 +4347,11 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Storm Bolter" hidden="false" id="de7b-8129-70cf-d7cc" type="selectionEntry" targetId="44f8-c995-cb32-37f7" />
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="de7b-8129-70cf-d7cc" type="selectionEntry" targetId="44f8-c995-cb32-37f7" >
+<modifiers>
+<modifier type="set" value="30" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
         <entryLink import="true" name="Dozer Blade" hidden="false" id="e790-4c9b-e86c-58f6" type="selectionEntry" targetId="20bf-4d82-4ab3-3316" />
         <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="79c3-1b1d-68f1-90d6" type="selectionEntry" targetId="2f42-2fd9-ab59-8d71" />
       </entryLinks>

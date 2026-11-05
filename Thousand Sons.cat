@@ -587,7 +587,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Warpflame Pistol" hidden="false" id="717c-ac7c-e045-7aa6" type="selectionEntry" targetId="9779-6b3e-5fd2-ee95" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -680,7 +680,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Warpflame Pistol" hidden="false" id="da97-0647-004f-31d9" type="selectionEntry" targetId="9779-6b3e-5fd2-ee95" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -785,7 +785,7 @@ This unit does not count towards the leader maximum of the army list.</character
                 </entryLink>
                 <entryLink import="true" name="Warpflame Pistol" hidden="false" id="01dc-21d9-b48b-f300" type="selectionEntry" targetId="9779-6b3e-5fd2-ee95" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -856,7 +856,7 @@ This unit does not count towards the leader maximum of the army list.</character
               <entryLinks>
                 <entryLink import="true" name="Inferno Combi-Bolter" hidden="false" id="dcfd-5767-2a4f-8c2d" type="selectionEntry" targetId="538d-3054-aab9-ecb6" sortIndex="1">
                   <modifiers>
-                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Sorcerer Staff" hidden="false" id="b55f-ccde-920c-d63c" type="selectionEntry" targetId="3ee6-8ec7-9b5b-c9ce" sortIndex="2">
@@ -1007,14 +1007,17 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                     <entryLink import="true" name="Inferno Boltgun" hidden="false" id="70c2-ac14-d010-8bcb" type="selectionEntry" targetId="5e89-6a0d-ed0a-a5f6" sortIndex="1"/>
                     <entryLink import="true" name="Warpflamer" hidden="false" id="ee7c-4b45-067c-1976" type="selectionEntry" targetId="888e-ae4b-43a5-49b6" sortIndex="2">
                       <modifiers>
-                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="5"/>
+                        <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="c43a-ecc2-65ae-2860" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="3">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="ac2f-9348-1f18-05b8" includeChildSelections="true"/>
                       </constraints>
-                    </entryLink>
+                    <modifiers>
+<modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1199,7 +1202,11 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Other" id="9c98-8e2d-c757-06f0" hidden="false">
                       <entryLinks>
-                        <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="2389-1f7c-5352-d7b5" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="2"/>
+                        <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="2389-1f7c-5352-d7b5" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="2">
+<modifiers>
+<modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+</modifiers>
+</entryLink>
                       </entryLinks>
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="0c2f-d5ac-58f8-035d" includeChildSelections="true"/>
@@ -1756,7 +1763,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Heavy Plasma Cannon" hidden="false" id="2ea3-d316-4cd4-8498" sortIndex="1">
                   <infoLinks>
-                    <infoLink name="Pierce" id="0d53-8c31-74ac-b72b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+                    <infoLink name="Breach" id="0d53-8c31-74ac-b72b" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
                     <infoLink name="Overcharge" id="0a68-5a81-a06f-938e" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
                   </infoLinks>
                   <profiles>

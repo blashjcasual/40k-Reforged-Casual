@@ -3751,7 +3751,7 @@ This unit does not count towards the leader capacity of your army list.</charact
     </selectionEntry>
     <selectionEntry name="Plasma Destroyer " id="6c3a-6c47-a326-f722" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="c4ff-d788-c382-2557" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="c4ff-d788-c382-2557" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="a32b-8d7d-3e04-3406" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -3762,7 +3762,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5713,7 +5713,7 @@ This unit does not count towards the leader capacity of your army list.</charact
     </selectionEntry>
     <selectionEntry name="Plasma Gun" id="3293-1d5d-54c9-5cf6" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="b3b3-f0dd-1585-6ae5" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="b3b3-f0dd-1585-6ae5" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="8cf4-9520-ad42-4422" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -5722,9 +5722,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Overcharge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5813,7 +5813,7 @@ This unit does not count towards the leader capacity of your army list.</charact
     </selectionEntry>
     <selectionEntry name="Plasma Pistol" id="53d3-19fb-168d-abed" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="32fb-f6eb-71f8-24c3" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="32fb-f6eb-71f8-24c3" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="7282-7f62-2b78-9250" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -5822,9 +5822,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Overcharge</characteristic>
           </characteristics>
         </profile>
       </profiles>
