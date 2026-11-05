@@ -6723,8 +6723,8 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
@@ -6871,8 +6871,8 @@ c) PHOBOS LIEUTENANT</characteristic>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
@@ -7159,11 +7159,11 @@ c) PHOBOS LIEUTENANT</characteristic>
         <profile name="Combi-Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a8b6-785c-fa07-8167">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>

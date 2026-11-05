@@ -5680,6 +5680,7 @@ This unit does not count towards the leader capacity of your army list.</charact
     <selectionEntry name="Flamer" id="f2ff-b929-4628-42ff" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Ignore Cover" id="8acd-5194-2e48-d9d9" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
+        <infoLink name="Purge" id="e901-538b-4a2d-b1ef" hidden="false" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Flamer" id="c0ff-4f1d-1a79-fc5f" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5689,7 +5690,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5870,7 +5871,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">6+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>

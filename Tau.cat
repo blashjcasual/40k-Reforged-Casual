@@ -1057,8 +1057,7 @@ b) BREACHER TEAM</characteristic>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Long Burst Cannons" hidden="false" id="b541-ad73-cb4a-1437" sortIndex="3">
               <infoLinks>
-                <infoLink name="Pulse" id="7b28-ac1a-706e-f93d" hidden="false" type="rule" targetId="f151-f63e-48b8-7823" />
-                <infoLink name="Shred" id="c723-afed-3841-b26b" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                <infoLink name="Breach" id="7b28-ac1a-706e-f93d" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
               </infoLinks>
               <profiles>
                 <profile name="Long Burst Cannons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="961f-dc18-0b71-50fb">
@@ -1664,13 +1663,12 @@ b) BREACHER TEAM</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pulse, Shred</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pulse" id="a57f-9885-b538-ce63" hidden="false" type="rule" targetId="f151-f63e-48b8-7823" />
-        <infoLink name="Shred" id="0e11-15bb-0088-1a31" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+        <infoLink name="Breach" id="a57f-9885-b538-ce63" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Airburst Frag. Projector" hidden="false" id="77c5-7d54-e3e4-5f34">
@@ -1854,13 +1852,12 @@ b) BREACHER TEAM</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pulse, Shred</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pulse" id="5d4a-3951-11d1-764a" hidden="false" type="rule" targetId="f151-f63e-48b8-7823" />
-        <infoLink name="Shred" id="2d5c-8f40-180d-2b24" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+        <infoLink name="Breach" id="5d4a-3951-11d1-764a" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Photon Grenade" hidden="false" id="ad8c-7f02-854a-79dd">
@@ -1897,13 +1894,12 @@ b) BREACHER TEAM</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pulse, Shred</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Pulse" id="063a-1408-6b63-7b32" hidden="false" type="rule" targetId="f151-f63e-48b8-7823" />
-        <infoLink name="Shred" id="102f-aa71-cab8-8e68" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+        <infoLink name="Breach" id="063a-1408-6b63-7b32" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="model" import="true" name="Marker Drone" hidden="false" id="4c5b-e713-cb68-0d91" sortIndex="3">
@@ -1974,13 +1970,12 @@ b) BREACHER TEAM</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pulse, Shred</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pulse" id="83ea-bd84-5bfb-5dd0" hidden="false" type="rule" targetId="f151-f63e-48b8-7823" />
-                    <infoLink name="Shred" id="af80-071b-7d84-4760" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                    <infoLink name="Breach" id="83ea-bd84-5bfb-5dd0" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -2149,12 +2144,12 @@ b) BREACHER TEAM</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pulse, Shred</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Shred" id="665a-0797-ed0d-8c29" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+      <infoLink name="Breach" id="665a-0797-ed0d-8c29" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Smart Missile Systems" hidden="false" id="cdaa-4188-47fc-c602">

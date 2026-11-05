@@ -80,13 +80,14 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Nemesis" id="d974-5e13-d889-1cfc" hidden="false" type="rule" targetId="24b5-5baa-5c44-0c42" />
         <infoLink name="Ignore Cover" id="8a76-0bff-30fb-0a78" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
+        <infoLink name="Purge" id="c74a-e8b7-59a0-0d13" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Psilencer" hidden="false" id="b66d-2be5-d375-8ab1">
@@ -254,7 +255,7 @@
                 <entryLink import="true" name="Incinerator" hidden="false" id="d688-5868-cc5c-47cb" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="4">
                   <modifiers>
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                    <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                   <costs>
                     <cost name="pts" typeId="points" value="10" />
@@ -412,6 +413,9 @@
                 <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="3b6f-bfef-df51-f13e" sortIndex="4">
                   <entryLinks>
                     <entryLink import="true" name="Incinerator" hidden="false" id="dfa7-d6af-9a2a-190f" type="selectionEntry" targetId="302a-b831-3210-5084">
+                      <modifiers>
+                        <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="454f-2f69-4858-7fdb-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="454f-2f69-4858-7fdb-max" includeChildSelections="false" />
@@ -1777,7 +1781,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <entryLink import="true" name="Incinerator" hidden="false" id="f73d-a062-7a19-6f72" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="3">
                           <modifiers>
                             <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                            <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                           </modifiers>
                         </entryLink>
                         <entryLink import="true" name="Psilencer" hidden="false" id="9577-bfef-b22d-0aad" type="selectionEntry" targetId="b66d-2be5-d375-8ab1" sortIndex="2" />
@@ -1906,7 +1910,11 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="954d-8ad0-4079-95c1" includeChildSelections="true" />
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Incinerator" hidden="false" id="4b4c-7928-a242-497b" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="3" />
+                        <entryLink import="true" name="Incinerator" hidden="false" id="4b4c-7928-a242-497b" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="3">
+                          <modifiers>
+                            <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                          </modifiers>
+                        </entryLink>
                         <entryLink import="true" name="Psilencer" hidden="false" id="0190-6a1b-e369-238e" type="selectionEntry" targetId="b66d-2be5-d375-8ab1" sortIndex="2" />
                         <entryLink import="true" name="Psycannon" hidden="false" id="7026-3a64-c4a2-271c" type="selectionEntry" targetId="cd1a-11be-9f06-71ee" sortIndex="1" />
                       </entryLinks>
@@ -2051,7 +2059,11 @@ b) GREY KNIGHT PALADIN</characteristic>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="a899-28fe-5c21-4277" includeChildSelections="true" />
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Incinerator" hidden="false" id="d251-e795-a1a8-0167" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="3" />
+                        <entryLink import="true" name="Incinerator" hidden="false" id="d251-e795-a1a8-0167" type="selectionEntry" targetId="302a-b831-3210-5084" sortIndex="3">
+                          <modifiers>
+                            <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                          </modifiers>
+                        </entryLink>
                         <entryLink import="true" name="Psilencer" hidden="false" id="2a57-e6a2-ee8d-6bce" type="selectionEntry" targetId="b66d-2be5-d375-8ab1" sortIndex="2" />
                         <entryLink import="true" name="Psycannon" hidden="false" id="0ac8-e049-0b0b-875b" type="selectionEntry" targetId="cd1a-11be-9f06-71ee" sortIndex="1" />
                       </entryLinks>
@@ -2147,6 +2159,9 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <selectionEntry type="upgrade" import="true" name="Incinerator" hidden="false" id="a5ee-07eb-3847-e79e" sortIndex="3">
                       <entryLinks>
                         <entryLink import="true" name="Incinerator" hidden="false" id="33ab-dff1-c72c-bc52" type="selectionEntry" targetId="302a-b831-3210-5084">
+                          <modifiers>
+                            <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                          </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c647-752d-6fd1-bbda-min" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c647-752d-6fd1-bbda-max" includeChildSelections="false" />
@@ -2770,7 +2785,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Incinerator" hidden="false" id="e7d6-b086-5ae4-fca5" type="selectionEntry" targetId="302a-b831-3210-5084">
                               <modifiers>
-                                <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9189-c3f5-d6f8-54bb" includeChildSelections="false" />

@@ -3449,13 +3449,10 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink name="Suppressive" id="45f3-6b34-1557-2c3c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="a40b-783e-4918-5f3a">
       <profiles>
@@ -7837,7 +7834,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <profile name="Plasma Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7fab-85be-c68c-52ad">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>

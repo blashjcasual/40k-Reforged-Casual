@@ -4203,13 +4203,14 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Ignore Cover" id="e0bc-2840-75e4-6ccc" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
         <infoLink name="Holy Trinity" id="08af-bf4c-2e24-2ad7" hidden="false" type="rule" targetId="5328-f292-f3b4-de07"/>
+        <infoLink name="Purge" id="6f14-8dae-38d7-b801" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Eviscerator" hidden="false" id="ef0c-44dd-fbf9-8395">

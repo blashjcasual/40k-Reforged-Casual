@@ -11327,6 +11327,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Flamer" id="4cf9-1758-d00d-29c4" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Ignore Cover" id="690a-dd40-7161-4317" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
+        <infoLink name="Purge" id="a6a2-fd4c-59bd-4d93" hidden="false" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Flamer" id="deca-c83f-8351-473a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -11336,7 +11337,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11360,7 +11361,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     </selectionEntry>
     <selectionEntry name="Plasma Pistol" id="6894-2cf4-78df-13e8" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="e094-db9c-9da7-0cb1" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="e094-db9c-9da7-0cb1" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="3925-fb3f-4cfe-caf4" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -11369,9 +11370,9 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11403,8 +11404,8 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+1</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
@@ -11412,7 +11413,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     </selectionEntry>
     <selectionEntry name="Plasma Gun" id="af5b-b208-be5c-ba5b" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="16f1-ab0d-dae7-bfcd" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="16f1-ab0d-dae7-bfcd" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="926e-629a-3753-89d0" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -11421,16 +11422,16 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
     </selectionEntry>
     <selectionEntry name="Plasma Cannon" id="597d-3cc2-8209-d3d1" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Pierce" id="e98a-2c0a-0547-06c7" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="e98a-2c0a-0547-06c7" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
         <infoLink name="Overcharge" id="123c-5289-1cfa-44a4" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
       </infoLinks>
       <profiles>
@@ -11439,9 +11440,9 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11539,6 +11540,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Flamer Pistol" id="6ba7-fe2b-ac9d-446c" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Ignore Cover" id="aa6e-c680-81e8-1779" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
+        <infoLink name="Purge" id="9d31-6fa8-24c7-b0e5" hidden="false" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Flamer Pistol" id="604d-fac1-585a-0431" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -11548,7 +11550,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11644,7 +11646,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Plasma Blaster" id="f4e1-5e30-78a3-2852" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Overcharge" id="bf91-2f4b-881f-eb6b" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
-        <infoLink name="Pierce" id="e5fb-6d02-2363-114d" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="e5fb-6d02-2363-114d" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Plasma Blaster" id="0284-277e-7a8b-a855" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -11652,9 +11654,9 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11704,7 +11706,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Combi-Plasma" id="6a92-d812-47fc-a089" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Overcharge" id="10a5-41a6-08fd-4c08" hidden="false" targetId="e676-2d17-e4bf-f5e8" type="rule"/>
-        <infoLink name="Pierce" id="7a33-506d-2314-e589" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
+        <infoLink name="Breach" id="7a33-506d-2314-e589" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Combi-Plasma" id="0204-c238-5233-95e9" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -11712,9 +11714,9 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11739,6 +11741,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Combi-Flamer" id="725d-6955-5aee-023b" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Ignore Cover" id="6984-5176-1794-c61c" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
+        <infoLink name="Purge" id="f169-06f3-a27d-856c" hidden="false" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Combi-Flamer" id="170b-12aa-b9a4-ea0a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -11748,7 +11751,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11777,7 +11780,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
           </characteristics>
@@ -11794,7 +11797,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>

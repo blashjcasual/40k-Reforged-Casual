@@ -686,7 +686,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
                 </entryLink>
                 <entryLink import="true" name="Burna" hidden="false" id="f63a-501b-fea5-284f" type="selectionEntry" targetId="1a8c-5d64-79f3-0ab1" sortIndex="4">
                   <modifiers>
-                    <modifier type="set" value="14" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Big Shoota" hidden="false" id="0040-2fbc-6a7b-1cf4" type="selectionEntry" targetId="cc57-8885-c7c0-c76a" sortIndex="3">
@@ -732,7 +732,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
                             </entryLink>
                             <entryLink import="true" name="Kombi-Skorcha" hidden="false" id="83fa-cc80-caf1-56ea" type="selectionEntry" targetId="f85f-e91a-1c5c-e4ee">
                               <modifiers>
-                                <modifier type="set" value="14" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bc9-9c44-732a-528a" includeChildSelections="false"/>
@@ -2180,6 +2180,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
                           </profiles>
                           <infoLinks>
                             <infoLink name="Ignore Cover" id="7353-b7e9-5d0a-07f0" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+                            <infoLink name="Purge" id="2e5a-13f1-0a6d-2f53" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
                           </infoLinks>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8d06-a101-f195-b171-min" includeChildSelections="false"/>
@@ -2352,6 +2353,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
             <selectionEntry type="upgrade" import="true" name="Burna Exhausts" hidden="false" id="4620-209a-14e9-c610">
               <infoLinks>
                 <infoLink name="Ignore Cover" id="5a70-d378-bbd9-6457" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+                <infoLink name="Purge" id="4b8c-89e2-761c-3f10" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
               </infoLinks>
               <profiles>
                 <profile name="Burna Exhausts" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8376-98eb-47aa-5a2d">
@@ -2925,12 +2927,13 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Ignore Cover" id="ae4e-80ac-2c8e-0433" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+        <infoLink name="Purge" id="1fb9-cfa2-ef20-02a6" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Kombi-Rokkit" hidden="false" id="2db5-eb12-df0c-082a">
@@ -2990,12 +2993,13 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Ignore Cover" id="0d5f-545f-69a3-6eee" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+        <infoLink name="Purge" id="740d-b240-e523-3b0d" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Big Shoota" hidden="false" id="cc57-8885-c7c0-c76a">
@@ -3847,12 +3851,13 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
       <infoLink name="Ignore Cover" id="ae8d-215b-27e2-14bd" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
+      <infoLink name="Purge" id="7c63-8da5-8f83-a874" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Grotzooka" hidden="false" id="01a0-b0ba-2e44-ca4c">

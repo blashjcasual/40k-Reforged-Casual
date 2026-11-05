@@ -13,7 +13,6 @@
       <infoLinks>
         <infoLink name="Festering Advance" id="bd5b-10f4-800e-8d6f" hidden="false" type="profile" targetId="944e-46dd-e901-73d1" />
         <infoLink name="Nurgle’s Fruit" id="41f8-82ad-bf04-0885" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
-        <infoLink name="Plague" id="69d4-c859-9985-cce4" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
         <infoLink name="Suppressive" id="f752-2932-fc36-2191" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Putrid" id="95c0-8f26-f5d5-8862" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Nurgle’s Gifts" id="9809-c380-c147-1088" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
@@ -113,7 +112,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 7, Putrid, Plague, Indirect</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 7, Putrid, Indirect</characteristic>
           </characteristics>
         </profile>
         <profile name="4 Pustulent Bombardment" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="504a-e6f3-0a39-5c54">
@@ -123,7 +122,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">7</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 3, Putrid, Plague, Indirect</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 3, Putrid, Indirect</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -134,7 +133,6 @@
         <infoLink name="Barrage" id="5d6e-9196-06a2-f588" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
         <infoLink name="Blast (X)" id="77a3-cc18-1795-31cb" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
         <infoLink name="Resilient (X)" id="367c-4e46-39c1-498b" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
-        <infoLink name="Plague" id="74ae-a82b-058b-4960" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lord of Contagion" hidden="false" id="04ad-593f-4f7f-cf5a" sortIndex="1">
@@ -191,7 +189,7 @@
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6b7a-f203-4b49-2a1f-max" includeChildSelections="false" />
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Man Reaper" hidden="false" id="6785-6e7d-e9a6-7003" type="selectionEntry" targetId="e5b9-68cd-70c1-e0ef">
+                <entryLink import="true" name="Manreaper Scythe" hidden="false" id="6785-6e7d-e9a6-7003" type="selectionEntry" targetId="e5b9-68cd-70c1-e0ef">
                   <modifiers>
                     <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
@@ -303,10 +301,11 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink import="true" name="Plague Spewer" hidden="false" id="3c25-9ea0-b075-60f7" type="selectionEntry" targetId="844f-38f1-c894-d8ab">
+            <entryLink import="true" name="Twin Plague Spewer" hidden="false" id="3c25-9ea0-b075-60f7" type="selectionEntry" targetId="844f-38f1-c894-d8ab">
               <modifiers>
-                <modifier type="set" value="21" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-              </modifiers>
+                <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                              <modifier type="set" value="Twin Plague Spewer" field="name" affects="profiles.Weapon" />
+</modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2f72-2aeb-e7f8-a5a2-min" includeChildSelections="false" />
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2f72-2aeb-e7f8-a5a2-max" includeChildSelections="false" />
@@ -360,7 +359,6 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Putrid" id="169b-f65b-f063-a7d2" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Ignore Cover" id="79c5-cc8f-3abb-2fa7" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
         <infoLink name="Suppressive" id="e7fa-35f0-3b4d-cce0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="e1e3-c886-c8e4-e355" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="70" />
@@ -417,9 +415,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Suppressive" id="c7bc-99e2-d1b9-14fc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                 <infoLink name="Blast (X)" id="3acf-ba08-9415-170b" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                <infoLink name="Plague" id="73d4-46c5-9012-cc78" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
                 <infoLink name="Indirect" id="ab90-0fb7-a496-e669" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
                 <infoLink name="Putrid" id="df08-81ca-9c6e-70ce" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
               </infoLinks>
@@ -587,8 +583,6 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
           </modifiers>
         </infoLink>
         <infoLink name="Nurgle’s Gifts" id="aefa-a9ef-793a-91ab" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="326f-d939-4158-6ba0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="0c59-7b73-6b49-7d02" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="40" />
@@ -620,7 +614,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Hyper Blight Grenades" hidden="false" id="724b-3ae5-1be4-3154">
               <profiles>
-                <profile name="Hyper Blight Grenades" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="91dc-78b2-e737-f230">
+                <profile name="Hyper Blight Grenade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="91dc-78b2-e737-f230">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
@@ -632,12 +626,10 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Suppressive" id="2dbf-2bc2-7087-bd2e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                 <infoLink name="Blast (X)" id="40fb-ee33-93b6-2215" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
                 <infoLink name="Ignore Cover" id="5ed3-c5d2-c992-0427" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
                 <infoLink name="Indirect" id="d172-84eb-9e3c-d802" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
                 <infoLink name="Putrid" id="1ada-da1d-c2a0-e6a1" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
-                <infoLink name="Plague" id="3967-21ec-c339-24cf" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
               </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="160f-fd6d-ea7e-8e6e-min" includeChildSelections="false" />
@@ -850,7 +842,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
               </constraints>
               <modifiers>
                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -868,10 +860,13 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Indirect, This weapon may target enemy units up to 14” away if that unit has Suppressed.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Indirect, Purge, This weapon may target enemy units up to 14” away if that unit has Nurgle’s Fruit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Purge" id="ad61-8c37-f205-4e79" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
           <profiles>
@@ -971,7 +966,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9010-146b-74f3-8147-max" includeChildSelections="false" />
               </constraints>
               <modifiers>
-                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
               </modifiers>
             </entryLink>
@@ -1134,7 +1129,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                             <entryLink import="true" name="Plasma Gun" hidden="false" id="04fb-1b0e-ee26-0740" type="selectionEntry" targetId="af5b-b208-be5c-ba5b" sortIndex="6">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Plague Belcher" hidden="false" id="7a87-2e09-73c3-0975" type="selectionEntry" targetId="433b-6edc-670e-75fa" sortIndex="7" />
@@ -1219,11 +1214,12 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="7103-220b-5dc6-52fa" includeChildSelections="true" />
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Lightning Claw" hidden="false" id="9725-2754-c91c-741f" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
+                    <entryLink import="true" name="Lightning Claws" hidden="false" id="9725-2754-c91c-741f" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                       <modifiers>
                         <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                      </modifiers>
+                                              <modifier type="set" value="Lightning Claws" field="name" affects="profiles.Weapon" />
+</modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2928-a20d-c6d4-1863" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2182-43f4-c397-bc8b" includeChildSelections="false" />
@@ -1299,7 +1295,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                       </constraints>
                                       <modifiers>
                                         <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </entryLink>
                                   </entryLinks>
@@ -1312,7 +1308,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b4dc-9615-62db-2343" />
                                       </constraints>
                                       <modifiers>
-                                        <modifier type="set" value="18" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                        <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                       </modifiers>
                                     </entryLink>
                                   </entryLinks>
@@ -1370,6 +1366,20 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               </modifiers>
                             </entryLink>
                           </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Plaguespurt Gauntlet" hidden="false" id="6da5-8b2f-3c47-a192" sortIndex="5">
+                          <profiles>
+                            <profile name="Plaguespurt Gauntlet" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="21cf-f9e2-7f57-b9b4">
+                              <characteristics>
+                                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                                <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Reaper Autocannon" hidden="false" id="851b-b9fc-0254-d73f" sortIndex="3">
                           <entryLinks>
@@ -1429,7 +1439,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Power Fist" hidden="false" id="e243-eb49-6914-09d1" type="selectionEntry" targetId="e9ab-47d0-5cce-0c1d">
                               <modifiers>
-                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
@@ -1479,6 +1489,35 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c4d-bc1a-2f82-d77b" includeChildSelections="false" />
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8161-a0fb-7f8f-effc" includeChildSelections="false" />
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Bubotic Weapon" hidden="false" id="2ab9-50f2-4c62-9a18" sortIndex="7">
+                          <entryLinks>
+                            <entryLink import="true" name="Bubotic Weapon" hidden="false" id="aa8d-4c3b-90fd-8201" type="selectionEntry" targetId="e541-6c55-f01a-f69f">
+                              <modifiers>
+                                <modifier type="set" value="11" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                              </modifiers>
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ab42-9ed8-76b0-3580-min" includeChildSelections="false" />
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ab42-9ed8-76b0-3580-max" includeChildSelections="false" />
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Manreaper Scythe" hidden="false" id="c7a6-8589-b24b-7ec3" sortIndex="8">
+                          <entryLinks>
+                            <entryLink import="true" name="Manreaper Scythe" hidden="false" id="819a-9c2c-0f65-1c13" type="selectionEntry" targetId="e5b9-68cd-70c1-e0ef">
+                              <modifiers>
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="Manreaper Scythe" field="name" affects="profiles.Weapon" />
+                              </modifiers>
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9f7b-d869-1c91-b99e-min" includeChildSelections="false" />
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9f7b-d869-1c91-b99e-max" includeChildSelections="false" />
                               </constraints>
                             </entryLink>
                           </entryLinks>
@@ -1566,7 +1605,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
@@ -1620,7 +1659,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
-                                    <modifier type="set" value="18" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
                               </modifierGroups>
@@ -1717,15 +1756,16 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             </entryLink>
                           </entryLinks>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="ChainBlade" hidden="false" id="e164-dcfe-f4d8-2ea6" sortIndex="6">
+                        <selectionEntry type="upgrade" import="true" name="Chainblade" hidden="false" id="e164-dcfe-f4d8-2ea6" sortIndex="6">
                           <entryLinks>
-                            <entryLink import="true" name="Chainsword" hidden="false" id="283e-1104-564d-4dc9" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
+                            <entryLink import="true" name="Chainblade" hidden="false" id="283e-1104-564d-4dc9" type="selectionEntry" targetId="d7bf-1f8b-4dd2-edfb">
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
                                     <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                  </modifiers>
+                                                                      <modifier type="set" value="Chainblade" field="name" affects="profiles.Weapon" />
+</modifiers>
                                 </modifierGroup>
                               </modifierGroups>
                               <constraints>
@@ -1759,7 +1799,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                               <modifierGroups>
                                 <modifierGroup type="and">
                                   <modifiers>
-                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                   </modifiers>
                                 </modifierGroup>
@@ -1814,13 +1854,14 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Lightning Claws" hidden="false" id="0628-f0df-02e0-8283" sortIndex="2">
                   <entryLinks>
-                    <entryLink import="true" name="Lightning Claw" hidden="false" id="43f4-3fb2-c26b-3fa7" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
+                    <entryLink import="true" name="Lightning Claws" hidden="false" id="43f4-3fb2-c26b-3fa7" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
                             <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                          </modifiers>
+                                                      <modifier type="set" value="Lightning Claws" field="name" affects="profiles.Weapon" />
+</modifiers>
                         </modifierGroup>
                       </modifierGroups>
                       <constraints>
@@ -1954,17 +1995,14 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
     </profile>
   </sharedProfiles>
   <sharedRules>
-    <rule name="Plague" id="7985-d278-b6c4-f53e" hidden="false">
-      <description>This weapon has Suppressive where X is equal to this weapon's Damage.</description>
-    </rule>
     <rule name="Putrid" id="5262-b1f5-26c7-19b6" hidden="false">
       <description>For each attack made by this weapon, add 1 to the Wound Roll of that attack. Additionally, if the target of that attack has Nurgle's Fruit, that attack gains Critical Wounds 6+.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Man Reaper" hidden="false" id="e5b9-68cd-70c1-e0ef">
+    <selectionEntry type="upgrade" import="true" name="Manreaper Scythe" hidden="false" id="e5b9-68cd-70c1-e0ef">
       <profiles>
-        <profile name="Man Reaper" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="721e-790d-ac1e-57cc">
+        <profile name="Manreaper Scythe" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="721e-790d-ac1e-57cc">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
@@ -1990,33 +2028,32 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="4bc6-216d-68b7-1c80" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Ignore Cover" id="39a7-9ac4-6d5a-2d9d" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
-        <infoLink name="Plague" id="44a0-59a5-90c4-b457" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="9a14-3c72-b9e0-1d68" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
+        <infoLink name="Purge" id="5e3a-86b4-7c91-0f25" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Blight Grenade" hidden="false" id="b2d1-1122-5503-1e0f">
       <profiles>
-        <profile name="Blight Grenade " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="19bb-0a85-2f81-6d3b">
+        <profile name="Blight Grenade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="19bb-0a85-2f81-6d3b">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2, Plague, Indirect, Rearm</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4, Putrid, Indirect, Rearm</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="e95c-c48b-89be-9ac3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Blast (X)" id="21fe-bc65-e27a-0d5c" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-        <infoLink name="Plague" id="bf81-d375-c330-d27f" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="e1c4-7b36-a920-5d83" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Indirect" id="543b-8fc1-272b-e36b" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
         <infoLink name="Rearm" id="3fe5-ce06-d26a-8939" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
       </infoLinks>
@@ -2036,13 +2073,12 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="e13e-1b84-d92e-6063" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="a440-7d7f-bc7d-3e2a" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="aa02-6719-90f7-4e8d" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dual Plague Knives" hidden="false" id="643f-017d-ea70-c997">
@@ -2076,8 +2112,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="60b7-5a03-bb3b-56e9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="1080-feba-d0d3-f409" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="2609-c0b1-56e3-7d84" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Plague Knife" hidden="false" id="ab58-025c-5f63-7db2">
@@ -2106,13 +2141,12 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="751b-eda8-6bd5-ba2d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="6500-37bf-e30a-feae" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="7f16-a3b0-59dc-e241" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Bubotic Weapon" hidden="false" id="e541-6c55-f01a-f69f">
@@ -2151,7 +2185,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 7, Putrid</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2191,9 +2225,9 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="bb87-2bd1-2a8e-7f96" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Ignore Cover" id="46c1-4444-053b-b9b3" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
-        <infoLink name="Plague" id="f5e2-f868-63c0-8e03" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="8c3d-2a4e-6b70-915f" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
+        <infoLink name="Purge" id="c3f6-a7b1-9042-5d8e" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Icon of Despair" hidden="false" id="17c4-18d0-db8d-251c">
@@ -2254,21 +2288,21 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="70e6-7f80-a28c-c329" hidden="false" defaultSelectionEntryId="4a42-1bc1-88fe-0833">
                   <selectionEntries>
-                    <selectionEntry type="upgrade" import="true" name="Plague Combi-Bolter" hidden="false" id="898b-fe09-af13-88d8" sortIndex="1">
+                    <selectionEntry type="upgrade" import="true" name="Combi-Plague Bolter" hidden="false" id="898b-fe09-af13-88d8" sortIndex="1">
                       <profiles>
-                        <profile name="Plague Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="37e6-5b43-2e50-97df">
+                        <profile name="Combi-Plague Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="37e6-5b43-2e50-97df">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Plague" id="3c4f-8b28-99f1-cc34" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+                        <infoLink name="Putrid" id="3c4f-8b28-99f1-cc34" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
                       </infoLinks>
                       <selectionEntryGroups>
                         <selectionEntryGroup name="Combi Option" id="75ce-9e89-bb36-372e" hidden="false" defaultSelectionEntryId="7edc-e6c3-8204-e40c">
@@ -2277,21 +2311,21 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b5f-42f3-f69b-e627" includeChildSelections="false" />
                           </constraints>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Plague Combi-Bolter" hidden="false" id="0882-cb40-a48b-1d21" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Combi-Plague Bolter" hidden="false" id="0882-cb40-a48b-1d21" sortIndex="1">
                               <profiles>
-                                <profile name="Plague Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9eda-0ef3-3cd5-de8e">
+                                <profile name="Combi-Plague Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9eda-0ef3-3cd5-de8e">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
                               <infoLinks>
-                                <infoLink name="Plague" id="e20f-d08d-1095-9089" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+                                <infoLink name="Putrid" id="e20f-d08d-1095-9089" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -2299,7 +2333,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <entryLink import="true" name="Combi-Melta" hidden="false" id="507f-2252-e504-30c4" type="selectionEntry" targetId="f770-b114-9df6-969c" sortIndex="2">
                               <modifiers>
                                 <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Combi-Flamer" hidden="false" id="f7c1-c436-4317-5998" type="selectionEntry" targetId="725d-6955-5aee-023b" sortIndex="3">
@@ -2310,8 +2344,8 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             </entryLink>
                             <entryLink import="true" name="Combi-Plasma" hidden="false" id="2e04-4e97-f41b-d307" type="selectionEntry" targetId="6a92-d812-47fc-a089" sortIndex="4">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                           </entryLinks>
@@ -2357,7 +2391,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                                 </profile>
                               </profiles>
                               <infoLinks>
-                                <infoLink name="Suppressive" id="57c8-eb1f-5b58-ca85" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -2419,7 +2452,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <infoLink name="Suppressive" id="5801-5a40-ea6a-c998" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Heavy Armour" id="c200-d4ef-10b9-d97d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         
-        <infoLink name="Plague" id="9647-091b-c9d2-f289" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Deathshroud Terminators" id="bdc9-f994-49df-65c0" hidden="false" defaultSelectionEntryId="a218-9064-8dd4-e33c">
@@ -2440,7 +2472,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink import="true" name="Man Reaper" hidden="false" id="d086-7d59-d507-12c8" type="selectionEntry" targetId="e5b9-68cd-70c1-e0ef">
+                <entryLink import="true" name="Manreaper Scythe" hidden="false" id="d086-7d59-d507-12c8" type="selectionEntry" targetId="e5b9-68cd-70c1-e0ef">
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1e56-7c49-a756-c120" includeChildSelections="false" />
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8ce1-c42d-9921-c603" includeChildSelections="false" />
@@ -2608,7 +2640,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <entryLink import="true" name="Plasma Gun" hidden="false" id="07b7-531b-c163-e7a3" type="selectionEntry" targetId="af5b-b208-be5c-ba5b" sortIndex="6">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
                             <entryLink import="true" name="Plague Belcher" hidden="false" id="68ae-e8f4-46e0-ed88" type="selectionEntry" targetId="433b-6edc-670e-75fa" sortIndex="7" />
@@ -2777,7 +2809,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <entryLink import="true" name="Meltagun" hidden="false" id="080b-0c8a-73ee-f616" type="selectionEntry" targetId="4260-66c2-4887-4117" sortIndex="5">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="daa5-d946-8e20-a235" includeChildSelections="true" />
@@ -2786,7 +2818,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <entryLink import="true" name="Plasma Gun" hidden="false" id="2745-df23-4f99-d215" type="selectionEntry" targetId="af5b-b208-be5c-ba5b" sortIndex="6">
                               <modifiers>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="43a2-bebc-9dc5-f9bf" includeChildSelections="true" />
@@ -2863,7 +2895,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                       <entryLinks>
                         <entryLink import="true" name="Plasma Pistol" hidden="false" id="daa8-2f9c-3caa-7e92" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                           <modifiers>
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                           <constraints>
@@ -2973,13 +3005,12 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="a494-db9b-1a00-d81b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Plague" id="7efe-dccf-705b-d5a1" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
+        <infoLink name="Putrid" id="7efe-dccf-705b-d5a1" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
       </infoLinks>
     </selectionEntry>
       <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="b104-85e6-e17f-85b0">
@@ -3053,13 +3084,14 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Plague, Ignore Cover</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Blast (X)" id="e26a-2b5b-4e40-8013" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
       <infoLink name="Ignore Cover" id="69bb-2944-55d8-2b0a" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
+      <infoLink name="Putrid" id="ad84-7f0b-2e93-c564" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
+      <infoLink name="Purge" id="3ea6-710c-4b2d-985f" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Blight Launcher" hidden="false" id="c9d8-92d7-86c0-bfae">

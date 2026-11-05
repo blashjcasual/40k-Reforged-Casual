@@ -10,13 +10,14 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Inferno</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Inferno, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Ignore Cover" id="1db1-8f3d-2758-fec1" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
         <infoLink name="Inferno" id="6fc1-862f-8c2f-a1e0" hidden="false" type="rule" targetId="188a-b70b-b086-9c0e"/>
+        <infoLink name="Purge" id="8e87-9837-6adb-9910" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
       <entryLinks>
         <entryLink import="true" name="Inferno (Rules Package)" hidden="false" id="1c9d-5a76-8730-ed1e" type="selectionEntry" targetId="8e48-0184-0153-dddc"/>
@@ -394,7 +395,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Warpflame Pistol" hidden="false" id="c4c7-9194-80cc-35e9" type="selectionEntry" targetId="9779-6b3e-5fd2-ee95" sortIndex="3">
                   <modifiers>
-                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -1871,17 +1872,17 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
       <infoLinks>
         <infoLink name="Fly" id="6812-08a4-1b34-4fcd" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
         <infoLink name="Ignore Cover" id="99df-210f-63dc-9155" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
-        <infoLink name="Shred" id="1a9b-bae7-314c-a2a0" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
+        <infoLink name="Purge" id="1a9b-bae7-314c-a2a0" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
       <profiles>
         <profile name="Flickering Flames" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f97b-7fbf-dbc8-20e1">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Shred</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
         <profile name="Summoned Flamers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b733-7637-d46e-b9b4">
