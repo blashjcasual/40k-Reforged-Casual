@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="18" revision="31" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="32" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Army Rules (Reference)" hidden="false" id="23d8-3b8d-77df-8eb4" sortIndex="-3">
       <constraints>
@@ -38,7 +38,7 @@
         </profile>
         <profile name="3 Laud-Hailer Organ" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="e261-9cce-56a8-b3a3">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">While friendly units are within 12" of this unit, add 1 to Resolve Tests made for those units. After this unit's Move step, all enemy units within 12" suffer D3+1 Suppression.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">While friendly units with Suppressed are within 12? of this unit, for each attack that targets those units, reroll Saving Throws of 1 for that attack. Additionally, after this unit?s Attacks step, all enemy units within 12? of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="4 Quicksilver Veil" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="0e00-6e49-e886-62b4">
@@ -88,7 +88,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Critical Hits X+" id="3642-b1d5-0cfa-d0c1" hidden="false" type="rule" targetId="fff4-3f9d-5d2d-4cf9"/>
         <infoLink name="Ignore Cover" id="d8bb-2e5c-3559-44f2" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
         <infoLink name="Blast (X)" id="4e85-5fde-892c-1566" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
@@ -103,10 +103,7 @@
       <profiles>
         <profile name="Defender of the Faith" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a75a-e497-9915-2fde">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your infantry units are within X” of this unit where X is equal to Choir of the Faithful X”, they gain the following ability:
-
-
-Battle-Hymn: For each ranged attack that targets this unit, add 1 to Resilient rolls for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your infantry units are within X" of this unit where X is equal to Choir of the Faithful X", they gain the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="5176-ba68-c9fe-40db">
@@ -139,11 +136,11 @@ a) BATTLE SISTERS</characteristic>
                 <profile name="Brazier of Holy Fire" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="36f2-8a20-cf03-a3b1">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -282,7 +279,7 @@ a) BATTLE SISTERS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -412,7 +409,7 @@ c) RETRIBUTORS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -435,7 +432,7 @@ c) RETRIBUTORS</characteristic>
         </profile>
         <profile name="Judgemental Scowl" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6417-ee07-ab87-e1c8">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made by your units visible to this unit, add 1 to the result of that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units with Suppressed are visible to and within 24" of this unit, for each attack that targets those units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="fe64-46be-8250-3a23">
@@ -467,7 +464,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -497,7 +494,7 @@ c) RETRIBUTORS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -610,7 +607,7 @@ This unit does not count towards your army list’s leader capacity</characteris
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -628,12 +625,12 @@ This unit does not count towards your army list’s leader capacity</characteris
       <profiles>
         <profile name="Polyglot" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="96dc-47af-4498-3290">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While friendly units other than Adepta Sororitas units are within 16" of this unit, they gain Sisters'Song.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While friendly units other than Adepta Sororitas units are within 16" of this unit, they gain Sisters' Song.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drown in Rhetoric" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d0fa-71f5-569b-84fc">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select an enemy infantry unit within 16" of this unit. If you do, the selected unit and each enemy infantry unit within 6" of that unit suffers D3+3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select an enemy infantry unit within 16" of this unit. If you do, the selected unit and each enemy infantry unit within 6" of that unit gains Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="c2f3-f36c-8407-59bb">
@@ -647,7 +644,7 @@ c) RETRIBUTORS</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Resilient (X)" id="832b-4514-141c-e04e" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e"/>
-        <infoLink name="Suppressive (X)" id="a9d2-e771-6b7b-ea2f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="a9d2-e771-6b7b-ea2f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Dialogus" hidden="false" id="13e7-bbfe-bf9a-3562">
@@ -661,7 +658,7 @@ c) RETRIBUTORS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -695,7 +692,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -742,7 +739,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1368,7 +1365,7 @@ c) RETRIBUTORS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1419,7 +1416,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1525,7 +1522,7 @@ c) RETRIBUTORS</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Fly" id="bc88-c4af-f460-afbb" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
-        <infoLink name="Unstoppable" id="7407-5149-8d3a-5465" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="unit" import="true" name="Geminae Superia (lol get reked varmint)" hidden="false" id="a6dd-c58f-b235-d858">
@@ -1552,7 +1549,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1663,11 +1660,11 @@ c) RETRIBUTORS</characteristic>
                 <profile name="The Ardent Blade Flame" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="946f-0baa-02f2-7956">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1686,8 +1683,8 @@ c) RETRIBUTORS</characteristic>
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1730,7 +1727,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1764,7 +1761,7 @@ c) RETRIBUTORS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1791,9 +1788,9 @@ c) RETRIBUTORS</characteristic>
                 <profile name="Celestian Sacresant" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ae93-f1ae-c209-6b51">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1906,7 +1903,7 @@ c) RETRIBUTORS</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1920,7 +1917,7 @@ c) RETRIBUTORS</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1938,7 +1935,7 @@ c) RETRIBUTORS</characteristic>
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Heavy Armour" id="8d02-ff40-cef4-b156" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
-        <infoLink name="Unstoppable" id="5edd-ef87-22c1-0b24" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
         <infoLink name="Guarded" id="97a0-e5cd-8180-a341" hidden="false" type="profile" targetId="5f45-8a1e-dcb3-915f"/>
       </infoLinks>
       <profiles>
@@ -1973,7 +1970,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2375,9 +2372,9 @@ c) RETRIBUTORS</characteristic>
                 <profile name="Paragon Warsuit" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4461-95ab-6d01-f75f">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2538,13 +2535,13 @@ c) RETRIBUTORS</characteristic>
       <profiles>
         <profile name="Sacrosanct Instruments" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7a27-aa20-1027-c202">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has the Sisters'Song ability, add 1 to Resilient Rolls made for this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has the Sisters' Song ability, add 1 to Resilient Rolls made for this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Heavy Armour" id="31f1-9690-79ca-ff3c" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
-        <infoLink name="Unstoppable" id="fe1a-c695-db8f-cfbc" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Arco-Flagellants" hidden="false" id="f555-5abf-cbc3-715d" sortIndex="14">
@@ -2575,7 +2572,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2593,15 +2590,7 @@ c) RETRIBUTORS</characteristic>
       <profiles>
         <profile name="Pacifier Helmet" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="caf5-6bfa-6eea-73d4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, you may ‘utter its trigger word’. If you do, this unit gains the following abilities:
-
-Resilient 6+
-
-Frenzied Berserkers: This unit cannot capture objectives.
-
-Disabled Pacifier: Each time this unit makes an Advance or Reposition move, it must end that move as close as possible to the closest enemy unit (If two or more units are closest, you choose).
-
-Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that attack gains Critical Hits 4+.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, you may'utter its trigger word'. If you do, this unit gains the following abilities: Resilient 6+</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2628,7 +2617,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2936,9 +2925,9 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
             <profile name="Immolator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="81f9-1f7c-1e11-46e1">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3091,8 +3080,8 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3117,7 +3106,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3274,12 +3263,12 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
       <profiles>
         <profile name="Covering Fire" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ffce-c682-b59f-3ae4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead).</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="c08d-76bb-9cbe-f192" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="c08d-76bb-9cbe-f192" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Transport" id="ba47-80d0-772e-8766" hidden="false" type="rule" targetId="d78d-24c6-e7a9-e94f"/>
       </infoLinks>
       <categoryLinks>
@@ -3359,7 +3348,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3486,7 +3475,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3652,9 +3641,9 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
             <profile name="Castigator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ebbb-7bec-21d9-1a2e">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">17</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3673,7 +3662,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
         </profile>
         <profile name="Artillery Support" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="442a-236d-f4f6-eae6">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Exorcist Missile Launcher, if you have no ready units except units with Artillery Support, you may'call for an artillery strike'. If you do, you may instead target an enemy unit within 24" of and visible to any of your infantry units within 16" of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Exorcist Missile Launcher, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3694,9 +3683,9 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
             <profile name="Exorcist" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7dd8-cd2e-4e9e-9544">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3811,7 +3800,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -4108,7 +4097,7 @@ Deadly Cocktail: For each attack made for this unit&apos;s Arco-flails, that att
 
 </entryLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.6" hidden="false" id="1288-3404-e1e5-90f1" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="1288-3404-e1e5-90f1" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="2a32-f478-bc26-83a2" targetId="9cd6-0442-3f35-6b52" primary="true"/>
       </categoryLinks>
@@ -4143,10 +4132,10 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         <profile name="Inferno Pistol" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e67e-9f9d-f3ce-baf4">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Holy Trinity, Shred</characteristic>
           </characteristics>
         </profile>
@@ -4161,8 +4150,8 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         <profile name="Blessed Blade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5517-a1a5-c7ab-8e7a">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
@@ -4246,12 +4235,12 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1, For each Move Roll made for this unit, you may reroll the result of that roll.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive, For each Move Roll made for this unit, you may reroll the result of that roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="d696-4228-0a93-6e69" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="d696-4228-0a93-6e69" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dozer Spikes" hidden="false" id="a3b0-cda4-b059-756a">
@@ -4263,7 +4252,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4297,7 +4286,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -4332,7 +4321,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
       <profiles>
         <profile name="Covering Fire" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="02b4-3c2e-7d85-8775">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead). After this unit is targeted by one or more ranged attacks, you may roll a D6. On a 3+, each ranged attack targeting this unit suffers a -1 penalty to its Hit Roll and you cannot roll for this ability again until the next battle round.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4349,9 +4338,9 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <profile name="Sororitas Rhino" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3293-6bed-1bbb-e3e5">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>

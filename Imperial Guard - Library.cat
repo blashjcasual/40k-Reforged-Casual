@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue name="Imperial Guard" id="f178-f218-fb11-d21a" battleScribeVersion="2.03" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="9" library="true" revision="54" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue name="Imperial Guard" id="f178-f218-fb11-d21a" battleScribeVersion="2.03" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" library="true" revision="55" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
   </categoryEntries>
   <entryLinks>
@@ -26,7 +26,8 @@
     <entryLink name="Kasrkins" id="8ee4-4172-db40-e2b3" hidden="false" import="true" sortIndex="99" targetId="c6e4-a3ae-dc8a-bcd2" type="selectionEntry"/>
     <entryLink name="Death Korps Grenadiers" id="c0d2-c9b3-b60d-b7bd" hidden="false" import="true" sortIndex="99" targetId="de7e-cb1c-9469-2d36" type="selectionEntry"/>
     <entryLink name="Death Korps Combat Engineers" id="2b15-80d8-b789-c112" hidden="false" import="true" sortIndex="99" targetId="9c3f-b78d-7d1d-6f92" type="selectionEntry"/>
-  </entryLinks>
+      <entryLink name="Hippogriff AFV" id="a7447b4f-54b0-495d-b2b0-6200438f4f4e" hidden="false" import="true" targetId="59a9018f-108a-4399-848f-8d4e72241943" type="selectionEntry" />
+</entryLinks>
   <selectionEntries>
     <selectionEntry name="Standard Bearer" id="7dde-b2e2-fb5b-2bf2" hidden="false" import="true" sortIndex="2" type="unit">
       <categoryLinks>
@@ -39,7 +40,7 @@
       <profiles>
         <profile name="Regimental Standard" id="2498-acce-fbd3-fb8e" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for a friendly Imperial Guard infantry unit visible to this unit, add 1 to that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units have Suppressed and are visible to and within 24" of this unit, for each attack that targets those units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile id="d409-dc37-03af-f75b" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
@@ -65,7 +66,7 @@ This unit does not count towards the leader maximum of the army list.</character
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -99,9 +100,7 @@ This unit does not count towards the leader maximum of the army list.</character
       <profiles>
         <profile name="Regimental Vox Operator" id="5fbc-73da-804c-b2a0" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has a MASTER VOX OPERATOR model, this unit gains:
-
-Master Vox Caster: While your other infantry units are within 24” of this unit, after those units End steps, if this was not your second turn in a row, you may take another turn.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has a M ASTER VOX OPERATOR model, this unit gains:</characteristic>
           </characteristics>
         </profile>
         <profile id="8b3f-a55d-8fa5-5334" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
@@ -138,7 +137,7 @@ This unit does not count towards the leader maximum of the army list</characteri
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -166,9 +165,7 @@ Only one MASTER OF ORDNANCE unit may attach to any one unit.</characteristic>
         </profile>
         <profile name="Artillery Expert" id="f2f6-2d69-eba5-49d7" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has a MASTER OF ORDNANCE model, this unit gains:
-
-Range Finders: While enemy units are visible to this unit, each time you roll 2D6 for Barrage for that unit, you may roll an additional D6 and discard the lowest.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has a M ASTER OF ORDNANCE model, this unit gains:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -195,7 +192,7 @@ Range Finders: While enemy units are visible to this unit, each time you roll 2
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -213,7 +210,7 @@ Range Finders: While enemy units are visible to this unit, each time you roll 2
       <profiles>
         <profile name="Imperial Navy Contacts" id="3dfa-87e0-3650-121a" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has an OFFICER OF THE FLEET model, this unit gains: Imperial Navy Support: For each ranged attack made by any friendly vehicle units with Fly, reroll a Wound Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has an OFFICER OF THE FLEET model, this unit gains:</characteristic>
           </characteristics>
         </profile>
         <profile id="bc8c-e35b-9277-69b1" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
@@ -250,7 +247,7 @@ Only one OFFICER OF THE FLEET unit may attach to any one unit.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -331,7 +328,7 @@ Only one ASTROPATH unit may attach to any one unit.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -428,7 +425,7 @@ This unit may only Cast psychic powers from the ‘Psychic Powers of the Battle 
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -491,19 +488,17 @@ This unit may only Cast psychic powers from the ‘Psychic Powers of the Battle 
           <profiles>
             <profile name="Maintenance Liturgy" id="3216-2bfa-e100-66b5" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, select a friendly vehicle unit within 6” of this unit. The selected unit Repairs D3+1 and gains the following ability:
-
-Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll of that attack. After this unit’s Attacks step, it loses this ability.</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select a friendly vehicle unit within 6" of this unit. The selected unit Repairs 2D3+1 and gains the following ability:</characteristic>
               </characteristics>
             </profile>
             <profile name="Invocate Machine" id="6065-4257-1610-1eee" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit&apos;s End step, if this was your first turn in a row, you must take another turn.</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, if this was your first turn in a row, you must take another turn.</characteristic>
               </characteristics>
             </profile>
             <profile name="Predictive Algorithms" id="0d91-daf1-3c63-ffdf" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 1&quot; of one or more of your other units, for each attack that targets this unit, the Saving Throw of that attack is improved by 1.</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 1" of one or more of your other units, for each attack that targets this unit, the Saving Throw of that attack is improved by 1.</characteristic>
               </characteristics>
             </profile>
             <profile name="Soothing Commune" id="eaa0-7f59-1cbc-0585" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -524,7 +519,7 @@ Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll 
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -542,7 +537,7 @@ Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll 
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -587,12 +582,12 @@ Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll 
       <profiles>
         <profile name="Enforced Discipline" id="432b-ad5f-8c07-bec8" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made by a friendly infantry unit within 12&quot; of this unit, reroll a 1 for that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units have Suppressed and are visible to and within 24" of this unit, for each attack that targets those units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Summary Execution" id="8197-c744-f01b-ab33" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit&apos;s Move step, you may select one of your infantry units within 8&quot; of and visible to this unit with Suppressed X. Then, one model from that unit dies. Then, roll 2D3 and reduce its Suppressed X by the result.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select one of your troops units within 8" of and visible to this unit with Suppressed. Then, one model from that unit dies and that unit loses Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile id="95e2-b399-9f70-9973" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
@@ -639,7 +634,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -679,12 +674,12 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Infiltration" id="68c6-6b8f-d6cf-ba16" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may&apos;infiltrate&apos;. If you do, roll 2D6+1. Then, Deploy this unit anywhere in the battlefield at least X&quot; away from all enemy units where X is the result of that roll. Then, during this turn&apos;s Move step, do not make a Move Roll and this unit cannot Advance or Reposition.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may'infiltrate'. If you do, roll 2D6+1. Then, Deploy this unit anywhere in the battlefield at least X" away from all enemy units where X is the result of that roll. Then, during this turn's Move step, do not make a Move Roll and this unit cannot Advance or Reposition.</characteristic>
           </characteristics>
         </profile>
         <profile name="Special Operation" id="52c6-6dc7-e8af-abad" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you Activate this unit while it is in reserves or embarked within a transport, you may&apos;assign a mission&apos;. If you do, select an enemy unit. Until the End step, for each ranged attack this unit makes which targets the selected unit, reroll a Wound Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you Activate this unit while it is in reserves or embarked within a transport, you may'assign a mission'. If you do, select an enemy unit. Until the End step, for each ranged attack this unit makes which targets the selected unit, reroll a Wound Roll of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -728,7 +723,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -939,7 +934,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -982,7 +977,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                       </costs>
                       <infoLinks>
                         <infoLink name="Blast (X)" id="ff43-0631-5d72-064c" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
-                        <infoLink name="Strike or Sweep (X)" id="3495-8c57-27ea-8408" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
+                        <infoLink name="Strike/Sweep" id="3495-8c57-27ea-8408" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="Missile Launcher (Strike)" id="cca7-7d87-578a-3f19" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -1030,7 +1025,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="7565-7fab-a87b-54cf" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit&apos;s Bombast Field Gun or Malleus Rocket Launcher, if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1048,7 +1043,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1081,18 +1076,18 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <selectionEntry name="Malleus Rocket Launcher " id="4676-56bc-991d-78c7" hidden="false" import="true" sortIndex="2" type="upgrade">
                       <infoLinks>
                         <infoLink name="Rearm" id="0f56-ad61-3cc6-671b" hidden="false" targetId="0c06-9eed-2a45-b772" type="rule"/>
-                        <infoLink name="Suppressive (X)" id="08a8-a7a8-7c74-0c80" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                        <infoLink name="Suppressive" id="08a8-a7a8-7c74-0c80" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
                         <infoLink name="Barrage" id="9438-8220-e929-206e" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="Malleus Rocket Launcher " id="e560-1df2-ad05-2ac1" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Suppressive 1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Suppressive</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1114,7 +1109,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <cost name="pts" typeId="points" value="150"/>
       </costs>
       <infoLinks>
-        <infoLink name="Unstoppable" id="4e1f-d296-ff87-c82c" hidden="false" targetId="9726-164b-d2c0-a58f" type="rule"/>
+        
         <infoLink name="Recrew" id="f497-60a0-d488-2f77" hidden="false" targetId="9567-753f-2da2-e85a" type="profile"/>
         <infoLink name="Resilient (X)" id="ad19-5f87-fefb-db6e" hidden="false" targetId="253c-c1fa-d29d-d21e" type="rule">
           <modifiers>
@@ -1126,7 +1121,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="ca61-c14d-48a7-6fdf" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit&apos;s weapons, if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1142,7 +1137,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1155,7 +1150,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
               <infoLinks>
-                <infoLink name="Suppressive (X)" id="7596-14d5-1c5c-b373" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                <infoLink name="Suppressive" id="7596-14d5-1c5c-b373" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Gas Dispersion" id="0cc2-e67b-6cf6-3155" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -1212,7 +1207,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <selectionEntry name="Multiple Rocket Launcher" id="cc5f-f025-c810-bf7d" hidden="false" import="true" sortIndex="3" type="upgrade">
                   <infoLinks>
                     <infoLink name="Barrage" id="bbc7-7840-b8cc-f18b" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
-                    <infoLink name="Suppressive (X)" id="60cb-08ff-0d93-4d5d" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                    <infoLink name="Suppressive" id="60cb-08ff-0d93-4d5d" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
                     <infoLink name="Blast (X)" id="93b9-e236-de1a-b4c4" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
                   </infoLinks>
                   <profiles>
@@ -1223,7 +1218,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1265,7 +1260,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <infoLinks>
         <infoLink name="Ignore Cover" id="add5-577f-f9c7-b5d6" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
         <infoLink name="Barrage" id="dda1-7fec-ab1d-e878" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
-        <infoLink name="Suppressive (X)" id="ac57-a1b0-ca5f-7c55" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="ac57-a1b0-ca5f-7c55" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
         <infoLink name="Indirect" id="d4e8-ed5e-dc8a-fedc" hidden="false" targetId="4de2-ca68-9af9-1b10" type="rule"/>
       </infoLinks>
       <profiles>
@@ -1306,7 +1301,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Suppressive 4, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
           </characteristics>
         </profile>
         <profile name="Valkyrie Multi-Laser" id="6c50-8d0d-1fcc-baa5" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -1321,7 +1316,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry name="Current Version: 3.3.8" id="49b5-96a5-b9d7-555d" hidden="false" import="true" sortIndex="-1" type="upgrade">
+    <selectionEntry name="Current Version: 3.4" id="49b5-96a5-b9d7-555d" hidden="false" import="true" sortIndex="-1" type="upgrade">
       <categoryLinks>
         <categoryLink name="Configuration" id="48db-a12b-9852-f558" primary="true" targetId="9cd6-0442-3f35-6b52"/>
       </categoryLinks>
@@ -1356,7 +1351,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1423,7 +1418,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
         <profile name="Tactical Elite" id="b5bd-da2b-957b-7c6a" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may reroll Move Rolls made for this unit and during this unit&apos;s moves, this unit may ignore vertical distances.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may reroll Move Rolls made for this unit and during this unit's moves, this unit may ignore vertical distances.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1459,7 +1454,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1734,7 +1729,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1906,7 +1901,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1946,7 +1941,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <selectionEntry name="Missile Launcher" id="c880-1c8b-1f83-3f25" hidden="false" import="true" sortIndex="5" type="upgrade">
                       <infoLinks>
                         <infoLink name="Blast (X)" id="ad57-9e5f-1479-6271" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
-                        <infoLink name="Strike or Sweep (X)" id="d3bf-cd07-35f0-df25" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
+                        <infoLink name="Strike/Sweep" id="d3bf-cd07-35f0-df25" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="Missile Launcher (Strike)" id="d60f-a0ba-5d43-8c77" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -1997,7 +1992,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Cadian Command Centre" id="f92e-f1fc-1487-3654" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is embarked in a transport, that transport gains all of this unit&apos;s abilities.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is embarked in a transport, that transport gains all of this unit's abilities.</characteristic>
           </characteristics>
         </profile>
         <profile id="0dfa-f5b7-16f7-f527" hidden="false" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader">
@@ -2007,7 +2002,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
         <profile name="Cadian Regimental Orders" id="fbca-3b91-a35a-916c" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24&quot; of this unit, those units gain the following abilities: Hold, On My Command!: After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, skip your Attacks step. Then, until the end of the battle round, after each of your Move steps, you may make ranged attacks with this unit. If you do, after the End step, this unit loses this ability. First Rank, Fire! Second Rank, Fire!: For each ranged attack this unit makes, if this is your second turn in a row, a Hit Roll of 6 causes an additional hit. For each of those attacks that target an enemy unit which lost one or more health last turn, add 1 to that Hit Roll.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24" of this unit, those units gain the following abilities: Hold, On My Command!: After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, skip your Attacks step. Then, until the end of the battle round, after each of your Move steps, you may make ranged attacks with this unit. If you do, after the End step, this unit loses this ability. First Rank, Fire! Second Rank, Fire!: For each ranged attack this unit makes, if this is your second turn in a row, a Hit Roll of 6 causes an additional hit. For each of those attacks that target an enemy unit which lost one or more health last turn, add 1 to that Hit Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2037,7 +2032,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2151,7 +2146,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2452,7 +2447,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2651,12 +2646,12 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Surprise Raids" id="a340-7787-ab25-f443" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit&apos;s End step, if this turn was your first turn in a row, you may take another turn.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, if this turn was your first turn in a row, you must take another turn.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tunnelling" id="8ca8-0b5d-e56c-48c9" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, you may remove it from the battlefield. If you do, roll 2D6. Then, Deploy this unit anywhere in the battlefield surface area within X inches of any of your other infantry units with Entrench, where X is equal to the result of that roll. Then, you may select one of your infantry units in reserves and Deploy the selected unit wholly within 6&quot; of this unit outside of the engagement range of enemy models.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, you may remove it from the battlefield. If you do, roll 2D6. Then, Deploy this unit anywhere in the battlefield surface area within X inches of any of your other infantry units with Entrench, where X is equal to the result of that roll. Then, you may select one of your infantry units in reserves and Deploy the selected unit wholly within 6" of this unit outside of the engagement range of enemy models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2669,7 +2664,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <cost name="pts" typeId="points" value="10"/>
           </costs>
           <infoLinks>
-            <infoLink name="Suppressive (X)" id="4696-a086-154c-6aee" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+            <infoLink name="Suppressive" id="4696-a086-154c-6aee" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Explosive Mines" id="037a-c0f8-340e-f9dc" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -2713,7 +2708,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2850,7 +2845,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                            
                           </characteristics>
                         </profile>
                         <profile name="Mole Launcher" id="6140-640e-76bc-9750" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -2898,7 +2893,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Death Korps Regimental Orders" id="ab63-5acf-851c-1c9a" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24” gain the following abilities: Hold The Line: For each of this unit&apos;s ranged attacks, reroll a Wound Roll of 1 for that attack. Over The Top: For each Move Roll made for this unit, you may reroll that roll. After this unit makes a Move Roll, until the End step, it gains the following ability: Duty To The Emperor: For each melee attack this unit makes, a Wound Roll of 6 for that attack causes an additional wound.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24" gain the following abilities:</characteristic>
           </characteristics>
         </profile>
         <profile name="Look Out Sir!" id="fa28-44cb-adfd-f4d3" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -2913,7 +2908,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
         <profile name="Death Korps Command Centre" id="7205-e4bb-26e1-0bd6" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is embarked in a transport, that transport gains all of this unit&apos;s abilities and loses Look Out Sir!.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is embarked in a transport, that transport gains all of this unit's abilities and loses Look Out Sir!.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2943,7 +2938,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3023,12 +3018,12 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="No Retreat" id="8553-2025-1a80-b158" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates while in engagement range of any enemy units, each of this unit&apos;s Aslt weapons may have their Tp changed to CQ until the End step.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates while in engagement range of any enemy units, each of this unit's Aslt weapons may have their Tp changed to CQ until the End step.</characteristic>
           </characteristics>
         </profile>
         <profile name="Drilled Fire" id="e27f-b6b9-70ac-33e1" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While each of this unit&apos;s models are touching another model in this unit, for each ranged attack made by another friendly Imperial Guard unit that targets an enemy unit within 24&quot; of this unit, reroll a Hit Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While each of this unit's models are touching another model in this unit, for each ranged attack made by another friendly Imperial Guard unit that targets an enemy unit within 24" of this unit, reroll a Hit Roll of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3066,7 +3061,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3279,7 +3274,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
         <profile name="Mordian Regimental Order" id="bae7-737c-6f61-3bb2" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24&quot; of this unit gain the following ability: Form Up!: After any unit is Activated, draw a line parallel to the front edge of your deployment zone between any two points on the battlefield edge. Each unit with Form Up! that line passes through is&apos;forming the line&apos;until the End step. While three or more units are forming the line, for each attack that targets those units, you may reroll failed Saving Throws for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit and your other Imperial Guard infantry units within 24" of this unit gain the following ability: Form Up!: After any unit is Activated, draw a line parallel to the front edge of your deployment zone between any two points on the battlefield edge. Each unit with Form Up! that line passes through is 'forming the line' until the End step. While three or more units are forming the line, for each attack that targets those units, you may reroll failed Saving Throws for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3309,7 +3304,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3371,16 +3366,271 @@ This unit does not count towards the leader capacity of your army list.</charact
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-  </selectionEntries>
+  <selectionEntry type="unit" import="true" name="Hippogriff AFV" hidden="false" id="59a9018f-108a-4399-848f-8d4e72241943" sortIndex="99">
+      <costs>
+        <cost name="pts" typeId="points" value="90" />
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="53e8a145-66af-4a3a-9894-3ec4b09c47de" primary="true" name="Support" />
+        <categoryLink targetId="b239-6bd1-e7a0-0a02" id="b870fa7b-7d08-488d-b23f-4a3f9a611e9f" primary="false" name="Vehicle" />
+      </categoryLinks>
+      <profiles>
+        <profile name="Flashpoint Relief" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d7e66c10-3dcd-4835-b118-364e96c14b05">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, you may select another one of your units on the battlefield. If you do, select one of the following abilities. If the selected unit has less than its starting Health, you may select both of the following abilities. Then, until the End step, this unit gains the selected abilities:</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Downshift" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8eeca97f-f81a-49bd-829e-63f3c4ba9415">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may reroll Move Rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Open Throttle" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8ea16b1f-9435-4a63-987a-63aeda07454c">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 1 D6 to and discard the lowest dice of that roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Hairpin Turn" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0e899bb7-0c68-4af7-b334-9187ac321b40">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit?s Attacks step, if one or more enemy units visible to your unit selected for Flashpoint Relief this turn was selected as a target for one or more attacks this turn, this unit may Reposition.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Hippogriff AFV" hidden="false" id="2f89a589-9758-47bf-93ef-c29b39d2129a">
+          <constraints>
+            <constraint id="eb397cd3-ab4c-4e16-a277-fc3063766165" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+            <constraint id="3065b57f-6ff1-41c5-8441-eebec6838e28" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="Hippogriff AFV" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5298717d-d276-4e90-b99a-64a51494004a">
+              <characteristics>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Main Weapon" id="dc88a6d2-bb16-449c-97da-905d465350e0" hidden="false" defaultSelectionEntryId="7564229e-6208-4716-ace8-7c8716193ed0">
+              <constraints>
+                <constraint id="6f7617c6-b59b-4710-b9fa-8da52e95b036" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                <constraint id="67a98f71-a9ef-489d-88e0-5d172791ea04" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Vigiliator Cannon" hidden="false" id="7564229e-6208-4716-ace8-7c8716193ed0">
+                  <profiles>
+                    <profile name="Vigiliator Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2502a669-3fa4-4c45-9e0f-44402a2b75a5">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Chiron Gatling Cannon" hidden="false" id="ab21e1eb-0e8b-4c5e-8a2d-b92a7b81c46e">
+                  <profiles>
+                    <profile name="Chiron Gatling Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="dd7fdc03-55d4-4f55-82c1-75c221f16868">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">28</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Melta Cannon" hidden="false" id="1ae3489f-54ca-4146-89a8-2e0f36209a69">
+                  <profiles>
+                    <profile name="Melta Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="aec21f7e-d7f5-47f5-92f9-ac42d38689b6">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Melt (X&quot;)" id="d1eeca97-8854-4a44-9219-077800708928" hidden="false" type="rule" targetId="58023c67-c320-45ec-9883-c1dfdb2c91ec" />
+                    <infoLink name="Shred" id="59623038-48d7-4369-8a59-91f68f188059" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Heavy Lascannon" hidden="false" id="25e853b0-d961-4e97-8f47-572f2d230f0e">
+                  <profiles>
+                    <profile name="Heavy Lascannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="bad6c452-f931-4c03-8877-918f337b70bf">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Colossal 2</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Breach" id="2e10180a-ba66-493d-9613-2e10fb639dc4" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
+                    <infoLink name="Colossal (X)" id="ff2cf760-f855-43dc-b383-dea074831cf3" hidden="false" type="rule" targetId="4ceb07e0-f7a5-436b-9a90-33ed03bc62d5" />
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Coaxial Weapon" id="ca7d0834-5d85-47b2-b7ae-fc5a6975ef9d" hidden="false" defaultSelectionEntryId="89031839-b285-49c1-be36-55b05c5d51ff">
+              <constraints>
+                <constraint id="ec619809-583c-4dab-93ab-fd6fca0949ec" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                <constraint id="a01cc765-0d42-4f69-a9b2-1379079a8310" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Coaxial Heavy Stubber" hidden="false" id="89031839-b285-49c1-be36-55b05c5d51ff">
+                  <profiles>
+                    <profile name="Coaxial Heavy Stubber" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4c2500b2-a53b-4bb9-a374-12fc72c216a6">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Coaxial Meltagun" hidden="false" id="c1879126-6b14-47ca-aac0-d87cb888c2f4">
+                  <profiles>
+                    <profile name="Coaxial Meltagun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="176f76de-64c4-486f-8a03-74cbd4ff405c">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Melt (X&quot;)" id="4422a0fb-11be-4758-aa3c-a06bef754c17" hidden="false" type="rule" targetId="58023c67-c320-45ec-9883-c1dfdb2c91ec" />
+                    <infoLink name="Shred" id="68f5b1cb-c908-4476-8a45-9f1b6d9b6c0f" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup name="Field Requisitions" id="0d335c94-249e-47fa-8c26-3bd72085b263" hidden="false">
+              <constraints>
+                <constraint id="bc705976-bd4c-4ade-a641-56418af19e1d" type="max" value="2" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Auger Array" hidden="false" id="d6c81bdf-3089-4151-8481-b21a180b33e7">
+                  <constraints>
+                    <constraint id="b6c749d7-31f8-4dd4-a224-937ced161cb8" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Camo-Netting" hidden="false" id="0bf75e4f-faaa-4a2c-9664-80e4307708e0">
+                  <constraints>
+                    <constraint id="b1f00d78-7494-48ea-b738-5766215144d5" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Extra Armour Plating" hidden="false" id="adc5a8df-d5db-4ce4-b826-f0bac0a34cee">
+                  <constraints>
+                    <constraint id="48a5d9a0-0e43-4219-b096-ee4a3dcf6c1b" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Frag Projectors" hidden="false" id="c53edea7-a244-485f-b6a5-fef31d812bf7">
+                  <constraints>
+                    <constraint id="5d4b125b-fa8b-4202-92b5-9c07105b4b44" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Smoke Launchers" hidden="false" id="606700dc-5d6f-4917-8426-89f68af8e604">
+                  <constraints>
+                    <constraint id="5a262ac3-8d9f-4552-9dd3-1afd0fc521f6" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Spare Parts" hidden="false" id="807c8bd0-9e48-4b91-a63c-e2c4c395240a">
+                  <constraints>
+                    <constraint id="58475021-c3c5-4b85-837d-a033ba0a4450" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Tactical Searchlight" hidden="false" id="8f03126a-f09c-4f5e-a6d9-3eb075ec403a">
+                  <constraints>
+                    <constraint id="07be98ed-a344-47db-871d-892cfc64ae29" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Track Guards" hidden="false" id="f1427d3c-6aaf-4876-ad64-ee788e50fb9c">
+                  <constraints>
+                    <constraint id="333304f0-e2e9-4d34-a49a-39d4c2180b6a" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <selectionEntry type="upgrade" import="true" name="Hunter-Killer Missile" hidden="false" id="7ede38a0-dcbb-4ad1-903f-23ee46bfd7df">
+            <constraints>
+              <constraint id="51010b95-265e-4e57-9e04-60900857e2ad" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+            </constraints>
+            <costs>
+              <cost name="pts" typeId="points" value="10" />
+            </costs>
+            <profiles>
+              <profile name="Hunter-Killer Missile" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="27626f74-deef-4340-b2a2-5080672e63e2">
+                <characteristics>
+                  <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                  <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                  <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                  <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                  <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                  <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Velocity, Pierce</characteristic>
+                </characteristics>
+              </profile>
+            </profiles>
+            <infoLinks>
+              <infoLink name="Rearm" id="705e14f4-dc43-4423-bc78-acf6f3c1a4ff" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
+              <infoLink name="Velocity" id="d6865d65-bf4a-40eb-9015-4317f1a6e285" hidden="false" type="rule" targetId="5e3c-8b11-830c-6d2a" />
+              <infoLink name="Pierce" id="64949332-b9fe-4f73-9496-d1188ec8106f" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+            </infoLinks>
+          </selectionEntry>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+</selectionEntries>
   <sharedProfiles>
     <profile name="Recrew" id="9567-753f-2da2-e85a" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After one of your friendly infantry units finishes an Advance within 1&quot; of this unit, you may remove up to 10 models from that unit. If you do, this unit Heals 1 for each model removed.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After one of your friendly infantry units finishes an Advance within 1" of this unit, you may remove up to 10 models from that unit. If you do, this unit Heals 1 for each model removed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Entrench" id="57ea-cdf2-571a-71ad" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack that targets this unit, add 1 to the Saving Throw of that attack. After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do not, this unit loses this ability until after the next time it&apos;s Activated.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack that targets this unit, add 1 to the Saving Throw of that attack. After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do not, this unit loses this ability until after the next time it's Activated.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -3413,7 +3663,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3508,9 +3758,9 @@ This unit does not count towards the leader capacity of your army list.</charact
         <profile name="Plasma Destroyer " id="5215-2c9b-db36-e439" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
           </characteristics>
@@ -3523,7 +3773,7 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">30</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
@@ -3542,7 +3792,7 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, Pierce</characteristic>
@@ -3661,7 +3911,7 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
@@ -3721,7 +3971,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="6491-b3b5-cac3-19d8" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit&apos;s Quad Stormshard Mortar, if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3750,9 +4000,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Wyvern" id="d493-63a8-244a-0ec5" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3767,7 +4017,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <infoLink name="Barrage" id="826c-2d10-8486-b48d" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
                 <infoLink name="Ignore Cover" id="b919-5d9a-e0dc-028a" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
                 <infoLink name="Indirect" id="c4e2-51f2-48c6-2c87" hidden="false" targetId="4de2-ca68-9af9-1b10" type="rule"/>
-                <infoLink name="Suppressive (X)" id="1c82-5b83-0ad7-5b3b" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                <infoLink name="Suppressive" id="1c82-5b83-0ad7-5b3b" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Quad Stormshard Mortar" id="d568-df0c-e13d-5a8d" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -3777,7 +4027,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Blast 3, Suppressive 1, Ignore Cover</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Blast 3, Suppressive, Ignore Cover</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3822,7 +4072,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Covering Fire" id="dce1-e3d5-cd12-964c" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8&quot; of this unit, this unit&apos;s ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead).</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3855,9 +4105,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Taurox" id="5300-7c8d-d93b-b65d" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3926,7 +4176,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Forward Reconnaissance" id="1bf4-14ab-e4d0-a3b2" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit&apos;s End step, if this turn was your first turn in a row, take another turn. During that turn, for each attack that targets an enemy unit visible to and within 24&quot; of this unit, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, if this turn was your first turn in a row, take another turn. During that turn, for each attack that targets an enemy unit visible to and within 24" of this unit, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3971,7 +4221,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -4025,7 +4275,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <selectionEntry name="Missile Launcher" id="df58-6749-ca97-05e5" hidden="false" import="true" sortIndex="6" type="upgrade">
                       <infoLinks>
                         <infoLink name="Blast (X)" id="4528-5b31-afdc-fb1f" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
-                        <infoLink name="Strike or Sweep (X)" id="7f9d-fbaa-b010-24b9" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
+                        <infoLink name="Strike/Sweep" id="7f9d-fbaa-b010-24b9" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="Missile Launcher (Strike)" id="a46a-0205-1324-14f7" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -4072,7 +4322,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="9c84-610d-5585-b9e3" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit&apos;s Twin Earthshaker Cannon, if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4086,9 +4336,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Minotaur" id="6ee2-537b-b119-7e2a" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">24</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4100,7 +4350,7 @@ This unit does not count towards the leader capacity of your army list.</charact
               </constraints>
               <infoLinks>
                 <infoLink name="Barrage" id="c3d2-4d80-ed1a-e7a9" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
-                <infoLink name="Suppressive (X)" id="080d-bc5b-dc20-1814" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                <infoLink name="Suppressive" id="080d-bc5b-dc20-1814" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Twin Earthshaker Cannon" id="f345-3270-3360-12ac" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -4110,7 +4360,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive 4, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4151,7 +4401,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="5383-f8f4-095f-811a" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit&apos;s Storm Eagle Rocket (1 &amp; 2, 3 or 4), if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4180,9 +4430,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Manticore" id="3434-48ad-bbb9-fb65" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4194,7 +4444,7 @@ This unit does not count towards the leader capacity of your army list.</charact
               </constraints>
               <infoLinks>
                 <infoLink name="Rearm" id="88b9-56ac-283e-a560" hidden="false" targetId="0c06-9eed-2a45-b772" type="rule"/>
-                <infoLink name="Suppressive (X)" id="ae61-d101-a8aa-ada2" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                <infoLink name="Suppressive" id="ae61-d101-a8aa-ada2" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
                 <infoLink name="Barrage" id="9a33-5fa1-de75-9cee" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
               </infoLinks>
               <profiles>
@@ -4205,7 +4455,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive 1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Barrage, Blast 3, Suppressive</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4274,9 +4524,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Leman Russ Battle Tank" id="afce-d6a0-e65e-143f" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4487,7 +4737,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Risky Stowage" id="6605-ab4b-a4d7-19c9" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit dies, before removing it from the battlefield, roll 3D6 and discard the lowest result. Each unit within 4&quot; suffers SW equal to the total.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit dies, before removing it from the battlefield, roll 3D6 and discard the lowest result. Each unit within 4" suffers SW equal to the total.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4520,9 +4770,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Hellhound" id="9e73-39b3-feb5-b704" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4569,11 +4819,11 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <profile name="Inferno Cannon" id="f89c-9898-ea61-bc32" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">27</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4581,7 +4831,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <selectionEntry name="Chem Cannon" id="cbb9-e2f9-e56f-155b" hidden="false" import="true" sortIndex="2" type="upgrade">
                   <infoLinks>
                     <infoLink name="Ignore Cover" id="43c1-55df-e238-348c" hidden="false" targetId="c88b-5cb0-aa9d-b742" type="rule"/>
-                    <infoLink name="Suppressive (X)" id="7a49-7801-64e2-6c60" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                    <infoLink name="Suppressive" id="7a49-7801-64e2-6c60" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
                   </infoLinks>
                   <profiles>
                     <profile name="Chem Cannon" id="a021-3751-b5e5-ea8a" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -4591,7 +4841,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive, Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4608,7 +4858,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8&quot;, Shred</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -4663,13 +4913,13 @@ This unit does not count towards the leader capacity of your army list.</charact
         <cost name="pts" typeId="points" value="100"/>
       </costs>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="fb11-8f6f-97ab-cbf9" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="fb11-8f6f-97ab-cbf9" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
         <infoLink name="Transport" id="6a3a-bbf3-8239-fc44" hidden="false" targetId="d78d-24c6-e7a9-e94f" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Covering Fire" id="21cb-e83c-6fd2-fc1d" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8&quot; of this unit, this unit&apos;s ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead).</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4690,9 +4940,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Chimera" id="0091-daa0-67e7-ceb8" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4880,7 +5130,7 @@ This unit does not count towards the leader capacity of your army list.</charact
       <profiles>
         <profile name="Artillery Support" id="616c-af69-63b2-b089" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit&apos;s Earthshaker Cannon, if you have no ready units except units with Artillery Support, you may&apos;call for an artillery strike&apos;. If you do, you may instead target an enemy unit within 24&quot; of and visible to any of your infantry units within 24&quot; of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting a target for this unit's weapons, you may'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4901,9 +5151,9 @@ This unit does not count towards the leader capacity of your army list.</charact
             <profile name="Basilisk" id="28a7-9724-b52b-985a" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4915,7 +5165,7 @@ This unit does not count towards the leader capacity of your army list.</charact
               </constraints>
               <infoLinks>
                 <infoLink name="Barrage" id="2d82-5dc0-cf1e-101a" hidden="false" targetId="9cfc-06e3-74c6-ad83" type="rule"/>
-                <infoLink name="Suppressive (X)" id="eb4e-0561-2100-a6d6" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+                <infoLink name="Suppressive" id="eb4e-0561-2100-a6d6" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Earthshaker Cannon" id="d4eb-32fc-36cd-cddb" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -4923,9 +5173,9 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive 4, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5063,7 +5313,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -5117,7 +5367,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <selectionEntry name="Missile Launcher" id="b409-b119-8a6f-cedd" hidden="false" import="true" sortIndex="6" type="upgrade">
                       <infoLinks>
                         <infoLink name="Blast (X)" id="14fb-71d2-f60b-7297" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
-                        <infoLink name="Strike or Sweep (X)" id="991d-cc4f-8972-90c1" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
+                        <infoLink name="Strike/Sweep" id="991d-cc4f-8972-90c1" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
                       </infoLinks>
                       <profiles>
                         <profile name="Missile Launcher (Strike)" id="ce13-bd31-15ed-0e5e" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5188,11 +5438,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         </profile>
         <profile name="Regimental Orders" id="9e7d-b04e-f116-3483" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you Activate another Imperial Guard vehicle within 24”, that unit may gain one of the following abilities. If it already has one of these abilities, select one of those abilities and it loses the other:
-
-Pin Them Down: Each of this unit’s ranged weapons gains Suppressive X where X is equal to the D of that weapon. For each ranged attack this unit makes, the Hit Roll for that attack is worsened by 1. After the End step, this unit loses this ability.
-
-Grinding Treads: After this unit’s Move step, you may select an enemy unit within the engagement range of this unit. The selected unit suffers X+2 SW where X is equal to this unit’s Toughness.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you Activate another Imperial Guard vehicle within 24", that unit may gain one of the following abilities. If it already has one of these abilities, select one of those abilities and it loses the other:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5221,9 +5467,9 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <profile name="Tank Commander" id="39cd-b773-a8bb-80ff" hidden="false" typeId="a706-96eb-fcae-b696" typeName="Unit">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -5254,7 +5500,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                     <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="2"/>
-                    <modifier affects="profiles.Weapon" field="d93f-70ee-72bc-5ef9" type="set" value="Suppressive 1"/>
+                    <modifier affects="profiles.Weapon" field="d93f-70ee-72bc-5ef9" type="set" value="Suppressive"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -5533,7 +5779,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
     </selectionEntry>
     <selectionEntry name="Autocannon" id="e11a-6ed1-3ae6-3569" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="aa86-1899-8b86-accb" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="aa86-1899-8b86-accb" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Autocannon" id="5643-c7c6-7d59-a7e1" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5543,7 +5789,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5588,11 +5834,11 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <profile name="Boltgun" id="a7f3-2588-b48a-f33c" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5689,7 +5935,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
     </selectionEntry>
     <selectionEntry name="Heavy Stubber" id="b546-4d8a-e74d-e80d" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="1035-6d35-dfda-4d24" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="1035-6d35-dfda-4d24" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Heavy Stubber" id="06aa-5288-20b4-0e98" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5699,7 +5945,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5771,7 +6017,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5784,11 +6030,11 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
         <profile name="Flamer Pistol" id="633a-95cd-5adc-7ab2" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5827,7 +6073,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
     <selectionEntry name="Shotgun" id="ab77-7564-91d5-ee87" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Shred" id="ce3f-9969-f424-3801" hidden="false" targetId="4a04-e9da-d7b5-e035" type="rule"/>
-        <infoLink name="Strike or Sweep (X)" id="5440-f696-45a6-4978" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
+        <infoLink name="Strike/Sweep" id="5440-f696-45a6-4978" hidden="false" targetId="2757-6563-cdb2-3456" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Shotgun (Sweep)" id="0ced-85d3-0788-8033" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -5910,7 +6156,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
       <profiles>
         <profile name="Medical Supplies" id="be41-bab3-d44f-9392" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit&apos;s Move step, select an infantry unit within 4&quot;. The selected unit Heals 2D3. to it: Only one M EDIC unit may attach to any one unit. This unit costs 0 leader points.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select an infantry unit within 4". The selected unit Heals 2D3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -5926,7 +6172,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -5968,7 +6214,7 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -6005,12 +6251,13 @@ Grinding Treads: After this unit’s Move step, you may select an enemy unit wi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-      </selectionEntries>
+          
+</selectionEntries>
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>

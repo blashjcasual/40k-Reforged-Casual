@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a50c-93fe-33fc-4e86" name="Tyranids" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="29" revision="35" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="a50c-93fe-33fc-4e86" name="Tyranids" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="36" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.8" hidden="false" id="d93e-ed5b-78c7-6277" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="d93e-ed5b-78c7-6277" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="147b-5e69-1823-d904" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -102,7 +102,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="6 Overwhelming Shadow" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="9909-3ae2-1996-8f7c">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">While this unit has Hive Minded, after this unit's Move step, each enemy unit within 6" of it suffers 1+D3 Suppression. While enemy units with Suppressed are within 6" of this unit, those units cannot be selected for Activation unless their controlling player has no other units available for Activation.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, all enemy units within 4" of this unit gain Suppressed. If this unit has Synapse, all enemy units within 12" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="5 Perfect Adaptation" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="6d05-f68a-0bb0-c046">
@@ -137,7 +137,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="Synaptic Apex" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="faa4-008f-6caf-f1f2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle round, after the End step for one of your units with Hive Minded, if this turn was your first turn in a row, you may take another turn.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle round, after the End step for one of your units within 16" of your units with Synapse, if this turn was your first turn in a row, you may take another turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -283,7 +283,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -310,7 +310,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="Dormant Broods" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b447-f44b-affb-d634">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After each of your TERM AGANT units Activate within 12" of this unit, that unit Heals D3.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After your TERM AGANTS units Activate within 16" of this unit, that unit Heals D3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -369,9 +369,9 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
             <profile name="Tervigon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="47d7-d2ce-76e1-5bc1">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -437,12 +437,12 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
       <profiles>
         <profile name="Debilitating Shadow" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fc22-36f8-5f42-0b81">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select up to two enemy units within 24" of this unit. The selected units suffer X Suppression where X was the highest result of this unit's last Psychic Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, select up to two enemy units within 24" of this unit. Then, the selected units gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Tyrannical Will" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f96a-f14d-729b-5b70">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for enemy units within 24" of this unit, that Resolve Test is worsened by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units with Suppressed are within 24" of this unit, those units cannot be selected for Activation unless their controlling player has no other units without Suppressed available for Activation.</characteristic>
           </characteristics>
         </profile>
         <profile name="psychic" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="cdf8-84b0-e793-6d22">
@@ -452,7 +452,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="Neural Amplifier" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ddde-7c4d-da42-1f91">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test made for this unit, add 1 D6 to that Psychic Test for each NEUROLOID model in this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test made for this unit, add 1 D6 to that Psychic Test for each NEUROLOIDS model in this unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="f15e80b7-a7ad-40ad-b5c8-226685726ec5">
@@ -505,7 +505,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -523,7 +523,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -564,7 +564,6 @@ GARGOYLES</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Hive Minded" id="4738-872b-31af-3626" hidden="false" type="rule" targetId="fe5a-2c3e-fb3c-4a91" />
         <infoLink name="Adaptive Bioforms" id="4154-c017-9bb2-4de1" hidden="false" type="profile" targetId="0d87-dd31-8828-68b4" />
         <infoLink name="Synaptic Node" id="0c58-b015-57e5-5a4d" hidden="false" type="profile" targetId="25a5-78c2-e19f-0550" />
       </infoLinks>
@@ -688,16 +687,16 @@ GARGOYLES</characteristic>
                     <profile name="Barbed Strangler" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="acae-dbf7-70ea-9e3a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive (X)" id="e9e9-c8ae-e14d-8362" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                    <infoLink name="Suppressive" id="e9e9-c8ae-e14d-8362" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="a747-9c7e-259d-e1ab">
@@ -745,7 +744,7 @@ GARGOYLES</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -801,15 +800,13 @@ GARGOYLES</characteristic>
       <infoLinks>
         <infoLink name="Walker" id="24bb-4feb-f919-82bd" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
         <infoLink name="Forward Deploy" id="b524-352d-e5d7-0dde" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
-        <infoLink name="Unstoppable" id="fa15-3f79-eac3-9e5d" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Chameleonic Carapace" id="4b13-4122-38d3-605e" hidden="false" type="profile" targetId="d725-c927-60e7-1f31" />
       </infoLinks>
       <profiles>
         <profile name="Opportunistic Hunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="20e5-bda9-61b9-b09a">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:
-
-To The Shadows: After any enemy unit's End step, this unit may Advance and it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Stimulated Predation" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bdd9-16c2-e647-d61c">
@@ -851,9 +848,9 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
             <profile name="Lictor" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="044d-7135-32cd-0607">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -871,7 +868,7 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
       <infoLinks>
         <infoLink name="Walker" id="5be8-b699-12e2-9b43" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
         <infoLink name="Forward Deploy" id="f8fb-5837-1687-34d6" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
-        <infoLink name="Unstoppable" id="85ef-ca67-8c38-5df9" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Chameleonic Carapace" id="841b-3e1d-4202-bbf9" hidden="false" type="profile" targetId="d725-c927-60e7-1f31" />
         <infoLink name="Psyker (X)" id="b074-9fa5-5f28-fbc5" hidden="false" type="rule" targetId="6ff7-e000-c4c9-fb18">
           <modifiers>
@@ -884,7 +881,7 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
       <profiles>
         <profile name="Atavistic Terror" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bb7e-00d5-cbae-07c8">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Each time this unit Casts Horrible Presence or Psychic Scream or uses Neural Fields, add 1 to rolls for a number of Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is active, after an enemy unit with Suppressed gains Suppressed, that unit suffers 2 SW.</characteristic>
           </characteristics>
         </profile>
         <profile name="psychic" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4360-bdca-0be3-8ee0">
@@ -926,9 +923,9 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
             <profile name="Neurolictor" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5a63-fa4d-0aec-0c68">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -953,7 +950,7 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Unstoppable" id="0d88-4a82-d6c1-0f13" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Venomthrope" hidden="false" id="c62a-e39e-22dd-6921">
@@ -985,9 +982,9 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
             <profile name="Venomthrope" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="aeb3-15ce-c611-b9ef">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1048,7 +1045,7 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1075,7 +1072,7 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1096,14 +1093,12 @@ To The Shadows: After any enemy unit's End step, this unit may Advance and it 
       <infoLinks>
         <infoLink name="Adaptive Bioforms" id="79a2-a2ad-7b85-cd7a" hidden="false" type="profile" targetId="0d87-dd31-8828-68b4" />
         <infoLink name="Walker" id="83f4-6ff8-a4a9-6d98" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="d981-e7ed-b9b2-bd39" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <profiles>
         <profile name="Pulverising Charge" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0cc7-4bf4-12da-412a">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, each enemy unit visible to this unit gains Rumbling Earth until the End step:
-
-Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance, if that unit passed within 1" of this unit during that Advance, this unit suffers 3 SW.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, each enemy unit visible to this unit gains Rumbling Earth until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1219,9 +1214,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
             <profile name="Carnifex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a8da-ba7c-f99f-328a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1258,7 +1253,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1311,7 +1306,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1429,9 +1424,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                 <profile name="Tyrant Guard" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c5ba-7faa-512d-a8cb">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1452,7 +1447,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Unstoppable" id="dd70-b3b5-8173-7207" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Heavy Armour" id="d6fd-3ced-60a6-48a7" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
     </selectionEntry>
@@ -1493,7 +1488,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
       <infoLinks>
         <infoLink name="Titan" id="1e42-3c09-e5bb-166b" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc" />
         <infoLink name="Walker" id="0408-f3e9-7a7b-9df0" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="4316-b14a-d334-87a9" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Trygon" hidden="false" id="4d0e-ad22-38a5-44ce">
@@ -1539,9 +1534,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
             <profile name="Trygon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="58a5-5c76-23ff-1c82">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1580,7 +1575,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
       <infoLinks>
         <infoLink name="Titan" id="b969-690c-3491-2a44" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc" />
         <infoLink name="Walker" id="8dc7-5971-576c-68ff" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="482b-fa81-3a37-66fe" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Mawloc" hidden="false" id="1375-9a7d-5a54-1f94">
@@ -1633,9 +1628,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
             <profile name="Mawloc" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="2494-0567-19a5-cb10">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1671,9 +1666,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1707,16 +1702,16 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
             <profile name="Harsupex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a732-9627-0ee4-52de">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Unstoppable" id="8bf8-a265-0c3e-ab43" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Walker" id="b230-dc56-8856-d867" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
       </infoLinks>
       <categoryLinks>
@@ -1735,13 +1730,13 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
       <profiles>
         <profile name="Focused Symbiote" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b78f-d569-7246-6591">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack this unit makes, if this unit has not moved further than 10” from where it started this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit's Bio-Plasmic Cannon, add 1 to the Hit Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="a6ea-954a-3ea5-fad6" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="7fe2-38b7-b84b-d43d" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Exocrine" hidden="false" id="54c9-1195-0128-9ca8">
@@ -1763,7 +1758,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 12 3+ 3 2 Sweep, Breach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1798,7 +1793,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
               <infoLinks>
                 <infoLink name="Breach" id="9eca-f369-fc89-52d9" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                 <infoLink name="Pierce" id="1a00-e7cc-beca-938b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
-                <infoLink name="Strike or Sweep (X)" id="06a1-797a-6263-8b7d" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                <infoLink name="Strike/Sweep" id="06a1-797a-6263-8b7d" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1806,9 +1801,9 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
             <profile name="Exocrine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9d40-7bcd-824c-a4c3">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1945,16 +1940,16 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                         <profile name="Barbed Strangler" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="39a0-4f39-b79a-4f70">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Purge</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Suppressive (X)" id="a6c0-ed6b-68fa-1370" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                        <infoLink name="Suppressive" id="a6c0-ed6b-68fa-1370" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="d2f4-6ebb-1253-4011">
@@ -2002,7 +1997,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2013,12 +2008,11 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
       <profiles>
         <profile name="Hive-Memory Forewarning" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="44e8-14db-2bb4-8b8d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Hive Minded, for each attack that targets this unit, add 1 to the Saving Throw of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, for each attack that targets this unit, add 1 to the Saving Throw of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Hive Minded" id="0803-b640-e242-8517" hidden="false" type="rule" targetId="fe5a-2c3e-fb3c-4a91" />
         <infoLink name="Adaptive Bioforms" id="8a4c-2e3a-efa2-ad3e" hidden="false" type="profile" targetId="0d87-dd31-8828-68b4" />
         <infoLink name="Synaptic Node" id="e6b6-4ca7-4409-7a37" hidden="false" type="profile" targetId="25a5-78c2-e19f-0550" />
       </infoLinks>
@@ -2045,7 +2039,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2063,7 +2057,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2080,17 +2074,17 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
       <profiles>
         <profile name="Sightless Guidance" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bf5d-18b5-b200-ead6">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit does not have Hive Minded, for each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit does not have Synapse, for each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Neural Projection" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="97a6-22fd-e1cd-1fc5">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Hive Minded, it gains Psyker 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Synapse, it gains Psyker 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Exocognitive Neurocytes" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e301-6d43-2892-de36">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Hive Minded, while selecting a friendly or enemy unit for a psychic power, or for Windfall of the Warp, Dominating Shadow, you may instead select a friendly or enemy unit visible to and within 5+2D6" of this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Synapse, while selecting friendly or enemy units for a psychic power, or for Windfall of the Warp, Dominating Shadow, you may instead select friendly or enemy units within 5+2D6" of this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2099,13 +2093,7 @@ Rumbling Earth: After an enemy unit with Pulverising Charge finishes an Advance
   <sharedProfiles>
     <profile name="Adaptive Bioforms" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0d87-dd31-8828-68b4">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, each of your units with Adaptive Bioform gain one of the following ‘adaptation’ abilities:
-
-Rend:  Each weapon equipped to this unit has its Strength improved by 1.
-
-Carapace: This unit gains Resilient 5+.
-
-Adrenaline: For each Move Roll made for this unit, add 1 D6 to that roll.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, each of your units with Adaptive Bioform gain one of the following'adaptation' abilities:</characteristic>
       </characteristics>
     </profile>
     <profile name="Frenzied Feeders" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a8f5-3d8c-4b84-575a">
@@ -2115,9 +2103,7 @@ Adrenaline: For each Move Roll made for this unit, add 1 D6 to that roll.</char
     </profile>
     <profile name="Synapse" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ef65-9c3a-581f-6896">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 12” of this unit, they gain the following ability:
-
-Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve Test.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit has the Synapse keyword.</characteristic>
       </characteristics>
     </profile>
     <profile name="Genetic Replication" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6a78-8ac7-367b-4410">
@@ -2147,7 +2133,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
     </profile>
     <profile name="Synaptic Node" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="25a5-78c2-e19f-0550">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 12" of one or more friendly units with Synapse, your other units within 12" of this unit gain Hive Minded.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, this unit gains Synapse.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2178,12 +2164,12 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="d252-646d-6f67-d871" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="d252-646d-6f67-d871" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Heavy Venom Cannon" hidden="false" id="a391-602f-fd75-1db7">
@@ -2239,7 +2225,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2282,7 +2268,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         </profile>
         <profile name="Reckless Abandon" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e6bd-ef15-2df9-d689">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit does not have Hive Minded, for each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is not within 16" of one or more friendly units with Synapse, for each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2309,7 +2295,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2330,13 +2316,13 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Suppressive 1</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4, Purge</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
                           <infoLinks>
                             <infoLink name="Blast (X)" id="012e-3e0c-9ab2-352c" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                            <infoLink name="Suppressive (X)" id="9ed7-e495-247a-4f79" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                            <infoLink name="Suppressive" id="9ed7-e495-247a-4f79" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="10" />
@@ -2446,7 +2432,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
       <profiles>
         <profile name="Synaptic Targeting" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fe89-c558-cfff-62c1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Hive Minded, for each attack made for a weapon equipped to this unit's TERM AGANT models, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, for each attack made for a weapon equipped to this unit's TERM AGANT models, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2494,7 +2480,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2551,7 +2537,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">0</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2590,7 +2576,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         </profile>
         <profile name="Completely Mindless" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="33f7-c38b-1784-b83c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After the end of each battle round, if this unit does not have Hive Minded, this unit dies.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After the end of each battle round, if this unit is not within 16" of one or more friendly units with Synapse, this unit dies.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2689,12 +2675,12 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="4ab8-0623-b02e-b2b1" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="4ab8-0623-b02e-b2b1" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Prime Wings" hidden="false" id="1252-6ab8-dce3-47a6">
@@ -2719,7 +2705,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         <profile name="Genestealer Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b35f-212c-80d1-eb55">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2885,11 +2871,11 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         <profile name="Acid Spray" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8995-a04c-8972-2e62">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Shred</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Shred, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2907,7 +2893,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -2921,7 +2907,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -2935,7 +2921,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -2984,7 +2970,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -2998,7 +2984,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 3</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 2, Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3016,14 +3002,14 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 6, Suppressive 1</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Blast 9, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
       <infoLink name="Barrage" id="c827-efcd-c17e-9a98" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
       <infoLink name="Blast (X)" id="90a4-5030-4fe6-b483" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-      <infoLink name="Suppressive (X)" id="bd29-2681-2c7b-d911" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="bd29-2681-2c7b-d911" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Frag Spore Mine" hidden="false" id="2c91-5682-6a89-81dd">
@@ -3079,7 +3065,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         </profile>
         <profile name="Hive-Memory Forewarning" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="21a1-5879-5daf-80db">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit has Hive Minded, for each attack that targets this unit, add 1 to the Saving Throw of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, for each attack that targets this unit, add 1 to the Saving Throw of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3095,7 +3081,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3127,7 +3113,7 @@ Hive Minded: For each Resolve Test made for this unit, add 1 to that Resolve T
         </profile>
         <profile name="If this unit has Winged, it must attach to" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="39f8-27db-f335-1a39">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit costs 0 leader points.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">● W ARRIOR BROOD with Winged This unit costs 0 leader points. 3.4 Troops HORMAGAUNTS (10) - 70 points - Infantry T Sv H 2 6+ 1 Adaptive Bioform</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="853b1ff6-5d83-4838-a089-510480d5d351">
@@ -3159,7 +3145,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3209,7 +3195,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Hive Mind Direction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7289-7e58-6461-3f76">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated while it has Hive Minded, this unit gains the following ability until the next time it is Activated:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, if this unit is within 16" of one or more friendly units with Synapse, this unit gains the following ability until the next time it is Activated:</characteristic>
           </characteristics>
         </profile>
         <profile name="Terror Skirmishers" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="15f7-3566-dc52-229d">
@@ -3230,7 +3216,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3268,9 +3254,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Genestealers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="8aea-1f3b-3feb-242d">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3301,7 +3287,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Voracious Cull" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="624d-a9d9-266b-095a">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, if this unit has Hive</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, if this unit is within 16" of one or more friendly units with Synapse, it gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Subterranean Withdrawal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3680-c8b7-f1c2-92f6">
@@ -3322,7 +3308,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3389,7 +3375,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3420,7 +3406,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Crushing Momentum" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8948-92c9-53f4-be8c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">they were not there. * Sunder Ferroconcrete: After this unit finishes an Advance move, you may select a terrain piece this unit passed within 1" of during that Advance. All enemy units within 1" of the selected terrain piece suffer 2D3+1 SW. Then, if there are no models on that terrain piece, remove that terrain piece from the battlefield.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit may move over structure and obstacle pieces as if they were not there.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3434,9 +3420,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Stone-crusher Carnifex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a35e-b524-164b-6f09">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3458,7 +3444,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <profiles>
         <profile name="Instinctive Metabolism" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f0aa-5d3e-365a-bc55">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move Roll during its Move step, you may discard the highest dice of that Move Roll. If you do, after the Move step, this unit gains Anchored Discharge until the End step. Otherwise, it gains Rampaging Assault until the End step.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move Roll during its Move step, you may discard the highest dice of that Move Roll. If you do, this unit gains Anchored Discharge X until the End step. Otherwise, it gains Rampaging Assault X until the End step. X is equal to the result of that dice.</characteristic>
           </characteristics>
         </profile>
         <profile name="Anchored Discharge" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e18e-554a-dae8-ffe7">
@@ -3473,7 +3459,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Ululating Shriek" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="474b-06b6-bbbc-085b">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After selecting targets for this unit's weapons, all enemy units within XD3" suffer X Suppression where X is equal to this unit's Bioplasma Discharge weapon's attacks. If X is greater than 4, those units suffer X SW instead.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within XD3" gain Suppressed, where X is equal to the A of this unit's Bio-Plasma Discharge weapon. If X is greater than 4, those units suffer X SW instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3487,9 +3473,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Screamer-killer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c67e-2f28-c107-cb72">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3521,7 +3507,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Oil" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="56cb-2753-47e8-fc34">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for a Rupture</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for a Rupture Cannon that targets this unit, that attack gains Breach. If Bloated Tick Hv 1 2+ - - it does, this unit loses this ability. Rupture Cannon Hv 1 2+ 5 4 Colossal 5 Acid Spray Aslt 7 3+ 3 1 Barrage, Shred, Purge Fleshborer Hive Left Aslt 16 3+ 3 2 Fleshborer Hive Right Aslt 16 3+ 3 2 Stinger Salvoes Aslt 7 3+ 3 1</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3535,9 +3521,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Tyrannofex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ebd4-bc0b-79b8-f1f2">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3590,9 +3576,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Pyrovore" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="2a98-83a2-6c10-d954">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3613,12 +3599,12 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <profiles>
         <profile name="Windfall of the Warp, Dominating Shadow" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="79cd-432d-2972-a61e">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select one enemy unit within 12+3D6" of this unit. The selected unit suffers 2 Suppression. If the selected unit has Psyker, that unit suffers 3 Suppression instead.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select all enemy units within 12+3D6" of this unit. Then, after the Attacks step, all selected units gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Roiling Tides" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b037-5070-d766-c97a">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle round, while selecting an enemy unit for Windfall of the Warp, Dominating Shadow, instead of selecting an enemy unit, you may select all enemy units within 12+3D6" of this unit. If you do, those suffer 4 Suppression instead. If any of the selected units have Psyker, those units suffer 6 Suppression instead.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle round, while another friendly unit is active, while selecting enemy units for Windfall of the Warp, Dominating Shadow, instead of selecting all enemy units within 12+3D6" of that unit, you may select all enemy units within 12+3D6" of this unit. If you do, after the Attacks step, the selected units gain Suppressed. If they already have Suppressed, they suffer 3 SW instead.</characteristic>
           </characteristics>
         </profile>
         <profile name="Neuropredatory Spears" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2584-a132-89ca-89d0">
@@ -3639,7 +3625,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3670,7 +3656,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Toxic Spores" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5811-29ff-e68d-90a6">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, each enemy unit within 12" of this unit suffers 2+D3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within 12" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Grasping Tentacles" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3759-a097-2e33-b779">
@@ -3680,7 +3666,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Entangled" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c5c3-1c7f-3079-869b">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, roll one fewer dice for that roll. When determining line of sight and measuring the distance to and from this model, it is highly recommended you do not count this model's tentacles as'part of the model'.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, roll one fewer dice for that roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3697,9 +3683,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Toxicrene" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="fc35-547f-5137-c2c7">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3725,7 +3711,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Gastric Barrage" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2216-c6b3-effd-1ef8">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's weapon, if you have no ready units except units with Gastric Barrage, you may'channel synaptic impulse'. If you do, you may instead target an enemy unit within 24" of and visible to any of your infantry units within 24" of this unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's weapon, you may 'channel synaptic impulse'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit. Additionally, for each attack made for that weapon this turn, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Spore Seeding" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a745-0597-367a-dd33">
@@ -3767,9 +3753,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <profile name="Biovore" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ca14-24af-e629-0786">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3810,7 +3796,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3822,7 +3808,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3836,7 +3822,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <profiles>
         <profile name="Neural Amplifier" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2d17-0621-c2e5-5410">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test you make during this unit’s turn, add 1 D6 to that Psychic Test for each NEUROLOIDS model in this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test made for this unit, add 1 D6 to that Psychic Test for each NEUROLOIDS model in this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3882,9 +3868,6 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule name="Hive Minded" id="fe5a-2c3e-fb3c-4a91" hidden="false">
-      <description>For each Resolve Test made for this unit, add 1 to that Resolve Test.</description>
-    </rule>
   </sharedRules>
   <entryLinks>
     <entryLink import="true" name="Hormagaunts" hidden="false" id="f7c8-3778-9b57-ff6b" type="selectionEntry" targetId="19da-3d1d-2bf9-955b" sortIndex="5" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="5f5e-53b8-b4af-9b92" name="Harlequins" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="10" revision="34" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="5f5e-53b8-b4af-9b92" name="Harlequins" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="35" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Neuro Disruptor" hidden="false" id="7dc0-1f7b-a49c-295b">
       <profiles>
@@ -44,14 +44,14 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 2, Suppressive 4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 3</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Blast (X)" id="c748-2002-fc75-75af" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
         <infoLink name="Indirect" id="c5da-bef7-8b23-3505" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
-        <infoLink name="Suppressive (X)" id="80f7-3142-3ed0-ff27" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="80f7-3142-3ed0-ff27" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Rearm" id="68f2-1c9f-5a1a-cf32" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
       </infoLinks>
     </selectionEntry>
@@ -77,13 +77,13 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Haywire, Suppressive 4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, if the target of that attack is a vehicle unit, that attack gains Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Haywire" id="c0b2-f626-8a95-02a8" hidden="false" type="rule" targetId="0c93-fe53-7091-88d0" />
-        <infoLink name="Suppressive (X)" id="a1be-d80d-c221-c293" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="a1be-d80d-c221-c293" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Troupe" hidden="false" id="b9b5-f1c5-28fb-b674" sortIndex="3">
@@ -97,7 +97,7 @@
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -311,7 +311,7 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
                 </profile>
                 <profile name="Devious Performance" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="de1d-8e12-9547-2ea5">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there is an enemy unit within 24" of and not visible to this unit, for each roll for Mocking Misstep for visible friendly units, that roll is successful on a 5+.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more enemy units within 24" of and not visible to this unit, for each roll for Mocking Misstep for visible friendly units, that roll is successful on a 5+.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -367,7 +367,7 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
         </profile>
         <profile name="Kaleidoscopic Cavalcade" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9280-5f03-55b2-37aa">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets your Harlequins units, the Hit Roll for that attack is worsened by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets your Harlequins units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Prismatic Pirouette" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e5f5-f88d-4326-e279">
@@ -476,9 +476,7 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
       <profiles>
         <profile name="Dark Role" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="086b-37d2-82be-26e9">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units not visible to this unit gain the following ability until the End step:
-
-Captive Audience: For each attack that targets this unit, that attack gains Critical Hits 5+.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units not visible to this unit gain the following ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -498,7 +496,7 @@ Captive Audience: For each attack that targets this unit, that attack gains Cr
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -555,15 +553,15 @@ Captive Audience: For each attack that targets this unit, that attack gains Cr
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Unstoppable" id="af67-c74a-dc94-3c5a" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <constraints>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="d823-d766-2df4-5673" includeChildSelections="false" />
@@ -643,7 +641,7 @@ Captive Audience: For each attack that targets this unit, that attack gains Cr
                   </profiles>
                   <infoLinks>
                     <infoLink name="Breach" id="2f92-b619-dfc6-ce02" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
-                    <infoLink name="Strike or Sweep (X)" id="6a64-4aca-3d7c-aba8" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                    <infoLink name="Strike/Sweep" id="6a64-4aca-3d7c-aba8" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -653,9 +651,9 @@ Captive Audience: For each attack that targets this unit, that attack gains Cr
             <profile name="VoidWeaver" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="2791-285b-5709-f270">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -682,19 +680,7 @@ c) TWILIGHT TROUPE</characteristic>
         </profile>
         <profile name="Immaculate Choreography" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="71d5-b598-ee4e-1c0d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select another friendly Harlequins unit visible to this unit, and select ‘Perform’, ‘Accompany’, or ‘Await  Cue’ from below.
-
-
-Perform: This unit gains the following ability until the End step: 
-
-
-      Blooming Carnage: For each attack made for this unit, reroll each Hit Roll of 1 for that attack.
-
-
-Accompany: If you did not select a TROUPE MASTER unit, that unit becomes ready. Then, skip this turn’s  Attacks step.
-
-
-Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select another friendly Harlequins unit visible to this unit, and select either'Perform ', 'Accompany', or'Await Cue' from below.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -865,7 +851,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -899,9 +885,9 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
             <profile name="Starweaver" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="bf0a-f351-833c-0cce">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -943,7 +929,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
       </profiles>
       <infoLinks>
         <infoLink name="Titan" id="b211-137a-9ede-9995" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc" />
-        <infoLink name="Unstoppable" id="fa2c-b0a1-0624-1c17" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Solitaire" hidden="false" id="b7cd-04a3-5ab4-05cc">
@@ -961,7 +947,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <profile name="Solitaire's Embrace" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c725-b8d6-d4a4-ae26">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -983,7 +969,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <profile name="Solitaire's Caress" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="09ec-5382-af07-405f">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -1002,8 +988,8 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1022,7 +1008,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
         <categoryLink targetId="ccc6-6202-853c-23e4" id="671a-7c70-c831-c825" primary="true" name="Support" />
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Unstoppable" id="ea9c-ec9e-fee2-aa5f" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Fly" id="83a5-8752-9843-673b" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
       <profiles>
@@ -1126,9 +1112,9 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
             <profile name="Skyweaver" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d478-cc22-23ff-9278">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1175,11 +1161,11 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <profile name="Miststave" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="75ca-1972-af77-6bb7">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 4</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1188,7 +1174,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="934e-0c81-4788-e647-max" includeChildSelections="false" />
               </constraints>
               <infoLinks>
-                <infoLink name="Suppressive (X)" id="deb5-4c57-c35c-be56" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="deb5-4c57-c35c-be56" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
               </infoLinks>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Creidann Grenade Launcher" hidden="false" id="ed08-7c0a-71f0-6376">
@@ -1200,13 +1186,13 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Suppressive 2</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Suppressive</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Blast (X)" id="c13c-c14f-0a3a-bc3a" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                <infoLink name="Suppressive (X)" id="25c4-a594-111f-5b56" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="25c4-a594-111f-5b56" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
               </infoLinks>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1fad-aa1d-9107-8728-min" includeChildSelections="false" />
@@ -1258,7 +1244,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1272,7 +1258,7 @@ Await Cue: This unit becomes ready, then skip this turn’s Attacks step.</chara
         </infoLink>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.9" hidden="false" id="7e19-64a2-0bf1-e5d8" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="7e19-64a2-0bf1-e5d8" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="1295-e31a-c988-78d3" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>

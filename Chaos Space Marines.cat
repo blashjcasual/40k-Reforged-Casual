@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="149d-ebd0-bba9-e9df" name="Chaos Space Marines" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="52" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="149d-ebd0-bba9-e9df" name="Chaos Space Marines" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="53" battleScribeVersion="2.03" type="catalogue">
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Space Marines" id="1f6f-7689-e57a-87cd" targetId="189f-f42f-6f3b-5328" />
   </catalogueLinks>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.8" hidden="false" id="5b84-0185-eb47-6988" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="5b84-0185-eb47-6988" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="720c-bc09-1d72-2cf0" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -24,12 +24,12 @@
       <profiles>
         <profile name="Chaos Space Marine Legions" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e4a0ad28-a872-4a46-ae3f-765f388ed075">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, select one legion from this document. Use the relics table from that legion’s section. You may add units from that section, or from the Chaos Space Marines section to your army list. You may use that legion’s customisation options.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, select one legion from this document. Use the relics table from that legion's section. You may add units from that section, or from the Chaos Space Marines section to your army list. You may use that legion's customisation options.</characteristic>
           </characteristics>
         </profile>
         <profile name="Iron Armoury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="86ff-0b20-e7be-a2ed">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, for each of your LEGIONARIES units with 4 or more Boltguns and your CHOSEN units, that unit may gain the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, for each of your LEGIONARIES units, models in that unit may replace 4 Boltgun weapons with the following weapon:</characteristic>
           </characteristics>
           <comment>Iron Warriors</comment>
           <modifiers>
@@ -60,7 +60,7 @@
         </profile>
         <profile name="Kill Them Slowly" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="1fca-a8e8-d81c-ae59">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your infantry units are Activated within 24" of this unit, until the End step, you may have each weapon equipped to models in that unit with Shred lose Shred and gain Suppressive X, where X is equal to that weapon's D.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your infantry units are Activated within 24" of this unit, until the End step, you may have each weapon equipped to models in that unit with Shred lose Shred and gain Suppressive, where X is equal to that weapon's D.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -82,7 +82,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive (X)" id="66c4-2e6e-9831-e431" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
+        <infoLink name="Suppressive" id="66c4-2e6e-9831-e431" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -494,7 +494,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Blast 3, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Blast 3, Suppressive</characteristic>
           </characteristics>
           <comment>Iron Warriors</comment>
           <modifiers>
@@ -545,7 +545,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive (X)" id="cf9b-2b84-d695-a356" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
+        <infoLink name="Suppressive" id="cf9b-2b84-d695-a356" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -694,9 +694,9 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
             <profile name="Terminator Warsmith" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a8d0-6256-4eae-2aa3">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">19</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -718,7 +718,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -734,17 +734,17 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Combi-Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4954-87b4-3b90-9f6a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -771,7 +771,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -799,7 +799,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -826,7 +826,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -957,9 +957,9 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                 <profile name="Tyrant Siege Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="0dee-1b4c-abac-6fa0">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -975,9 +975,9 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                         <profile name="Chainfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ed26-5442-671d-7f78">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                           </characteristics>
@@ -1016,10 +1016,10 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1037,7 +1037,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1052,7 +1052,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Unstoppable" id="661b-8128-a932-323e" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Teleport Homer" id="63eb-446f-013d-43a4" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Heavy Armour" id="f797-9257-1eb5-d53e" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
@@ -1108,9 +1108,9 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
             <profile name="Iron Circle Automata" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="40a9-eabc-6ab6-028a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1149,7 +1149,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1167,7 +1167,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each wound the model with this weapon is selected to suffer, roll a D6. On a 5+, that attack fails.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shield 5+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1184,11 +1184,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
       <profiles>
         <profile name="Twisted Sadists" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9ff3-d6d9-9679-0ac4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Attacks step, select an enemy unit with Suppressed X within engagement range of this unit. Then, select one of the following abilities and the selected unit gains it until the End step:
-
-Terrifying Display: After a unit gains this ability, if one or more models from this unit died this turn, each friendly unit within 12” of and visible to this unit suffers 2 Suppression.
-
-Vicious Murder: After a unit gains this ability, it suffers X+D3 SW where X is equal to this unit's Suppressed X.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within engagement range of this unit gain the following ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1213,7 +1209,7 @@ Vicious Murder: After a unit gains this ability, it suffers X+D3 SW where X is e
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1351,7 +1347,7 @@ Vicious Murder: After a unit gains this ability, it suffers X+D3 SW where X is e
                                   </profiles>
                                   <infoLinks>
                                     <infoLink name="Blast (X)" id="3bf5-b8a1-2b82-3e10" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                                    <infoLink name="Strike or Sweep (X)" id="d5dd-40a1-ccdc-a9e1" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                                    <infoLink name="Strike/Sweep" id="d5dd-40a1-ccdc-a9e1" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                                   </infoLinks>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Reaper Chaincannon" hidden="false" id="3254-0e8e-92c8-7b55" sortIndex="8">
@@ -1385,7 +1381,7 @@ Vicious Murder: After a unit gains this ability, it suffers X+D3 SW where X is e
                                     <profile name="Weird Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8731-140d-988a-769e">
                                       <characteristics>
                                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                                        <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1600,15 +1596,14 @@ Vicious Murder: After a unit gains this ability, it suffers X+D3 SW where X is e
                 <profile name="Lernaean Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3b40-b3f1-c788-0cd3">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                    
                   </characteristics>
                 </profile>
                 <profile name="Obscured Existence" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1d3e-9082-ae2b-2d7f">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units that are not visible to this unit gain the following ability until the End step:
-Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units that are not visible to this unit gain the following ability until the End step:</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1634,7 +1629,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                       </characteristics>
                                     </profile>
                                   </profiles>
@@ -1646,11 +1641,11 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                 <profile name="Combi-Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="19b2-cae2-aeaf-c53a">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                                   </characteristics>
                                 </profile>
                                 <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f951-cfb3-5f2c-dfc4">
@@ -1660,7 +1655,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -1687,7 +1682,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -1715,7 +1710,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -1732,7 +1727,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -1780,7 +1775,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                       </characteristics>
                                     </profile>
                                   </profiles>
@@ -1848,9 +1843,9 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
                                 <profile name="Chainfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a011-02dd-4c04-d858">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                                   </characteristics>
@@ -1966,12 +1961,12 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
   <sharedProfiles>
     <profile name="Selfish Ascension" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="298d-635e-7f54-b527">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Each time an enemy unit with Dark Gods'Hatred dies, if the active unit is one of your Chaos Space Marines units, instead of'that unit Heals D3', you may select one of your units in the battlefield with Selfish Ascension and improve the H of a Leader model in that unit by 1.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Each time an enemy unit with Dark Gods' Hatred dies, if the active unit is one of your Chaos Space Marines units, instead of'that unit Heals D3', you may select one of your units in the battlefield with Selfish Ascension and improve the H of a Leader model in that unit by 1.</characteristic>
       </characteristics>
     </profile>
     <profile name="Traitorous Contempt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3941-84ed-06f0-8bcb">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While any enemy units are within 24” of this unit, those units gain the following ability: Dark Gods’ Hatred: After this unit dies, if the active unit is a Chaos Space Marines unit, that unit Heals D3.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While any enemy units are within 24" of this unit, those units gain the following ability:</characteristic>
       </characteristics>
     </profile>
     <profile name="Dark Gods’ Hatred" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="757c-1e05-d2fb-d633">
@@ -2004,7 +1999,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
       <profiles>
         <profile name="The Long War" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="7c2b-9a38-732a-9d20">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, select one enemy unit. That enemy unit and all enemy units of the same name gain Abaddon's Contempt. After rolling for initiative during battle round 2, select a vault at random. For the rest of the battle, after any of your units capture that vault, all enemy units gain Abaddon's Contempt for the rest of the battle.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, select one enemy unit. That enemy unit and all enemy units of the same name gain the following ability:</characteristic>
           </characteristics>
           <comment>Black Legion</comment>
           <modifiers>
@@ -2043,7 +2038,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
         </profile>
         <profile name="Iron Within" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="2be0-93a5-e801-5d38">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your units with Suppressed X Activate within 16" of this unit, reduce X by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets any of your units with Suppressed, add 1 to Resilient Rolls made for that attack.</characteristic>
           </characteristics>
           <comment>Iron Warriors</comment>
           <modifiers>
@@ -2069,11 +2064,7 @@ Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of th
         </profile>
         <profile name="Terror Tactics" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="8f95-fe43-cd0c-e0eb">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 24" of this unit, those units gain the following abilities: 
-
-We Bring The Night: After this unit is Activated, select an enemy unit not visible to this unit. Once this turn, after this unit finishes a Pile In within engagement range of that unit this turn, that unit suffers 2D3 Suppression.
-
-Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 24" of this unit, after those units are Activated, select either of the following two abilities. Then, that unit gains the selected ability until the End step:</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -2086,7 +2077,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
         </profile>
         <profile name="Abaddon's Contempt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="60ce-184f-ea5d-ca84">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by a Chaos Space Marines unit that targets this unit, that attack gains Critical Hits 6+.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by a Chaos Space Marines unit that targets this unit, that attack gains Critical Hits 6+. After rolling for initiative during battle round 2, select a vault at random. For the rest of the battle, after any of your units capture that vault, all enemy units gain Abaddon's Contempt for the rest of the battle. 3.4 Iron Warriors Iron Warriors Relics</characteristic>
           </characteristics>
           <comment>Black Legion</comment>
           <modifiers>
@@ -2134,7 +2125,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive (X)" id="47d1-aa92-3e81-b5c1" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
+        <infoLink name="Suppressive" id="47d1-aa92-3e81-b5c1" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -2184,7 +2175,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
       <profiles>
         <profile name="Hateful Destruction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1fc3-2ac7-52ae-3592">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit that targets an enemy unit with Dark Gods'Hatred, reroll a Hit Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit that targets an enemy unit with Dark Gods' Hatred, reroll a Hit Roll of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2209,7 +2200,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2371,7 +2362,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                                   </profiles>
                                   <infoLinks>
                                     <infoLink name="Blast (X)" id="c6de-c6f4-e3a6-5e2d" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                                    <infoLink name="Strike or Sweep (X)" id="c81d-505a-070c-a952" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                                    <infoLink name="Strike/Sweep" id="c81d-505a-070c-a952" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                                   </infoLinks>
                                 </selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Reaper Chaincannon" hidden="false" id="a691-ddf3-8f5e-76c0" sortIndex="8">
@@ -2680,7 +2671,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
         <profile name="Heavy Chain Axe" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="aba9-6d47-1f3c-ed65">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3" />
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2737,7 +2728,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2800,7 +2791,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2889,7 +2880,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
       <profiles>
         <profile name="Dedicated To Chaos" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="cf03-52ea-feae-f8ac">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of any enemy unit with Dark Gods'Hatred, this unit gains Resilient 6+.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more enemy units with Dark Gods' Hatred, this unit gains Resilient 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2899,7 +2890,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
         <categoryLink targetId="4820-e2b5-9e00-bb68" id="af6d-9b70-a086-d939" primary="true" name="Elites" />
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Unstoppable" id="0a44-e40e-7424-2c6b" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Resilient (X)" id="dd46-9451-10e4-8b1d" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
       <selectionEntryGroups>
@@ -2912,7 +2903,7 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3333,10 +3324,10 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
               <profiles>
                 <profile name="Warp Talon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3700-0ad2-85e0-70b9">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3368,15 +3359,12 @@ Cruel Ambush: Each melee weapon equipped to models in this unit gains Isolate.</
       <profiles>
         <profile name="Successful Hunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="199c-9568-1d55-309f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:
-
-
-Slice Dimensions: After any enemy unit's End step, you may remove this unit from the battlefield and place it into reserves. If you do, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Immaterial Predators" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2757-8066-d4c1-db40">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may roll 3D6 and select an enemy unit with Dark Gods'Hatred. You may Deploy this unit anywhere in the battlefield at least X" away from all enemy units other than the selected unit where X is the result of that roll. If you do, this unit cannot Advance or Reposition this turn and until the End step, this unit's weapons gain Isolate.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may roll 3D6 and select an enemy unit with Dark Gods' Hatred. You may Deploy this unit anywhere in the battlefield at least X" away from all enemy units other than the selected unit where X is the result of that roll. If you do, this unit cannot Advance or Reposition this turn and until the End step, this unit's weapons gain Isolate.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3401,7 +3389,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3436,13 +3424,13 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Unstoppable" id="098f-d09b-44b2-f817" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Daemonic" id="2e4f-94fc-be08-8722" hidden="false" type="rule" targetId="3b9e-8b58-9bed-fb98" />
       </infoLinks>
       <profiles>
         <profile name="Corporeal Schisms" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f956-fe7c-550b-e1c1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 4" if that move would end within 4" of any enemy units with Dark Gods'Hatred.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3461,12 +3449,12 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="45f3-6b34-1557-2c3c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="45f3-6b34-1557-2c3c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Havoc Launcher" hidden="false" id="a40b-783e-4918-5f3a">
@@ -3497,11 +3485,11 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
         <profile name="Dozer Spikes " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1379-2fdb-ebf4-a1ca">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3527,7 +3515,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3542,7 +3530,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
               <profiles>
                 <profile name="Glorious Jump Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2d41-2da4-3f04-e5df">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS. 3.4 TERMINATOR CHAOS LORD - 120 points - Infantry, Chaos, Leader T Sv H 4 4+ 19 Heavy Armour, Champion of Chaos</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3894,9 +3882,9 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
             <profile name="Terminator Chaos Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7158-bbe0-bc8a-1825">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">19</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4160,7 +4148,7 @@ Slice Dimensions: After any enemy unit's End step, you may remove this unit from
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4256,7 +4244,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <profiles>
         <profile name="Daemonkin" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f6cb-3479-f184-11d3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">The unit this unit is attached to does not count towards the maximum number of that unit in your army list.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, your POSSESSED units do not cost an additional 20 points for additional units. Additionally, your POSSESSED units with 3 models cost 10 less points.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ruinous Prophet" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1470-390a-185b-d432">
@@ -4312,9 +4300,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             <profile name="Terminator Chaos Sorcerer Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="17f8-f2f0-0de7-3a68">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">19</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4462,7 +4450,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4551,7 +4539,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4561,11 +4549,11 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                 <profile name="Flamer Tendril" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cc9b-4c38-b5bb-1ab4">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Blast 3</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4674,10 +4662,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
         <profile name="Binding Rites" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="01f3-e58c-4544-eca7">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s End step, you may select any friendly vehicle or monster unit within 12” of this unit. Until the next time this unit is Activated, the selected unit gains Daemonic and the following ability:
-
-
-Wailing Spirit: For each attack made by this unit that targets an enemy unit with Dark Gods’ Hatred, a Wound Roll of 6 causes an additional wound.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, you may select any friendly vehicle or monster unit within 12" of this unit. Until the next time this unit is Activated, the selected unit gains Daemonic and the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Unleash Engine" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f5c1-8693-bf0e-c1bb">
@@ -4723,7 +4708,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4836,7 +4821,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Initiation of Bloodshed" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e471-71ba-108f-0164">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 2" if that move would end within 4" of any enemy units with Dark Gods'Hatred.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to this unit. If you do, add 1D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Replenished Ranks" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b065-28a2-3a0a-58e0">
@@ -4854,10 +4839,10 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <profiles>
                 <profile name="Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="8ec6-bb2d-0f70-20a6">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -4895,9 +4880,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 <profile name="Chainfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6f02-5888-fe7b-2984">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                                   </characteristics>
@@ -5054,9 +5039,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 <profile name="Chainfist" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ff63-0460-f4bb-30f2">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                                   </characteristics>
@@ -5264,7 +5249,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -5348,7 +5333,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                       </characteristics>
                                     </profile>
                                   </profiles>
@@ -5363,11 +5348,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 <profile name="Combi-Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="090d-c78b-f5db-5651">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                                   </characteristics>
                                 </profile>
                                 <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7444-fcab-7866-cf88">
@@ -5377,7 +5362,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -5407,7 +5392,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -5438,7 +5423,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -5770,7 +5755,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Unstoppable" id="78da-bf66-7c2b-79ea" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rhino" hidden="false" id="9efc-f95b-4cd0-65b7" sortIndex="13">
@@ -5804,9 +5789,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Rhino" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="afed-d2cf-1e9f-a994">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -5818,11 +5803,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Combi-Bolter " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="108e-8451-6331-a46b">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">22</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">36</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -5864,7 +5849,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -6112,13 +6097,13 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Jet Pack" id="cd26-4c8e-4f9e-987b" hidden="false" type="profile" targetId="38d0-b778-7525-f239" />
-        <infoLink name="Suppressive (X)" id="3893-3fd1-c501-db54" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="3893-3fd1-c501-db54" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Fly" id="c6f3-9fb0-457f-1456" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
       <profiles>
         <profile name="Disoriented Prey" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="59e6-0335-96eb-c2f6">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select an enemy unit within engagement range of this unit if able. The selected unit suffers X Suppression where X is equal to the highest single dice result of this unit's last Move Roll.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you would select targets during this unit's turn, select an enemy unit within engagement range of this unit if able. The selected unit suffers X SW where X is equal to the highest single dice result of this unit's last Move Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6147,7 +6132,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -6182,7 +6167,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6217,7 +6202,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -6253,7 +6238,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -6417,9 +6402,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Helbrute" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d586-fa6d-c0c0-511d">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -6485,7 +6470,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                   </profiles>
                   <infoLinks>
                     <infoLink name="Blast (X)" id="cdee-558b-b4be-0370" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                    <infoLink name="Strike or Sweep (X)" id="35c3-9715-e333-4593" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                    <infoLink name="Strike/Sweep" id="35c3-9715-e333-4593" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -6618,7 +6603,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -6682,7 +6667,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                       </profiles>
                       <infoLinks>
                         <infoLink name="Blast (X)" id="8465-450e-8456-b3a5" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                        <infoLink name="Strike or Sweep (X)" id="8ca6-be07-d934-07d9" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                        <infoLink name="Strike/Sweep" id="8ca6-be07-d934-07d9" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Reaper Chaincannon" hidden="false" id="56b5-ca91-b9e1-4c9a" sortIndex="5">
@@ -6831,7 +6816,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Hateful Annihilation" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1ff3-74e3-3009-5881">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit that targets an enemy unit with Dark Gods'Hatred, reroll a Hit Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit that targets an enemy unit with Dark Gods' Hatred, reroll a Hit Roll of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Hail of Fire" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fa4b-55e5-ebc6-1b2d">
@@ -6849,10 +6834,10 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <profiles>
                 <profile name="Obliterator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ef6d-8dbf-fb91-bb12">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0" >-</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -6865,11 +6850,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Warp-Hail Chainfire" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1d0c-5438-7f02-49fd">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">21</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, Overcharge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -6886,7 +6871,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Ruinating Fusillade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="599b-95d4-7391-8e4a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">16</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -6907,7 +6892,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Hideous Cannonry " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="573e-b117-0b8a-49f5">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
@@ -6975,7 +6960,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -7005,7 +6990,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Unstoppable" id="239e-1b66-518e-766f" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <profiles>
         <profile name="Slaughter's Call" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a72e-b0ae-56a5-6d84">
@@ -7015,7 +7000,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         </profile>
         <profile name="Trophy-taker" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="81e8-4cb2-d8f4-5573">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle, after an attack made for this unit kills a leader or rare unit, that unit counts as 3 different units for Dark Gods'Hatred instead of 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle, after an attack made for this unit kills a leader or rare unit, that unit counts as 3 different units for Dark Gods' Hatred instead of 1.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stand Aside" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="21c0-999e-9bf5-c6cb">
@@ -7045,8 +7030,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -7138,8 +7123,8 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D6+2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 12", Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7156,7 +7141,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7169,7 +7154,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Ion Shield" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="69a9-f6d3-256d-345c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may'rotate ion shield'. If you do, roll a D6. On a 2+, you cannot make this roll again until the next battle round and this unit gains the following ability until the End step:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may 'rotate ion shield'. If you do, roll a D6. On a 2+, you cannot make this roll again until the next battle round and this unit gains the following ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7189,9 +7174,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Vindicator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3bc4-03b1-943a-41be">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -7225,7 +7210,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <profiles>
                 <profile name="Demolisher Cannon " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="fac1-04a3-836b-6ce0">
                   <characteristics>
-                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
@@ -7283,9 +7268,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Forgefiend" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="55c3-7943-aa42-59af">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -7305,7 +7290,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Hades Autocannon Right" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b4fd-e8ec-08f2-9650">
@@ -7315,12 +7300,12 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive (X)" id="feb5-e162-ff9b-4e8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                    <infoLink name="Suppressive" id="feb5-e162-ff9b-4e8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ectoplasma Cannons" hidden="false" id="c574-78b2-6e37-73b0" sortIndex="2">
@@ -7328,11 +7313,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Ectoplasma Cannons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="548c-965d-f994-1cb4">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7350,7 +7335,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7370,7 +7355,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -7413,7 +7398,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7423,11 +7408,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
                     <profile name="Head Ectoplasma Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2fcb-4077-a0b0-66f7">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -7459,9 +7444,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Colossal 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7516,7 +7501,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7526,11 +7511,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Defiler Ectoplasma Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="105b-2937-422f-9063">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7578,16 +7563,16 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Predator Autocannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="dab8-47cf-4622-1968">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">15</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="19e0-5e30-601d-e87e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="19e0-5e30-601d-e87e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Predator Twin Lascannon" hidden="false" id="43b2-3610-cca5-fdbb">
@@ -7612,11 +7597,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Predator Twin Plasmacannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="96ca-ba51-8508-ec0e">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7630,11 +7615,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Pintle Plasmagun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="db8e-b4e5-5e88-73f9">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7669,7 +7654,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7696,11 +7681,11 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Sponson Plasmacannons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e2fe-b565-3c69-e273">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7718,7 +7703,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7747,9 +7732,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Colossal 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7762,16 +7747,16 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Dual Autocannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2c8d-2afa-f07f-c342">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="f1e0-42ad-d175-96f6" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="f1e0-42ad-d175-96f6" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dual Heavy Bolter" hidden="false" id="a2d5-b0fb-0050-ed53">
@@ -7783,7 +7768,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7797,7 +7782,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7828,7 +7813,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7901,16 +7886,16 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
         <profile name="Leviathan Storm Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a769-4b07-32d7-9d23">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="0ce3-dd14-e7b7-34e3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="0ce3-dd14-e7b7-34e3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Grav Flux Bombard" hidden="false" id="6c9c-c0fa-745e-1614">
@@ -7967,7 +7952,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -7979,7 +7964,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
               <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Wound Roll made for this weapon's attacks, the target unit suffers 2 SW.</characteristic>
           </characteristics>
@@ -7997,12 +7982,12 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="628d-7086-3de4-5bc3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for your units within 12" of this unit, reroll a result of 1 for that Resolve Test. This model's right arm is equipped with either: For each Dreadnought Fist, this model is also equipped with either:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Venerable" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="78a2-7934-76e9-0f61">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 2. 3.4 CHAOS CONTEMPTOR DREADNOUGHT - 160 points - Vehicle, Chaos T Sv H 4 4+ 20 Walker</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8019,9 +8004,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Dreadnought" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="54f5-42ba-d4ab-0e89">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8058,7 +8043,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
           </profiles>
           <infoLinks>
             <infoLink name="Blast (X)" id="6692b35d-9715-47cd-8e08-e544d0e7bbab" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-            <infoLink name="Strike or Sweep (X)" id="cbd60f0a-018a-44ce-9255-16a50aa3d816" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+            <infoLink name="Strike/Sweep" id="cbd60f0a-018a-44ce-9255-16a50aa3d816" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
           </infoLinks>
         </selectionEntry>
         <entryLink import="true" name="Multi-Melta" hidden="false" id="ec88-93b2-5f1a-da21" type="selectionEntry" targetId="d238-153a-c7ff-db1c" />
@@ -8079,7 +8064,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9d79-2ad3-fe9f-cec4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for your units within 12" of this unit, reroll a result of 1 for that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8093,9 +8078,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Leviathan Dreadnought" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="44ad-48bc-7404-ce16">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">27</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8137,9 +8122,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Defiler" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="14aa-2091-e405-ac74">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8187,7 +8172,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
           </profiles>
           <infoLinks>
             <infoLink name="Blast (X)" id="3dbbfdae-dbd5-4bab-9cf9-772d293c9ea4" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-            <infoLink name="Strike or Sweep (X)" id="8cf5b016-4212-4549-ae3b-8154d0942928" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+            <infoLink name="Strike/Sweep" id="8cf5b016-4212-4549-ae3b-8154d0942928" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
           </infoLinks>
         </selectionEntry>
         <entryLink import="true" name="Electroscourge" hidden="false" id="a6f1-e869-94c7-8c61" type="selectionEntry" targetId="b69d-1b78-a287-645f" />
@@ -8217,9 +8202,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Predator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="805d-7959-80be-1409">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8314,7 +8299,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Artillery Support" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bf57-07d2-7802-d4b2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Earthshaker Cannon, if you have no ready units except units with Artillery Support, you may'call for an artillery strike'. If you do, you may instead target an enemy unit within 24" of and visible to any of your infantry units within 24" of this unit. After this unit is targeted by one or more ranged attacks, you may roll a D6. On a 3+, until the end of the battle round, for each ranged attack that targets this unit, the Hit Roll for that attack is worsened by 1, and you cannot roll for this ability until the next battle round. After this unit's Move step, you may have its Earthshaker Cannon weapon lose Suppressive and gain Breach until the End step.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Earthshaker Cannon, you may 'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8328,9 +8313,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Basilisk" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4bc9-c353-f02b-4c8a">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8353,7 +8338,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
       <profiles>
         <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="899d-e029-ed7f-8522">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for your units within 12" of this unit, reroll a result of 1 for that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8370,9 +8355,9 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             <profile name="Chaos Contemptor Dreadnought" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="809c-1f5c-a663-981a">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -8450,14 +8435,14 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
           </profiles>
           <infoLinks>
             <infoLink name="Resilient (X)" id="ac9b-00b2-481c-bbaf" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
-            <infoLink name="Suppressive (X)" id="5020-cd26-4dfc-6dc8" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressive" id="5020-cd26-4dfc-6dc8" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Disciple of Slaanesh" hidden="false" id="ed37-5f6a-c35d-ccce" sortIndex="3">
           <profiles>
             <profile name="1 Cacophonic Choir" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="3721-f0e3-3c3f-49a4">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Until the End step, for each Resolve Test made for enemy units within 6" of this unit, a result of 6 for that Resolve Test always fails. Then, each enemy unit within 6" suffers 1+D3 Suppression.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">While enemy units are within 6" of this unit, those units gain Suppressed.</characteristic>
               </characteristics>
             </profile>
             <profile name="2 Siren" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="4aa6-419c-4383-7e95">
@@ -8487,7 +8472,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Suppressive (X)" id="4558-1a50-ba7b-5a86" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressive" id="4558-1a50-ba7b-5a86" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Disciple of Tzeentch" hidden="false" id="623c-435e-4705-c5b6" sortIndex="1">
@@ -8524,7 +8509,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Suppressive (X)" id="e431-5691-a07f-89d3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressive" id="e431-5691-a07f-89d3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Undivided" hidden="false" id="e351-8cb4-3322-b80b" sortIndex="4">
@@ -8563,7 +8548,7 @@ Wailing Spirit: For each attack made by this unit that targets an enemy unit wit
           <infoLinks>
             <infoLink name="Heal/Repair (X)" id="d933-803f-bf5d-6595" hidden="false" type="rule" targetId="02c8-1ec5-cdab-2572" />
             <infoLink name="Dark Gods’ Hatred" id="d347-6445-4144-97a3" hidden="false" type="profile" targetId="757c-1e05-d2fb-d633" />
-            <infoLink name="Suppressive (X)" id="c097-5116-327d-e2c2" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressive" id="c097-5116-327d-e2c2" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

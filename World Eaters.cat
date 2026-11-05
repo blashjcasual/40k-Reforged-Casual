@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac9e-cafe-1753-147e" name="World Eaters" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="23" revision="21" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="ac9e-cafe-1753-147e" name="World Eaters" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="22" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.6" hidden="false" id="97a2-b298-c8e1-9b48" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="97a2-b298-c8e1-9b48" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="38fa-da97-6896-2856" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -159,7 +159,7 @@
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -254,7 +254,7 @@
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -288,7 +288,7 @@
         </profile>
         <profile name="Unbound Carnage" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ee25-c2b6-aeee-bb29">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each melee attack made by this unit or another EIGHTBOUND unit within 16" of this unit which targets an enemy unit with Grating, if that attack would cause an additional hit, it causes 2 additional hits instead.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each melee attack made by this unit or another EIGHTBOUND unit within 16" of this unit which targets an enemy unit with Grating, if that attack would cause one or more additional hits, it causes 1 additional hit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -349,9 +349,9 @@
             <profile name="Slaughterbound" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3810-86f6-f4dc-a877">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -391,7 +391,7 @@
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -500,9 +500,9 @@
                 <profile name="Red Butcher" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="15ea-ab13-9a8e-98c2">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -546,7 +546,7 @@
       <infoLinks>
         <infoLink name="Teleport Homer" id="62cf-17fb-141e-2243" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Heavy Armour" id="3ef7-c806-0d77-8f6d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
-        <infoLink name="Unstoppable" id="ab98-b36c-4c0a-ceed" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Grating (Refrence)" id="d53e-1ae8-6efb-77fb" hidden="false" type="profile" targetId="8d33-eaa0-aad7-9a19" />
         <infoLink name="Martial Savagery" id="9ff0-b6ec-3951-546a" hidden="false" type="profile" targetId="fc10-89a6-0b44-88e3" />
       </infoLinks>
@@ -581,7 +581,7 @@
         <infoLink name="Resilient (X)" id="4095-5cb0-9d76-dc00" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
         <infoLink name="Martial Savagery" id="1699-5c40-c186-3e45" hidden="false" type="profile" targetId="fc10-89a6-0b44-88e3" />
         <infoLink name="Grating (Refrence)" id="058d-d1e0-aafb-dee2" hidden="false" type="profile" targetId="8d33-eaa0-aad7-9a19" />
-        <infoLink name="Unstoppable" id="4c02-d7ed-28ca-a51b" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <profiles>
         <profile name="Favoured Champion" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f583-3047-4c51-a219">
@@ -654,7 +654,7 @@
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -715,7 +715,7 @@
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -731,17 +731,17 @@
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                             <profile name="Combi-Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="45c0-2737-a4d7-ab97">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -754,11 +754,11 @@
                             <profile name="Combi-Plasma" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4c7c-0780-9b6e-ddf9">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-                                <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                               </characteristics>
                             </profile>
                             <profile name="Combi-Bolter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="02ce-99f2-23a6-bf09">
@@ -768,7 +768,7 @@
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -796,7 +796,7 @@
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -911,9 +911,9 @@
             <profile name="World Eaters Terminator Chaos Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="04e5-3066-c01d-639f">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">20</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -921,16 +921,13 @@
       </selectionEntries>
       <infoLinks>
         <infoLink name="Heavy Armour" id="4607-5eab-0b12-3e86" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
-        <infoLink name="Unstoppable" id="9031-609b-338e-036a" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Teleport Homer" id="455c-07f6-2129-48b6" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
       </infoLinks>
       <profiles>
         <profile name="Butcher Lord" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4fea-f678-4616-a32c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16” of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead  they gain the following ability:
-
-
-Cathartic Carnage: For each melee attack made for this unit, if that attack causes an additional hit, it causes another additional hit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16" of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead they gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -977,7 +974,7 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1215,10 +1212,7 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
       <profiles>
         <profile name="Butcher Lord" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0a32-7f58-1ed7-2007">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16” of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead  they gain the following ability:
-
-
-Cathartic Carnage: For each melee attack made for this unit, if that attack causes an additional hit, it causes another additional hit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16" of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead they gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1234,7 +1228,7 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
       </categoryLinks>
       <infoLinks>
         <infoLink name="Heavy Armour" id="98cc-ce24-d247-2381" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
-        <infoLink name="Unstoppable" id="7d5c-20fb-e675-2547" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Juggernaut Chaos Lord" hidden="false" id="f0b7-68ee-634f-8192">
@@ -1245,10 +1239,10 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
           <profiles>
             <profile name="Juggernaut Chaos Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3df9-5a2e-8704-6d55">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">13</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1266,7 +1260,7 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1471,16 +1465,12 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack ca
       <profiles>
         <profile name="Unstoppable Rage" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0a4d-48cd-4e20-9293">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, each enemy unit visible to and further than 10" from this unit gains Flattened Ranks until the End step:
-
-Flattened Ranks: After an enemy unit with Unstoppable Rage finishes an Advance, if that unit passed within 1" of this unit during that Advance, this unit suffers 4 SW.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, each enemy unit visible to this unit gains Flattened Ranks until the End step:</characteristic>
           </characteristics>
         </profile>
         <profile name="Butcher Lord" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="91df-34d9-db29-d1a0">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16” of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead they gain the following ability:
-
-Cathartic Carnage: For each melee attack made for this unit, if that attack causes one or more additional hits, it causes another additional hit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16" of this unit, those units gain Martial Savagery. If they already have Martial Savagery, instead they gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1492,7 +1482,7 @@ Cathartic Carnage: For each melee attack made for this unit, if that attack cau
   <sharedProfiles>
     <profile name="Martial Savagery" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fc10-89a6-0b44-88e3">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit selects targets for all of its weapons, until the End step, for each melee attack made for this unit, that attack gains Critical Hit X+, where X is equal to the following: If ONE enemy unit was targeted by one or more melee attacks this turn, X is 6. If TW O enemy units were targeted by one or more melee attacks this turn, X is 5. If THREE or more enemy units were targeted by one or more melee attacks this turn, X is 4.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit selects targets for all of its weapons, until the End step, for each melee attack made for this unit, that attack gains Critical Hits X+, where X is equal to the following: If ONE enemy unit was targeted by one or more melee attacks this turn, X is 6. If TW O enemy units were targeted by one or more melee attacks this turn, X is 5. If THREE or more enemy units were targeted by one or more melee attacks this turn, X is 4.</characteristic>
       </characteristics>
     </profile>
     <profile name="Khorne's Contempt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3246-21e3-9e49-00c2">
@@ -1536,7 +1526,7 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1658,9 +1648,9 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                 <profile name="Eightbound" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7d64-d83f-893e-cfb7">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1721,7 +1711,7 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Strike or Sweep (X)" id="bcdd-0991-fc75-1431" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                        <infoLink name="Strike/Sweep" id="bcdd-0991-fc75-1431" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                         <infoLink name="Shred" id="b878-5be0-41e2-5931" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                       </infoLinks>
                       <constraints>
@@ -1755,7 +1745,7 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Unstoppable" id="cbaf-e6ea-37fe-221f" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Daemonic" id="d237-ce94-71f2-9cac" hidden="false" type="rule" targetId="3b9e-8b58-9bed-fb98" />
         <infoLink name="Martial Savagery" id="005c-a0d0-9730-65c2" hidden="false" type="profile" targetId="fc10-89a6-0b44-88e3" />
         <infoLink name="Grating (Refrence)" id="8785-7ae4-5aef-0691" hidden="false" type="profile" targetId="8d33-eaa0-aad7-9a19" />

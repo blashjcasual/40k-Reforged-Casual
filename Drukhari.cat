@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3346-57cc-888c-c1d6" name="Drukhari" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="25" revision="27" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="3346-57cc-888c-c1d6" name="Drukhari" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="28" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.5" hidden="false" id="d4a4-79f5-d0c3-6cee" sortIndex="-1">
       <categoryLinks>
@@ -68,7 +68,7 @@
       </profiles>
       <infoLinks>
         <infoLink name="Isolate" id="6c98-0faa-2c15-3ce9" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
-        <infoLink name="Suppressive (X)" id="6994-8ba1-3a32-c2b0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="6994-8ba1-3a32-c2b0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="41e4-855f-f82e-4180" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
     </selectionEntry>
@@ -113,7 +113,7 @@ c) INCUBI</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="8ca7-dc83-1abd-1c9b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="8ca7-dc83-1abd-1c9b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Power from Pain" id="14ba-afea-ba3d-73a1" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
       </infoLinks>
       <selectionEntries>
@@ -202,7 +202,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -287,13 +287,13 @@ c) INCUBI</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Poison" id="15f5-00f9-80cf-4dbe" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-                <infoLink name="Suppressive (X)" id="6ac0-8056-da94-0ba3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="6ac0-8056-da94-0ba3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -315,7 +315,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -342,7 +342,7 @@ c) INCUBI</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="00c7-ac74-db3e-f412" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="00c7-ac74-db3e-f412" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Power from Pain" id="8d41-d7d3-986c-c457" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
       </infoLinks>
       <selectionEntries>
@@ -400,7 +400,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -476,7 +476,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -570,7 +570,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -610,7 +610,7 @@ c) INCUBI</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -703,7 +703,7 @@ c) INCUBI</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -773,7 +773,7 @@ c) INCUBI</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -812,13 +812,13 @@ c) INCUBI</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
                         <infoLink name="Poison" id="c526-0781-0045-3978" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-                        <infoLink name="Suppressive (X)" id="0e88-30d7-1046-a6bd" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                        <infoLink name="Suppressive" id="0e88-30d7-1046-a6bd" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Solarite" hidden="false" id="0144-d7b7-5ea7-2d36">
@@ -1016,7 +1016,7 @@ c) INCUBI</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1166,7 +1166,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                
               </characteristics>
             </profile>
           
@@ -1287,7 +1287,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1395,7 +1395,7 @@ c) INCUBI</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1425,7 +1425,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
       <infoLinks>
         <infoLink name="Twisted Fleshcraft" id="7355-65bb-77a0-856f" hidden="false" type="profile" targetId="59df-978c-0873-f611" />
         <infoLink name="Power from Pain" id="fc0e-d56f-9cac-3379" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
-        <infoLink name="Suppressive (X)" id="3ef9-80ce-6077-b9cc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="3ef9-80ce-6077-b9cc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Fly" id="8843-ba23-5075-b5ea" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
         <infoLink name="Isolate" id="5432-976a-3f6e-6927" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
       </infoLinks>
@@ -1451,13 +1451,13 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Poison" id="f1ae-fb29-b553-dae4" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-                    <infoLink name="Suppressive (X)" id="2332-5a03-e986-a5fd" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                    <infoLink name="Suppressive" id="2332-5a03-e986-a5fd" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -1583,7 +1583,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1613,7 +1613,7 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1665,13 +1665,13 @@ Entertaining Spectacle: For each Move Roll made for your units within 12” of a
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1, Isolate</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive, Isolate</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
                               <infoLinks>
                                 <infoLink name="Isolate" id="9b3d-1f07-b246-a83d" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
-                                <infoLink name="Suppressive (X)" id="2699-a4c3-bd20-0678" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                                <infoLink name="Suppressive" id="2699-a4c3-bd20-0678" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -1819,13 +1819,13 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Poison" id="e3c8-2399-e714-97d6" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-        <infoLink name="Suppressive (X)" id="3bd0-419e-00ed-4f26" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="3bd0-419e-00ed-4f26" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Splinter Pistol" hidden="false" id="c1e1-cb6d-2d98-2f2b">
@@ -1837,13 +1837,13 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Poison" id="28df-6da2-3a7e-da83" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-        <infoLink name="Suppressive (X)" id="4911-01de-901e-c5b0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="4911-01de-901e-c5b0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Splinter Cannon" hidden="false" id="0d3c-7c03-8827-c4e6">
@@ -1855,13 +1855,13 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Poison" id="92ce-de87-62dc-d53e" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-        <infoLink name="Suppressive (X)" id="d658-ef60-24cb-a706" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="d658-ef60-24cb-a706" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Shredder" hidden="false" id="815d-06a7-850b-afa9">
@@ -1965,7 +1965,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 2, Poison, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Blast 2, Poison, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1973,7 +1973,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
         <infoLink name="Rearm" id="2263-53d7-fa13-2d97" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
         <infoLink name="Poison" id="acda-da87-ac39-2757" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
         <infoLink name="Indirect" id="2c98-feec-0164-084b" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
-        <infoLink name="Suppressive (X)" id="a07a-3ab9-3d15-8bae" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="a07a-3ab9-3d15-8bae" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Blast (X)" id="692b-62d3-a6b3-006f" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
       </infoLinks>
     </selectionEntry>
@@ -1999,7 +1999,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2151,7 +2151,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2206,7 +2206,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Strike or Sweep (X)" id="72af-31d4-9938-a441" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                        <infoLink name="Strike/Sweep" id="72af-31d4-9938-a441" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                         <infoLink name="Shred" id="0919-5ada-2414-9709" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
                       </infoLinks>
                     </selectionEntry>
@@ -2219,7 +2219,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Power from Pain" id="df40-7b2d-aef3-a8da" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
-        <infoLink name="Suppressive (X)" id="ff62-dd28-ad86-469f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="ff62-dd28-ad86-469f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
       <profiles>
         <profile name="Oathbound Blades" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="826d-a25f-43d1-de05">
@@ -2256,7 +2256,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2303,12 +2303,12 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 2, Haywire</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive, Haywire</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="8bda-574b-5f45-7404" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="8bda-574b-5f45-7404" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Haywire" id="8cb5-df7f-79f0-b7c8" hidden="false" type="rule" targetId="0c93-fe53-7091-88d0" />
         <infoLink name="Indirect" id="854e-4d0e-d8d9-1de1" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
         <infoLink name="Rearm" id="17a8-218f-5a44-563c" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
@@ -2336,7 +2336,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2505,7 +2505,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2580,7 +2580,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2766,7 +2766,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2929,7 +2929,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               
@@ -3078,7 +3078,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3133,7 +3133,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">0</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3248,13 +3248,13 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Haywire, Suppressive 4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Haywire, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="dfbc-ff5f-505b-4c71" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-        <infoLink name="Suppressive (X)" id="494c-5d38-62d3-a4a6" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="dfbc-ff5f-505b-4c71" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="494c-5d38-62d3-a4a6" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Splinter Pods" hidden="false" id="0325-490e-5a2a-8b45">
@@ -3266,7 +3266,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Poison, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3276,7 +3276,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
       </constraints>
       <infoLinks>
         <infoLink name="Poison" id="ee30-74bf-a2e3-ad9c" hidden="false" type="rule" targetId="dda4-31db-bf0a-2af4" />
-        <infoLink name="Suppressive (X)" id="61fb-95c4-9f87-ba0d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="61fb-95c4-9f87-ba0d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
       <selectionEntry type="upgrade" import="true" name="Shaimeshi Blade" hidden="false" id="28fd-347a-07c4-baf4">
@@ -3335,7 +3335,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3378,7 +3378,7 @@ If you do add one or more of those units to your Army List, your Army Rules gain
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
