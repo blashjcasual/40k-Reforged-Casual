@@ -39,7 +39,7 @@
         </profile>
         <profile name="2 Omnispex Array" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="535f-dba8-91af-2849">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">For each ranged attack made for this unit, add 1 to the Hit Roll for that attack. Each ranged weapon in this unit gains Ignore Cover.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">Each of this unit's ranged weapons gain Purge. If it already has Purge, instead, for each of those weapon's attacks, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="3 Rad Grenade" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="c2e7-bf3f-277a-e0e2">
@@ -52,14 +52,9 @@
             <characteristic name="Description" typeId="becf-f398-aed2-688b">While this unit has Autocaduceus and Tech-Priest, while any friendly units are within 8" of this unit, each time those units would Repair X, they Repair X+1 instead.</characteristic>
           </characteristics>
         </profile>
-        <profile name="5 Calculated Casualties" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="a950-644d-3bb8-0a77">
+        <profile name="5 Genetor's Sacrament" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="a950-644d-3bb8-0a77">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After a unit gains this ability, you may Deploy one of your destroyed units, wholly within your deployment zone with full Health and ready, from among the following:
-a) SKITARII RANGERS
-b) SKITARII VANGUARDS
-c) KATAPHRON BREACHERS
-d) KATAPHRON DESTROYERS
-This ability can only be used once per battle, even if another unit gains it.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit is Activated, if it is infantry, you may remove it from the battlefield. Then, it Repairs 10. Then, Deploy this unit wholly within your deployment zone, and this unit loses this relic.</characteristic>
           </characteristics>
         </profile>
         <profile name="6 Princeps Voxlink" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="9cf6-dbd1-eeda-f3ce">
@@ -106,7 +101,12 @@ This unit may instead not attach to anything.</characteristic>
         </profile>
         <profile name="Destruction Shaper" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f319-0765-580f-d57a">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are visible to this unit, after any of those units Repair, that unit gains the following ability until the End step:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are visible to this unit, after any of those units Repair, that unit gains Binharic Wrath until the End step.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Binharic Wrath" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="eaa3-fb04-393e-4398">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, that attack gains Critical Hits 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -457,9 +457,9 @@ This unit may instead not attach to anything.</characteristic>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select a friendly vehicle unit within 6" of this unit. The selected unit Repairs 2D3+1 and gains the following ability:</characteristic>
           </characteristics>
         </profile>
-        <profile name="Soothing Commune" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e6d0-4935-19c8-ef72">
+        <profile name="Surging Motive Force" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e6d0-4935-19c8-ef72">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, if it has Suppressed X, worsen X by D3+1. Then, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit, add 1 to the Hit Roll of that attack. After this unit's Attacks step, it loses this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -617,6 +617,21 @@ This unit may instead not attach to anything.</characteristic>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after any of your KASTELAN ROBOT units within 2" of this unit are Activated or finishes an Advance within 2" of this unit, you may have that unit'change protocol'. If you do, until the next time this unit is Activated or dies, that unit gains the following abilities:</characteristic>
           </characteristics>
         </profile>
+        <profile name="Fortified Aegis" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7c7e-17cc-2b64-4490">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">If this unit has Aegis Protocol, for each ranged attack that targets this unit, reroll a failed Saving Throw for that attack.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Accelerated Drives" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="38e3-f1b9-c198-2d60">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">If this unit has Conqueror Protocol, you may reroll Move Rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Targeting Matrix" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d46b-45d7-d3d2-e7a9">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">If this unit has Protector Protocol, for each attack this unit makes, add 1 to the Hit Roll for that attack.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Invocate Machine" id="6e88-fc29-ef01-11de" hidden="false" type="profile" targetId="f914-73c8-f087-eadf"/>
@@ -698,7 +713,12 @@ This unit may instead not attach to anything.</characteristic>
       <profiles>
         <profile name="Advanced Uplinks" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="41da-e2a3-43c4-fb1d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, reroll a Hit Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, reroll a Hit Roll of 1 for that attack. This unit costs 0 leader points.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Intermediary Data-Tether" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4a89-1b47-8df0-bc21">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 12" of a unit with Tech-Priest, friendly units within 16" of this unit gain the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="01b7-29cf-9035-df5d">
@@ -789,7 +809,7 @@ b) SKITARII VANGUARDS</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Servitor" hidden="false" id="8274-9414-d22c-9b9f">
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <profiles>
                 <profile name="Servitor" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d9e3-97b3-f316-513e">
@@ -1047,7 +1067,7 @@ b) SKITARII VANGUARDS</characteristic>
                             <profile name="Servo Claw" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="311b-3644-e266-95d6">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1187,11 +1207,15 @@ b) SKITARII VANGUARDS</characteristic>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Heavy Weapon" id="511c-25d1-14d7-72e4" hidden="false">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="d906-5be3-6de0-6856" includeChildSelections="true"/>
+                        <constraint type="max" value="3" field="selections" scope="unit" shared="true" id="d906-5be3-6de0-6856" includeChildSelections="true"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="a102-0db4-5f5e-a6ba" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1"/>
-                        <entryLink import="true" name="Plasma Caliver" hidden="false" id="50a1-c483-b1b2-0e17" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3"/>
+                        <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="a102-0db4-5f5e-a6ba" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1">
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Caliver" hidden="false" id="50a1-c483-b1b2-0e17" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3">
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                        </entryLink>
                       </entryLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Arc Rifle" hidden="false" id="cc85-3ce2-7673-2605" sortIndex="2">
@@ -1206,6 +1230,7 @@ b) SKITARII VANGUARDS</characteristic>
                               </constraints>
                             </entryLink>
                           </entryLinks>
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -1236,7 +1261,7 @@ b) SKITARII VANGUARDS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Skitarii Rangers" hidden="false" id="4081-c623-63ea-e2a8" sortIndex="4.11">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="d762-6717-fcf2-07aa" primary="false" name="Infantry"/>
@@ -1338,11 +1363,15 @@ b) SKITARII VANGUARDS</characteristic>
                   <selectionEntryGroups>
                     <selectionEntryGroup name="Heavy Weapon" id="b561-5dd5-dd5d-8335" hidden="false">
                       <constraints>
-                        <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="008d-a84e-a7ed-a945" includeChildSelections="true"/>
+                        <constraint type="max" value="3" field="selections" scope="unit" shared="true" id="008d-a84e-a7ed-a945" includeChildSelections="true"/>
                       </constraints>
                       <entryLinks>
-                        <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="3a31-3a54-3465-33bb" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1"/>
-                        <entryLink import="true" name="Plasma Caliver" hidden="false" id="a0e0-b24b-f159-e2f0" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3"/>
+                        <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="3a31-3a54-3465-33bb" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1">
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                        </entryLink>
+                        <entryLink import="true" name="Plasma Caliver" hidden="false" id="a0e0-b24b-f159-e2f0" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3">
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                        </entryLink>
                       </entryLinks>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Arc Rifle" hidden="false" id="f326-889e-5ace-7617" sortIndex="2">
@@ -1357,6 +1386,7 @@ b) SKITARII VANGUARDS</characteristic>
                               </constraints>
                             </entryLink>
                           </entryLinks>
+                          <costs><cost name="pts" typeId="points" value="10"/></costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -1653,11 +1683,6 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Heavy Armour" id="89a9-59fc-2702-7503" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
       </infoLinks>
       <profiles>
-        <profile name="Deflagrating Embrace" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1ee8-8ce8-a5b1-155b">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit’s weapons, select an enemy infantry unit within engagement range. Make attacks targeting the selected unit using one of this unit’s Volkite Incinerators. For each of those attacks, add 1 to the Hit Roll of that attack.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Advanced Jump Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1486-a82e-1618-01a3">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 1 D6 to that Move Roll and you may reroll that Move Roll.</characteristic>
@@ -2083,7 +2108,7 @@ b) SKITARII VANGUARDS</characteristic>
               <modifiers>
                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                 <modifier type="prepend" value="Cognis" field="name" affects="profiles.Weapon"/>
-                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="981c-95b4-36a2-c4d3-min" includeChildSelections="false"/>
@@ -2120,7 +2145,7 @@ b) SKITARII VANGUARDS</characteristic>
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                         <modifier type="prepend" value="Coaxial Cognis" field="name" affects="profiles.Weapon"/>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c66-a376-150f-bdd5-min" includeChildSelections="false"/>
@@ -2148,12 +2173,11 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive, For each attack made for this weapon targeting a unit with Fly, add 1 to the Hit Roll of that attack.</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon targeting a unit with Fly, add 1 to the Hit Roll of that attack.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive" id="999e-841e-9577-c172" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                     <infoLink name="Breach" id="eac6-bbd7-b7bf-9762" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
                   </infoLinks>
                 </selectionEntry>
@@ -2311,6 +2335,9 @@ b) SKITARII VANGUARDS</characteristic>
       </selectionEntries>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sicarian Infiltrators" hidden="false" id="8eb9-ad04-0042-b82b" sortIndex="4">
+      <costs>
+        <cost name="pts" typeId="points" value="110"/>
+      </costs>
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="4a3d-49dc-21ba-0d4d" primary="true" name="Support"/>
         <categoryLink targetId="205c-3072-067b-d808" id="f4d4-609c-66c9-a826" primary="false" name="Infantry"/>
@@ -2352,7 +2379,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <infoLink name="Suppressive" id="73a7-9a85-6b71-1797" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="10"/>
+                    <cost name="pts" typeId="points" value="20"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2696,7 +2723,6 @@ b) SKITARII VANGUARDS</characteristic>
                   </costs>
                   <infoLinks>
                     <infoLink name="Ignore Cover" id="3956-0061-edfb-2009" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
-                    <infoLink name="Blast (X)" id="247d-3e86-01a2-256c" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -2768,7 +2794,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <infoLink name="Suppressive" id="ded5-7769-0818-2c4e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="10"/>
+                    <cost name="pts" typeId="points" value="20"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -2948,7 +2974,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <profile name="Disruptor Missile Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4c59-8169-b406-fb98">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -3169,7 +3195,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, For each attack made for this weapon that targets an enemy unit further than 16” away, the D of that attack improves by 2.</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3574,11 +3600,11 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         <profile name="Conversion Beamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4043-e5dc-9970-1023">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, For each attack made for this weapon that targets an enemy unit further than 8” away from this unit, improve the D of that attack by D3. If that enemy unit is further than 16” away, improve the D of that attack by an additional D3.</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3731,7 +3757,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         <profile name="Phosphor Pistol" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6bde-e908-f4d5-aa74">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>

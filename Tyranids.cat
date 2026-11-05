@@ -21,7 +21,7 @@
       </categoryLinks>
       <infoLinks>
         <infoLink name="Adaptive Bioforms" id="2410-a6d9-509c-2cb5" hidden="false" type="profile" targetId="0d87-dd31-8828-68b4" />
-        <infoLink name="Genetic Replication" id="a4e3-b4ef-6311-acca" hidden="false" type="profile" targetId="6a78-8ac7-367b-4410" />
+        <infoLink name="Adaptation Mitosis" id="a4e3-b4ef-6311-acca" hidden="false" type="profile" targetId="6a78-8ac7-367b-4410" />
         <infoLink name="Synapse" id="4f42-d84c-5fc1-d17e" hidden="false" type="profile" targetId="ef65-9c3a-581f-6896" />
         <infoLink name="Frenzied Feeders" id="6f80-dd7b-e0e5-9354" hidden="false" type="profile" targetId="a8f5-3d8c-4b84-575a" />
       </infoLinks>
@@ -87,27 +87,27 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="2 Dirgeheart of Kharis" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="34e4-0cf8-f9a9-7b88">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, each enemy unit within XD3" where X is this unit's Toughness suffers 4 Suppression.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, all enemy units within XD3" of this unit where X is this unit's Toughness gain Suppressed. Then, all enemy units with Suppressed within 12" suffer 2 SW.</characteristic>
           </characteristics>
         </profile>
-        <profile name="3 Rapid Evolution" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="33e4-356c-d28f-aaef">
+        <profile name="3 Distended Adrenal Glands" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="33e4-356c-d28f-aaef">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit gains this ability, select one adaptation ability. While this unit has this ability, it has the selected ability, even if it has another ability with the same name.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">While this unit has this ability, it gains Adrenaline, even if it has another ability with the same name.</characteristic>
           </characteristics>
         </profile>
-        <profile name="4 Evolutionary Leap" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="eba0-9c4b-a0ec-5e77">
+        <profile name="4 Subdermal Chitin" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="eba0-9c4b-a0ec-5e77">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit gains this ability, select one adaptation ability. While this unit has this ability, it has the selected ability, even if it has another ability with the same name.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">While this unit has this ability, it gains Carapace, even if it has another ability with the same name.</characteristic>
           </characteristics>
         </profile>
         <profile name="6 Overwhelming Shadow" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="9909-3ae2-1996-8f7c">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, all enemy units within 4" of this unit gain Suppressed. If this unit has Synapse, all enemy units within 12" of this unit gain Suppressed.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, all enemy units within 4" of this unit gain Suppressed. If this unit has Synapse, all enemy units within 12" of this unit gain Suppressed. Additionally, while enemy units with Suppressed are within 8" of this unit, those units cannot be selected for Activation unless there are no other ready enemy units without Suppressed.</characteristic>
           </characteristics>
         </profile>
-        <profile name="5 Perfect Adaptation" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="6d05-f68a-0bb0-c046">
+        <profile name="5 Hypertrophic Muscle" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="6d05-f68a-0bb0-c046">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit gains this ability, select one adaptation ability. While this unit has this ability, it has the selected ability, even if it has another ability with the same name.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">While this unit has this ability, it gains Rend, even if it has another ability with the same name.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -452,11 +452,6 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit may only Cast psychic powers from the ‘Psychic Powers of the Hive Mind’ table.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Neural Amplifier" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ddde-7c4d-da42-1f91">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test made for this unit, add 1 D6 to that Psychic Test for each NEUROLOIDS model in this unit.</characteristic>
-          </characteristics>
-        </profile>
         <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="f15e80b7-a7ad-40ad-b5c8-226685726ec5">
           <characteristics>
             <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to: NEUROLOIDS</characteristic>
@@ -650,6 +645,23 @@ GARGOYLES</characteristic>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="d175-c0f5-a0f6-4789" sortIndex="4">
+                  <profiles>
+                    <profile name="Rending Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cc4f-8019-e3e4-455e">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Pierce" id="d92f-4426-05a4-4962" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                  </infoLinks>
+                </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Death Spitter" hidden="false" id="0632-701b-025a-ca7e">
                   <profiles>
                     <profile name="Death Spitter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6bbf-d6f1-d153-5f9c">
@@ -698,7 +710,6 @@ GARGOYLES</characteristic>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive" id="e9e9-c8ae-e14d-8362" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="a747-9c7e-259d-e1ab">
@@ -736,6 +747,24 @@ GARGOYLES</characteristic>
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Warrior Wings" hidden="false" id="4928-d4ec-064d-406f" sortIndex="9">
+                  <profiles>
+                    <profile name="Warrior Wings" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0393-5cbf-3466-4847">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, This unit gains Fly.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Shred" id="b0f0-88a6-39ac-435a" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                    <infoLink name="Fly" id="b183-939c-7e98-43e4" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+                  </infoLinks>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
@@ -775,7 +804,7 @@ GARGOYLES</characteristic>
         </profile>
         <profile name="3 Paroxysm" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="ab1b-1929-f2fd-cd38">
           <characteristics>
-            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select up to three different enemy infantry or monster units within 16" of this unit. Each selected unit suffers 7 Suppression. Then, roll a D6. On a 1-3, this unit loses 5 Health.</characteristic>
+            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">After this unit's Attacks step, all enemy infantry or monster units within 24" of this unit gain Suppressed. If they already had Suppressed, they suffer 3 SW instead. Then, roll a D6. On a 1-3, this unit loses 5 Health.</characteristic>
           </characteristics>
         </profile>
         <profile name="4 Warp Lance" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="bc0c-9582-3e98-99f6">
@@ -803,12 +832,16 @@ GARGOYLES</characteristic>
         <infoLink name="Walker" id="24bb-4feb-f919-82bd" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
         <infoLink name="Forward Deploy" id="b524-352d-e5d7-0dde" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         
-        <infoLink name="Chameleonic Carapace" id="4b13-4122-38d3-605e" hidden="false" type="profile" targetId="d725-c927-60e7-1f31" />
       </infoLinks>
       <profiles>
         <profile name="Opportunistic Hunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="20e5-bda9-61b9-b09a">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="To The Shadows" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1175-2d12-5f29-a3e0">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit's End step, this unit may Advance and it loses this ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Stimulated Predation" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bdd9-16c2-e647-d61c">
@@ -871,7 +904,6 @@ GARGOYLES</characteristic>
         <infoLink name="Walker" id="5be8-b699-12e2-9b43" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
         <infoLink name="Forward Deploy" id="f8fb-5837-1687-34d6" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         
-        <infoLink name="Chameleonic Carapace" id="841b-3e1d-4202-bbf9" hidden="false" type="profile" targetId="d725-c927-60e7-1f31" />
         <infoLink name="Psyker (X)" id="b074-9fa5-5f28-fbc5" hidden="false" type="rule" targetId="6ff7-e000-c4c9-fb18">
           <modifiers>
             <modifier type="set" value="Psyker (2)" field="name" />
@@ -940,14 +972,19 @@ GARGOYLES</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Venomthrope" hidden="false" id="539c-7352-289d-97f1" sortIndex="13">
       <profiles>
-        <profile name="Toxic Clouds" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e1bb-5890-cc68-98a6">
+        <profile name="Gas Bladders" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e1bb-5890-cc68-98a6">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Attacks step, each enemy unit within 3D6” of this unit suffers 4 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While other friendly infantry units are wholly within 12" of this unit, those units gain the following ability:</characteristic>
           </characteristics>
         </profile>
-        <profile name="Thick Spores" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="24c1-698c-2568-d951">
+        <profile name="Nauseating Clouds" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="24c1-698c-2568-d951">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack that targets another friendly infantry unit within 8" of this unit, that unit is in cover for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack that targets this unit, this unit is in cover for that attack. For each melee attack that targets this unit, the Wound Roll of that attack is worsened by 1.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Toxic Spores" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5aa0-b563-008c-42d2">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within 12" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1103,8 +1140,151 @@ GARGOYLES</characteristic>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, each enemy unit visible to this unit gains Rumbling Earth until the End step:</characteristic>
           </characteristics>
         </profile>
+        <profile name="Rumbling Earth" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9d1c-dab1-2c66-4744">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After an enemy unit with Pulverising Charge finishes an Advance or Reposition, if that unit passed within 1" of this unit during that Advance or Reposition, this unit suffers 4 SW.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Choose one additional weapon" id="7dca-7fc2-31e5-4b67" hidden="false" sortIndex="1">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fc3-db01-6a11-4396" includeChildSelections="false" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Acid Maw" hidden="false" id="dc98-869e-0376-4199">
+              <profiles>
+                <profile name="Acid Maw" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b217-2f9d-7c87-4191">
+                  <characteristics>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Shred" id="9038-472e-cb73-4bf4" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+              </infoLinks>
+              <costs><cost name="pts" typeId="points" value="10" /></costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Tusks" hidden="false" id="269e-9baa-28bd-481f">
+              <profiles>
+                <profile name="Tusks" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6f85-ced4-fbfc-4e61">
+                  <characteristics>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs><cost name="pts" typeId="points" value="10" /></costs>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Bio-Plasma Discharge" hidden="false" id="381b-ac93-d289-426e">
+              <profiles>
+                <profile name="Bio-Plasma Discharge" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4996-8c73-df59-48f6">
+                  <characteristics>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes an Advance move, this weapon gains Shred until the End step.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile name="Bio-Plasma Discharge" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="382a-db50-d9b0-4df0">
+                  <characteristics>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Breach" id="66a9-dd2c-ab13-4754" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
+              </infoLinks>
+              <costs><cost name="pts" typeId="points" value="10" /></costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <selectionEntries>
+        <selectionEntry type="upgrade" import="true" name="Adrenal Glands" hidden="false" id="01c3-eea8-6752-4d7d">
+          <profiles>
+            <profile name="Adrenal Glands" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8450-7c5d-8b5e-485d">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 1 D6 to that roll and discard the lowest result.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Thornback" hidden="false" id="51f9-63c6-cbf4-403b">
+          <profiles>
+            <profile name="Thornback" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="915f-196d-8927-40cf">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During this unit's turn, each time an enemy unit suffers 4 SW for Rumbling Earth, that unit suffers 6 SW instead.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Regeneration" hidden="false" id="0f54-cbe0-9bd1-4afd">
+          <profiles>
+            <profile name="Regeneration" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bfd2-0fcb-2061-4b5d">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, it Heals 1.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Enhanced Senses" hidden="false" id="d2eb-e018-0c7c-4b85">
+          <profiles>
+            <profile name="Enhanced Senses" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f74d-47ec-55fe-4461">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Each of this unit's ranged weapons gains Ignore Cover. For each attack made for this unit's melee weapons, add 1 to the Hit Roll of that attack.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Tail Mace" hidden="false" id="4b71-23e9-1e86-4075">
+          <profiles>
+            <profile name="Tail Mace" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f717-593d-3943-49e5">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink name="Breach" id="143c-26d5-252c-433a" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
+          </infoLinks>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Stinger Salvos" hidden="false" id="7feb-1a63-1710-4354">
+          <profiles>
+            <profile name="Stinger Salvos" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="fb67-215f-35d4-4df2">
+              <characteristics>
+                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs><cost name="pts" typeId="points" value="10" /></costs>
+        </selectionEntry>
         <selectionEntry type="model" import="true" name="Carnifex" hidden="false" id="c21e-896d-3bfb-f55f">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6403-3ebe-4680-6807-min" includeChildSelections="false" />
@@ -1113,16 +1293,16 @@ GARGOYLES</characteristic>
           <selectionEntryGroups>
             <selectionEntryGroup name="Weapon Choice" id="c5f5-eb22-e35e-73a7" hidden="false" defaultSelectionEntryId="792e-33de-5632-df22">
               <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="e599-c9bb-90ac-2a1f-min" includeChildSelections="false" />
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e599-c9bb-90ac-2a1f-max" includeChildSelections="false" />
+                <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e599-c9bb-90ac-2a1f-min" includeChildSelections="false" />
+                <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="e599-c9bb-90ac-2a1f-max" includeChildSelections="false" />
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Heavy Venom Cannon" hidden="false" id="ea18-a777-a230-4c79" type="selectionEntry" targetId="a391-602f-fd75-1db7" sortIndex="4">
+                <entryLink import="true" name="Heavy Venom Cannon" hidden="false" id="ea18-a777-a230-4c79" type="selectionEntry" targetId="a391-602f-fd75-1db7" sortIndex="5">
                   <modifiers>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                   </modifiers>
                 </entryLink>
-                <entryLink import="true" name="Stranglethorn Cannon" hidden="false" id="74a9-ceb3-6384-1f37" type="selectionEntry" targetId="3518-6226-731a-d7f7" sortIndex="5">
+                <entryLink import="true" name="Stranglethorn Cannon" hidden="false" id="74a9-ceb3-6384-1f37" type="selectionEntry" targetId="3518-6226-731a-d7f7" sortIndex="6">
                   <modifiers>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
                   <modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon" />
@@ -1144,10 +1324,10 @@ GARGOYLES</characteristic>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Pierce" id="ffa6-655c-8733-fe65" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                    <infoLink name="Breach" id="ffa6-655c-8733-fe65" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Carnifex Death Spitter" hidden="false" id="49c9-2d67-5f09-76bd" sortIndex="3">
+                <selectionEntry type="upgrade" import="true" name="Carnifex Death Spitters" hidden="false" id="49c9-2d67-5f09-76bd" sortIndex="3">
                   <profiles>
                     <profile name="Carnifex Death Spitter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6938-4533-5394-837a">
                       <characteristics>
@@ -1164,7 +1344,24 @@ GARGOYLES</characteristic>
                     <infoLink name="Blast (X)" id="3eb3-adbc-895d-1101" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
                   </infoLinks>
                 </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Extra Carnifex Scything Talons" hidden="false" id="792e-33de-5632-df22" sortIndex="1">
+                <selectionEntry type="upgrade" import="true" name="Carnifex Devourers" hidden="false" id="178d-2abd-d1e5-48c6" sortIndex="4">
+                  <profiles>
+                    <profile name="Carnifex Devourers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9e86-ba74-8acc-42df">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">15</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Shred" id="e0a6-ac6f-c276-4636" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Carnifex Scything Talons" hidden="false" id="792e-33de-5632-df22" sortIndex="1">
                   <entryLinks>
                     <entryLink import="true" name="Monstrous Scything Talons" hidden="false" id="ff5b-4e7a-bbac-3375" type="selectionEntry" targetId="468d-9083-d092-58ab">
                       <modifierGroups>
@@ -1187,32 +1384,6 @@ GARGOYLES</characteristic>
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
-          <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Carnifex Scything Talons" hidden="false" id="b971-1437-2974-44c2">
-              <constraints>
-                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fcbc-51b2-ae7e-2a0c-min" includeChildSelections="false" />
-                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fcbc-51b2-ae7e-2a0c-max" includeChildSelections="false" />
-              </constraints>
-              <entryLinks>
-                <entryLink import="true" name="Monstrous Scything Talons" hidden="false" id="12c1-4e93-582d-09a8" type="selectionEntry" targetId="468d-9083-d092-58ab">
-                  <constraints>
-                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6975-f6dc-2970-36af-min" includeChildSelections="false" />
-                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6975-f6dc-2970-36af-max" includeChildSelections="false" />
-                  </constraints>
-                  <modifierGroups>
-                    <modifierGroup type="and">
-                      <modifiers>
-                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
-                        <modifier type="set" value="Carnifex Scything Talons " field="name" />
-                        <modifier type="set" value="Carnifex Scything Talons " field="name" affects="profiles.Weapon" />
-                      </modifiers>
-                    </modifierGroup>
-                  </modifierGroups>
-                </entryLink>
-              </entryLinks>
-            </selectionEntry>
-          </selectionEntries>
           <profiles>
             <profile name="Carnifex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a8da-ba7c-f99f-328a">
               <characteristics>
@@ -1460,7 +1631,6 @@ GARGOYLES</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="6537-7b2d-b2c8-6005" id="7a03-93a8-b1b0-45e1" primary="false" name="Monster" />
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="b210-e9d6-6f39-9500" primary="false" name="Rare" />
         <categoryLink targetId="ccc6-6202-853c-23e4" id="f0c9-035c-750f-3c72" primary="true" name="Support" />
       </categoryLinks>
       <constraints>
@@ -1480,11 +1650,6 @@ GARGOYLES</characteristic>
         <profile name="Horror of the Deep" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9702-d0e1-33c2-5934">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in reserves, after an enemy unit's Move step, as a reaction, if that unit does not have Fly, roll a D6. On a 4+, you may Deploy this unit within 6" of that enemy unit and outside of the engagement range of enemy units.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Serpentine Coils" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6966-c4ec-7f1b-5b4e">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each melee attack targeting this unit, the Hit Roll for that attack is worsened by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1552,7 +1717,6 @@ GARGOYLES</characteristic>
       </costs>
       <categoryLinks>
         <categoryLink targetId="6537-7b2d-b2c8-6005" id="2778-3560-c696-a230" primary="false" name="Monster" />
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="250a-d7c0-e12b-89ed" primary="false" name="Rare" />
         <categoryLink targetId="ccc6-6202-853c-23e4" id="67d8-6a72-9bd1-8705" primary="true" name="Support" />
       </categoryLinks>
       <constraints>
@@ -1567,11 +1731,6 @@ GARGOYLES</characteristic>
         <profile name="Horror of the Deep" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d103-5888-c48c-3f26">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in reserves, after an enemy unit's Move step, as a reaction, if that unit does not have Fly, roll a D6. On a 4+, you may Deploy this unit within 6" of that enemy unit and outside of the engagement range of enemy units.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Roiling Serpent" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ef04-bfa5-483b-4e2a">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack targeting this unit, the Hit Roll for that attack is worsened by 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1736,6 +1895,16 @@ GARGOYLES</characteristic>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for this unit's Bio-Plasmic Cannon, add 1 to the Hit Roll.</characteristic>
           </characteristics>
         </profile>
+        <profile name="Slaved Will" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2379-8706-e4a9-4ac4">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move Roll during its Move step, you may discard up to two dice in that Move Roll. Select one of the following abilities for each dice discarded this way. Until the End step, this unit gains the selected abilities.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Stabilised Host" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e982-f505-e9bd-4d6d">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, this unit's Bio-Plasmic Cannon gains Velocity.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="a6ea-954a-3ea5-fad6" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
@@ -1761,7 +1930,7 @@ GARGOYLES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 12 3+ 3 2 Sweep, Breach</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1779,23 +1948,22 @@ GARGOYLES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Breach, Pierce</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Breach, Colossal 5</characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Bio-Plasmic Cannon (Sweep)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cdad-cb06-f315-09a5">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Pierce</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Breach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Breach" id="9eca-f369-fc89-52d9" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c" />
-                <infoLink name="Pierce" id="1a00-e7cc-beca-938b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
                 <infoLink name="Strike/Sweep" id="06a1-797a-6263-8b7d" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
               </infoLinks>
             </selectionEntry>
@@ -1904,6 +2072,23 @@ GARGOYLES</characteristic>
                         </entryLink>
                       </entryLinks>
                     </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Rending Claws" hidden="false" id="632d-c352-d561-422c" sortIndex="4">
+                      <profiles>
+                        <profile name="Rending Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9bc2-e139-44a5-4cf8">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Pierce" id="eb8a-bf7d-0474-449b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+                      </infoLinks>
+                    </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Death Spitter" hidden="false" id="c977-75ed-4e19-52a3">
                       <profiles>
                         <profile name="Death Spitter" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7b9b-410a-88e9-4f43">
@@ -1952,7 +2137,6 @@ GARGOYLES</characteristic>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Suppressive" id="a6c0-ed6b-68fa-1370" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="d2f4-6ebb-1253-4011">
@@ -1990,6 +2174,39 @@ GARGOYLES</characteristic>
                           </constraints>
                         </entryLink>
                       </entryLinks>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup name="Winged" id="4212-8ad9-df89-4585" hidden="false" sortIndex="2">
+                  <constraints>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fa2d-d667-efd9-4bbb" includeChildSelections="false" />
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Winged" hidden="false" id="dd32-e2ff-6fef-4f21">
+                      <profiles>
+                        <profile name="Winged" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="39e7-85e5-365f-419a">
+                          <characteristics>
+                            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and 1 D6 to Move Rolls made for this unit. Each model in this unit must replace Scything Talons with Warrior Wings.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile name="Warrior Wings" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ef50-ded1-eb29-47fc">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink name="Fly" id="e78d-d705-5810-4407" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+                        <infoLink name="Shred" id="9424-d4a1-78c5-4574" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+                      </infoLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                 </selectionEntryGroup>
@@ -2109,14 +2326,14 @@ GARGOYLES</characteristic>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit has the Synapse keyword.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Genetic Replication" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6a78-8ac7-367b-4410">
+    <profile name="Adaptation Mitosis" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6a78-8ac7-367b-4410">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may select units in reserves to gain relics.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may select units in reserves to gain a relic. While your units are on the battlefield, you may only select those units to gain a relic if they are within 16" of one of your units with Synapse. If your active unit is within 16" of a unit with Synapse, while capturing a vault, you may select two of your units instead of one (both of your units gain the selected relic). If any of your other units have that relic, they do not lose it. After you capture a forge, instead of your active unit's relic becoming reforged, all of your units gain that relic for the rest of the battle. Then, your active unit becomes ready.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dominating Shadow" typeId="266a-be4d-b9fa-94de" typeName="Windfall of the Warp" hidden="false" id="12e1-903d-2084-3dd7">
       <characteristics>
-        <characteristic name="Psychic Power" typeId="9060-973c-99e9-75b4">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select any enemy unit within 12+3D6” of this unit. The selected unit suffers 2 Suppression. If the selected unit has Psyker, that unit suffers 3 Suppression instead.</characteristic>
+        <characteristic name="Psychic Power" typeId="9060-973c-99e9-75b4">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select all enemy units within 12+3D6" of this unit. Then, after the Attacks step, all selected units gain Suppressed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Instinctive Swarm" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5cf3-83fb-d394-fdd8">
@@ -2124,14 +2341,9 @@ GARGOYLES</characteristic>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">If this unit has no leader model, after this unit's End step, if this turn was your first turn in a row, take another turn.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Chameleonic Carapace" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d725-c927-60e7-1f31">
-      <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, the Hit Roll for that attack is worsened by 1.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Neural Fields" typeId="266a-be4d-b9fa-94de" typeName="Windfall of the Warp" hidden="false" id="5f07-ae71-efa1-911b">
       <characteristics>
-        <characteristic name="Psychic Power" typeId="9060-973c-99e9-75b4">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, each enemy unit within 6+3D6” of this unit suffers D3 Suppression.</characteristic>
+        <characteristic name="Psychic Power" typeId="9060-973c-99e9-75b4">After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select all enemy units within 12+3D6" of this unit. Then, after the Attacks step, all selected units gain Suppressed.</characteristic>
       </characteristics>
     </profile>
     <profile name="Synaptic Node" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="25a5-78c2-e19f-0550">
@@ -2593,7 +2805,7 @@ GARGOYLES</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, This unit gains Fly and 1 D6 to Move, Rolls made for this unit.</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, This unit gains Fly and 1 D6 to Move Rolls made for this unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2674,16 +2886,15 @@ GARGOYLES</characteristic>
         <profile name="Barbed Strangler" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="459b-ca24-9379-d0ae">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="4ab8-0623-b02e-b2b1" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Prime Wings" hidden="false" id="1252-6ab8-dce3-47a6">
@@ -2698,9 +2909,15 @@ GARGOYLES</characteristic>
               <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
         </profile>
+        <profile name="Winged" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f21b-802a-05f8-43ec">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and 1 D6 to Move Rolls made for this unit.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
       <infoLink name="Shred" id="c73b-7a9e-23ba-bd44" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+      <infoLink name="Fly" id="d127-fc44-f62a-498a" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Genestealer Claws" hidden="false" id="bde1-1461-fa2e-49f9">
@@ -2850,10 +3067,13 @@ GARGOYLES</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">-</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">gains Breach. If it does, this unit loses this, ability.</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">After an enemy unit is successfully hit by an attack made for this weapon, it gains Oil.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Oil" id="a0f1-c734-f06a-4309" hidden="false" type="profile" targetId="56cb-2753-47e8-fc34" />
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Rupture Cannon" hidden="false" id="7526-2ae7-12db-4fe9">
       <profiles>
@@ -3181,8 +3401,8 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
 <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
 </modifiers>
 </entryLink>
-        <entryLink import="true" name="Devourer" hidden="false" id="5a86-5db9-3d44-0594" type="selectionEntry" targetId="b1c2-26fb-9e50-8dd3" />
-        <entryLink import="true" name="Spinefists" hidden="false" id="e2a1-d775-9907-b9c4" type="selectionEntry" targetId="80ca-e8de-9957-3c15" />
+        <entryLink import="true" name="Devourer" hidden="false" id="5a86-5db9-3d44-0594" type="selectionEntry" targetId="4bdd-1fae-f823-4788" />
+        <entryLink import="true" name="Spinefists" hidden="false" id="e2a1-d775-9907-b9c4" type="selectionEntry" targetId="576a-0042-ded0-4f54" />
         <entryLink import="true" name="Prime Wings" hidden="false" id="c79d-0fa2-20c3-a48d" type="selectionEntry" targetId="1252-6ab8-dce3-47a6" />
       </entryLinks>
     </selectionEntry>
@@ -3235,7 +3455,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Genestealers" hidden="false" id="499e-955a-bef8-3c26" sortIndex="1">
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="d273-4d67-dc89-5818" primary="true" name="Support" />
@@ -3254,8 +3474,8 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Genestealers" hidden="false" id="1634-9610-088d-7bba">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="1634-9610-088d-7bba-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="1634-9610-088d-7bba-max" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="1634-9610-088d-7bba-min" includeChildSelections="false" />
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="1634-9610-088d-7bba-max" includeChildSelections="false" />
           </constraints>
           <profiles>
             <profile name="Genestealers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="8aea-1f3b-3feb-242d">
@@ -3274,9 +3494,6 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Raveners" hidden="false" id="1346-9950-8ead-9c76" sortIndex="1">
-      <costs>
-        <cost name="pts" typeId="points" value="30" />
-      </costs>
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="80c4-8673-8ecb-b003" primary="true" name="Support" />
         <categoryLink targetId="205c-3072-067b-d808" id="18f7-c9f4-46c0-d6b4" primary="false" name="Infantry" />
@@ -3306,9 +3523,12 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Raveners" hidden="false" id="a817-bf53-71a0-8114">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a817-bf53-71a0-8114-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a817-bf53-71a0-8114-max" includeChildSelections="false" />
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="a817-bf53-71a0-8114-min" includeChildSelections="false" />
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="a817-bf53-71a0-8114-max" includeChildSelections="false" />
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="30" />
+          </costs>
           <profiles>
             <profile name="Raveners" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="866a-5c18-4106-6258">
               <characteristics>
@@ -3319,17 +3539,59 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
               </characteristics>
             </profile>
           </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Additional weapon" id="85c2-7f11-2b9c-421d" hidden="false">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a11c-2d60-7c1f-6a90" includeChildSelections="false" />
+              </constraints>
+              <entryLinks>
+                <entryLink import="true" name="Death Spitter" hidden="false" id="acf0-d5fe-378e-1dda" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc">
+                  <modifiers>
+                    <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2" />
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Devourer" hidden="false" id="1577-c685-85a1-676f" type="selectionEntry" targetId="c15e-f16d-95c3-4045">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+                <entryLink import="true" name="Spinefist" hidden="false" id="aeb9-20fe-8f4a-a0be" type="selectionEntry" targetId="08ab-80f6-80b4-e933">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                </entryLink>
+              </entryLinks>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Barbed Strangler" hidden="false" id="a32d-5acb-c993-628c">
+                  <profiles>
+                    <profile name="Barbed Strangler" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="bd27-2b3c-7876-93c0">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6, Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="10" />
+                  </costs>
+                  <infoLinks>
+                    <infoLink name="Blast (X)" id="12ed-e36b-f7a1-5a0d" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Ravener Claws and Talons" hidden="false" id="9fb2-ddc3-de7d-7b85" type="selectionEntry" targetId="289f-bae5-686b-5d88" />
-        <entryLink import="true" name="Death Spitter" hidden="false" id="acf0-d5fe-378e-1dda" type="selectionEntry" targetId="0ad0-6782-e8f1-16dc">
-          <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
-          </modifiers>
-        </entryLink>
-        <entryLink import="true" name="Devourer" hidden="false" id="1577-c685-85a1-676f" type="selectionEntry" targetId="b1c2-26fb-9e50-8dd3" />
-        <entryLink import="true" name="Spinefist" hidden="false" id="aeb9-20fe-8f4a-a0be" type="selectionEntry" targetId="08ab-80f6-80b4-e933" />
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Von Ryan's Leapers" hidden="false" id="a968-ed23-4d1f-2c89" sortIndex="1">
@@ -3518,7 +3780,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         </profile>
         <profile name="Oil" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="56cb-2753-47e8-fc34">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for a Rupture Cannon that targets this unit, that attack gains Breach. If Bloated Tick Hv 1 2+ - - it does, this unit loses this ability. Rupture Cannon Hv 1 2+ 5 4 Colossal 5 Acid Spray Aslt 7 3+ 3 1 Barrage, Shred, Purge Fleshborer Hive Left Aslt 16 3+ 3 2 Fleshborer Hive Right Aslt 16 3+ 3 2 Stinger Salvoes Aslt 7 3+ 3 1</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made for a Rupture Cannon that targets this unit, that attack gains Breach. If it does, this unit loses this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3745,11 +4007,6 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes a Reposition or Pile In within engagement range of one or more enemy units, for each enemy unit within engagement range of this unit, this unit must make attacks targeting that unit. Then, this unit dies.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Volatile Spores" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fbb5-bb54-5724-8f45">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, each time the controlling player would make a Wound Roll for that attack, instead, you roll a D6. On a 1, this unit dies.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="2d6a-280b-d19b-e338" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
@@ -3831,7 +4088,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         <infoLink name="Fly" id="1033-868c-26b4-884e" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
       <profiles>
-        <profile name="Neural Amplifier" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2d17-0621-c2e5-5410">
+        <profile name="Neural Amplifiers" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2d17-0621-c2e5-5410">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Psychic Test made for this unit, add 1 D6 to that Psychic Test for each NEUROLOIDS model in this unit.</characteristic>
           </characteristics>
@@ -3842,6 +4099,57 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="18cd-fd47-1b93-fbd2-max" includeChildSelections="false" />
       </constraints>
     </selectionEntry>
+   <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="4bdd-1fae-f823-4788">
+     <profiles>
+       <profile name="Devourer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ea24-6ee4-9c32-4ea3">
+         <characteristics>
+           <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+           <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+           <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+           <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+           <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+           <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+         </characteristics>
+       </profile>
+     </profiles>
+     <infoLinks>
+       <infoLink name="Shred" id="8d89-b645-9823-4f88" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+     </infoLinks>
+   </selectionEntry>
+   <selectionEntry type="upgrade" import="true" name="Spinefists" hidden="false" id="576a-0042-ded0-4f54">
+     <profiles>
+       <profile name="Spinefists" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="d746-c129-201c-4259">
+         <characteristics>
+           <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+           <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+           <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+           <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+           <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+           <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+         </characteristics>
+       </profile>
+     </profiles>
+     <infoLinks>
+       <infoLink name="Shred" id="80a0-47d6-d3df-49d2" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+     </infoLinks>
+   </selectionEntry>
+   <selectionEntry type="upgrade" import="true" name="Devourer" hidden="false" id="c15e-f16d-95c3-4045">
+     <profiles>
+       <profile name="Devourer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2990-f0a0-555f-452e">
+         <characteristics>
+           <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+           <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+           <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+           <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+           <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+           <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+         </characteristics>
+       </profile>
+     </profiles>
+     <infoLinks>
+       <infoLink name="Shred" id="e3d4-afc4-d236-4ef5" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+     </infoLinks>
+   </selectionEntry>
 </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Monstrous Scything Talons" id="b960-95dd-2b90-2ec3" hidden="false" defaultSelectionEntryId="2f0c-5a6e-1ce6-73f5">
