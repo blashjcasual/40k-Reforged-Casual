@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="587a-dc95-3efb-5623" name="Grey Knights" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="13" revision="26" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="587a-dc95-3efb-5623" name="Grey Knights" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="27" battleScribeVersion="2.03" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Storm Bolter" hidden="false" id="086a-23f4-526e-9772">
       <profiles>
@@ -192,10 +192,10 @@
           <profiles>
             <profile name="Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="1c69-f458-ffe6-a75d">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -337,14 +337,12 @@
       <profiles>
         <profile name="Greatest Peril" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f75e-ba33-d553-0662">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are two or more enemy units within 12” of this unit, this unit gains the following ability:
-
-Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selected to suffer, roll a D6. On a 5+, the Saving Throw for that wound succeeds.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are two or more enemy units within 12" of this unit, this unit gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Lay on Hands" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7b8a-e775-2e17-7bd4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, if there is a GREY KNIGHT PALADIN model in this unit, select up to one other friendly infantry or monster unit within 4" of this unit. The selected unit Heals 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, if there is a GREY KNIGHT PALADIN model in this unit, select up to one other friendly infantry or monster unit within 4" of this unit or within 4" of and visible to one or more of your units with Resolute Communion. The selected unit Heals D3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -357,10 +355,10 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
           <profiles>
             <profile name="Paladin" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="830c-553a-74bd-6d12">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -561,10 +559,10 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -682,11 +680,11 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <profile name="Heavy Incinerator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="600f-74ad-6faf-470f">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -764,11 +762,11 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <profile name="Heavy Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="76b2-98a1-f9f8-f620">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Ignore Cover</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -782,11 +780,11 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <profile name="Missile Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e551-cb80-1152-2bab">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -813,11 +811,11 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <profile name="Plasma Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2b8f-45db-cd13-3527">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -848,16 +846,16 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         <profile name="Twin Autocannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4e76-f83f-8e67-30d3">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="bfc9-33c8-4e5e-9e47" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="bfc9-33c8-4e5e-9e47" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Heavy Bolter" hidden="false" id="d51b-7a80-0907-f079">
@@ -869,7 +867,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -909,9 +907,9 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
             <profile name="Grand Master" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9492-7ab0-aaf9-c911">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -961,7 +959,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -1010,9 +1008,9 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
             <profile name="Grey Knight Nemesis Dreadknight" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9bcb-d42f-6c18-4fa3">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -1057,7 +1055,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         </profile>
         <profile name="Foremost Protection" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a2b8-13fc-daeb-8ad2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance or Reposition, this unit may move up to an additional 4" if that move would end within 4" of any enemy units within 24" of one or more friendly leader units.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit within 24" of a friendly leader unit. If you do, add 1D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1073,7 +1071,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -1088,7 +1086,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
           <profiles>
             <profile name="Warp Shunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e30edf5e-3f17-4dbe-a764-a0f08d6f7665">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there.</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there. 3.4 GREY KNIGHT DREADNOUGHT - 160 points - Vehicle T Sv H 4 4+ 12 Walker, Psyker 2</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1136,7 +1134,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
       <profiles>
         <profile name="Aegis Psyber-Circuit" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6fc0-3526-8807-8b4d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While one or more other friendly Grey Knights infantry units are within 6" of this unit and this unit is closer or the same distance to an active enemy unit visible to this unit, this unit and those friendly infantry units gain the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While one or more other friendly Grey Knights infantry units are within 12" of this unit and this unit is closer or the same distance to an active enemy unit visible to this unit, this unit and those friendly infantry units gain the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Reinforced Wards" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2410-528a-f54d-a76f">
@@ -1151,7 +1149,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
         </profile>
         <profile name="Venerable" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="83f6-574b-45d5-6d93">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 2. 3.4 Disclaimer This project is completely unoffi cial and is a non-commercial, fan-made creation for community enjoyment. This material is distributed entirely for free. It is not affi liated with, endorsed by, sponsored by, or specifically approved by Games Workshop. All trademarks, logos, character names, and distinct setting elements referenced herein and in associated documentation are the exclusive property of Games Workshop.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1165,9 +1163,9 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
             <profile name="Grey Knight Dreadnought" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="62b1-757a-5f80-aec7">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -1218,7 +1216,7 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
     </rule>
   </sharedRules>
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.7" hidden="false" id="dc56-bea6-0b79-3250" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="dc56-bea6-0b79-3250" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="7559-35d0-c79d-9d9d" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -1237,7 +1235,6 @@ Without Peer: For each wound this unit’s GREY KNIGHT PALADIN model is selecte
       </constraints>
       <infoLinks>
         <infoLink name="Sanctic Aegis" id="3a8b-aad5-6a47-3c36" hidden="false" type="profile" targetId="141f-c84e-6982-ba56" />
-        <infoLink name="We Are The Hammer" id="7f7b-3376-44ab-eca1" hidden="false" type="profile" targetId="3bfb-8d5a-08a7-a5ca" />
         <infoLink name="Warp Drives of Titan" id="18bf-32af-393c-adbf" hidden="false" type="profile" targetId="7b20-82b2-f21f-4345" />
         <infoLink name="Psychic Resonance" id="e9bd-c7e9-c442-746a" hidden="false" type="profile" targetId="e371-a49c-1740-3005" />
         <infoLink name="Cleansing Psalm" id="c87f-e7ad-f627-c1c1" hidden="false" type="profile" targetId="4b90-458f-5908-3282" />
@@ -1455,9 +1452,9 @@ b) GREY KNIGHT PALADIN</characteristic>
             <profile name="Brother Captain" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="15ef-da0d-e921-08d9">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1485,7 +1482,7 @@ b) GREY KNIGHT PALADIN</characteristic>
         </profile>
         <profile name="Vortex of Doom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bb40-098b-1648-802f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a point in the battlefield within 12" of and visible to this unit. Then, all enemy units within 3D6" of the selected point suffer 3 SW.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you would select targets for this unit this turn, you may select a point in the battlefield within 12" of and visible to this unit. Then, all enemy units within 3D6" of the selected point suffer 6 SW.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1564,9 +1561,9 @@ b) GREY KNIGHT PALADIN</characteristic>
             <profile name="Librarian" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="1a0f-1abc-f8ad-46ea">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1626,7 +1623,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                 <profile name="Crozius Arcanum" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7a47-6f04-d593-f475">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -1652,9 +1649,9 @@ b) GREY KNIGHT PALADIN</characteristic>
             <profile name="Chaplain" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="6e0d-6d34-47ef-4a03">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1686,7 +1683,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1825,7 +1822,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1975,7 +1972,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2090,7 +2087,7 @@ b) GREY KNIGHT PALADIN</characteristic>
       <profiles>
         <profile name="Warp Shunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d888-7746-0106-dbb5">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 2 D6 to that roll. Then, until the End step, this unit may move over terrain and enemy units as if they were not there. 3.4 GREY KNIGHT DREADNOUGHT - 160 points - Vehicle T Sv H 4 4+ 12 Walker, Psyker 2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2109,7 +2106,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2205,7 +2202,7 @@ b) GREY KNIGHT PALADIN</characteristic>
       <profiles>
         <profile name="Narthecium" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="706d-db5c-dfa2-49ff">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select up to one friendly infantry unit within 4". If you do, the selected unit Heals 2, skip the Attacks step this turn and if this was your first turn in a row, after the End step, take another turn.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select up to one friendly infantry unit within 4". If you do, the selected unit Heals D3+2, skip the Attacks step this turn and if this was your first turn in a row, after the End step, take another turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2227,10 +2224,10 @@ b) GREY KNIGHT PALADIN</characteristic>
           <profiles>
             <profile name="Terminator Apothecary" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b38e-cf80-3179-4e23">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2403,11 +2400,11 @@ b) GREY KNIGHT PALADIN</characteristic>
                     <profile name="Heavy Incinerator" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="22c2-9d3c-1c93-1908">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Nemesis, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2432,7 +2429,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2685,7 +2682,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                   </costs>
                   <infoLinks>
                     <infoLink name="Blast (X)" id="a4db-0298-6197-6aef" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                    <infoLink name="Strike or Sweep (X)" id="144d-f60e-44e7-5e3a" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                    <infoLink name="Strike/Sweep" id="144d-f60e-44e7-5e3a" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Nemesis Doomglaive" hidden="false" id="f4b6-6b70-6ad4-2e35" sortIndex="3">
@@ -2798,7 +2795,7 @@ b) GREY KNIGHT PALADIN</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2813,7 +2810,7 @@ b) GREY KNIGHT PALADIN</characteristic>
               <profiles>
                 <profile name="Venerable" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a7a1-e1d5-ba35-a757">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 1.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 2. 3.4 Disclaimer This project is completely unoffi cial and is a non-commercial, fan-made creation for community enjoyment. This material is distributed entirely for free. It is not affi liated with, endorsed by, sponsored by, or specifically approved by Games Workshop. All trademarks, logos, character names, and distinct setting elements referenced herein and in associated documentation are the exclusive property of Games Workshop.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2835,7 +2832,7 @@ b) GREY KNIGHT PALADIN</characteristic>
       <profiles>
         <profile name="Aegis Psyber-Circuit" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="78b4-60bd-6233-f634">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While one or more other friendly Grey Knights infantry units are within 6" of this unit and this unit is closer or the same distance to an active enemy unit visible to this unit, this unit and those friendly infantry units gain the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While one or more other friendly Grey Knights infantry units are within 12" of this unit and this unit is closer or the same distance to an active enemy unit visible to this unit, this unit and those friendly infantry units gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2849,15 +2846,7 @@ b) GREY KNIGHT PALADIN</characteristic>
     </profile>
     <profile name="Psychic Resonance" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e371-a49c-1740-3005">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Your Grey Knights units with Psyker X gain the following ability:
-
-
-Windfall of the Warp, Cleansing Psalm: After this unit makes a Psychic Test, if that Psychic Test had two or more dice with the same result, select up to one friendly infantry or monster unit within 8” of this unit with a model with fewer Health that it started with. Then, the selected unit Heals 1.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="We Are The Hammer" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3bfb-8d5a-08a7-a5ca">
-      <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Reroll failed Resolve Tests made for your Grey Knights units. Unit &amp; Weapon Abilities:</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Your Grey Knights units with Psyker X gain the following ability:</characteristic>
       </characteristics>
     </profile>
     <profile name="Cleansing Psalm" typeId="266a-be4d-b9fa-94de" typeName="Windfall of the Warp" hidden="false" id="4b90-458f-5908-3282">

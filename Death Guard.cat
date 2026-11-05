@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="750c-5fc9-13d4-8be3" name="Death Guard" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="23" revision="26" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="750c-5fc9-13d4-8be3" name="Death Guard" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="27" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Army Rules" hidden="false" id="3491-e84e-c473-9b93" sortIndex="-2">
       <constraints>
@@ -14,7 +14,7 @@
         <infoLink name="Festering Advance" id="bd5b-10f4-800e-8d6f" hidden="false" type="profile" targetId="944e-46dd-e901-73d1" />
         <infoLink name="Nurgle’s Fruit" id="41f8-82ad-bf04-0885" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
         <infoLink name="Plague" id="69d4-c859-9985-cce4" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
-        <infoLink name="Suppressive (X)" id="f752-2932-fc36-2191" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="f752-2932-fc36-2191" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Putrid" id="95c0-8f26-f5d5-8862" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Nurgle’s Gifts" id="9809-c380-c147-1088" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Great Traitors’ Arsenal" id="1745-f363-5cb2-aeac" hidden="false" targetId="8a538810-7ab2-4640-a4f9-d3d0e20d85b5" type="profile" />
@@ -62,7 +62,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="8ed9-cf1a-2baa-0078" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="8ed9-cf1a-2baa-0078" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="b304-9670-943c-b044" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
     </selectionEntry>
@@ -128,7 +128,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="4098-dbe8-9e9a-4e6a" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="4098-dbe8-9e9a-4e6a" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Putrid" id="247f-288a-97bc-9f04" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Indirect" id="5a36-d20e-71b1-32f5" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
         <infoLink name="Barrage" id="5d6e-9196-06a2-f588" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
@@ -170,7 +170,7 @@
             <modifier type="set" value="Resilient (5+)" field="name" />
           </modifiers>
         </infoLink>
-        <infoLink name="Unstoppable" id="e208-9681-add1-2e88" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Teleport Homer" id="0ceb-1459-b877-db3d" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Nurgle’s Gifts" id="d713-7ed0-22a9-ea2a" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Heavy Armour" id="70d9-cfa4-daec-aa1d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
@@ -226,9 +226,9 @@
             <profile name="Lord of Contagion" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9aa5-64ed-17ae-9c1a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -264,7 +264,7 @@
           </modifiers>
         </infoLink>
         <infoLink name="Teleport Homer" id="dd5b-006f-b441-add1" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
-        <infoLink name="Unstoppable" id="20f7-c180-750e-a707" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Heavy Armour" id="71ac-e218-29b1-63cc" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Nurgle’s Gifts" id="4caa-9999-6f1c-9ef9" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
       </infoLinks>
@@ -317,9 +317,9 @@
             <profile name="Lord of Virulence" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="8878-f53a-c25b-f61b">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -359,7 +359,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Nurgle’s Gifts" id="347b-de2a-af54-8453" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Putrid" id="169b-f65b-f063-a7d2" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Ignore Cover" id="79c5-cc8f-3abb-2fa7" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
-        <infoLink name="Suppressive (X)" id="e7fa-35f0-3b4d-cce0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="e7fa-35f0-3b4d-cce0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="e1e3-c886-c8e4-e355" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <costs>
@@ -394,11 +394,11 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Plague Sprayer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9355-6962-c378-bee1">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Plague, Ignore Cover</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -409,15 +409,15 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">1+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 7, Putrid, Plague, Indirect</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 7, Putrid, Indirect</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Suppressive (X)" id="c7bc-99e2-d1b9-14fc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="c7bc-99e2-d1b9-14fc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                 <infoLink name="Blast (X)" id="3acf-ba08-9415-170b" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
                 <infoLink name="Plague" id="73d4-46c5-9012-cc78" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
                 <infoLink name="Indirect" id="ab90-0fb7-a496-e669" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
@@ -433,9 +433,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Foul Blightspawn" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="68fe-c9be-3487-6029">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -536,9 +536,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Plague Surgeon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7a14-df8f-f838-4a69">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -587,7 +587,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
           </modifiers>
         </infoLink>
         <infoLink name="Nurgle’s Gifts" id="aefa-a9ef-793a-91ab" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="326f-d939-4158-6ba0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="326f-d939-4158-6ba0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="0c59-7b73-6b49-7d02" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <costs>
@@ -627,12 +627,12 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 3, Putrid, Ignore Cover, Plague</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Blast 6, Putrid, Ignore Cover</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
-                <infoLink name="Suppressive (X)" id="2dbf-2bc2-7087-bd2e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="2dbf-2bc2-7087-bd2e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                 <infoLink name="Blast (X)" id="40fb-ee33-93b6-2215" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
                 <infoLink name="Ignore Cover" id="5ed3-c5d2-c992-0427" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
                 <infoLink name="Indirect" id="d172-84eb-9e3c-d802" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
@@ -662,9 +662,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Biologus Putrifier" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5176-3553-d90d-b128">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -742,7 +742,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">This weapon has Blast X, where X is the highest dice result of this unit’s last Psychic Test.</characteristic>
@@ -767,9 +767,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Malignant Plaguecaster" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7e77-85fc-81a6-72b5">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -812,13 +812,13 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         </profile>
         <profile name="Dolorous Peal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4a4e-a460-c16d-07a4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance, all enemy infantry units within 14" of this unit suffer 3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy infantry units within 14" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Nurgle’s Gifts" id="a7d8-1b2b-1b35-08e8" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="dca7-1c9a-216c-9915" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="dca7-1c9a-216c-9915" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="47a0-f6ca-8931-715a" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name" />
@@ -861,7 +861,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Cursed Bell" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2649-816f-4e8b-074c">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -875,9 +875,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Noxious Blightbringer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="cf9b-5c02-d32f-c4f5">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -915,13 +915,13 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         </profile>
         <profile name="Sevenfold Chant" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9efe-d19e-a2cf-45c2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, select a friendly unit within 7" of this unit. The selected unit Heals X where X is equal to the number of enemy units with Suppressed in the battlefield.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, select a friendly unit within 7" of this unit. The selected unit Heals X+1 where X is equal to the number of enemy units with Nurgle's Fruit in the battlefield.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Nurgle’s Gifts" id="ec88-ea6a-f92e-e377" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="4cd2-1a59-fb07-ea28" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="4cd2-1a59-fb07-ea28" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="2bf1-14d0-64d4-c80c" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name" />
@@ -952,7 +952,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
@@ -977,9 +977,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Tallyman" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ed3f-bcf3-3992-1047">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1015,7 +1015,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Plaguebringers" id="9d5f-7b6b-f81e-2d82" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
         <infoLink name="Forward Deploy" id="6d03-13f4-23c1-e83b" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         <infoLink name="Nurgle’s Gifts" id="d7e2-df1e-5e76-02f5" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="a658-19a1-3659-29a9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="a658-19a1-3659-29a9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Fruit" id="3ef2-509e-53a5-64f3" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
       </infoLinks>
       <selectionEntryGroups>
@@ -1030,9 +1030,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                 <profile name="Plague Marine Infestors" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="00f7-9f1b-69ed-892b">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1143,7 +1143,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
     </selectionEntry>
-                <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.7" hidden="false" id="8791-0dd3-f233-6efb" sortIndex="-1">
+                <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="8791-0dd3-f233-6efb" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="c1bb-ad9e-7550-6035" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -1172,7 +1172,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
           </modifiers>
         </infoLink>
         <infoLink name="Teleport Homer" id="4219-4b91-e7a4-d2a8" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
-        <infoLink name="Unstoppable" id="21ac-3b23-89b4-f581" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Heavy Armour" id="ff48-41b8-73cb-f06e" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Nurgle’s Gifts" id="2bd0-3a7d-5168-136f" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Rustplate Resilience" id="fe4f-5900-f960-a8c2" hidden="false" targetId="f608-9c5b-d98a-6032" type="profile" />
@@ -1190,9 +1190,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
             <profile name="Death guard Terminator Chaos Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="788f-9bc1-9c95-72c0">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1519,9 +1519,9 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
             <profile name="Death guard Chaos Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9caf-06d4-1d4a-427c">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1823,7 +1823,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <profiles>
                 <profile name="Glorious Jump Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c486-ebac-23cd-0693">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS. 3.4 FOUL BLIGHTSPAW N - 70 points - Infantry, Chaos, Leader, Rare T Sv H - 4+ 8 Resilient 6+</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1903,19 +1903,17 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
   <sharedProfiles>
     <profile name="Festering Advance" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="944e-46dd-e901-73d1">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for your units, for each D6 of that roll, roll a D3 instead. After you make a Move Roll for one of your units, that unit gains the following ability until the next time it is Activated:</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for your units, for each D6 of that roll, roll a D3 instead. After you make a Move Roll for any of your units, that unit gains the following ability until the next time it is Activated:</characteristic>
       </characteristics>
     </profile>
     <profile name="Nurgle’s Gifts" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1d15-546a-3644-21db">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units are within 7” of your units, those enemy units gain the following ability:
-
-Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that attack has Plague or Putrid, reroll a Wound Roll of 1 for that attack.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units are within 7" of your units, those enemy units gain the following ability:</characteristic>
       </characteristics>
     </profile>
     <profile name="Nurgle’s Fruit" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2bc0-64a5-bf4e-b19c">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, if the weapon for that attack has Plague or Putrid, reroll a Wound Roll of 1 for that attack.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, if the weapon for that attack has Putrid, reroll a Wound Roll of 1 for that attack.</characteristic>
       </characteristics>
     </profile>
     <profile name="Plaguebringers" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1678-14a0-a939-cba2">
@@ -1930,13 +1928,13 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
     </profile>
     <profile name="Great Traitors’ Arsenal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8a538810-7ab2-4640-a4f9-d3d0e20d85b5">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the “Chaos Space Marines” document.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the"Chaos Space Marines" document. Unit &amp; Weapon Abilities:</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <sharedRules>
     <rule name="Plague" id="7985-d278-b6c4-f53e" hidden="false">
-      <description>This weapon has Suppressive X where X is equal to this weapon's Damage.</description>
+      <description>This weapon has Suppressive where X is equal to this weapon's Damage.</description>
     </rule>
     <rule name="Putrid" id="5262-b1f5-26c7-19b6" hidden="false">
       <description>For each attack made by this weapon, add 1 to the Wound Roll of that attack. Additionally, if the target of that attack has Nurgle's Fruit, that attack gains Critical Wounds 6+.</description>
@@ -1976,7 +1974,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="4bc6-216d-68b7-1c80" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="4bc6-216d-68b7-1c80" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Ignore Cover" id="39a7-9ac4-6d5a-2d9d" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
         <infoLink name="Plague" id="44a0-59a5-90c4-b457" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
@@ -1995,7 +1993,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="e95c-c48b-89be-9ac3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="e95c-c48b-89be-9ac3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Blast (X)" id="21fe-bc65-e27a-0d5c" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
         <infoLink name="Plague" id="bf81-d375-c330-d27f" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
         <infoLink name="Indirect" id="543b-8fc1-272b-e36b" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
@@ -2022,7 +2020,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="e13e-1b84-d92e-6063" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="e13e-1b84-d92e-6063" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="a440-7d7f-bc7d-3e2a" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
     </selectionEntry>
@@ -2031,7 +2029,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Dual Plague Knives" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="61c8-56f9-7781-eb9a">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2048,16 +2046,16 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Plague Boltgun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="baac-869b-c8bd-aeee">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="60b7-5a03-bb3b-56e9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="60b7-5a03-bb3b-56e9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="1080-feba-d0d3-f409" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
     </selectionEntry>
@@ -2092,7 +2090,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="751b-eda8-6bd5-ba2d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="751b-eda8-6bd5-ba2d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="6500-37bf-e30a-feae" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
     </selectionEntry>
@@ -2146,7 +2144,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Great Plague Cleaver" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5052-97dd-93c2-e11c">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2163,16 +2161,16 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Plague Belcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="84f3-c8ad-251b-91fd">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="bb87-2bd1-2a8e-7f96" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="bb87-2bd1-2a8e-7f96" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Ignore Cover" id="46c1-4444-053b-b9b3" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
         <infoLink name="Plague" id="f5e2-f868-63c0-8e03" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
@@ -2188,12 +2186,12 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
       <profiles>
         <profile name="Icon of Despair" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="32cc-a978-2ed2-98b2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance, you may select an enemy unit within 14" of this unit. If you do, the selected enemy unit suffers D3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, select an enemy unit within 14" of this unit and roll a D4. On a 4+, that unit gains Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="1f7c-e184-e314-1557" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="1f7c-e184-e314-1557" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Blightlord Terminators" hidden="false" id="35ec-7f14-6b26-12cc" sortIndex="3">
@@ -2203,7 +2201,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <categoryLink name="Chaos" hidden="false" id="a116-7c3d-6f43-54d0" targetId="f809-9826-f58a-6b8d" primary="false" />
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Unstoppable" id="f700-b4ea-4c48-6e49" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Resilient (X)" id="e198-408a-1066-678a" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name" />
@@ -2211,7 +2209,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </infoLink>
         <infoLink name="Teleport Homer" id="7752-d870-6e93-fc72" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Nurgle’s Gifts" id="d063-d687-f13a-4c3f" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="a4a6-12a7-8272-e09e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="a4a6-12a7-8272-e09e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Heavy Armour" id="a959-60b0-5980-15be" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
       <selectionEntryGroups>
@@ -2226,9 +2224,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                 <profile name="Blightlord Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="0464-24d4-ab06-5001">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2329,16 +2327,16 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                                 <profile name="Reaper Autocannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0363-0273-f351-6237">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
                               <infoLinks>
-                                <infoLink name="Suppressive (X)" id="57c8-eb1f-5b58-ca85" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                                <infoLink name="Suppressive" id="57c8-eb1f-5b58-ca85" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                               </infoLinks>
                             </selectionEntry>
                           </selectionEntries>
@@ -2394,9 +2392,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </infoLink>
         <infoLink name="Teleport Homer" id="ceb5-ed3c-07f0-31c5" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Nurgle’s Gifts" id="38c2-9825-7ea6-34b2" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive (X)" id="5801-5a40-ea6a-c998" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="5801-5a40-ea6a-c998" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Heavy Armour" id="c200-d4ef-10b9-d97d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
-        <infoLink name="Unstoppable" id="03c6-bba1-3501-3f79" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Plague" id="9647-091b-c9d2-f289" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
       <selectionEntryGroups>
@@ -2411,9 +2409,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                 <profile name="Deathshroud Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c25a-ee0f-ed87-06ab">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2439,7 +2437,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid, Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2469,7 +2467,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
           </modifiers>
         </infoLink>
         <infoLink name="Plaguebringers" id="51e3-b81f-ea3d-4601" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
-        <infoLink name="Suppressive (X)" id="15ac-d2fe-0ef3-4674" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="15ac-d2fe-0ef3-4674" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Fruit" id="881a-365c-e6b0-3e4b" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
         <infoLink name="Nurgle’s Gifts" id="7d4a-9ddd-d5bb-3706" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
       </infoLinks>
@@ -2485,9 +2483,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                 <profile name="Septic Plague Marine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d68a-f2d1-506f-bff4">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2616,7 +2614,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
           </modifiers>
         </infoLink>
         <infoLink name="Plaguebringers" id="6eff-1f9d-c903-9b37" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
-        <infoLink name="Suppressive (X)" id="472d-01ee-1b27-0e6c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="472d-01ee-1b27-0e6c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Gifts" id="113a-329f-4911-e869" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Nurgle’s Fruit" id="7809-9da7-95dd-36d0" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
       </infoLinks>
@@ -2632,9 +2630,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                 <profile name="Inexorable Plague Marine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9273-e5d0-a78f-7a9f">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2788,7 +2786,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                                 <profile name="Plague Daemon Sword" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e58b-4657-29dd-f098">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -2866,7 +2864,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <infoLink name="Forward Deploy" id="67e5-d5d4-9475-18d6" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         <infoLink name="Nurgle’s Gifts" id="a572-82e5-cd54-e962" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Putrid" id="4831-b92b-2d82-451e" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
-        <infoLink name="Suppressive (X)" id="cb14-3504-658c-3e15" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="cb14-3504-658c-3e15" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Poxwalkers" id="0a66-177d-89b1-7e4d" hidden="false" defaultSelectionEntryId="c3ec-c783-bb74-5290">
@@ -2892,7 +2890,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2916,7 +2914,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
         <profile name="Wailing Despair" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c564-52df-c8b4-e6c0">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, all enemy units within 7" suffer 7+2D3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, each enemy unit within 2D6" of this unit gains Suppressed, then suffers 2 SW.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2935,7 +2933,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="a494-db9b-1a00-d81b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressive" id="a494-db9b-1a00-d81b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Plague" id="7efe-dccf-705b-d5a1" hidden="false" type="rule" targetId="7985-d278-b6c4-f53e" />
       </infoLinks>
     </selectionEntry>
@@ -2944,11 +2942,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Missile Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a54c-f73a-ddcb-195a">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike (krak)</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2962,7 +2960,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 3 3+ 3 1 Sweep, Blast 7, Melt 8", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2989,7 +2987,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Fleshmower" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ed18-a7e1-775e-7850">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -3023,12 +3021,12 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
       <profiles>
         <profile name="Heavy Blight Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="05ea-d508-0838-b6b0">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Putrid</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3039,8 +3037,8 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
               <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
               <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">attacks once per battle round.</characteristic>
           </characteristics>
@@ -3066,11 +3064,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Rothail Volley Gun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6b5c-8d12-6008-d05d">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3080,11 +3078,11 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
         <profile name="Heavy Slugger" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="d474-f664-1710-3c5a">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Plague</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3128,9 +3126,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
             <profile name="Myphitic Blight-hauler" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d8b7-7f3c-f3de-7f2b">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3153,7 +3151,7 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
       <profiles>
         <profile name="Foul Temperament" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9c33-915e-7622-58f2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, all enemy units within 7" of this unit suffer 1+D3 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within 7" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3167,9 +3165,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
             <profile name="Foetid Bloat-drone" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9d90-509f-21b5-7b13">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3206,9 +3204,9 @@ Nurgle’s Fruit: For each attack that targets this unit, if the weapon for that
             <profile name="Plagueburst Crawler" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f7af-8792-98be-c78a">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>

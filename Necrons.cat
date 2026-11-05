@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="1841-e935-15ec-c764" name="Necrons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="15" revision="47" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="1841-e935-15ec-c764" name="Necrons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="48" battleScribeVersion="2.03" type="catalogue">
   <sharedRules>
     <rule name="Gauss" id="b2e9-8420-cfb7-4bde" hidden="false">
-      <description>For each attack made for this weapon, the Wound Roll for that attack is improved by 1 and the Saving Throw for that attack is worsened by 1.</description>
+      <description>For each attack made for this weapon, the Wound Roll for that attack is improved by 1.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -60,10 +60,7 @@
       <profiles>
         <profile name="My Will Be Done" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="14e7-8782-e915-f0eb">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are visible to this unit they gain the following ability:
-
-
-Lord's Mandate: For each attack this unit makes, reroll a Wound Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are visible to this unit they gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -76,7 +73,7 @@ Lord's Mandate: For each attack this unit makes, reroll a Wound Roll of 1 for 
       <profiles>
         <profile name="Destroyer Cults" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="de69-506b-a47d-bc23">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack this unit makes, if the target unit is an infantry or monster unit, reroll a Wound Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, all enemy units visible to this unit gain the following ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -103,7 +100,7 @@ Lord's Mandate: For each attack this unit makes, reroll a Wound Roll of 1 for 
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -138,7 +135,7 @@ This unit does not count towards your army list’s leader capacity.</characteri
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">-</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">-</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -152,7 +149,8 @@ This unit does not count towards your army list’s leader capacity.</characteri
             <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="cf44-65f2-6804-ecfe" includeChildSelections="true" />
           </constraints>
         </selectionEntry>
-      </selectionEntries>
+          
+</selectionEntries>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Nanoscarab Repair" hidden="false" id="1448-e157-f806-4c16">
       <constraints>
@@ -204,7 +202,7 @@ This unit does not count towards your army list’s leader capacity.</characteri
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">-</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">-</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -222,7 +220,7 @@ This unit does not count towards your army list’s leader capacity.</characteri
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -318,10 +316,10 @@ e) PSYCHOMANCER</characteristic>
               <profiles>
                 <profile name="Canoptek Scarab Swarm" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9934-613f-d735-96ea">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">0</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -335,7 +333,7 @@ e) PSYCHOMANCER</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -359,12 +357,7 @@ e) PSYCHOMANCER</characteristic>
       <profiles>
         <profile name="Scarab Subroutines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bd8e-b2bd-f0a5-7e6f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:
-
-REPAIR: After this unit's Move step, select up to one other unit within 4” with Living Metal. That unit uses Living Metal.
-
-
-REPLICATE: After this ability is gained, add one model to this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:</characteristic>
           </characteristics>
         </profile>
         <profile name="Auto-Routines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7640-f461-ab8f-e539">
@@ -428,7 +421,7 @@ c) LYCHGUARD</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -500,7 +493,7 @@ c) LYCHGUARD</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -538,7 +531,7 @@ c) LYCHGUARD</characteristic>
       <profiles>
         <profile name="Sentient Arcing" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f330-9a21-7b5d-c201">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After selecting the target for this unit's Tesla Cannon, select up to one different enemy unit within 6" of and visible to the selected target. Also make attacks with that weapon targeting each of the selected units.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After selecting the target for this unit's Tesla Cannon or Twin Tesla Destructor, select up to one different enemy unit within 6" of and visible to the selected target. Also make attacks with that weapon targeting each of the selected units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -588,7 +581,7 @@ c) LYCHGUARD</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   
@@ -650,9 +643,9 @@ c) LYCHGUARD</characteristic>
             <profile name="Command Barge" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ce2d-9efe-96a4-a5d4">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -694,9 +687,9 @@ a) SKORPEKH DESTROYERS</characteristic>
             <profile name="Skorpekh Lord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="210f-f9a0-cb8c-1401">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -826,7 +819,7 @@ c) OPHYDIAN DESTROYERS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -842,7 +835,7 @@ c) OPHYDIAN DESTROYERS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -964,7 +957,7 @@ This unit uses a Necron Lord model.</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1034,7 +1027,7 @@ This unit uses a Necron Lord model.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1065,7 +1058,7 @@ b) IMMORTALS</characteristic>
         </profile>
         <profile name="Phalanx Tactician" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1767-12e2-6a95-4344">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit, if two or more enemy units were selected as targets for those attacks, a Hit Roll of 6 for those attacks causes that attack to always wound.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit, if two or more enemy units were selected as targets for those attacks, all of those attacks gain Critical Wounds 6+.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1082,9 +1075,9 @@ b) IMMORTALS</characteristic>
             <profile name="Royal Warden" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="35a2-b1f1-6625-0eba">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1174,7 +1167,7 @@ e) CRYPTOTHRALLS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1188,7 +1181,7 @@ e) CRYPTOTHRALLS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1246,7 +1239,7 @@ e) CRYPTOTHRALLS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1260,7 +1253,7 @@ e) CRYPTOTHRALLS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">1+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1334,7 +1327,7 @@ d) CRYPTOTHRALLS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1345,10 +1338,10 @@ d) CRYPTOTHRALLS</characteristic>
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">X</characteristic>
-                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1375,7 +1368,7 @@ d) CRYPTOTHRALLS</characteristic>
         </profile>
         <profile name="Harbinger of Destruction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ca7c-5028-8f9f-91ac">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Plasmic Lance has XD3 attacks where X is equal to the number of not ready units you have.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Plasmic Lance has X attacks where X is equal to the number of not ready units you have.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1420,7 +1413,7 @@ d) CRYPTOTHRALLS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1490,7 +1483,7 @@ d) CRYPTOTHRALLS</characteristic>
       <profiles>
         <profile name="Harbinger of Despair" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4027-da5f-1829-aa52">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units are within 24" of this unit, the Rv of those units is worsened by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units with Suppressed are within 24" of this unit, they cannot be selected for Activation unless there are no other enemy units without Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="01878f9c-2d9f-4ac2-bb2a-8d61b2a460bb">
@@ -1532,17 +1525,17 @@ d) CRYPTOTHRALLS</characteristic>
                 <profile name="Abyssal Stave" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0d7f-1ae0-ab29-3345">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">0</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Suppressive 1</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <infoLinks>
                 <infoLink name="Blast (X)" id="c802-0701-7f05-31e4" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                <infoLink name="Suppressive (X)" id="bcf0-2d5b-aa45-862a" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+                <infoLink name="Suppressive" id="bcf0-2d5b-aa45-862a" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
               </infoLinks>
             </selectionEntry>
           </selectionEntries>
@@ -1552,7 +1545,7 @@ d) CRYPTOTHRALLS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1577,9 +1570,9 @@ d) CRYPTOTHRALLS</characteristic>
                 <profile name="Warrior" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="96eb-7bf3-7b7b-1a9b">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1601,7 +1594,7 @@ d) CRYPTOTHRALLS</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                           </characteristics>
                         </profile>
@@ -1618,7 +1611,7 @@ d) CRYPTOTHRALLS</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                           </characteristics>
                         </profile>
@@ -1650,7 +1643,7 @@ d) CRYPTOTHRALLS</characteristic>
       <profiles>
         <profile name="Eternal Phalanx" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f4b5-31b2-82ad-b714">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any unit is Activated if this unit has any W ARRIORS models and is visible to any of your leader units, until the End step, for each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any unit is Activated if this unit has any W ARRIORS models and is visible to any of your leader units, until the End step, for each attack that targets this unit, add 1 to the Saving Throw of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Infinite Legions" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f4cb-668a-94b2-1eda">
@@ -1673,9 +1666,9 @@ d) CRYPTOTHRALLS</characteristic>
                 <profile name="Immortal" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="47f6-3a82-c130-a953">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1706,9 +1699,9 @@ d) CRYPTOTHRALLS</characteristic>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Purge</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -1728,7 +1721,7 @@ d) CRYPTOTHRALLS</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="110" />
       </costs>
       <entryLinks>
         <entryLink import="true" name="Living Metal" hidden="false" id="e478-4871-c45e-26ca" type="selectionEntry" targetId="62c7-282f-8c64-69cf" />
@@ -1745,7 +1738,7 @@ d) CRYPTOTHRALLS</characteristic>
       <profiles>
         <profile name="Eonic Veterans" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8bd1-e22d-373e-ea1b">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a friendly W ARRIORS unit is Activated within 6" of this unit, until the End step, for each attack made by that unit, reroll a Hit Roll of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit, if one enemy unit was selected as the target for all of those attacks, reroll a Hit Roll of 1 for those attacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Self-repair Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0145-b18a-64b3-8c83">
@@ -1770,10 +1763,10 @@ d) CRYPTOTHRALLS</characteristic>
               <profiles>
                 <profile name="Lychguard" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7f39-a753-16b9-52bc">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1847,7 +1840,7 @@ d) CRYPTOTHRALLS</characteristic>
       </entryLinks>
       <infoLinks>
         <infoLink name="Heavy Armour" id="5d82-c7b1-1fe5-3657" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
-        <infoLink name="Unstoppable" id="27e8-1095-b9bb-b1ad" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="2c69-1d19-288b-213d" targetId="4820-e2b5-9e00-bb68" primary="true" />
@@ -1880,7 +1873,7 @@ d) CRYPTOTHRALLS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1928,9 +1921,7 @@ d) CRYPTOTHRALLS</characteristic>
       <profiles>
         <profile name="Terrifying Carnage" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a8ff-6aed-77e4-e4dc">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, all enemy units within 8” of and visible to this unit suffer 1+D3 Suppression and this unit gains the following ability:
-
-Escape Dimension: After any enemy unit's End step, you may remove this unit from the battlefield and place it into reserves. If you do, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, all enemy units within 8" of and visible to this unit gain Suppressed and this unit gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Flayer Dimension Ambush" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="902b-bbc3-bf3c-a5dc">
@@ -1958,7 +1949,7 @@ Escape Dimension: After any enemy unit's End step, you may remove this unit fr
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2004,10 +1995,7 @@ Escape Dimension: After any enemy unit's End step, you may remove this unit fr
       <profiles>
         <profile name="Mark Fulfilled" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="48f0-c27e-7247-09b7">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:
-
-
-Escape Oubliette: After any enemy unit's End step, you may remove this unit from the battlefield and place it into reserves. If you do, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2024,9 +2012,9 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
                 <profile name="Skorpekh Destroyer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e6d5-0bc0-8815-5def">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2093,7 +2081,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
       <infoLinks>
         <infoLink name="Heavy Armour" id="aacc-f7f9-f4ce-5bac" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Walker" id="4beb-186a-5819-c138" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="ccc3-bbe2-7491-6643" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Lokhust Destroyers" hidden="false" id="003a-ef1e-c06c-9fbf" sortIndex="19">
@@ -2114,7 +2102,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2124,10 +2112,10 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
                     <profile name="Gauss Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1535-04bc-19b9-cf02">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                       </characteristics>
                     </profile>
@@ -2154,7 +2142,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
         <categoryLink targetId="4820-e2b5-9e00-bb68" id="afa7-8321-8a5c-2cc0" primary="true" name="Elites" />
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Unstoppable" id="a351-1493-a40d-c97e" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Fly" id="bbe8-98ad-61ca-fa2c" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
         <infoLink name="Heavy Armour" id="f7ec-a912-f64d-9520" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
@@ -2171,9 +2159,9 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
                 <profile name="Ophydian Destroyer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="0e52-f5d7-1e87-3265">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2260,7 +2248,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
       <infoLinks>
         <infoLink name="Heavy Armour" id="d68c-1fb0-d9ef-4270" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Walker" id="32b0-7bf5-6ebe-1e59" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
-        <infoLink name="Unstoppable" id="933b-0a6b-ec9a-87fd" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="0950-aea1-61ab-19f4" targetId="205c-3072-067b-d808" primary="false" />
@@ -2269,7 +2257,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
       <profiles>
         <profile name="Dimensional Displacement" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="35be-a2ae-a6ec-ebdd">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may use'dimensional displacement'. If you do, roll 3D6. Then, Deploy this unit anywhere in the battlefield at least X" away from all enemy units where X is the result of that roll. If you do, during this turn's Move step, do not make a Move roll and this unit cannot Advance or Reposition.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may use 'dimensional displacement'. If you do, roll 3D6. Then, Deploy this unit anywhere in the battlefield at least X" away from all enemy units where X is the result of that roll. If you do, during this turn's Move step, do not make a Move roll and this unit cannot Advance or Reposition.</characteristic>
           </characteristics>
         </profile>
         <profile name="Whipcoil Movement" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="aaf7-1307-9ddc-0c45">
@@ -2291,11 +2279,7 @@ Escape Oubliette: After any enemy unit's End step, you may remove this unit fr
         </profile>
         <profile name="Spyder Subroutines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0bff-0913-71ce-71a9">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:
-
-REPAIR: After this unit’s Move step, select one other unit with Living Metal within 4” of this unit. That unit uses Living Metal.
-
-FABRICATE: After this unit’s Move step, if there is a friendly CANOPTEK SCARAB SWARM unit within 24" of this unit, add 1 CANOPTEK SCARAB SWARM model to that unit. Otherwise, create a CANOPTEK SCARAB SWARM unit within 1” of this unit outside of the engagement range of enemy units with 1 model. That unit is ready.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:</characteristic>
           </characteristics>
         </profile>
         <profile name="Gloom Prism" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2652-95cf-c58c-97b6">
@@ -2320,9 +2304,9 @@ FABRICATE: After this unit’s Move step, if there is a friendly CANOPTEK SCARA
             <profile name="Canoptek Spyder" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e8a6-b040-5f88-e7ca">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2381,13 +2365,7 @@ FABRICATE: After this unit’s Move step, if there is a friendly CANOPTEK SCARA
       <profiles>
         <profile name="Reanimator Subroutines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="926f-760c-77e8-e9ab">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:
-
-
-NARROW NANOSCARAB BEAM: After this unit’s Move step, select another friendly unit within 16” of and visible to this unit. Then, for each selected unit, roll 1 D6 for each of its missing Health. For each 4+, the selected unit Repairs 1.
-
-
-WIDE NANOSCARAB BEAM: After this unit’s Move step, select up to two different friendly units within 9” of and visible to this unit. Then, for each selected unit, roll 1 D6 for each of its missing Health. For each 5+, that unit Repairs 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2413,7 +2391,7 @@ WIDE NANOSCARAB BEAM: After this unit’s Move step, select up to two different
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2435,7 +2413,7 @@ WIDE NANOSCARAB BEAM: After this unit’s Move step, select up to two different
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2445,9 +2423,9 @@ WIDE NANOSCARAB BEAM: After this unit’s Move step, select up to two different
             <profile name="Canoptek Reanimator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5527-20e7-3b88-cd19">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2470,11 +2448,7 @@ WIDE NANOSCARAB BEAM: After this unit’s Move step, select up to two different
         </profile>
         <profile name="Doomstalker Subroutines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2721-0e6f-66ee-5103">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. This unit gains the selected ability until the next time it is Activated:
-
-ANNIHILATE: For each attack made for this unit’s Doomsday Blaster, the Wound Roll for that attack is improved by 1
-
-RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. This unit gains the selected ability until the next time it is Activated:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2500,11 +2474,11 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                 <profile name="Doomsday Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="de74-24c5-5105-ffc5">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2517,7 +2491,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                   </characteristics>
                 </profile>
@@ -2535,9 +2509,9 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
             <profile name="Canoptek Doomstalker" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e28c-053d-4fc9-ed88">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2562,7 +2536,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2624,7 +2598,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2638,7 +2612,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2674,11 +2648,7 @@ RELOCATE: You may reroll Move Rolls made for this unit.</characteristic>
         </profile>
         <profile name="Wraith Subroutines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="141c-494b-feb1-4f99">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:
-
-SOW TERROR: After this unit’s Move step, each enemy unit within 8” of this unit suffers 1+D3 Suppression.
-
-ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate and Shred.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, select one of the following abilities. Then, this unit gains the selected ability until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2727,10 +2697,10 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <profile name="Gauss Blasters" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6617-b57d-65a8-455c">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                           </characteristics>
                         </profile>
@@ -2744,11 +2714,11 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <profile name="Tesla Carbines" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3f76-4661-addf-805f">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Purge</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2761,7 +2731,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                         <profile name="Particle Beamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ad8e-99a2-bcbb-d199">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2786,7 +2756,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2824,7 +2794,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2840,7 +2810,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss, Colossal 2</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss, Colossal 3</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2888,7 +2858,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
       <infoLinks>
         <infoLink name="Heavy Armour" id="6ad1-36ff-d24b-d4b7" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Fly" id="f827-cd13-d7d7-9b2d" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
-        <infoLink name="Unstoppable" id="0e32-1001-49ba-e800" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Hexmark Destroyer" hidden="false" id="8493-21b4-a51b-f4d7" sortIndex="28">
@@ -2939,14 +2909,14 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>
-        <infoLink name="Unstoppable" id="e05d-462e-b5db-82b1" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Walker" id="bbf2-2a14-9d1d-5020" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
         <infoLink name="Heavy Armour" id="cd16-e7ec-f648-fadf" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Dimensional Oubliette" id="137b-b082-f6ae-d6e4" hidden="false" type="profile" targetId="0854-5237-1342-0789" />
@@ -2975,11 +2945,11 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                 <profile name="Twin Tesla Destructor" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c5f3-2543-e579-e8fd">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                    <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3004,11 +2974,11 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                     <profile name="Tesla Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1af2-7858-ea84-8769">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 6</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3021,10 +2991,10 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
                     <profile name="Gauss Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="fa7c-11b7-ea7f-15c6">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
                       </characteristics>
                     </profile>
@@ -3040,9 +3010,9 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
             <profile name="Annihilation Barge" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9d49-fd9e-26a4-852a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3067,10 +3037,7 @@ ISOLATE INTRUDER: For each melee attack this makes, that attack gains Isolate 
       <profiles>
         <profile name="Accurate Volleys" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="21a5-97fc-e36f-d8c8">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Attacks step, all enemy units targeted by any of this unit’s attacks this turn gain the following ability until the next time this unit is Activated or dies:
-
-
-Relayed Targeting Data: Each time an enemy unit selects a target for a ranged weapon, it may select this unit from an additional 4” away.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units targeted by any of this unit's attacks this turn gain the following ability until the next time this unit is Activated or dies:</characteristic>
           </characteristics>
         </profile>
         <profile name="Jerking Gait" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f827-2d0f-3b02-cbed">
@@ -3112,7 +3079,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Strike or Sweep (X)" id="6704-2b68-ae14-39fb" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
+                    <infoLink name="Strike/Sweep" id="6704-2b68-ae14-39fb" hidden="false" type="rule" targetId="2757-6563-cdb2-3456" />
                     <infoLink name="Pierce" id="4bd4-eb0b-e0eb-126b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
                     <infoLink name="Ignore Cover" id="c4cf-b68b-d0e8-68b6" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
                   </infoLinks>
@@ -3126,7 +3093,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Aslt 20 3+ 3 1 Sweep, Ignore Cover, Purge, Blast 2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3143,7 +3110,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Colossal 2, Gauss</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss, Colossal 3</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3169,7 +3136,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3183,9 +3150,9 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
             <profile name="Triarch Stalker" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4e65-9b7a-2870-60e1">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3199,7 +3166,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
         <infoLink name="Walker" id="ec38-44cd-f6d3-c8a4" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.8" hidden="false" id="b235-3066-1042-78ab" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="b235-3066-1042-78ab" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="af31-e70d-2c95-d601" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -3222,7 +3189,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3307,7 +3274,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
       <infoLinks>
         <infoLink name="Heavy Armour" id="cccd-62b1-2724-3920" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         <infoLink name="Fly" id="4c1e-a53f-37c6-5fa4" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
-        <infoLink name="Unstoppable" id="228e-01f6-d6dc-a579" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
       </infoLinks>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="7a87-28c9-d19b-c105" targetId="205c-3072-067b-d808" primary="false" />
@@ -3316,10 +3283,7 @@ Relayed Targeting Data: Each time an enemy unit selects a target for a ranged 
       <profiles>
         <profile name="Ancient Codes" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4df8-2884-cb3b-6105">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in reserves or in the battlefield, after any unit Deploys wholly outside of its Deployment Zone, that unit gains the following ability until this unit dies:
-
-
-Dishonored: For each attack made by an enemy TRIARCH PRAETORIANS that targets this unit, a Hit Roll of 5+ causes an additional hit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in reserves or in the battlefield, after any unit Deploys wholly outside of its Deployment Zone, that unit gains the following ability until this unit dies:</characteristic>
           </characteristics>
         </profile>
         <profile name="Gravity Displacement Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a0a8-5654-5f5e-7fb3">
@@ -3377,7 +3341,108 @@ Royal Reclaimers: For each attack made by this unit, a Hit Roll of 6 causes an 
         <infoLink name="Resilient (X)" id="83b5-ba11-a4b9-c6dd" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
     </selectionEntry>
-  </selectionEntries>
+  <selectionEntry type="unit" import="true" name="Immortal" hidden="false" id="4184f9a0-cc50-448c-8fe8-42a221b6c750" sortIndex="99">
+      <costs>
+        <cost name="pts" typeId="points" value="20" />
+      </costs>
+      <categoryLinks>
+        <categoryLink name="Leaders" id="ac59fd02-180b-448b-91d7-9149be5ba281" hidden="false" targetId="2886-2afd-f65f-9d8e" primary="true" />
+        <categoryLink name="Infantry" id="0d46d69f-91bf-4a99-91c3-e2dc6ec145c8" hidden="false" targetId="205c-3072-067b-d808" primary="false" />
+      </categoryLinks>
+      <profiles>
+        <profile name="Eonic Veteran" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1eb7ce98-568c-4c13-bac1-1779c2b04923">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit, if one enemy unit was selected as the target for all of those attacks, reroll a Hit Roll of 1 for those attacks.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="90506e9d-fe69-43e1-9358-91b79faa085c">
+          <characteristics>
+            <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either:
+    a) WARRIORS
+    b) IMMORTALS</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink import="true" name="Living Metal" hidden="false" id="8d64d5d4-a239-4508-9718-bc6491b2dc48" type="selectionEntry" targetId="62c7-282f-8c64-69cf" />
+        <entryLink import="true" name="Heavy Armour" hidden="false" id="8f34b6c8-59bb-4c5b-8c93-a178b5c1bf4a" type="rule" targetId="ec2c-77fd-05f2-a794" />
+      </entryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Leader" id="869f8082-a598-42be-b444-1df12ea792d7" hidden="false">
+          <constraints>
+            <constraint id="83695f12-e77e-4474-8ae5-2254e7d52a82" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+            <constraint id="f2d94f0d-8ed3-469f-b26c-a3bdc5944812" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+          </constraints>
+          <entryLinks>
+            <entryLink name="Warriors" id="5c4b7d51-1b1d-49f6-8a12-69d6abb82c8c" hidden="false" import="true" targetId="6922-faaf-ce69-d438" type="selectionEntry" />
+            <entryLink name="Immortals" id="ad3e1ea0-bc14-4f62-afcf-69bdf5a6d0d0" hidden="false" import="true" targetId="8549-292d-751e-335f" type="selectionEntry" />
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Immortal" hidden="false" id="6a20f41f-3c6b-4244-92a7-5ceecabf1c0e">
+          <constraints>
+            <constraint id="b8f9e0e0-d950-4fb9-895e-7a10bff9902c" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+            <constraint id="4bb332eb-4fe9-4e82-86cd-a0f554c59e24" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="Immortal" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="769aba6e-e3c7-49ff-ba51-3e1dff22dfd6">
+              <characteristics>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup name="Weapon" id="c49e6ca3-4115-46da-8eb9-bccae0d9631b" hidden="false" defaultSelectionEntryId="fe267b07-bd4d-4bfb-8a78-1cfdc4f801e0">
+              <constraints>
+                <constraint id="f3e99cf1-7e42-479f-8095-5dc0dcef1fa2" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                <constraint id="bddacfc0-87e6-4dc3-a717-dbca8b1884fe" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+              </constraints>
+              <selectionEntries>
+                <selectionEntry type="upgrade" import="true" name="Gauss Blaster" hidden="false" id="fe267b07-bd4d-4bfb-8a78-1cfdc4f801e0">
+                  <profiles>
+                    <profile name="Gauss Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6523d69a-0f24-46a8-ae99-6a2ce2818f4e">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Gauss</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Gauss" id="9051486c-d642-4197-81f6-c50799eb82c8" hidden="false" type="rule" targetId="b2e9-8420-cfb7-4bde" />
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry type="upgrade" import="true" name="Tesla Carbine" hidden="false" id="26f20194-9ed3-4bdb-b646-0351209ca54d">
+                  <profiles>
+                    <profile name="Tesla Carbine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="38abea24-a26c-4e34-bb0d-eb2f80d29741">
+                      <characteristics>
+                        <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Purge</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink name="Blast (X)" id="70863cc3-64b0-4ec6-98c9-3cc0178cf05f" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+                    <infoLink name="Purge" id="a94b2de6-900f-43f1-9ff0-419e960d84c5" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b" />
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+</selectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Protocol" id="9062-f829-c00a-e717" hidden="false">
       <constraints>

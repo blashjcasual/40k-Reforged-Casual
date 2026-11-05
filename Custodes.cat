@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="fc27-2f3c-4325-2d96" name="Custodes" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="9" revision="25" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="fc27-2f3c-4325-2d96" name="Custodes" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="26" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Techniques" hidden="false" id="9ef8-9802-e8e8-b5b6">
       <infoLinks>
@@ -46,7 +46,7 @@
       <profiles>
         <profile name="Arae-Shrike" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="dcaf-3fb9-b3d9-3722">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit is Activated within 6" of this unit, you may roll a D6. On a 5+, that unit becomes ready, skip the Move and Attacks steps of this turn, and you cannot roll for this ability until the next battle round.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit is Activated within 6" of this unit, you may roll a D6. On a 5+, that unit becomes ready, skip the Move and Attacks steps of this turn, and you cannot roll for this ability until the next battle round. For an additional 20 points, this model may be equipped with: ● Misericordia This unit cannot attach to anything. This unit costs all your leader points. Your army list may have only one SHIELD-CAPTAIN, ALLARUS ARM OUR SHIELD-CAPTAIN or DAW NEAGLE JETBIKE SHIELD-CAPTAIN. 3.4 Troops CUSTODIAN GUARD - 140 points - Infantry T Sv H 4 4+ 12 Heavy Armour</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -92,7 +92,7 @@
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4&quot;, Shred</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -156,7 +156,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -198,7 +198,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -237,7 +237,7 @@
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -289,7 +289,6 @@
     <selectionEntry type="upgrade" import="true" name="Army Abilities" hidden="false" id="841d-809a-4f88-e9bc" sortIndex="-2">
       <infoLinks>
         <infoLink name="Martial Ka’tah" id="8ee7-8f77-0451-673c" hidden="false" type="profile" targetId="e499-7601-0c40-dc24"/>
-        <infoLink name="Emperor’s Talons" id="46e7-8c57-5b02-14da" hidden="false" type="profile" targetId="7901-894b-cf6d-d4ff"/>
         <infoLink name="Pride of the Ten Thousand" id="aa6f-cba3-6ad7-4b49" hidden="false" targetId="dc49-d5ef-7c28-c0a6" type="profile"/>
         <infoLink name="Left Hand of the Emperor" id="66c58dbf-090c-4fad-a272-5f90f863f7ee" hidden="false" type="profile" targetId="31f8b2dc-bfa2-49c1-85d5-2e49e44081b6"/>
       </infoLinks>
@@ -304,7 +303,7 @@
         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bb2b-fac7-1b1b-41e6-max" includeChildSelections="false"/>
       </constraints>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.6" hidden="false" id="3fd4-08d0-17f9-61b5" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="3fd4-08d0-17f9-61b5" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="005a-8f68-8604-d3a9" targetId="9cd6-0442-3f35-6b52" primary="true"/>
       </categoryLinks>
@@ -466,10 +465,10 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
           <profiles>
             <profile name="Shield Captain in Allarus Armour" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="87af-a078-790c-7549">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">27</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -488,7 +487,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
         <infoLink name="Titan" id="c471-9be3-28ff-f889" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/>
         <infoLink name="Heavy Armour" id="cbe8-ba80-4fc5-a41b" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
         <infoLink name="Teleport Homer" id="f763-d298-c8fa-01fe" hidden="false" type="profile" targetId="77ce-0080-b298-0daa"/>
-        <infoLink name="Suppressive (X)" id="61e2-8357-3dff-d681" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="61e2-8357-3dff-d681" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
       </infoLinks>
       <profiles>
         <profile name="Teleport Beacon" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5cef-1692-2572-eb92">
@@ -507,9 +506,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Vexilla Allarus Custodian" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="aaf8-bb74-943a-d99b">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -564,14 +563,12 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
         </profile>
         <profile name="Stand Watch" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="eebf-bd3a-4a2d-00a1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 6” if that move would end within 1” of a friendly infantry unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 6" if that move would end within 1" of a friendly infantry unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Binding Oath" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f8f7-16e1-7fed-b3b1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While other friendly infantry units are within 1” of this unit and, this unit is closer or the same distance to an active enemy unit visible to this unit, those friendly infantry units gain the following ability:
-
-Guarded: For each wound a model in this unit is selected to suffer, you may roll a D6. On a 5+, that attack fails.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While other friendly infantry units are within 1" of this unit, and this unit is closer or the same distance to an active enemy unit visible to this unit, those friendly infantry units gain the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -633,9 +630,9 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
             <profile name="Custodian Warden" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="be84-84a8-9ee4-e735">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -793,11 +790,11 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
                     <profile name="Assault Cannons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c258-02e3-8b4c-755e">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -809,9 +806,9 @@ Guarded: For each wound a model in this unit is selected to suffer, you may ro
             <profile name="Venerable Land Raider" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f5d9-69d4-f5d6-21c5">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -894,9 +891,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Dawneagle Jetbike Shield-Captain" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="2e41-938b-de33-0cc7">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -992,9 +989,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Shield Captain" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7110-cc93-84eb-5676">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1061,9 +1058,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Allarus Custodian" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9e4e-b6ea-3b38-6374">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">18</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1156,9 +1153,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Custodian Guard" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ca49-5489-2f80-13cc">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1180,7 +1177,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
       <profiles>
         <profile name="Decaptis Lunge" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2ac8-1be7-b3cd-c357">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 4” if that move would end within 4” of an enemy leader unit and after this unit selects targets for its attacks, if all of its weapons are targeting a single enemy leader unit, select one of this unit&apos;s weapons. The selected weapon’s A is doubled until the End step.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy leader unit visible to this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1237,9 +1234,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Decaptis Blade Champion" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3ff0-a59e-7618-9fee">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1257,7 +1254,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
       <profiles>
         <profile name="Hurricanus Flourish" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9331-ed4a-d08f-b3b1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 4" and may move through enemy models as if they were not there, if that move would end within 2" of two or more enemy units. If it does, until the End step, all enemy units within 2" of this unit are considered to be within engagement range.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select two enemy units visible to this unit and within 5" of each other. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to both of those enemy units. During that move, this unit may move over enemy units as if they were not there.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1314,9 +1311,9 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Hurricanus Blade Champion" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4757-ca9e-ed41-972e">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1341,14 +1338,14 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
             <profile name="Sagittarum Guard" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="82cb-61c7-54d7-6b52">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
             <profile name="Hawk-Sighted Sentry" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8adf-ceff-3ffd-f0d7">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, you may skip this turn&apos;s Attacks step. Then, if you did, once this battle round, after this unit gains Salvus Volley, this unit may make attacks targeting the active enemy unit (if able).</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may skip this turn's Attacks step. Then, if you did, once this battle round, after this unit gains Salvus Volley, this unit may make attacks targeting the active enemy unit (if able).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1369,7 +1366,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1383,7 +1380,7 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
                 <profile name="Adrathic Destructor " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="785e-b761-abc4-c9cd">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
@@ -1408,11 +1405,6 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
     </selectionEntry>
   </selectionEntries>
   <sharedProfiles>
-    <profile name="Emperor’s Talons" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7901-894b-cf6d-d4ff">
-      <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Reroll failed Resolve Tests made for any of your Adeptus Custodes units.</characteristic>
-      </characteristics>
-    </profile>
     <profile name="Technique: Dacatarai Flurry" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6fe9-4c64-5a0c-36ea">
       <characteristics>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each weapon in this unit, instead of selecting a single target for that weapon, you may target each enemy unit within engagement range of this unit with that weapon.</characteristic>
@@ -1447,18 +1439,12 @@ Critical Opening: For each attack made by an Adeptus Custodes unit that target
     </profile>
     <profile name="Infallible Instruction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="62ce-f561-3981-5e38">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after this unit is Activated or finishes its Move step, you may select another one of your ready units visible to this unit. Then, this unit and the selected unit gain the following ability until the End step of the next turn:
-
-
-Flawless Coordination: For each attack this unit makes, a Hit Roll of 6 for that attack causes an additional hit. After this unit’s End step, if this was not your second turn in a row, you may take another turn, and you must select a unit with Flawless Coordination to Activate that turn.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after this unit is Activated or finishes its Move step, you may select another one of your ready units visible to this unit. Then, this unit and the selected unit gain the following ability until the End step of the next turn:</characteristic>
       </characteristics>
     </profile>
     <profile name="Eagle-Eyed" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1dbf-d063-98be-3092">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units are within 24” of and visible to this unit, those units gain the following ability:
-
-
-Voxed Movement: For each attack made by an Adeptus Custodes unit that targets this unit, a Hit Roll of 6 for that attack causes an additional hit.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While enemy units are within 24" of and visible to this unit, those units gain the following ability:</characteristic>
       </characteristics>
     </profile>
     <profile name="Technique: Salvus Volley" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="796a-d54b-29ca-601f">
@@ -1473,7 +1459,7 @@ Voxed Movement: For each attack made by an Adeptus Custodes unit that targets 
     </profile>
     <profile name="Left Hand of the Emperor" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="31f8b2dc-bfa2-49c1-85d5-2e49e44081b6">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the “Sisters of Silence” document.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your Army List from the"Sisters of Silence" document.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

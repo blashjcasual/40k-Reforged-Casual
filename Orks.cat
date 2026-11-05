@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3de7-a135-8614-c599" name="Orks" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="23" revision="31" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3de7-a135-8614-c599" name="Orks" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="32" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.10" hidden="false" id="82a4-4826-eaf1-eb30" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="82a4-4826-eaf1-eb30" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="0364-85c9-a87f-e090" targetId="9cd6-0442-3f35-6b52" primary="true"/>
       </categoryLinks>
@@ -228,7 +228,7 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -275,7 +275,7 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
         <infoLink name="Ge’ In Dere!" id="19e4-68fa-923e-e72c" hidden="false" type="profile" targetId="ad82-3c2d-6494-820e"/>
         <infoLink name="WAAAGH!" id="441c-786d-df14-01a9" hidden="false" type="profile" targetId="c9f0-afe5-0f2c-c9b1"/>
         <infoLink name="Solid Greenskin" id="ed78-7657-e11b-41ea" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb"/>
-        <infoLink name="Suppressive (X)" id="2d5d-9a1f-118a-b9e5" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="2d5d-9a1f-118a-b9e5" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Resilient (X)" id="7438-f83f-5543-5a82" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name"/>
@@ -321,17 +321,17 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
             <profile name="Grot’z Big Shoota" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="89c8-e8a6-8bee-cd74">
               <characteristics>
                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                <characteristic name="A" typeId="13c5-f234-c120-afc3">24</characteristic>
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka, Suppressive 1</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -620,7 +620,7 @@ This unit does not count towards the Army List’s leader unit capacity.</charac
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -814,9 +814,9 @@ This unit does not count towards the Army List’s leader unit capacity</charact
             <profile name="Komando Nob" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c278-b0f4-3863-5703">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -886,7 +886,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -904,9 +904,7 @@ This unit does not count towards the Army List’s leader unit capacity</charact
       <profiles>
         <profile name="Tellyportaz" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8f6a-3a2e-2f0c-d660">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in the battlefield, all of your units gain the following ability:
-
-Tellyporta: After this unit is Activated in reserves, you may use the ‘tellyporta’. If you do, Deploy this unit wholly within 3D6” of your TELLYPORTA MEKBOY unit (if able) and, during this turn&apos;s Move step, do not make a Move Roll and this unit cannot Advance or Reposition.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is in the battlefield, all of your units gain the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Off Ye Go" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2186-1949-d34d-f4f4">
@@ -967,7 +965,7 @@ Tellyporta: After this unit is Activated in reserves, you may use the ‘tellyp
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -989,11 +987,7 @@ Tellyporta: After this unit is Activated in reserves, you may use the ‘tellyp
       <profiles>
         <profile name="Take ‘is Place" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="69b7-4e8e-cd15-5565">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a friendly unit with ‘WARBOSS’ in its name within 16” of this unit dies, this unit gains the following ability:
-
-I’m Da Biggest Now: While your infantry units are within 12” of this unit, they gain the following ability:
-
-WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 for that attack. If there are two or more other friendly Orks units within 12” of this unit, reroll failed Resilient Rolls for that attack instead.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a friendly unit with'W ARBOSS' in its name within 16" of this unit dies, this unit gains the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1229,7 +1223,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1292,7 +1286,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         </profile>
         <profile name="Dats Be’a" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7917-ba9c-8577-3473">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit or a unit it is embarked within. The selected unit Heals D3+1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit. The selected unit Heals D3+1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1306,7 +1300,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
               </characteristics>
             </profile>
             <profile name="Burna Boy" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="6d9a-eb15-f6fc-74ff">
@@ -1314,7 +1308,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1349,7 +1343,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1404,7 +1398,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
       <profiles>
         <profile name="Dats Be’a" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5846-c1a5-8979-0779">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit or a unit it is embarked within. The selected unit Heals D3+1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit. The selected unit Heals D3+1.</characteristic>
           </characteristics>
         </profile>
         <profile name="We’z Goin’" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="025b-944a-a587-3210">
@@ -1414,7 +1408,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         </profile>
         <profile name="Thievin’ Gitz" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9016-4d1f-338f-d939">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is capturing a vault, instead of selecting a relic from your army rules'relic table, you may select a relic from an opponent's army rules'relic table. While this unit has that relic, your opponent cannot select that relic while capturing a vault.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is capturing a vault, instead of selecting a relic from your army rules' relic table, you may select a relic from an opponent's army rules' relic table. While this unit has that relic, your opponent cannot select that relic while capturing a vault.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1426,7 +1420,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1495,7 +1489,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1612,10 +1606,10 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
           <profiles>
             <profile name="Wierdboy" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="0434-82f8-020b-13bb">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
             <profile name="Staff" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5011-3507-ce1e-097a">
@@ -1682,7 +1676,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1697,7 +1691,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
       <profiles>
         <profile name="Coverin’ Dakka" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="13dc-9092-260a-d7d0">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead).</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8" of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1709,7 +1703,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <modifier type="set" value="Resilient (5+)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive (X)" id="6538-e392-000a-dcac" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="6538-e392-000a-dcac" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="80"/>
@@ -1728,7 +1722,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
               </characteristics>
             </profile>
             <profile name="Trukk" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="6a93-031b-09ca-d9bc">
@@ -1736,7 +1730,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1809,7 +1803,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <profile name="Kannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7963-2048-f60c-f979">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
@@ -1826,7 +1820,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <profile name="Killkannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="88f2-5a05-f943-eaf9">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1845,7 +1839,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <profile name="Zzap Gun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6b07-d80f-78a1-33ad">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
@@ -1865,9 +1859,9 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <profile name="Gunwagon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="1ae8-57e7-4519-8fb1">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1920,9 +1914,9 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <profile name="Bonebreaka" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4c98-8520-bf7d-9629">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
             <profile name="Deff Rolla" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b2f1-a02c-fac4-fcc6">
@@ -1932,7 +1926,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1975,7 +1969,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2170,11 +2164,11 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                             <profile name="Skorcha" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b95b-7de3-422a-9312">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2202,7 +2196,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2308,7 +2302,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2326,7 +2320,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
       <profiles>
         <profile name="Flamin’ Drift" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="98fe-4db0-2de0-bc8f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance, make attacks with its Burna Exhausts targeting one enemy unit it passed within 8" of during that Advance. Improve the A of its Burna Exhausts to 8 for those attacks.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance, make attacks with its Burna Exhausts targeting one enemy unit it passed within 8" of during that Advance. Improve the A of its Burna Exhausts to 6 for those attacks.</characteristic>
           </characteristics>
         </profile>
         <profile name="Supercharged Engine" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6e5e-0833-d009-4b24">
@@ -2361,7 +2355,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2419,7 +2413,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2446,7 +2440,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2464,7 +2458,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2490,7 +2484,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         </profile>
         <profile name="Nevamind Dat!" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c3b4-7174-1341-ad8d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for a friendly Orks infantry unit visible to this unit, add 1 to that Resolve Test.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units with Suppressed are within 12" of and visible to this unit, for each attack that targets those units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2523,7 +2517,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2584,7 +2578,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2643,7 +2637,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           
@@ -2674,7 +2668,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2729,7 +2723,143 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         
       </infoLinks>
     </selectionEntry>
-  </selectionEntries>
+  <selectionEntry type="unit" import="true" name="Warbikers" hidden="false" id="bf3d44cf-c32e-48e4-8109-be042f0e9a04" sortIndex="99">
+      <categoryLinks>
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="db6d73c5-9a60-40a1-ab89-fb994360befc" primary="true" name="Support" />
+        <categoryLink targetId="205c-3072-067b-d808" id="77eaeaf3-8586-4e8b-a9ad-435e11a1ab53" primary="false" name="Infantry" />
+      </categoryLinks>
+      <profiles>
+        <profile name="Speed Maniacs" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d44d57fd-dde5-442b-8c64-f39a4be1719b">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 1 D6 to that roll.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Billowing Exhausts" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d55a3daa-15e4-441e-97a1-2e3c4a5ad458">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit?s Move step, if this unit made an Advance move and that move ended at least X? from where they started where X is equal to the Move Roll for that Advance, all units within 24? of this unit gain the following ability until your next Select step:</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Smog and Dust" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ea3c0bf1-cff8-4dc3-a842-7e72c44b15cc">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each ranged attack that targets this unit, the Hit Roll of that attack is worsened by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Resilient (5+)" id="f7f501ea-78fa-48f2-bf7a-7f10458c7a62" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
+          <modifiers>
+            <modifier type="set" value="Resilient (5+)" field="name" />
+          </modifiers>
+        </infoLink>
+        <infoLink name="Solid Greenskin" id="a6e610be-06fa-41de-8266-c8e60fe6278f" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb" />
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Warbikers" id="c65c2dd5-2f0f-441f-a89f-988469f4f276" hidden="false" defaultSelectionEntryId="890e7ac9-c71b-47b8-a568-c74c3e7d5f85">
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Warbiker" hidden="false" id="890e7ac9-c71b-47b8-a568-c74c3e7d5f85">
+              <costs>
+                <cost name="pts" typeId="points" value="30" />
+              </costs>
+              <profiles>
+                <profile name="Warbiker" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="adc7a987-07d8-404e-8ddb-e5754a3e0cc4">
+                  <characteristics>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntry type="upgrade" import="true" name="Dakkaguns" hidden="false" id="8375a280-7d28-45b3-8806-5a01b489bf92">
+                <constraints>
+                  <constraint id="7b98cf38-196e-4813-aee5-6e59e297b92d" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  <constraint id="c0b445c7-ceee-4b7c-8ff5-3754d428e83d" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                </constraints>
+                <profiles>
+                  <profile name="Dakkaguns" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="13ca6292-4144-4ecd-9e06-ca238ff28b5b">
+                    <characteristics>
+                      <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                      <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+                      <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
+                      <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                      <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                      <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka</characteristic>
+                    </characteristics>
+                  </profile>
+                </profiles>
+                <infoLinks>
+                  <infoLink name="Dakka" id="405bffe9-d21b-4362-a90a-5478159b9a3d" hidden="false" type="rule" targetId="0c95-a6ed-a147-6b41" />
+                </infoLinks>
+                <costs>
+                  <cost name="pts" typeId="points" value="0" />
+                </costs>
+              </selectionEntry>
+              <entryLinks>
+                <entryLink import="true" name="Slugga" hidden="false" id="2304932b-ac36-4840-b953-3215ed35dff5" type="selectionEntry" targetId="efe4-3139-2e58-93af">
+                  <modifiers>
+                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                  <constraints>
+                    <constraint id="0502db00-922b-4cf1-ac4e-0926210b35a6" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                    <constraint id="5f87ea94-598b-4a98-8cb7-6d0c4280433a" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                </entryLink>
+                <entryLink import="true" name="Choppa" hidden="false" id="eca24424-57c4-4ffa-8d78-eea4b7799d06" type="selectionEntry" targetId="dcb2-429a-7ee6-dae4">
+                  <modifiers>
+                    <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                  <constraints>
+                    <constraint id="d4da5d0e-6eff-42d6-ac16-1638da083e22" type="min" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                    <constraint id="a5b66df7-ee8f-4e34-a157-30a7cd3b028a" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint id="348c75c1-9558-4abd-9d47-f30d57b2ec09" type="min" value="3" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+            <constraint id="c5b8a796-5337-4169-bcba-bfdec2a283fe" type="max" value="4" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+          </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="One model may replace its Choppa and gain Rokkits" id="4bd228da-d2ed-47d1-a9cf-28cc85b492a0" hidden="false">
+          <constraints>
+            <constraint id="9e52d069-344d-4238-bea4-6802bf34443f" type="max" value="1" field="selections" scope="parent" shared="true" includeChildSelections="false" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Big Choppa" hidden="false" id="70cca8cb-12bf-411c-9943-6f466c8acec1">
+              <entryLinks>
+                <entryLink import="true" name="Big Choppa" hidden="false" id="cede112b-7b13-450a-af5e-4d17b2b05584" type="selectionEntry" targetId="b19b-005f-c906-20b7">
+                  <modifiers>
+                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Rokkits" hidden="false" id="237845b1-ce99-426c-9018-c57fabd6aeed" type="selectionEntry" targetId="31f4-a334-113c-c54b">
+                  <modifiers>
+                    <modifier type="set" value="Rokkits" field="name" />
+                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Power Klaw" hidden="false" id="96657e33-ad17-4432-9649-c4008569974c">
+              <entryLinks>
+                <entryLink import="true" name="Power Klaw" hidden="false" id="a0f3445e-78d0-4fea-ba9d-382520bf2d8d" type="selectionEntry" targetId="d5aa-4bd1-fb77-325b">
+                  <modifiers>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                </entryLink>
+                <entryLink import="true" name="Rokkits" hidden="false" id="df4223cd-4337-4704-abbc-95a5c6454bbd" type="selectionEntry" targetId="31f4-a334-113c-c54b">
+                  <modifiers>
+                    <modifier type="set" value="Rokkits" field="name" />
+                    <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+</selectionEntries>
   <sharedProfiles>
     <profile name="WAAAGH!" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c9f0-afe5-0f2c-c9b1">
       <characteristics>
@@ -2753,7 +2883,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
     </profile>
     <profile name="Dats Be’a" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8111-4d6b-4a50-773c">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit or a unit it is embarked within. The selected unit Heals D3+1.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a vehicle unit within 4" of this unit. The selected unit Heals D3+1.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2823,7 +2953,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2871,12 +3001,12 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka, Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka, Suppressive</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="04de-bcf8-652c-99bc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="04de-bcf8-652c-99bc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Dakka" id="f234-a8f2-61d6-bead" hidden="false" type="rule" targetId="0c95-a6ed-a147-6b41"/>
       </infoLinks>
     </selectionEntry>
@@ -3031,7 +3161,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3272,10 +3402,7 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
       <profiles>
         <profile name="Da Boyz’ Waaaghcry" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="49a9-6395-24e1-0f8d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16” of this unit, they gain the following ability:
-
-
-Green Tide X: For each Move Roll made for this unit, roll X additional D6s, where X is the number of units with Da Boyz’ Waaaghcry within 16” of this unit. For each additional dice added, remove one of the lowest dice from that roll.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units are within 16" of this unit, they gain the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Get Da Good Bitz" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5f3d-e588-9eae-0bd0">
@@ -3346,7 +3473,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
                 <profile name="Grot" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7f52-041e-0618-d7b4">
@@ -3354,7 +3481,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3377,7 +3504,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">6+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3419,7 +3546,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -3759,16 +3886,16 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
         <profile name="Grot Tank Shoota" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5c9f-1499-8f37-3b94">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka, Suppressive 1</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Dakka</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive (X)" id="bf37-cd29-ba2d-4e05" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      <infoLink name="Suppressive" id="bf37-cd29-ba2d-4e05" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pintle/Hull Shoota" hidden="false" id="986c-c0af-7239-5721">
@@ -3796,7 +3923,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
       <profiles>
         <profile name="Hobbling Kontruction" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3494-2c99-7aad-1a6e">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll this unit makes, roll a D3 instead of each D6. For each model, that model is equipped with either</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll this unit makes, roll a D3 instead of each D6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3810,9 +3937,9 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
             <profile name="Meganobz" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3f83-243a-60e5-e3ca">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3889,7 +4016,7 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -3951,12 +4078,13 @@ Green Tide X: For each Move Roll made for this unit, roll X additional D6s, whe
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
-      </selectionEntries>
+          
+</selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Grot Tank Shoota" hidden="false" id="8d33-5522-5521-884e" type="selectionEntry" targetId="d910-57ae-0fc8-39ab" />
         <entryLink import="true" name="Rokkit" hidden="false" id="ad06-6501-6be8-e23b" type="selectionEntry" targetId="31f4-a334-113c-c54b">

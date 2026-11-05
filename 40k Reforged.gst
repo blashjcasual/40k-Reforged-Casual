@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem name="40k Reforged" id="sys-c49b-9f87-36f1-c9b5" battleScribeVersion="2.03" revision="72" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem name="40k Reforged" id="sys-c49b-9f87-36f1-c9b5" battleScribeVersion="2.03" revision="73" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Transport" id="3239-2096-a612-ed8e" hidden="false"/>
     <categoryEntry name="Troops" id="b69b-5b51-faf1-2c40" hidden="false"/>
@@ -101,7 +101,7 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
         <characteristicType name="T" id="a6ad-d820-8495-f5b0"/>
         <characteristicType name="Sv" id="9b7f-0dde-683f-6844"/>
         <characteristicType name="H" id="18e4-1bf9-a9b8-1e50"/>
-        <characteristicType name="Rv" id="411f-3942-6dc0-7c06"/>
+        
       </characteristicTypes>
     </profileType>
     <profileType name="Weapon" id="2dff-53d0-6d25-8c59" hidden="false" kind="weapon">
@@ -156,7 +156,7 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
     </profile>
     <profile name="Covering Fire" id="2415-711c-9ad6-01b3" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8” of this unit, this unit’s ranged weapons gain Suppressive 1 (if that weapon already has Suppressive X, improve X by 1 instead).</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8? of this unit, this unit?s ranged weapons gain Suppressive.</characteristic>
       </characteristics>
     </profile>
     <profile name="Jet Pack" id="38d0-b778-7525-f239" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -177,7 +177,7 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
   </sharedProfiles>
   <sharedRules>
     <rule name="Overcharge" id="e676-2d17-e4bf-f5e8" hidden="false">
-      <description>After selecting targets for this weapon’s attacks, you may ‘overcharge’ them. If you do, the Damage of those attacks improves by D3 and Wound Rolls of 4+ are always successful. Hit Rolls and Wound Rolls for those attacks cannot be modified, rerolled or cause additional effects. After a Wound Roll fails, the unit of this weapon’s model loses Health equal to the D of that attack, starting with the model equipped with this weapon. Health lost this way cannot be Repaired/Healed.</description>
+      <description>While making attacks for this weapon, before making any Hit Rolls for those attacks, you may ?overcharge? this weapon. If you do, for each of those attacks, this weapon?s S is improved by 1, and Wound Rolls of 1 (before any rerolls) for those attacks cause this unit to suffer SW equal to this weapon?s D after the current step. For each of those SW, the model equipped with this weapon must be selected to suffer that wound if possible (even if it?s a leader model or another model in this unit is missing H).</description>
     </rule>
     <rule name="Fly" id="449b-2864-9b01-7476" hidden="false">
       <description>During a move, models in this unit may move over terrain pieces and units as if they were not there. For each terrain piece or unit moved over this way, reduce the maximum distance models can move by 2” for that move. If a unit with Fly and a unit without Fly are combined, that unit loses Fly.</description>
@@ -209,64 +209,38 @@ To Cast a psychic power, select a psychic power from your army rules which match
     <rule name="Forward Deploy" id="b433-60cc-2ed2-658f" hidden="false">
       <description>After this unit is Activated in reserves, roll 2D6. Then, you may Deploy this unit wholly within X” of your Deployment Zone where X is equal to that roll.</description>
     </rule>
-    <rule name="Unstoppable" id="9726-164b-d2c0-a58f" hidden="false">
-      <description>For each Resolve Test made for this unit, reroll a failed result for that Resolve Test.</description>
-    </rule>
+    
     <rule name="Transport" id="d78d-24c6-e7a9-e94f" hidden="false">
-      <description>After you deploy a unit with Transport, you may select one of your infantry units in reserves to be ‘embarked’ within that unit.
+      <description>After you deploy a unit with Transport, you may select one of your infantry units in reserves to be ?embarked? within that unit.
 
+Embarked units are not on the battlefield (they?re never visible, cannot be within range for any abilities, can?t capture objectives, etc).
 
-Embarked units are not on the battlefield (they’re never visible, cannot be within range for any abilities, can’t capture objectives, etc).
+After an embarked unit?s Move step begins, that unit may Disembark.
 
+To Disembark, Deploy the embarked unit wholly within 4? of the unit it's embarked within, in unit coherency. If it cannot meet these conditions, remove models from the unit until it can.
 
-After an embarked unit’s Move step begins, that unit may Disembark. To Disembark, Deploy the embarked unit wholly within 4” of the unit it&apos;s embarked within, in unit coherency. If it cannot meet these conditions, remove models from the unit until it can.
-
-
-After a unit with Transport with an embarked unit is destroyed, before removing it from the battlefield, the embarked unit must Disembark. Then, make an Evacuate Roll for that unit. To make an Evacuate Roll for a unit, roll a D6 and apply the result on the following table:
-
-
-1 or 2: Reeling: That unit is no longer ready, and gains Suppressed 6.
-3 or 4: Pelted by Debris: That unit gains Suppressed 6.
-5 or 6: Escaped: No effect.</description>
+After a unit with Transport with an embarked unit is destroyed, before removing it from the battlefield, the embarked unit must Disembark. Then, make an Evacuate Roll for that unit. To make an Evacuate Roll for a unit, roll a D6. Then, on a 4+ that unit gains Suppressed. Otherwise, that unit gains Suppressed and is no longer ready.</description>
     </rule>
     <rule name="Heal/Repair (X)" id="02c8-1ec5-cdab-2572" hidden="false">
       <description>To Heal X or Repair X, for each X, if any model in the unit has fewer H than it started with, improve the H of one of those models by 1. If no models have fewer H than they started with and the unit is missing one or more models, instead add 1 missing model to this unit, in coherency, with 1 H. If a model cannot be placed in coherency, do not add it.</description>
     </rule>
     <rule name="Ignore Cover" id="c88b-5cb0-aa9d-b742" hidden="false">
-      <description>Saving Throws for this weapon’s attacks cannot benefit from cover.</description>
+      <description>For each attack made for this weapon, if the target is in cover for that attack, each Wound Roll of that attack is not worsened by cover.</description>
     </rule>
     <rule name="Indirect" id="4de2-ca68-9af9-1b10" hidden="false">
-      <description>This weapon does not need the target to be visible. However, when the target is not visible, this weapon has a -1 penalty to its Hit Rolls.</description>
+      <description>While selecting a target for this weapon, you may select a target which is not visible to the model with this weapon. If you do, the Hit Roll of each attack made for this weapon is worsened by 1 this turn.</description>
     </rule>
     <rule name="Isolate" id="db97-d77e-4392-6f10" hidden="false">
       <description>For each attack made for this weapon, if the target unit is infantry and there are no other enemy units within 4” of the target unit, add 1 to the Wound Roll of that attack.</description>
     </rule>
-    <rule name="Strike or Sweep (X)" id="2757-6563-cdb2-3456" hidden="false">
-      <description>Each time you make attacks with this weapon, use only one of either weapon with Strike or Sweep.</description>
+    <rule name="Strike/Sweep" id="2757-6563-cdb2-3456" hidden="false">
+      <description>This weapon has two different profiles. Each time you select targets for a weapon with Strike or Sweep, you may select targets for only one of those two profiles.</description>
     </rule>
     <rule name="Barrage" id="9cfc-06e3-74c6-ad83" hidden="false">
-      <description>After selecting the target for this weapon&apos;s attacks, roll 2D6. Then select all other enemy units within X” of the selected target, where X is the result of that roll. Also make attacks for this weapon targeting each of the selected units.</description>
+      <description>After selecting the target for this weapon, roll 2D6. Then select all other enemy units within X? of the selected target, where X is the result of that roll. Also make attacks for this weapon targeting each of the selected units (ignoring normal targeting restrictions).</description>
     </rule>
-    <rule name="Suppressive (X)" id="aed3-e154-8fa2-5378" hidden="false">
-      <description>For each attack made for this weapon, after that attack wounds, the target unit suffers X Suppression.
-
-When a unit suffers Suppression, it must make a number of Resolve Tests equal to the value of that Suppression. For each failed Resolve Test, that unit gains Suppressed.
-
-To make a Resolve Test, roll a D6. If the result is equal to or greater than the unit’s Resolve (Rv) characteristic, the roll is successful.
-
-Suppressed X: For each Move Roll made for this unit, worsen that roll by X to a minimum of 1.
-
-If this unit is infantry, each time it selects targets for attacks, its controller must select a number of non-leader infantry models equal to X. You cannot select targets for those models&apos; weapons this turn.
-
-If this unit is infantry, after its End step, it loses Suppressed.
-
-If this unit is a vehicle or monster, after its Move step, you may skip its Attacks step. If you do, it loses Suppressed.
-
-If this unit is a vehicle or monster, after its Attacks step, it suffers twice X SW and loses Suppressed.
-
-If this unit has Psyker, after this unit makes a Psychic Test, if any result on a dice in that Psychic Test was X, this unit suffers X SW.
-
-Each time this unit gains Suppressed while it already has Suppressed, increase X by 1, to a maximum of 6 (you can use a d6 to keep track)</description>
+    <rule name="Suppressive" id="aed3-e154-8fa2-5378" hidden="false">
+      <description>After this unit?s Attacks step, each unit hit by an attack made for this weapon this turn gains Suppressed.</description>
     </rule>
     <rule name="Rearm" id="0c06-9eed-2a45-b772" hidden="false">
       <description>After making attacks for this weapon, you may not make attacks for it until you ‘reload’. To reload, the unit with this weapon must end its turn within your deployment zone during a battle round in which you didn’t make attacks for this weapon.</description>
@@ -278,7 +252,7 @@ Each time this unit gains Suppressed while it already has Suppressed, increase X
       <description>After a target is selected for this weapon, if that target&apos;s T is equal to or lower than this weapon&apos;s S, improve this weapon&apos;s S to 7 this turn.</description>
     </rule>
     <rule name="Shred" id="4a04-e9da-d7b5-e035" hidden="false">
-      <description>For each attack made for this weapon, a successful Wound Roll for that attack causes an additional wound.</description>
+      <description>For each attack made for this weapon, each wound for that attack counts as 2 wounds instead of 1 wound.</description>
     </rule>
     <rule name="Blast (X)" id="308a-e96e-90f7-855e" hidden="false">
       <description>For each attack made for this weapon, a successful Hit Roll for that attack causes X hits instead of 1 hit</description>
@@ -311,9 +285,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       <description>For each attack made for this weapon that targets an infantry unit, if that isn&apos;t in cover for that attack, add 1 to the Wound Roll of that attack (unless the target has an ability which says it cannot be in cover for attacks).</description>
     </rule>
     <rule name="Haywire" id="0c93-fe53-7091-88d0" hidden="false">
-      <description>For each attack made for this weapon that targets a vehicle unit, the Strength of that attack is improved to 6. If the Wound Roll of that is successful, the target unit gains Stunned.
-
-Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the result of that roll is less than the X of Suppressed X, this unit becomes ready and skip this turns’ Move and Attacks steps.</description>
+      <description>For each attack made for this weapon, if the target of that attack is a vehicle unit, that attack gains Suppressive.</description>
     </rule>
     <rule name="Critical Wounds X+" id="c751-8dab-2486-9a1b" hidden="false">
       <description>For each attack made for this weapon, each Wound Roll of X+ for that attack causes an additional wound.</description>
@@ -323,6 +295,18 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
     </rule>
     <rule name="Shield X+" id="a04b-6862-277b-8580" hidden="false">
       <description>After the model with this weapon is selected to suffer a wound, roll a D6. On a 5+, the Saving Throw for that wound always succeeds.</description>
+    </rule>
+      <rule name="Colossal (X)" id="4ceb07e0-f7a5-436b-9a90-33ed03bc62d5" hidden="false">
+      <description>For each attack made for this weapon, each wound for that attack counts as X wounds instead of 1 wound.</description>
+    </rule>
+    <rule name="Melt (X&quot;)" id="58023c67-c320-45ec-9883-c1dfdb2c91ec" hidden="false">
+      <description>For each attack made for this weapon that targets a unit within X" of the model with this weapon, that attack gains Pierce.</description>
+    </rule>
+    <rule name="Purge" id="d4a463a9-a785-449e-92a9-d1dad4c31a1b" hidden="false">
+      <description>For each attack made for this weapon, the Saving Throw for that attack is worsened by 1.</description>
+    </rule>
+    <rule name="Suppressed" id="63abdc13-f443-4f0b-8f25-e0222fad9ba7" hidden="false">
+      <description>This unit?s Sv is worsened by 1. After any enemy unit?s Attacks step, this unit loses this ability.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -11280,7 +11264,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
     </selectionEntry>
     <selectionEntry name="Autocannon" id="a636-c9c9-ad6d-6db0" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="312a-9a55-63b9-e2fc" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
+        <infoLink name="Suppressive" id="312a-9a55-63b9-e2fc" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
           <modifiers>
             <modifier field="name" type="set" value="Suppressive (2)"/>
           </modifiers>
@@ -11302,7 +11286,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
     <selectionEntry name="Haywire Grenade" id="70d9-3670-51f4-ae16" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Haywire" id="6db5-e03b-a8f8-2641" hidden="false" targetId="0c93-fe53-7091-88d0" type="rule"/>
-        <infoLink name="Suppressive (X)" id="e3fa-9ad1-c075-f35a" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
+        <infoLink name="Suppressive" id="e3fa-9ad1-c075-f35a" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
           <modifiers>
             <modifier field="name" type="set" value="Suppressive (2)"/>
           </modifiers>
@@ -11318,7 +11302,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3D3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">One Shot, Indirect, Haywire, Suppressive 2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, For each attack made for this weapon, if the target of that attack is a vehicle unit, that attack gains Suppressive.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11640,7 +11624,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
     <selectionEntry name="Plasma Grenade" id="16c6-5a66-c200-152f" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Rearm" id="c151-b4dc-feed-8b27" hidden="false" targetId="0c06-9eed-2a45-b772" type="rule"/>
-        <infoLink name="Suppressive (X)" id="5e0f-0369-fdb1-32e0" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="5e0f-0369-fdb1-32e0" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
         <infoLink name="Indirect" id="f41f-5515-18eb-133f" hidden="false" targetId="4de2-ca68-9af9-1b10" type="rule"/>
         <infoLink name="Blast (X)" id="9c15-faba-60ca-4178" hidden="false" targetId="308a-e96e-90f7-855e" type="rule"/>
       </infoLinks>
@@ -11785,7 +11769,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
     </selectionEntry>
     <selectionEntry name="Heavy Stubber" id="4b7a-633d-1e19-061d" hidden="false" import="true" type="upgrade">
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="0518-9ff2-dbf9-c631" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
+        <infoLink name="Suppressive" id="0518-9ff2-dbf9-c631" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
       </infoLinks>
       <profiles>
         <profile name="Heavy Stubber" id="03cb-fed2-48f7-2679" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">

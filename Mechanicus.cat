@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8ebc-4141-b6f1-7899" name="Mechanicus" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="22" revision="26" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8ebc-4141-b6f1-7899" name="Mechanicus" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="27" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.5" hidden="false" id="7646-5c1b-b2e9-3f1f" sortIndex="1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="7646-5c1b-b2e9-3f1f" sortIndex="1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="c52b-72ff-2114-f15b" targetId="9cd6-0442-3f35-6b52" primary="true"/>
       </categoryLinks>
@@ -155,7 +155,7 @@ This unit may instead not attach to anything.</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -175,16 +175,16 @@ This unit may instead not attach to anything.</characteristic>
                     <profile name="Macrostubber" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1d05-f7ac-2107-3ee6">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive (X)" id="18e3-d8c7-473e-1b8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                    <infoLink name="Suppressive" id="18e3-d8c7-473e-1b8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Phosphor Serpenta" hidden="false" id="a411-1528-b5c3-374d" sortIndex="2">
@@ -221,7 +221,7 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -255,7 +255,7 @@ This unit may instead not attach to anything.</characteristic>
         </profile>
         <profile name="Soothing Consummation" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ce70-3fd1-30a4-c8e9">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a friendly vehicle unit within 8" of this unit Heals any amount, if that unit has Suppressed X, worsen the X of Suppressed by that amount.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While friendly vehicle units with Suppressed are within 8" of this unit, for each attack that targets those units, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -285,7 +285,7 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -303,7 +303,7 @@ This unit may instead not attach to anything.</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -378,18 +378,18 @@ This unit may instead not attach to anything.</characteristic>
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Transonic Cannon" hidden="false" id="ae59-fb30-6070-ab49" sortIndex="1">
                   <infoLinks>
-                    <infoLink name="Suppressive (X)" id="9c1e-704b-8db9-4ca2" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                    <infoLink name="Suppressive" id="9c1e-704b-8db9-4ca2" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                     <infoLink name="Blast (X)" id="afdc-6a18-df0a-f932" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
                   </infoLinks>
                   <profiles>
                     <profile name="Transonic Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="2d87-0341-0a67-0aa6">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4, Suppressive 1</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4, Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -428,7 +428,7 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -454,10 +454,7 @@ This unit may instead not attach to anything.</characteristic>
         </profile>
         <profile name="Maintenance Liturgy" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f383-6b7d-bc2a-5c04">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, select a friendly vehicle unit within 6” of this unit. The selected unit Repairs D3+1 and gains the following abilities:
-
-
-Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll of that attack. After this unit’s Attacks step, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, select a friendly vehicle unit within 6" of this unit. The selected unit Repairs 2D3+1 and gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Soothing Commune" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e6d0-4935-19c8-ef72">
@@ -501,7 +498,7 @@ Surging Motive Force: For each attack made for this unit, add 1 to the Hit Roll
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -562,7 +559,7 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -617,7 +614,7 @@ This unit may instead not attach to anything.</characteristic>
         </profile>
         <profile name="Protocol Optimisation" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a197-6eaa-e546-9e33">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after any of your KASTELAN ROBOT units within 2” of this unit are Activated or finishes an Advance within 2” of this unit, you may have that unit ‘change protocol’. If you do, until the next time this unit is Activated or dies, that unit gains the following abilities: Fortified Aegis: If this unit has Aegis Protocol, for each ranged attack that targets this unit, reroll a failed Saving Throw for that attack. Accelerated Drives: If this unit has Conqueror Protocol, reroll Move Rolls made for this unit. Targeting Matrix: If this unit has Protector Protocol, for each attack this unit makes, add 1 to the Hit Roll for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after any of your KASTELAN ROBOT units within 2" of this unit are Activated or finishes an Advance within 2" of this unit, you may have that unit'change protocol'. If you do, until the next time this unit is Activated or dies, that unit gains the following abilities:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -653,7 +650,7 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -727,7 +724,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -745,7 +742,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -800,7 +797,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1054,7 +1051,7 @@ b) SKITARII VANGUARDS</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1217,7 +1214,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1370,7 +1367,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1403,7 +1400,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1459,7 +1456,7 @@ b) SKITARII VANGUARDS</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Unstoppable" id="b07e-77ad-5293-4ea2" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
       <profiles>
         <profile name="Destructor Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1643-c8cb-f282-24a7">
@@ -1486,9 +1483,9 @@ b) SKITARII VANGUARDS</characteristic>
                 <profile name="Kataphron Breacher" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="676e-dfff-d6ce-2036">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1537,7 +1534,7 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Heavy Armour" id="6572-211b-633c-a664" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
         <infoLink name="Walker" id="fd52-a71d-7b39-e11a" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
         <infoLink name="Forward Deploy" id="99c3-44e3-1f65-debf" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
-        <infoLink name="Unstoppable" id="e13d-dd46-dfa1-801c" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
       <profiles>
         <profile name="Breacher Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ff1f-a88d-f1e1-01fb">
@@ -1547,7 +1544,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
         <profile name="Momentum of the Mechanicum" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e555-766f-645c-13b0">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, roll 3D3 instead of 2D6 for that Move Roll.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, you may roll 3D3 instead of 2D6 for that Move Roll. If you do, change the Tp of each Hv weapon equipped to this unit to Aslt until the End step.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1574,7 +1571,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1608,8 +1605,8 @@ b) SKITARII VANGUARDS</characteristic>
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                           </characteristics>
@@ -1633,7 +1630,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1713,7 +1710,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1742,7 +1739,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1846,7 +1843,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1922,7 +1919,7 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Walker" id="4d47-38de-13ed-435d" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
         <infoLink name="Isolate" id="66b3-aeec-4463-7737" hidden="false" type="rule" targetId="db97-d77e-4392-6f10"/>
         <infoLink name="Hunt" id="e9ac-971c-8074-02f5" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805"/>
-        <infoLink name="Unstoppable" id="908b-fc00-5508-8979" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
       <profiles>
         <profile name="Population Cull" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d847-4b87-b27e-ad44">
@@ -1947,7 +1944,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2024,11 +2021,11 @@ b) SKITARII VANGUARDS</characteristic>
                     <profile name="Sulphur Breath" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6d51-d478-e4ba-a30a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2139,16 +2136,16 @@ b) SKITARII VANGUARDS</characteristic>
                     <profile name="Icarus array" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0978-9030-effa-0d8a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive, For each attack made for this weapon targeting a unit with Fly, add 1 to the Hit Roll of that attack.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive (X)" id="999e-841e-9577-c172" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                    <infoLink name="Suppressive" id="999e-841e-9577-c172" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                     <infoLink name="Breach" id="eac6-bbd7-b7bf-9762" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
                   </infoLinks>
                 </selectionEntry>
@@ -2177,7 +2174,7 @@ b) SKITARII VANGUARDS</characteristic>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Pierce" id="76a7-f818-6adb-5cf7" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
-                    <infoLink name="Strike or Sweep (X)" id="fb03-cfa7-22b1-29e6" hidden="false" type="rule" targetId="2757-6563-cdb2-3456"/>
+                    <infoLink name="Strike/Sweep" id="fb03-cfa7-22b1-29e6" hidden="false" type="rule" targetId="2757-6563-cdb2-3456"/>
                   </infoLinks>
                 </selectionEntry>
               </selectionEntries>
@@ -2195,9 +2192,9 @@ b) SKITARII VANGUARDS</characteristic>
             <profile name="Onager Dunecrawler" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="05bc-f19e-4319-8cb9">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2228,10 +2225,10 @@ b) SKITARII VANGUARDS</characteristic>
           <profiles>
             <profile name="Vultarax" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c62c-d828-ec10-fef2">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2263,7 +2260,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <profile name="Setheno Pattern Havoc Launcher 2" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9234-1e50-906b-5a06">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -2273,7 +2270,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <profile name="Setheno Pattern Havoc Launcher 1" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0b1d-dfbf-2bf6-1c6b">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -2319,7 +2316,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2336,14 +2333,14 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 2D3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Rearm" id="f0ef-bb91-f3ac-647c" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772"/>
                     <infoLink name="Indirect" id="5d6d-1d48-34c5-7d5d" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10"/>
-                    <infoLink name="Suppressive (X)" id="73a7-9a85-6b71-1797" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                    <infoLink name="Suppressive" id="73a7-9a85-6b71-1797" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10"/>
@@ -2381,16 +2378,16 @@ b) SKITARII VANGUARDS</characteristic>
                         <profile name="Stubcarbine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f4d3-490e-c965-0976">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Suppressive (X)" id="0e75-aa43-f450-0707" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                        <infoLink name="Suppressive" id="0e75-aa43-f450-0707" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Flechette Blaster" hidden="false" id="c033-bf50-34f1-dbbd" sortIndex="2">
@@ -2429,7 +2426,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
         <profile name="Electromagnetic Assault" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ee63-aa6f-3c5e-63df">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made for an enemy unit within 12", worsen the result of that Resolve Test by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within 12" of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2456,7 +2453,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2500,7 +2497,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 4", Shred</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2544,7 +2541,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive (X)" id="a779-0d22-a659-1fdf" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressive" id="a779-0d22-a659-1fdf" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Covering Fire" id="550c-2f77-78f1-08fe" hidden="false" type="profile" targetId="2415-711c-9ad6-01b3"/>
         <infoLink name="Transport" id="528c-96ee-5638-86bf" hidden="false" type="rule" targetId="d78d-24c6-e7a9-e94f"/>
       </infoLinks>
@@ -2598,9 +2595,9 @@ b) SKITARII VANGUARDS</characteristic>
             <profile name="Skorpius Dunerider" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e3d5-6537-81e6-151f">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">17</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2623,13 +2620,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
         <profile name="Kastelan Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b5ed-445b-1a2d-73e3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Deploys or an ability has this unit ‘change protocol’, select one of the following abilities. Then, this unit gains the selected ability and loses any of the other abilities (if it has any):
-
-Aegis Protocol: For each ranged attack that targets this unit, reroll a failed Saving Throw of 1 for that attack.
-
-Conqueror Protocol: You may reroll Move Rolls made for this unit.
-
-Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Deploys or an ability has this unit'change protocol', select one of the following abilities. Then, this unit gains the selected ability and loses any of the other abilities (if it has any):</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2655,7 +2646,7 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2683,11 +2674,11 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                     <profile name="Incendine Combustor" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="365c-c682-41e3-0a18">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2717,9 +2708,9 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
             <profile name="Kastelan Robot" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b11c-db37-2c7c-03d4">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2741,7 +2732,7 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2758,14 +2749,14 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive 2D3</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Rearm, Indirect, Suppressive</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <infoLinks>
                     <infoLink name="Rearm" id="36f4-35b5-5561-8f45" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772"/>
                     <infoLink name="Indirect" id="e104-49b8-5c0c-2b40" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10"/>
-                    <infoLink name="Suppressive (X)" id="ded5-7769-0818-2c4e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+                    <infoLink name="Suppressive" id="ded5-7769-0818-2c4e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="10"/>
@@ -2843,10 +2834,7 @@ Protector Protocol: For each attack this unit makes, add 1 to the Hit Roll for 
       <profiles>
         <profile name="Killing Machines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ea3a-8124-5242-bd13">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit dies from an attack made for this unit, this unit gains the following ability:
-
-
-Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance and it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit dies from an attack made for this unit, this unit gains the following ability:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2951,11 +2939,11 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
                 <profile name="Disruptor Missile Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4c59-8169-b406-fb98">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2965,9 +2953,9 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
             <profile name="Skorpius Disintergrator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c8cc-4562-2665-7a33">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3027,7 +3015,7 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3084,9 +3072,9 @@ Efficient Movement: After any enemy unit&apos;s End step, this unit may Advance
             <profile name="Termite Assault Drill" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="29f7-8163-bc06-053a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3116,7 +3104,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Unstoppable" id="8e84-3ae4-ea8a-eb87" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
         <infoLink name="Titan" id="6117-155c-1ed1-29b7" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/>
       </infoLinks>
       <selectionEntries>
@@ -3141,7 +3129,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3151,11 +3139,11 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     <profile name="Phased-Plasma Fusils" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9366-04de-dff7-b7e1">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3188,7 +3176,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">-</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">D3+1</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">For each attack made for this weapon, that attack’s S is 1 higher to the target’s Toughness.</characteristic>
                       </characteristics>
                     </profile>
@@ -3220,7 +3208,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3256,7 +3244,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3294,9 +3282,9 @@ Command and Control: After any of your units within 24” of this unit Repairs�
             <profile name="Macroarid Explorator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b4ba-1d6d-c479-2659">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3325,9 +3313,9 @@ Command and Control: After any of your units within 24” of this unit Repairs�
             <profile name="Thanatar Class Siege-Automata" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="1b71-1ede-2226-e242">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3341,7 +3329,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3383,9 +3371,9 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     <profile name="Hellex Plasma Mortar" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="403b-87fb-4e49-5d37">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Indirect, Barrage, Ignore Cover, Pierce, This weapon can only select targets for its attacks once per battle round.</characteristic>
                       </characteristics>
@@ -3404,11 +3392,11 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     <profile name="Solex Lascannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="45bd-7a75-6d71-92a3">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Colossal 2</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3438,7 +3426,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3510,10 +3498,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
       <profiles>
         <profile name="Cyborg Watchtower" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="82dc-802f-b423-8a8f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, until the end of the battle round, this unit gains the following ability:
-
-
-Achillan Eye: After any enemy unit’s Move step, this unit may make attacks targeting that unit (if able) and for each of those attacks, reroll a Wound Roll of 1 for that attack. Then, it loses this ability.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, until the end of the battle round, this unit gains the following ability:</characteristic>
           </characteristics>
         </profile>
         <profile name="Perfectly Engineered" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="efa1-275a-d97a-b551">
@@ -3547,7 +3532,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
     </profile>
     <profile name="Omnissiah’s Blessing" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2345-8a1c-18ba-8c53">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your Adeptus Mechanicus units Repairs, until the End step, for each attack made by that unit, reroll Hit Rolls of 1 for that attack.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your units Repairs, until the End step, for each attack made by that unit, reroll Hit Rolls of 1 for that attack.</characteristic>
       </characteristics>
     </profile>
     <profile name="Predictive Algorithms" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="88fc-182e-a840-2df9">
@@ -3628,7 +3613,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Arc Rifle" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c2ea-6876-1a8b-f01f">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -3702,7 +3687,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Arc Pistol" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="79fe-767d-c313-dd49">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -3720,7 +3705,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Radium Pistol" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="38f3-1a78-a211-fac1">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -3791,11 +3776,11 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Plasma Caliver" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9082-99a6-dd1c-28ed">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3811,9 +3796,9 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3838,10 +3823,10 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Overcharge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3855,11 +3840,11 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Cognis Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0ade-65c9-0fcb-587e">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3876,7 +3861,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3904,11 +3889,11 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Phased Plasma-Fusil" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="96ee-f038-6c72-efdf">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
-            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3921,8 +3906,8 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Photon Thruster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="11b8-e24f-e0da-4da9">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
@@ -3956,7 +3941,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
@@ -3972,8 +3957,8 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
         <profile name="Heavy Phosphor Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="f2d1-0e31-5cbd-ce3f">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">15</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2</characteristic>
@@ -4110,7 +4095,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -4163,7 +4148,7 @@ Achillan Eye: After any enemy unit’s Move step, this unit may make attacks t
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>

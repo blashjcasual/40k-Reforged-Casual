@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="14ba-fba9-02a2-388d" name="Craftworlds" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="6" revision="69" battleScribeVersion="2.03" type="catalogue">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="14ba-fba9-02a2-388d" name="Craftworlds" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="70" battleScribeVersion="2.03" type="catalogue">
   <sharedRules>
     <rule name="Roaming Performers" id="c56f-e048-3acd-ec3d" hidden="false">
-      <description>You may add one of the following Harlequins units to your Army
-
-
-List:
-● TROUPE MASTER
-● SHADOWSEER
-and one of either:
-● LIGHT TROUPE
-● DARK TROUPE
-● TWILIGHT TROUPE
-
-
-If you do add one or more of those units to your Army List, your Army Rules gains Mocking Misstep, Allegro Advance, Prismatic Pirouette and Kaleidoscopic Cavalcade.</description>
+      <description>You may add one of the following Harlequins units to your Army</description>
     </rule>
     <rule name=" Aspect (X)" id="9db0-7796-725a-f91f" hidden="false">
       <description>While this unit is ready, after each of your End steps, if this was not your second turn in a row, you may take another turn. If you do, you must select a unit with Aspect Warrior to activate that turn.</description>
     </rule>
     <rule name="Eyes of the Asuryani" id="3be3-6578-1b0d-7468" hidden="false">
-      <description>While this unit is not active, enemy units visible to this unit gain the following ability:
-
-Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets this unit, a Hit Roll of 6 for that attack always wounds.</description>
+      <description>While this unit is not active, enemy units visible to this unit gain the following ability:</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -199,8 +185,8 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Witch Staff" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1084-4738-70e0-f0ef">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3" />
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f" />
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">This weapon has Blast X, where X is the highest result of this unit’s last Psychic Test.</characteristic>
@@ -309,11 +295,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Power Glaive" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9586-b8ef-a4bf-127e">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -354,7 +340,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <profiles>
         <profile name="Wraithbone" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6d01-b36f-9a31-f606">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each SW from a psychic power this unit suffers, this unit gains Resilient 5+ for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a model in this unit is selected to suffer a wound for a SW from a psychic power or windfall of the warp ability, roll a D6. On a 6+, the Saving Throw for that wound always succeeds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -376,11 +362,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Twin Aeldari Missile Launcher (Starshot)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b834-db86-9be5-978f">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
           </characteristics>
         </profile>
         <profile name="Twin Aeldari Missile Launcher (Sunburst)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9ea7-24b7-7098-3d4c">
@@ -802,7 +788,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -812,11 +798,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Twin Starcannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6f6a-7801-af60-ddb3">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">10</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -846,11 +832,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         <profile name="Twin Aeldari Missile Launcher Starshot" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5118-f3a5-34e6-7f31">
           <characteristics>
               <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+              <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
 </characteristics>
         </profile>
       </profiles>
@@ -883,7 +869,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <profiles>
         <profile name="Path of Command" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f16e-5f4d-05e7-4e6d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your units with Aspect Warriors Activate, you may select an enemy unit visible to one or more friendly units with Eyes of the Asuryani. If you do, until the End step, that friendly unit gains Fluid Grace, and that enemy unit gains Graceless Foes.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your units with Aspect Warriors Activate, you may select an enemy unit visible to one or more friendly units with Eyes of the Asuryani. If you do, until the End step, your active unit gains Fluid Grace, and that enemy unit gains Graceless Foes.</characteristic>
           </characteristics>
         </profile>
         <profile name="Fluid Grace" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a8df-342c-8d89-4a7b">
@@ -933,7 +919,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -985,12 +971,12 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
       <profiles>
         <profile name="Dissipate Energy Field" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7f3b-f837-4083-6afa">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle, after any enemy unit's Move step, as a reaction, you may'dissipate the energy field'. If you do, this unit's Sv changes to 4+. Then, each enemy unit within 12" of and visible to this unit suffers D3+1 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per battle, after this unit's Attacks step, you may'dissipate the energy field'. If you do, this unit's Sv changes to 5+. Then, each enemy unit within 12" of and visible to this unit gains Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Wraithbone" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a66c-bd9d-5f4e-622e">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each SW from a psychic power this unit suffers, this unit gains Resilient 5+ for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a model in this unit is selected to suffer a wound for a SW from a psychic power or windfall of the warp ability, roll a D6. On a 6+, the Saving Throw for that wound always succeeds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1004,9 +990,9 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
             <profile name="Wave Serpent" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4de7-856b-4f29-f374">
               <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
+                    
               </characteristics>
             </profile>
           </profiles>
@@ -1225,10 +1211,10 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                     <profile name="Wraithspear" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8e65-f25f-1a47-1a22">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Pierce</characteristic>
                       </characteristics>
                     </profile>
@@ -1256,7 +1242,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                     <profile name="Wraithlord Fists" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="836e-cf77-769a-ba4b">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
@@ -1281,11 +1267,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                     <profile name="Aeldari Flamers" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3fb5-0119-27ed-ef2e">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">20</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1314,9 +1300,9 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
             <profile name="Wraithlord" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="83bd-ae44-124d-a5e5">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1424,11 +1410,11 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
                     <profile name="Suncannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c473-20eb-3994-a9a7">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1468,9 +1454,9 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
             <profile name="Wraithknight" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4084-f95e-08dc-4a82">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">32</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1484,11 +1470,7 @@ Fatal Thread: For each attack made by an Aeldari Craftworlds unit that targets 
         </profile>
         <profile name="Clarity of Thought" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e802-d71a-a196-e9ac">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, this unit gains the selected abilities until the End step:
-
-Surviving Sibling: Each of this unit's weapons WS is improved by 1.
-
-Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, this unit gains the selected abilities until the End step:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1504,10 +1486,10 @@ Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
               <profiles>
                 <profile name="Wraithguard" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a52f-419a-df92-94ae">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1585,10 +1567,10 @@ Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
               <profiles>
                 <profile name="Wraithblade" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="bcc0-ee0f-8d5e-06b1">
                   <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1609,7 +1591,7 @@ Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
                             <profile name="Ghostaxe" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7b59-8335-0ef7-547e">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
@@ -1632,7 +1614,7 @@ Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
                         <profile name="Ghostswords" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a7aa-287a-f2fb-14f4">
                           <characteristics>
                             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                            <characteristic name="A" typeId="13c5-f234-c120-afc3">11</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -1680,7 +1662,7 @@ Twin's Essence: Add 1 D6 to Move Rolls made for this unit.</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1786,7 +1768,7 @@ Speeding Blur: For each attack that targets this unit, the Hit Roll for that a
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2036,7 +2018,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2119,7 +2101,7 @@ b) WRAITHGUARD</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2259,7 +2241,7 @@ b) WINDRIDERS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2291,7 +2273,7 @@ b) WINDRIDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2374,7 +2356,7 @@ b) WINDRIDERS</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -2390,7 +2372,7 @@ b) WINDRIDERS</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -2487,7 +2469,7 @@ b) WINDRIDERS</characteristic>
             <modifier type="set" value="Aspect (Shining Spears)" field="name" />
           </modifiers>
         </infoLink>
-        <infoLink name="Unstoppable" id="d505-ae75-e729-e167" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f" />
+        
         <infoLink name="Fly" id="1e3b-a423-7ec6-4adf" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
         <infoLink name="Jet Bikes" id="6c44-ec68-269e-c8b8" hidden="false" type="profile" targetId="e8ad-40cd-784f-fb45" />
       </infoLinks>
@@ -2501,7 +2483,7 @@ b) WINDRIDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2658,11 +2640,7 @@ b) WINDRIDERS</characteristic>
       <profiles>
         <profile name="Khaine’s Spear" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3121-ed5b-8476-ef24">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance within engagement range of any enemy units with Fatal Thread, until the End step, this unit gains each of the following abilities:
-
-Shining Thrust: For each attack made by this unit, add 1 to the Hit Roll for that attack.
-
-Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, if it is within engagement range of any enemy units with Fatal Thread, until the End step, this unit gains each of the following abilities:</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2683,7 +2661,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2871,7 +2849,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, Isolate</characteristic>
+                                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Isolate, Pierce</characteristic>
                                   </characteristics>
                                 </profile>
                               </profiles>
@@ -2955,7 +2933,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2989,12 +2967,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
         </profile>
         <profile name="Terrifying Screech" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e559-d36e-e7ec-44a3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, each enemy unit within engagement range of this unit suffers 1+D3 Suppression.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Crone’s Fury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6292-7e94-a377-d591">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Resolve Test made by enemy units within engagement range of this unit, that Resolve Test is worsened by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, each enemy unit within engagement range of this unit gains Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3030,7 +3003,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3062,7 +3035,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3168,7 +3141,7 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3227,11 +3200,11 @@ Shining Wedge: After this unit's Attacks step, it may Reposition.</characteristi
                             <profile name="Dragon’s Breath Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9743-3f1a-2daa-d16d">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -3425,7 +3398,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3613,9 +3586,9 @@ a) GUARDIAN DEFENDERS</characteristic>
             <profile name="Falcon" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e979-358b-7ec0-6162">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -3636,7 +3609,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3803,7 +3776,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -3824,7 +3797,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                             <profile name="Tempest Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8edb-748c-a698-1704">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -4028,7 +4001,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">8</characteristic>
+                        <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce, For each attack made for this weapon, a failed Saving Throw causes the target to lose 8 Health (in addition to the normal damage).</characteristic>
                       </characteristics>
                     </profile>
@@ -4050,8 +4023,8 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <profile name="Wraithspear" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="9b5b-b4b4-bacc-9c42">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach, Pierce</characteristic>
@@ -4081,7 +4054,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <profile name="Wraithseer Fists" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c497-0c4c-e009-5b0d">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
@@ -4100,9 +4073,9 @@ a) GUARDIAN DEFENDERS</characteristic>
             <profile name="WraithSeer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f724-03a4-b85c-0176">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">8</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">16</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4120,7 +4093,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -4205,13 +4178,13 @@ a) GUARDIAN DEFENDERS</characteristic>
                 <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
-                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">6+2D3</characteristic>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">5</characteristic>
                 <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Velocity, Breach, While selecting a target for this weapon, you may select an enemy unit up 40” away instead of 32”.</characteristic>
               </characteristics>
             </profile>
             <profile name="Ghostlight" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4e9c-5603-3ac9-ea86">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, if there are two or more models in this unit with either a Prism Rifle or Prism Blaster, you may have this unit'combine beams'. If you do, until the End step, each model in this unit loses its Prism Blaster and Prism Rifle weapons, and one model of your choice gains the Ghostlight weapon.</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, if there are two or more models in this unit with either a Prism Rifle or Prism Blaster, you may have this unit 'combine beams'. If you do, until the End step, each model in this unit loses its Prism Blaster and Prism Rifle weapons, and one model of your choice gains the Ghostlight weapon.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4276,7 +4249,7 @@ a) GUARDIAN DEFENDERS</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.7" hidden="false" id="f243-4116-e968-8eee" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="f243-4116-e968-8eee" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="b578-d74c-08c1-f280" targetId="9cd6-0442-3f35-6b52" primary="true" />
       </categoryLinks>
@@ -4304,10 +4277,10 @@ a) GUARDIAN DEFENDERS</characteristic>
           <profiles>
             <profile name="Vyper" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="cd77-ef0f-f407-2b34">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -4433,11 +4406,11 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <profile name="Aeldari Missile Launcher (Starshot)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="aa98-65f5-4db3-0b88">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9" />
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Aeldari Missile Launcher (Sunburst)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="bebf-8f08-8755-e50d">
@@ -4683,7 +4656,7 @@ a) GUARDIAN DEFENDERS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>

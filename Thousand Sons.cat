@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3336-6a64-b87f-ab82" name="Thousand Sons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="14" revision="37" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3336-6a64-b87f-ab82" name="Thousand Sons" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="38" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Warpflame Pistol" hidden="false" id="9779-6b3e-5fd2-ee95">
       <profiles>
@@ -115,11 +115,11 @@
         <profile name="Warpflamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ef59-0571-1189-1b3e">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -152,7 +152,7 @@
         <profile name="Inferno Boltgun" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="eef5-1161-e05d-4b62">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -208,7 +208,7 @@
       <description>While this unit is not active, if your active unit with Psyker is within 18" of one or more units with Entwined Will, for each Psychic Test that unit makes, add 1 D6 to that Psychic Test.</description>
     </rule>
     <rule name="Inferno" id="188a-b70b-b086-9c0e" hidden="false">
-      <description>While any of your units with Psyker are within 18" of this unit, for each attack made for this weapon, that attack gains Shred and the Saving Throw for that attack is worsened by 1.</description>
+      <description>While any of your units with Psyker are within 18" of this unit, for each attack made for this weapon, that attack gains Shred and Pierce.</description>
     </rule>
   </sharedRules>
   <selectionEntries>
@@ -326,7 +326,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
         </profile>
         <profile name="Inferno" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="106b-f1d2-35eb-d344">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While any of your units with Psyker are within 18" of this unit, for each attack made for this weapon, that attack gains Shred and the Saving Throw for that attack is worsened by 1.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While any of your units with Psyker are within 18" of this unit, for each attack made for this weapon, that attack gains Shred and Pierce.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -361,7 +361,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
             <modifier type="set" value="Psyker (3)" field="name"/>
           </modifiers>
         </infoLink>
-        <infoLink name="Unstoppable" id="d2f8-f19a-4b1d-d4bd" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
         <infoLink name="Entwined Will" id="ab8a-e2b0-a7ea-1975" hidden="false" type="rule" targetId="5a20-9748-a65b-7e1f"/>
         <infoLink name="Baleful Arc" id="1209-1932-8556-f5bc" hidden="false" targetId="ccb8-77ea-04d9-04d3" type="profile"/>
         <infoLink name="Fly" id="7986-dbcf-abd9-3d70" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
@@ -416,9 +416,9 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
             <profile name="Discborn Exalted Sorcerer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d8ce-963b-b263-83fd">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -441,7 +441,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+            
           </characteristics>
         </profile>
         <profile name="Leader" typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="b981-8693-2c32-f5b1">
@@ -562,7 +562,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -655,7 +655,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -797,7 +797,7 @@ This unit does not count towards the leader maximum of the army list.</character
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -876,9 +876,9 @@ This unit does not count towards the leader maximum of the army list.</character
             <profile name="Scarab Occult Sorcerer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d9df-2117-b42e-406a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -952,7 +952,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">-</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -993,7 +993,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1086,7 +1086,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1166,9 +1166,9 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                 <profile name="Scarab Occult Terminator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="ae8a-241a-3cae-3f71">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1214,7 +1214,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1289,7 +1289,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
           </modifiers>
         </infoLink>
         <infoLink name="Fly" id="6375-8b9c-f480-1342" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
-        <infoLink name="Unstoppable" id="4a0a-fb30-48eb-9901" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
         <infoLink name="Forward Deploy" id="d56e-305c-af39-7717" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
         <infoLink name="Discs of Tzeentch" id="0e73-06c3-9ae5-cfbb" hidden="false" type="profile" targetId="d0e5-ac01-7a8b-b3d6"/>
         <infoLink name="Baleful Arc" id="6f1f-a1d1-4593-d60b" hidden="false" targetId="ccb8-77ea-04d9-04d3" type="profile"/>
@@ -1344,7 +1344,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">11</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1377,7 +1377,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1478,7 +1478,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
               </characteristics>
             </profile>
             <profile name="Mutalith Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3681-8c74-c6e5-ae47">
@@ -1487,8 +1487,8 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                 <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
               </characteristics>
             </profile>
             <profile name="Mutalith Vortex Beast" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="fed8-001b-3766-4a86">
@@ -1496,7 +1496,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1561,8 +1561,8 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                         <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
-                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
                         <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
                       </characteristics>
@@ -1637,11 +1637,11 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                     <profile name="Dreadnought Force Blade" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1223-30bd-393b-942a">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1735,7 +1735,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1749,7 +1749,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1763,11 +1763,11 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                     <profile name="Heavy Plasma Cannon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="dc19-3581-8289-cd21">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">9</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-                        <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                        <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Pierce</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge, Breach</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1839,9 +1839,9 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <profile name="Osiron Dreadnaught" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="664a-c231-ec8b-d921">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">5+</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">21</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -1882,7 +1882,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">4+</characteristic>
+            
           </characteristics>
         </profile>
       </profiles>
@@ -1907,7 +1907,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
       <profiles>
         <profile name="Shrieking Flight" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1bda-c52f-413f-1f83">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes an Advance, select one enemy unit it moved within 1" of during that Advance. The selected unit suffers 2 Suppression.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, roll a D6. On a 5+, all enemy units within engagement range of this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
         <profile name="Warp Jaws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="78f4-c440-81a1-b940">
@@ -1925,7 +1925,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">6+</characteristic>
+            
           </characteristics>
         </profile>
       </profiles>
@@ -1957,7 +1957,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">7+</characteristic>
+            
           </characteristics>
         </profile>
       </profiles>
@@ -2038,7 +2038,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Current Version: 3.3.8" hidden="false" id="f518-7102-a197-17ef" sortIndex="-1">
+    <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="f518-7102-a197-17ef" sortIndex="-1">
       <categoryLinks>
         <categoryLink name="Configuration" hidden="false" id="621a-7456-1d1d-1850" targetId="9cd6-0442-3f35-6b52" primary="true"/>
       </categoryLinks>
@@ -2058,7 +2058,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="c637-f90b-7376-e617" includeChildSelections="false"/>
       </constraints>
       <infoLinks>
-        <infoLink name="Unstoppable" id="8c45-d61d-72fd-d267" hidden="false" type="rule" targetId="9726-164b-d2c0-a58f"/>
+        
       </infoLinks>
       <profiles>
         <profile name="Hideous Mutations" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="a1a1-55f9-721c-14b6">
@@ -2076,7 +2076,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
             <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
             <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-            <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">3+</characteristic>
+            
           </characteristics>
         </profile>
       </profiles>
@@ -2102,10 +2102,10 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
           <profiles>
             <profile name="Seketar Robot" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="005f-41ce-68ab-592a">
               <characteristics>
-                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
-                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                <characteristic name="Rv" typeId="411f-3942-6dc0-7c06">2+</characteristic>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
+                
               </characteristics>
             </profile>
           </profiles>
@@ -2158,11 +2158,11 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                     <profile name="Heavy Warpflamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6188-b2fe-83cc-f506">
                       <characteristics>
                         <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-                        <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
+                        <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2195,7 +2195,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2281,16 +2281,12 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
     </profile>
     <profile name="Cabalistic Rituals" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="3fc0-f99e-3c3d-11d2">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your active unit is within 18” of this unit, that unit gains the following abilities:
-
-Arcane Endowment: For each Psychic Test this unit makes, add 1 D6 to that Psychic Test.
-
-Ruinous Spellcraft: For each SW an enemy unit suffers, the Saving Throw for that attack is worsened by 1.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your active unit is within 18" of this unit, that unit gains the following abilities:</characteristic>
       </characteristics>
     </profile>
     <profile name="Great Traitors’ Arsenal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="acbf3fa5-c07c-4cfd-a767-2b6445ebab99">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your army list from the “Chaos Space Marines” document.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may also add units to your army list from the"Chaos Space Marines" document. Unit &amp; Weapon Abilities:</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
