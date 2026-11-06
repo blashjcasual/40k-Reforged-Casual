@@ -1142,18 +1142,18 @@ This unit does not count towards the leader capacity of your army list.</charact
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry name="Gas Dispersion" id="f82b-5b08-a9ff-3f9d" hidden="false" import="true" type="upgrade">
+            <selectionEntry name="Gas Shells" id="f82b-5b08-a9ff-3f9d" hidden="false" import="true" type="upgrade">
               <constraints>
                 <constraint id="3c1f-c6bb-e7c5-300d" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="points" value="10"/>
+                <cost name="pts" typeId="points" value="20"/>
               </costs>
               <infoLinks>
                 <infoLink name="Suppressive" id="7596-14d5-1c5c-b373" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
               </infoLinks>
               <profiles>
-                <profile name="Gas Dispersion" id="0cc2-e67b-6cf6-3155" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
+                <profile name="Gas Shells" id="0cc2-e67b-6cf6-3155" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
                   <characteristics>
                     <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After selecting targets for its attacks, you may ‘load gas shells’. If you do, for each successful Hit Roll, the attack sequence ends and the target unit suffers Suppression X where X is equal to the Damage of that attack.</characteristic>
                   </characteristics>

@@ -1164,6 +1164,9 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bd90-a98c-f78b-8e4f" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0ac4-12a3-7231-4f92" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -1178,6 +1181,9 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="24b8-12f0-5b91-fec6" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="64e5-09a3-7db9-8c4f" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -1193,6 +1199,9 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a03e-bf0c-777f-84c1" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="081d-741f-5c9b-db15" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -1207,6 +1216,9 @@
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="81b6-72dc-4a64-cb6b" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="58a0-e1a1-5d57-3f81" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -1623,6 +1635,9 @@
                           </constraints>
                         </selectionEntry>
                       </selectionEntries>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20" />
+                      </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Ghostswords" hidden="false" id="2495-1398-f25c-aee3">
                       <profiles>
@@ -2312,7 +2327,7 @@ b) WINDRIDERS</characteristic>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="9105-ba69-27bc-f635" includeChildSelections="true" />
                       </constraints>
                       <costs>
-                        <cost name="pts" typeId="points" value="10" />
+                        <cost name="pts" typeId="points" value="20" />
                       </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Plasma Grenade" hidden="false" id="678b-33c2-7914-b58d">
@@ -3131,9 +3146,11 @@ b) WINDRIDERS</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c621-dfe1-325f-0c0b-min" includeChildSelections="false" />
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c621-dfe1-325f-0c0b-max" includeChildSelections="false" />
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="20" />
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <categoryLinks>
@@ -3972,6 +3989,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f6fe-d950-42ef-4e3e-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f6fe-d950-42ef-4e3e-max" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -3986,6 +4006,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6ae3-51a9-8f4a-1ac0-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6ae3-51a9-8f4a-1ac0-max" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -4001,6 +4024,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f2f1-0568-51da-c496-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f2f1-0568-51da-c496-max" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>
@@ -4015,6 +4041,9 @@ a) GUARDIAN DEFENDERS</characteristic>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="daf0-ad6d-8e64-5075-min" includeChildSelections="false" />
                         <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="daf0-ad6d-8e64-5075-max" includeChildSelections="false" />
                       </constraints>
+                      <costs>
+                        <cost name="pts" typeId="points" value="20" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntry>

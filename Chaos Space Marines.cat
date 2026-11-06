@@ -937,6 +937,21 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
             </selectionEntryGroup>
           </selectionEntryGroups>
         </selectionEntry>
+        <selectionEntry type="upgrade" import="true" name="Servo-Arm" hidden="false" id="a5d27ec6-0387-4e94-a478-d234314242aa">
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d3a4069a-e181-41fb-90e7-484b90cc9202" includeChildSelections="false" />
+          </constraints>
+          <profiles>
+            <profile name="Servo-Arm" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a9f88144-6174-4597-a5ad-ba34a0eaddc2">
+              <characteristics>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may select a friendly vehicle unit within 6&quot; of this unit. The selected unit Repairs D3.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10" />
+          </costs>
+        </selectionEntry>
       </selectionEntries>
       <infoLinks>
         <infoLink name="Teleport Homer" id="d101-028d-8fe3-14c7" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
@@ -2459,11 +2474,17 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                               </entryLinks>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Power Knife" hidden="true" id="888b-36cb-0d3d-ecd1">
+                              <constraints>
+                                <constraint type="max" value="4" field="selections" scope="unit" shared="true" id="e9620ab3-6ca8-4bc8-b6ab-90e37047c9a1" includeChildSelections="true" />
+                              </constraints>
+                              <costs>
+                                <cost name="pts" typeId="points" value="10" />
+                              </costs>
                               <profiles>
                                 <profile name="Power Knife" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="588a-5ac6-c4d4-4fc0">
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">5</characteristic>
+                                    <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
                                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -2951,7 +2972,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                   <characteristics>
                                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
                                     <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
                                     <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4</characteristic>
@@ -3139,7 +3160,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                     </entryLink>
                                   </entryLinks>
                                   <costs>
-                                    <cost name="pts" typeId="points" value="20" />
+                                    <cost name="pts" typeId="points" value="10" />
                                   </costs>
                                 </selectionEntry>
                               </selectionEntries>
@@ -4980,6 +5001,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                   </modifiers>
                                 </entryLink>
                               </entryLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="10" />
+                              </costs>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Combi-Bolter &amp; Combi-Plasma Gun" hidden="false" id="8625-9ed4-eb42-fbd8" sortIndex="3">
                               <entryLinks>
@@ -5004,6 +5028,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                   </modifiers>
                                 </entryLink>
                               </entryLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="10" />
+                              </costs>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="Combi-Bolter &amp; Combi-Meltagun" hidden="false" id="39d1-6e4f-e2de-327b" sortIndex="4">
                               <entryLinks>
@@ -5314,6 +5341,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                   </modifierGroups>
                                 </entryLink>
                               </entryLinks>
+                              <costs>
+                                <cost name="pts" typeId="points" value="10" />
+                              </costs>
                             </selectionEntry>
                             <selectionEntry type="upgrade" import="true" name="2x Combi-Bolter" hidden="false" id="a86f-7483-a9c7-d66f" sortIndex="3">
                               <selectionEntries>
@@ -5428,7 +5458,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                                 <infoLink name="Pierce" id="538e-c634-fbcb-7061" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
                               </infoLinks>
                               <costs>
-                                <cost name="pts" typeId="points" value="20" />
+                                <cost name="pts" typeId="points" value="10" />
                               </costs>
                             </selectionEntry>
                           </selectionEntries>

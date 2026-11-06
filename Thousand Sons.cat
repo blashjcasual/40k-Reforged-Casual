@@ -186,13 +186,13 @@
         <infoLink name="Daemonic" id="c5cf-019f-c0bf-2a22" hidden="false" type="rule" targetId="3b9e-8b58-9bed-fb98"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="upgrade" import="true" name="Hellfyre Missile Rack" hidden="false" id="a07c-9e2e-e7a1-2549">
+    <selectionEntry type="upgrade" import="true" name="Hellfyre Missile" hidden="false" id="a07c-9e2e-e7a1-2549">
       <profiles>
-        <profile name="Hellfyre Missile Rack" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4be3-dc43-6da4-256b">
+        <profile name="Hellfyre Missile" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4be3-dc43-6da4-256b">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno</characteristic>
@@ -1012,13 +1012,13 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                       </modifiers>
                     </entryLink>
                     <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="c43a-ecc2-65ae-2860" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="3">
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="ac2f-9348-1f18-05b8" includeChildSelections="true"/>
-                      </constraints>
-                    <modifiers>
-<modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-</modifiers>
-</entryLink>
+                      <modifiers>
+                        <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                      </modifiers>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
+                    </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
               </selectionEntryGroups>
@@ -1177,12 +1177,12 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                 </profile>
               </profiles>
               <entryLinks>
-                <entryLink targetId="a07c-9e2e-e7a1-2549" id="e359-40ba-c322-4ea3" type="selectionEntry" name="Hellfyre Missile Rack" hidden="false">
+                <entryLink targetId="a07c-9e2e-e7a1-2549" id="e359-40ba-c322-4ea3" type="selectionEntry" name="Hellfyre Missile" hidden="false">
                   <costs>
-                    <cost name="pts" typeId="points" value="20"/>
+                    <cost name="pts" typeId="points" value="10"/>
                   </costs>
                   <constraints>
-                    <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="bc59-809c-ff7d-ade8" includeChildSelections="true"/>
+                    <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="bc59-809c-ff7d-ade8" includeChildSelections="true"/>
                   </constraints>
                 </entryLink>
                 <entryLink import="true" name="Prosperine Khopesh" hidden="false" id="9e2d-8e98-95a8-48e1" type="selectionEntry" targetId="e554-5480-e062-1e72"/>
@@ -1204,14 +1204,14 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                     <selectionEntryGroup name="Other" id="9c98-8e2d-c757-06f0" hidden="false">
                       <entryLinks>
                         <entryLink import="true" name="Soulreaper Cannon" hidden="false" id="2389-1f7c-5352-d7b5" type="selectionEntry" targetId="60f6-5a0d-8af6-34b5" sortIndex="2">
-<modifiers>
-<modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-</modifiers>
-</entryLink>
+                          <modifiers>
+                            <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                          </modifiers>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
+                        </entryLink>
                       </entryLinks>
-                      <constraints>
-                        <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="0c2f-d5ac-58f8-035d" includeChildSelections="true"/>
-                      </constraints>
                       <selectionEntries>
                         <selectionEntry type="upgrade" import="true" name="Heavy Warpflamer" hidden="false" id="cf57-512c-f276-5a5c" sortIndex="1">
                           <profiles>
@@ -1232,6 +1232,9 @@ b) TZAANGOR ENLIGHTENED</characteristic>
                           <infoLinks>
                             <infoLink name="Ignore Cover" id="e408-ad50-c1d0-c7af" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
                           </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>

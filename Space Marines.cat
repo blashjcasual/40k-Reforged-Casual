@@ -3104,7 +3104,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
                     </selectionEntry>
                   </selectionEntries>
                   <entryLinks>
-                    <entryLink import="true" name="Inferno Pistol " hidden="false" id="a437-ebad-f33c-17fd" type="selectionEntry" targetId="cddf-3a99-f266-f50a">
+                    <entryLink import="true" name="Inferno Pistol" hidden="false" id="a437-ebad-f33c-17fd" type="selectionEntry" targetId="cddf-3a99-f266-f50a">
                       <constraints>
                         <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="8a31-4fbb-ec91-bf86" includeChildSelections="true" />
                       </constraints>
@@ -3112,6 +3112,9 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
                       <modifiers>
                         <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="3"/>
                       </modifiers>
+                      <costs>
+                        <cost name="pts" typeId="points" value="10" />
+                      </costs>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>

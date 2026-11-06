@@ -472,7 +472,11 @@ b) BREACHER TEAM</characteristic>
                     </modifierGroup>
                   </modifierGroups>
                 </entryLink>
-                <entryLink import="true" name="Photon Grenade Launcher" hidden="false" id="e0a8-adfe-88e5-73ca" targetId="81d0-0b5f-48f7-f1c0" type="selectionEntry" />
+                <entryLink import="true" name="Photon Grenade Launcher" hidden="false" id="e0a8-adfe-88e5-73ca" targetId="81d0-0b5f-48f7-f1c0" type="selectionEntry" >
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntry>
             <selectionEntry type="model" import="true" name="Recon Drone" hidden="false" id="c29d-6001-3f99-1f51">
@@ -578,7 +582,11 @@ b) BREACHER TEAM</characteristic>
                         </modifierGroup>
                       </modifierGroups>
                       <entryLinks>
-                        <entryLink targetId="81d0-0b5f-48f7-f1c0" id="31d7-baf7-680a-5c06" type="selectionEntry" name="Photon Grenade Launcher" hidden="false" />
+                        <entryLink targetId="81d0-0b5f-48f7-f1c0" id="31d7-baf7-680a-5c06" type="selectionEntry" name="Photon Grenade Launcher" hidden="false" >
+                          <costs>
+                            <cost name="pts" typeId="points" value="20" />
+                          </costs>
+                        </entryLink>
                       </entryLinks>
                     </entryLink>
                   </entryLinks>
@@ -603,6 +611,9 @@ b) BREACHER TEAM</characteristic>
                             <infoLink name="Hunt" id="bf4c-e262-6771-10f3" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805" />
                             <infoLink name="Pierce" id="1f1e-f6a0-ccf8-f326" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
                           </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
                         </selectionEntry>
                         <selectionEntry type="upgrade" import="true" name="Ion Rifle" hidden="false" id="6bb2-21b8-8082-6e71">
                           <profiles>
@@ -620,6 +631,9 @@ b) BREACHER TEAM</characteristic>
                           <infoLinks>
                             <infoLink name="Overcharge" id="d33d-0972-6737-70d8" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8" />
                           </infoLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                       <constraints>
@@ -1773,6 +1787,9 @@ b) BREACHER TEAM</characteristic>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="3b7d-c660-cfd3-34cf" includeChildSelections="true" />
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntryGroups>
@@ -1954,6 +1971,9 @@ b) BREACHER TEAM</characteristic>
                   <constraints>
                     <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="094e-5f0c-f0e3-cb54" includeChildSelections="true" />
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="20" />
+                  </costs>
                 </entryLink>
               </entryLinks>
               <selectionEntries>

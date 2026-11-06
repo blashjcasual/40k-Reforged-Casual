@@ -1583,6 +1583,9 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
 <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
 </modifiers>
+  <costs>
+    <cost name="pts" typeId="points" value="10" />
+  </costs>
 </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>

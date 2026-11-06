@@ -122,7 +122,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10" />
+                        <cost name="pts" typeId="points" value="20" />
                       </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Haywire Grenade" hidden="false" id="4a69-e3ad-a92f-eea3" sortIndex="2">
@@ -139,7 +139,7 @@
                         </entryLink>
                       </entryLinks>
                       <costs>
-                        <cost name="pts" typeId="points" value="10" />
+                        <cost name="pts" typeId="points" value="20" />
                       </costs>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Prismatic Grenade" hidden="false" id="a23e-6b4c-f7ec-ec28" sortIndex="3">
@@ -229,7 +229,7 @@
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="123b9342-1e27-4b2a-8d1f-d7c902981f20" includeChildSelections="false" />
                           </constraints>
                           <selectionEntries>
-                        <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="58c1-6b8e-b31f-a120" sortIndex="1">
+                            <selectionEntry type="upgrade" import="true" name="Fusion Pistol" hidden="false" id="58c1-6b8e-b31f-a120" sortIndex="1">
                           <entryLinks>
                             <entryLink import="true" name="Fusion Pistol" hidden="false" id="dd2c-ef44-22c7-3da0" type="selectionEntry" targetId="2a6b-b034-37f1-59fa">
                               <modifiers>
@@ -242,8 +242,11 @@
                               </constraints>
                             </entryLink>
                           </entryLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
                         </selectionEntry>
-                        <selectionEntry type="upgrade" import="true" name="Neuro Disruptor" hidden="false" id="cedf-a4e5-5cb8-a5ad" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Neuro Disruptor" hidden="false" id="cedf-a4e5-5cb8-a5ad" sortIndex="2">
                           <entryLinks>
                             <entryLink import="true" name="Neuro Disruptor" hidden="false" id="0ae5-2dde-5d77-9dc6" type="selectionEntry" targetId="7dc0-1f7b-a49c-295b">
                               <modifiers>
@@ -256,6 +259,9 @@
                               </constraints>
                             </entryLink>
                           </entryLinks>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10" />
+                          </costs>
                         </selectionEntry>
                           </selectionEntries>
                         </selectionEntryGroup>
@@ -711,7 +717,7 @@ c) TWILIGHT TROUPE</characteristic>
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="10" />
+                    <cost name="pts" typeId="points" value="20" />
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Haywire Grenade" hidden="false" id="cee4-6435-c301-73ea" sortIndex="2">
@@ -728,7 +734,7 @@ c) TWILIGHT TROUPE</characteristic>
                     </entryLink>
                   </entryLinks>
                   <costs>
-                    <cost name="pts" typeId="points" value="10" />
+                    <cost name="pts" typeId="points" value="20" />
                   </costs>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Prismatic Grenade" hidden="false" id="4e86-0262-267e-75f3" sortIndex="3">
