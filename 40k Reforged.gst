@@ -156,7 +156,7 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
     </profile>
     <profile name="Covering Fire" id="2415-711c-9ad6-01b3" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8? of this unit, this unit?s ranged weapons gain Suppressive.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While there are one or more friendly infantry units within 8&quot; of this unit, this unit's ranged weapons gain Suppressive.</characteristic>
       </characteristics>
     </profile>
     <profile name="Jet Pack" id="38d0-b778-7525-f239" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -240,7 +240,7 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
       <description>After selecting the target for this weapon, roll 2D6. Then select all other enemy units within X? of the selected target, where X is the result of that roll. Also make attacks for this weapon targeting each of the selected units (ignoring normal targeting restrictions).</description>
     </rule>
     <rule name="Suppressive" id="aed3-e154-8fa2-5378" hidden="false">
-      <description>After this unit?s Attacks step, each unit hit by an attack made for this weapon this turn gains Suppressed.</description>
+      <description>After this unit's Attacks step, each unit hit by an attack made for this weapon this turn gains Suppressed.</description>
     </rule>
     <rule name="Rearm" id="0c06-9eed-2a45-b772" hidden="false">
       <description>After making attacks for this weapon, you may not make attacks for it until you ‘reload’. To reload, the unit with this weapon must end its turn within your deployment zone during a battle round in which you didn’t make attacks for this weapon.</description>
@@ -306,7 +306,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       <description>For each attack made for this weapon, the Saving Throw for that attack is worsened by 1.</description>
     </rule>
     <rule name="Suppressed" id="63abdc13-f443-4f0b-8f25-e0222fad9ba7" hidden="false">
-      <description>This unit?s Sv is worsened by 1. After any enemy unit?s Attacks step, this unit loses this ability.</description>
+      <description>This unit's Sv is worsened by 1. After any enemy unit's Attacks step, this unit loses this ability.</description>
     </rule>
   </sharedRules>
   <sharedSelectionEntries>
@@ -11240,7 +11240,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       <profiles>
         <profile name="Smoke Launchers" id="05b6-0208-cd8f-0a67" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may roll a D6. On a 3+, each ranged attack targeting this unit suffers a -1 penalty to its Hit Roll and you cannot roll for this ability again until the next battle round.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may roll a D6. On a 3+, until the end of the battle round, for each ranged attack that targets this unit, the Hit Roll for that attack is worsened by 1, and you cannot roll for this ability until the next battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11263,13 +11263,6 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       </profiles>
     </selectionEntry>
     <selectionEntry name="Autocannon" id="a636-c9c9-ad6d-6db0" hidden="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink name="Suppressive" id="312a-9a55-63b9-e2fc" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
-          <modifiers>
-            <modifier field="name" type="set" value="Suppressive (2)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <profiles>
         <profile name="Autocannon" id="8569-dde5-8e37-1b1c" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
@@ -11278,7 +11271,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 2</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -11286,11 +11279,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
     <selectionEntry name="Haywire Grenade" id="70d9-3670-51f4-ae16" hidden="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink name="Haywire" id="6db5-e03b-a8f8-2641" hidden="false" targetId="0c93-fe53-7091-88d0" type="rule"/>
-        <infoLink name="Suppressive" id="e3fa-9ad1-c075-f35a" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule">
-          <modifiers>
-            <modifier field="name" type="set" value="Suppressive (2)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink name="Suppressive" id="e3fa-9ad1-c075-f35a" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
         <infoLink name="Indirect" id="2512-df36-d64f-600d" hidden="false" targetId="4de2-ca68-9af9-1b10" type="rule"/>
         <infoLink name="Rearm" id="4e2a-7bca-e454-50ff" hidden="false" targetId="0c06-9eed-2a45-b772" type="rule"/>
       </infoLinks>
@@ -11771,9 +11760,6 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       </profiles>
     </selectionEntry>
     <selectionEntry name="Heavy Stubber" id="4b7a-633d-1e19-061d" hidden="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink name="Suppressive" id="0518-9ff2-dbf9-c631" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
-      </infoLinks>
       <profiles>
         <profile name="Heavy Stubber" id="03cb-fed2-48f7-2679" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
@@ -11782,7 +11768,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <characteristic name="WS" typeId="459f-6890-e77f-b62f"/>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive 1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>

@@ -2537,7 +2537,6 @@ GARGOYLES</characteristic>
                           </profiles>
                           <infoLinks>
                             <infoLink name="Blast (X)" id="012e-3e0c-9ab2-352c" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-                            <infoLink name="Suppressive" id="9ed7-e495-247a-4f79" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                           </infoLinks>
                           <costs>
                             <cost name="pts" typeId="points" value="10" />

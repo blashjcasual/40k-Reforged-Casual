@@ -1274,7 +1274,7 @@
       </selectionEntries>
       <infoLinks>
         <infoLink name="Astartes Battleline" id="4bb8-cea7-4834-893e" hidden="false" type="profile" targetId="0181-7b67-dc1a-9ea1" />
-        <infoLink name="Suppressive" id="8e68-7893-80bc-a0f7" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="8e68-7893-80bc-a0f7" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
       </infoLinks>
       <profiles>
         <profile name="Close Support" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5b57-ac2c-ca2e-4574">
@@ -2505,7 +2505,6 @@ Unnerved:Â For each attack that targets this unit, that attack gainsÂ Suppressiv
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive" id="3dd8-7621-be9a-4111" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="34d7-04fe-0fe4-27d4-min" includeChildSelections="false" />
@@ -3125,7 +3124,7 @@ Stunned: After this unit Activates, if it has Suppressed X, roll a D6. If the re
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Jet Pack" id="450f-8e09-3cbc-b415" hidden="false" type="profile" targetId="38d0-b778-7525-f239" />
-        <infoLink name="Suppressive" id="23b5-7501-b076-315d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="23b5-7501-b076-315d" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         
         <infoLink name="Fly" id="bce0-d3fc-8564-0c07" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
@@ -4290,7 +4289,7 @@ b) JUMP PACK CHAPLAIN</characteristic>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Astartes Battleline" id="5e35-3a09-9b0e-d9f5" hidden="false" type="profile" targetId="0181-7b67-dc1a-9ea1" />
-        <infoLink name="Suppressive" id="bc27-a008-a03c-eb42" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="bc27-a008-a03c-eb42" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
       </infoLinks>
       <profiles>
         <profile name="Relentless Exuberance" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7ac1-346d-531c-f75d">
@@ -5532,7 +5531,6 @@ c) PHOBOS LIEUTENANT</characteristic>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive" id="e9be-2518-8291-c9ba" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Grav Flux Bombard" hidden="false" id="0e45-efd0-4607-5f60" sortIndex="3">
@@ -8543,7 +8541,6 @@ Icy Chill: For each Move Roll made for this unit, discard the highest result ofÂ
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive" id="4ece-929a-5299-bc61" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Blast (X)" id="40d0-b839-a4b4-65ab" hidden="true" type="rule" targetId="308a-e96e-90f7-855e">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -9372,15 +9369,6 @@ Icy Chill: For each Move Roll made for this unit, discard the highest result ofÂ
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="force" childId="22ae-1fb4-b388-d475" shared="true" includeChildSelections="true" childName="Ultramarines" />
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
-        <infoLink name="Suppressive" id="42be-b2f6-13d3-09d2" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="6e28-72e3-f8fe-a6d3" shared="true" includeChildSelections="true" childName="Space Wolves" />
               </conditions>
             </modifier>
           </modifiers>

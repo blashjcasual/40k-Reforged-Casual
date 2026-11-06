@@ -275,7 +275,6 @@ Your Army List may include one unit with ‘WARBOSS’ in the name</characterist
         <infoLink name="Ge’ In Dere!" id="19e4-68fa-923e-e72c" hidden="false" type="profile" targetId="ad82-3c2d-6494-820e"/>
         <infoLink name="WAAAGH!" id="441c-786d-df14-01a9" hidden="false" type="profile" targetId="c9f0-afe5-0f2c-c9b1"/>
         <infoLink name="Solid Greenskin" id="ed78-7657-e11b-41ea" hidden="false" type="profile" targetId="c35f-6848-d4c4-faeb"/>
-        <infoLink name="Suppressive" id="2d5d-9a1f-118a-b9e5" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Resilient (X)" id="7438-f83f-5543-5a82" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name"/>
@@ -3016,7 +3015,6 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="04de-bcf8-652c-99bc" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Dakka" id="f234-a8f2-61d6-bead" hidden="false" type="rule" targetId="0c95-a6ed-a147-6b41"/>
       </infoLinks>
     </selectionEntry>
@@ -3908,7 +3906,6 @@ WAAAAGH!: For each attack that targets this unit, reroll Resilient Rolls of 1 f
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="bf37-cd29-ba2d-4e05" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pintle/Hull Shoota" hidden="false" id="986c-c0af-7239-5721">

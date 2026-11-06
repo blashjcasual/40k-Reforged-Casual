@@ -859,7 +859,6 @@
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="bfc9-33c8-4e5e-9e47" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Twin Heavy Bolter" hidden="false" id="d51b-7a80-0907-f079">

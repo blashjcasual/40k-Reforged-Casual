@@ -13,7 +13,6 @@
       <infoLinks>
         <infoLink name="Festering Advance" id="bd5b-10f4-800e-8d6f" hidden="false" type="profile" targetId="944e-46dd-e901-73d1" />
         <infoLink name="Nurgle’s Fruit" id="41f8-82ad-bf04-0885" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
-        <infoLink name="Suppressive" id="f752-2932-fc36-2191" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Putrid" id="95c0-8f26-f5d5-8862" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Nurgle’s Gifts" id="9809-c380-c147-1088" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Great Traitors’ Arsenal" id="1745-f363-5cb2-aeac" hidden="false" targetId="8a538810-7ab2-4640-a4f9-d3d0e20d85b5" type="profile" />
@@ -61,7 +60,6 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="8ed9-cf1a-2baa-0078" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="b304-9670-943c-b044" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
     </selectionEntry>
@@ -127,7 +125,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="4098-dbe8-9e9a-4e6a" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="4098-dbe8-9e9a-4e6a" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Putrid" id="247f-288a-97bc-9f04" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Indirect" id="5a36-d20e-71b1-32f5" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
         <infoLink name="Barrage" id="5d6e-9196-06a2-f588" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
@@ -358,7 +356,6 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Nurgle’s Gifts" id="347b-de2a-af54-8453" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Putrid" id="169b-f65b-f063-a7d2" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
         <infoLink name="Ignore Cover" id="79c5-cc8f-3abb-2fa7" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
-        <infoLink name="Suppressive" id="e7fa-35f0-3b4d-cce0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="70" />
@@ -813,7 +810,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Nurgle’s Gifts" id="a7d8-1b2b-1b35-08e8" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="dca7-1c9a-216c-9915" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="dca7-1c9a-216c-9915" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Resilient (X)" id="47a0-f6ca-8931-715a" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name" />
@@ -919,7 +916,6 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Nurgle’s Gifts" id="ec88-ea6a-f92e-e377" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="4cd2-1a59-fb07-ea28" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Resilient (X)" id="2bf1-14d0-64d4-c80c" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
             <modifier type="set" value="Resilient (5+)" field="name" />
@@ -1013,7 +1009,6 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Plaguebringers" id="9d5f-7b6b-f81e-2d82" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
         <infoLink name="Forward Deploy" id="6d03-13f4-23c1-e83b" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         <infoLink name="Nurgle’s Gifts" id="d7e2-df1e-5e76-02f5" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="a658-19a1-3659-29a9" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Fruit" id="3ef2-509e-53a5-64f3" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
       </infoLinks>
       <selectionEntryGroups>
@@ -2246,7 +2241,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="1f7c-e184-e314-1557" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="1f7c-e184-e314-1557" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Blightlord Terminators" hidden="false" id="35ec-7f14-6b26-12cc" sortIndex="3">
@@ -2264,7 +2259,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         </infoLink>
         <infoLink name="Teleport Homer" id="7752-d870-6e93-fc72" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Nurgle’s Gifts" id="d063-d687-f13a-4c3f" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="a4a6-12a7-8272-e09e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Heavy Armour" id="a959-60b0-5980-15be" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
       <selectionEntryGroups>
@@ -2449,7 +2443,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         </infoLink>
         <infoLink name="Teleport Homer" id="ceb5-ed3c-07f0-31c5" hidden="false" type="profile" targetId="77ce-0080-b298-0daa" />
         <infoLink name="Nurgle’s Gifts" id="38c2-9825-7ea6-34b2" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
-        <infoLink name="Suppressive" id="5801-5a40-ea6a-c998" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Heavy Armour" id="c200-d4ef-10b9-d97d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
         
       </infoLinks>
@@ -2523,7 +2516,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
           </modifiers>
         </infoLink>
         <infoLink name="Plaguebringers" id="51e3-b81f-ea3d-4601" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
-        <infoLink name="Suppressive" id="15ac-d2fe-0ef3-4674" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Fruit" id="881a-365c-e6b0-3e4b" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
         <infoLink name="Nurgle’s Gifts" id="7d4a-9ddd-d5bb-3706" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
       </infoLinks>
@@ -2682,7 +2674,6 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
           </modifiers>
         </infoLink>
         <infoLink name="Plaguebringers" id="6eff-1f9d-c903-9b37" hidden="false" type="profile" targetId="1678-14a0-a939-cba2" />
-        <infoLink name="Suppressive" id="472d-01ee-1b27-0e6c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Nurgle’s Gifts" id="113a-329f-4911-e869" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Nurgle’s Fruit" id="7809-9da7-95dd-36d0" hidden="false" type="profile" targetId="2bc0-64a5-bf4e-b19c" />
       </infoLinks>
@@ -2941,7 +2932,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <infoLink name="Forward Deploy" id="67e5-d5d4-9475-18d6" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
         <infoLink name="Nurgle’s Gifts" id="a572-82e5-cd54-e962" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
         <infoLink name="Putrid" id="4831-b92b-2d82-451e" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
-        <infoLink name="Suppressive" id="cb14-3504-658c-3e15" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="cb14-3504-658c-3e15" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Poxwalkers" id="0a66-177d-89b1-7e4d" hidden="false" defaultSelectionEntryId="c3ec-c783-bb74-5290">
@@ -3117,10 +3108,17 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">attacks once per battle round.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Blast 6, Putrid, Suppressive. This weapon can only select targets for its attacks once per battle round.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+      <infoLink name="Indirect" id="a6c4a0f4-4f66-45a3-9e3b-44df38400afe" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
+      <infoLink name="Barrage" id="80caa51b-9308-44b0-b301-bcd9ed52b96a" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
+      <infoLink name="Blast (X)" id="0c8b6a61-0a40-4190-8c59-02f18045e717" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+      <infoLink name="Putrid" id="b5828f8c-bcc1-4d19-8f91-27ec227b1e34" hidden="false" type="rule" targetId="5262-b1f5-26c7-19b6" />
+      <infoLink name="Suppressive" id="42632068-cac5-4e16-a8ed-c46c76c9980d" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Entropy Cannons" hidden="false" id="caa5-01d2-06d6-ea78">
       <profiles>

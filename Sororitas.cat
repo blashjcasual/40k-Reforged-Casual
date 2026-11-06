@@ -88,7 +88,7 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressed" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Critical Hits X+" id="3642-b1d5-0cfa-d0c1" hidden="false" type="rule" targetId="fff4-3f9d-5d2d-4cf9"/>
         <infoLink name="Ignore Cover" id="d8bb-2e5c-3559-44f2" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
         <infoLink name="Blast (X)" id="4e85-5fde-892c-1566" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
@@ -644,7 +644,7 @@ c) RETRIBUTORS</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Resilient (X)" id="832b-4514-141c-e04e" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e"/>
-        <infoLink name="Suppressive" id="a9d2-e771-6b7b-ea2f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
+        <infoLink name="Suppressed" id="a9d2-e771-6b7b-ea2f" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Dialogus" hidden="false" id="13e7-bbfe-bf9a-3562">

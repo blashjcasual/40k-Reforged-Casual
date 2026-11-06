@@ -184,7 +184,6 @@ This unit may instead not attach to anything.</characteristic>
                     </profile>
                   </profiles>
                   <infoLinks>
-                    <infoLink name="Suppressive" id="18e3-d8c7-473e-1b8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                   </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Phosphor Serpenta" hidden="false" id="a411-1528-b5c3-374d" sortIndex="2">
@@ -2423,7 +2422,6 @@ b) SKITARII VANGUARDS</characteristic>
                         </profile>
                       </profiles>
                       <infoLinks>
-                        <infoLink name="Suppressive" id="0e75-aa43-f450-0707" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
                       </infoLinks>
                     </selectionEntry>
                     <selectionEntry type="upgrade" import="true" name="Flechette Blaster" hidden="false" id="c033-bf50-34f1-dbbd" sortIndex="2">
@@ -2574,7 +2572,6 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="a779-0d22-a659-1fdf" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
         <infoLink name="Covering Fire" id="550c-2f77-78f1-08fe" hidden="false" type="profile" targetId="2415-711c-9ad6-01b3"/>
         <infoLink name="Transport" id="528c-96ee-5638-86bf" hidden="false" type="rule" targetId="d78d-24c6-e7a9-e94f"/>
       </infoLinks>

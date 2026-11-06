@@ -487,7 +487,6 @@ Your army list may have only one SHIELD-CAPTAIN, SHIELD-CAPTAIN IN ALLARUS ARMOU
         <infoLink name="Titan" id="c471-9be3-28ff-f889" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/>
         <infoLink name="Heavy Armour" id="cbe8-ba80-4fc5-a41b" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
         <infoLink name="Teleport Homer" id="f763-d298-c8fa-01fe" hidden="false" type="profile" targetId="77ce-0080-b298-0daa"/>
-        <infoLink name="Suppressive" id="61e2-8357-3dff-d681" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378"/>
       </infoLinks>
       <profiles>
         <profile name="Teleport Beacon" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5cef-1692-2572-eb92">

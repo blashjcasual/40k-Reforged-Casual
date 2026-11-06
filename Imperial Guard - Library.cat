@@ -1155,7 +1155,7 @@ This unit does not count towards the leader capacity of your army list.</charact
               <profiles>
                 <profile name="Gas Shells" id="0cc2-e67b-6cf6-3155" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After selecting targets for its attacks, you may ‘load gas shells’. If you do, for each successful Hit Roll, the attack sequence ends and the target unit suffers Suppression X where X is equal to the Damage of that attack.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After you select targets for this unit’s ranged weapon, you may ‘load gas shells’. If you do, for each attack made for this unit this turn, that attack gains Suppressive.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1301,7 +1301,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Indirect, Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 4 SW.</characteristic>
           </characteristics>
         </profile>
         <profile name="Valkyrie Multi-Laser" id="6c50-8d0d-1fcc-baa5" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
@@ -2664,7 +2664,6 @@ This unit does not count towards the leader capacity of your army list.</charact
             <cost name="pts" typeId="points" value="10"/>
           </costs>
           <infoLinks>
-            <infoLink name="Suppressive" id="4696-a086-154c-6aee" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
           </infoLinks>
           <profiles>
             <profile name="Explosive Mines" id="037a-c0f8-340e-f9dc" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -4360,7 +4359,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">6</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 4 SW.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4373,12 +4372,12 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <cost name="pts" typeId="points" value="20"/>
               </costs>
               <infoLinks>
-                <infoLink name="Breach" id="6823-9cfb-12b0-2c30" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
+                <infoLink name="Pierce" id="6823-9cfb-12b0-2c30" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Armour Piercing High Explosive Shells" id="e0d4-22e6-5cc0-dd05" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, you may have its Earthshaker Cannon weapon lose Suppressive and gain Breach until the End step.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, you may have its Twin Earthshaker Cannon weapon lose Suppressive and gain Pierce until the End step.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5175,7 +5174,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 2 SW.</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 4 SW.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5208,12 +5207,12 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <cost name="pts" typeId="points" value="10"/>
               </costs>
               <infoLinks>
-                <infoLink name="Breach" id="5ab8-9c0e-c4c5-c349" hidden="false" targetId="265b-df47-6a5e-4d1c" type="rule"/>
+                <infoLink name="Pierce" id="5ab8-9c0e-c4c5-c349" hidden="false" targetId="f61d-729a-ad35-ab97" type="rule"/>
               </infoLinks>
               <profiles>
                 <profile name="Armour Piercing High Explosive Shells" id="b7f7-e5ee-0c9a-31da" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, you may have its Earthshaker Cannon weapon lose Suppressive and gain Breach until the End step.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, you may have its Earthshaker Cannon weapon lose Suppressive and gain Pierce until the End step.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5500,7 +5499,6 @@ This unit does not count towards the leader capacity of your army list.</charact
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
                     <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                     <modifier affects="profiles.Weapon" field="571c-0471-2614-c57c" type="set" value="2"/>
-                    <modifier affects="profiles.Weapon" field="d93f-70ee-72bc-5ef9" type="set" value="Suppressive"/>
                   </modifiers>
                 </entryLink>
               </entryLinks>
@@ -5779,9 +5777,6 @@ This unit does not count towards the leader capacity of your army list.</charact
       </profiles>
     </selectionEntry>
     <selectionEntry name="Autocannon" id="e11a-6ed1-3ae6-3569" hidden="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink name="Suppressive" id="aa86-1899-8b86-accb" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
-      </infoLinks>
       <profiles>
         <profile name="Autocannon" id="5643-c7c6-7d59-a7e1" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
@@ -5790,7 +5785,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -5935,9 +5930,6 @@ This unit does not count towards the leader capacity of your army list.</charact
       </profiles>
     </selectionEntry>
     <selectionEntry name="Heavy Stubber" id="b546-4d8a-e74d-e80d" hidden="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink name="Suppressive" id="1035-6d35-dfda-4d24" hidden="false" targetId="aed3-e154-8fa2-5378" type="rule"/>
-      </infoLinks>
       <profiles>
         <profile name="Heavy Stubber" id="06aa-5288-20b4-0e98" hidden="false" typeId="2dff-53d0-6d25-8c59" typeName="Weapon">
           <characteristics>
@@ -5946,7 +5938,7 @@ This unit does not count towards the leader capacity of your army list.</charact
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>

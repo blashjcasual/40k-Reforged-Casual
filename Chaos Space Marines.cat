@@ -2140,7 +2140,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive" id="47d1-aa92-3e81-b5c1" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
+        <infoLink name="Suppressed" id="47d1-aa92-3e81-b5c1" hidden="true" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7">
           <modifiers>
             <modifier type="set" value="false" field="hidden">
               <conditions>
@@ -2197,6 +2197,13 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
       <costs>
         <cost name="pts" typeId="points" value="130" />
       </costs>
+      <modifiers>
+        <modifier type="increment" value="10" field="points">
+          <conditions>
+            <condition type="atLeast" value="1" field="selections" scope="unit" childId="888b-36cb-0d3d-ecd1" shared="true" includeChildSelections="true" />
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="f605-3529-64e4-a4b0" primary="false" name="Infantry" />
         <categoryLink targetId="b69b-5b51-faf1-2c40" id="35d2-7d2d-aef2-2c3c" primary="true" name="Troops" />
@@ -2478,7 +2485,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                                 <constraint type="max" value="4" field="selections" scope="unit" shared="true" id="e9620ab3-6ca8-4bc8-b6ab-90e37047c9a1" includeChildSelections="true" />
                               </constraints>
                               <costs>
-                                <cost name="pts" typeId="points" value="10" />
+                                <cost name="pts" typeId="points" value="0" />
                               </costs>
                               <profiles>
                                 <profile name="Power Knife" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="588a-5ac6-c4d4-4fc0">
@@ -6124,7 +6131,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Jet Pack" id="cd26-4c8e-4f9e-987b" hidden="false" type="profile" targetId="38d0-b778-7525-f239" />
-        <infoLink name="Suppressive" id="3893-3fd1-c501-db54" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Fly" id="c6f3-9fb0-457f-1456" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
       </infoLinks>
       <profiles>
@@ -7317,7 +7323,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                     <profile name="Hades Autocannon Right" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b4fd-e8ec-08f2-9650">
@@ -7327,13 +7333,10 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Suppressive</characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
-                  <infoLinks>
-                    <infoLink name="Suppressive" id="feb5-e162-ff9b-4e8c" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
-                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Ectoplasma Cannons" hidden="false" id="c574-78b2-6e37-73b0" sortIndex="2">
                   <profiles>
@@ -7599,7 +7602,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="19e0-5e30-601d-e87e" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Predator Twin Lascannon" hidden="false" id="43b2-3610-cca5-fdbb">
@@ -7783,7 +7785,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="f1e0-42ad-d175-96f6" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Dual Heavy Bolter" hidden="false" id="a2d5-b0fb-0050-ed53">
@@ -7922,7 +7923,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Suppressive" id="0ce3-dd14-e7b7-34e3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Grav Flux Bombard" hidden="false" id="6c9c-c0fa-745e-1614">
@@ -7993,10 +7993,14 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Wound Roll made for this weapon's attacks, the target unit suffers 2 SW.</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Barrage, Suppressive, For each successful Wound Roll made for this weapon's attacks, the target unit suffers 4 SW.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Barrage" id="703824f5-94c8-4600-875d-9e92b225f501" hidden="false" type="rule" targetId="9cfc-06e3-74c6-ad83" />
+        <infoLink name="Suppressive" id="28e6b98b-3e60-456b-b22a-6b48087ec17f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+      </infoLinks>
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Dreadnought" hidden="false" id="4b22-17c7-e650-3ff9" sortIndex="1">
       <costs>
@@ -8333,7 +8337,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <profiles>
         <profile name="Artillery Support" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bf57-07d2-7802-d4b2">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Earthshaker Cannon, you may 'call for an artillery strike'. If you do, select one of your not ready infantry units within 24" of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Earthshaker Cannon, you may 'call for an artillery strike'. If you do, select one of your not ready infantry units within 24&quot; of this unit. Then, you may instead target an enemy unit within 24&quot; of and visible to your selected unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8353,6 +8357,33 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
               </characteristics>
             </profile>
           </profiles>
+          <entryLinks>
+            <entryLink import="true" name="Smoke Launchers" hidden="false" id="41768258-3134-4d29-a997-b134223da2d0" type="selectionEntry" targetId="d653-3fc2-d577-6295">
+              <costs>
+                <cost name="pts" typeId="points" value="10" />
+              </costs>
+            </entryLink>
+          </entryLinks>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Armour Piercing High Explosive Shells" hidden="false" id="c23c42a7-2ea5-43d2-863d-17b2f7b7b1d1">
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="edc43ee8-f435-4f7f-8750-a1b657041e6b" includeChildSelections="false" />
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="10" />
+              </costs>
+              <infoLinks>
+                <infoLink name="Pierce" id="d788dafa-5d01-458d-8ff6-9bddeb352a43" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+              </infoLinks>
+              <profiles>
+                <profile name="Armour Piercing High Explosive Shells" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8c209a70-736c-4b1c-8cee-e1f7a043d114">
+                  <characteristics>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, you may have its Earthshaker Cannon weapon lose Suppressive and gain Pierce until the End step.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -8477,7 +8508,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           </profiles>
           <infoLinks>
             <infoLink name="Resilient (X)" id="ac9b-00b2-481c-bbaf" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
-            <infoLink name="Suppressive" id="5020-cd26-4dfc-6dc8" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Disciple of Slaanesh" hidden="false" id="ed37-5f6a-c35d-ccce" sortIndex="3">
@@ -8514,7 +8544,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Suppressive" id="4558-1a50-ba7b-5a86" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressed" id="4558-1a50-ba7b-5a86" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Disciple of Tzeentch" hidden="false" id="623c-435e-4705-c5b6" sortIndex="1">
@@ -8551,7 +8581,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink name="Suppressive" id="e431-5691-a07f-89d3" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
           </infoLinks>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Undivided" hidden="false" id="e351-8cb4-3322-b80b" sortIndex="4">
@@ -8590,7 +8619,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           <infoLinks>
             <infoLink name="Heal/Repair (X)" id="d933-803f-bf5d-6595" hidden="false" type="rule" targetId="02c8-1ec5-cdab-2572" />
             <infoLink name="Dark Gods’ Hatred" id="d347-6445-4144-97a3" hidden="false" type="profile" targetId="757c-1e05-d2fb-d633" />
-            <infoLink name="Suppressive" id="c097-5116-327d-e2c2" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+            <infoLink name="Suppressed" id="c097-5116-327d-e2c2" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
           </infoLinks>
         </selectionEntry>
       </selectionEntries>

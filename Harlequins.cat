@@ -51,7 +51,6 @@
       <infoLinks>
         <infoLink name="Blast (X)" id="c748-2002-fc75-75af" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
         <infoLink name="Indirect" id="c5da-bef7-8b23-3505" hidden="false" type="rule" targetId="4de2-ca68-9af9-1b10" />
-        <infoLink name="Suppressive" id="80f7-3142-3ed0-ff27" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
         <infoLink name="Rearm" id="68f2-1c9f-5a1a-cf32" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
       </infoLinks>
     </selectionEntry>

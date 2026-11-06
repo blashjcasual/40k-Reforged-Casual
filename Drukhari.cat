@@ -68,7 +68,7 @@
       </profiles>
       <infoLinks>
         <infoLink name="Isolate" id="6c98-0faa-2c15-3ce9" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
-        <infoLink name="Suppressive" id="6994-8ba1-3a32-c2b0" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="6994-8ba1-3a32-c2b0" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Resilient (X)" id="41e4-855f-f82e-4180" hidden="false" type="rule" targetId="253c-c1fa-d29d-d21e" />
       </infoLinks>
     </selectionEntry>
@@ -113,7 +113,7 @@ c) INCUBI</characteristic>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <infoLinks>
-        <infoLink name="Suppressive" id="8ca7-dc83-1abd-1c9b" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="8ca7-dc83-1abd-1c9b" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Power from Pain" id="14ba-afea-ba3d-73a1" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
       </infoLinks>
       <selectionEntries>
@@ -342,7 +342,7 @@ c) INCUBI</characteristic>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressive" id="00c7-ac74-db3e-f412" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+        <infoLink name="Suppressed" id="00c7-ac74-db3e-f412" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
         <infoLink name="Power from Pain" id="8d41-d7d3-986c-c457" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
       </infoLinks>
       <selectionEntries>
@@ -2219,7 +2219,6 @@ If you do add one or more of those units to your Army List, your Army Rules gain
       </selectionEntryGroups>
       <infoLinks>
         <infoLink name="Power from Pain" id="df40-7b2d-aef3-a8da" hidden="false" type="profile" targetId="b06f-e1dd-55f1-f0e8" />
-        <infoLink name="Suppressive" id="ff62-dd28-ad86-469f" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
       </infoLinks>
       <profiles>
         <profile name="Oathbound Blades" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="826d-a25f-43d1-de05">
