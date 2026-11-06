@@ -515,7 +515,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="40" />
+                <cost name="pts" typeId="points" value="50" />
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="0d55-de14-1ef9-1ac6" hidden="false" defaultSelectionEntryId="f784-78ff-fa73-f970">
@@ -1673,7 +1673,7 @@ Grating: This unit counts as two units for Martial Savagery and, during an enem
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="50" />
+                <cost name="pts" typeId="points" value="60" />
               </costs>
               <selectionEntryGroups>
                 <selectionEntryGroup name="Weapon" id="d7f2-57b1-c0b3-3766" hidden="false" defaultSelectionEntryId="8b4d-5107-be37-465e">

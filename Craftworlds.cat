@@ -1125,7 +1125,7 @@
         <infoLink name="Walker" id="4f70-a928-f129-142a" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="180" />
+        <cost name="pts" typeId="points" value="170" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Wraithlord" hidden="false" id="3505-3ad4-b01e-ac6b">
@@ -2989,7 +2989,7 @@ b) WINDRIDERS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Guardian Defenders Squad" hidden="false" id="5eb0-e3ed-63b1-0d53" sortIndex="7">
       <costs>
-        <cost name="pts" typeId="points" value="110" />
+        <cost name="pts" typeId="points" value="90" />
       </costs>
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Black Guardians' Webway" hidden="false" id="daf7-eb8a-9a82-c185">
@@ -3896,7 +3896,7 @@ a) GUARDIAN DEFENDERS</characteristic>
     </selectionEntry>
         <selectionEntry type="unit" import="true" name="WraithSeer" hidden="false" id="47ee-438f-bab9-27bf" sortIndex="6">
       <costs>
-        <cost name="pts" typeId="points" value="240" />
+        <cost name="pts" typeId="points" value="280" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="bc0f-b32c-4d4d-6a5a" primary="true" name="Leaders" />
@@ -4291,7 +4291,7 @@ a) GUARDIAN DEFENDERS</characteristic>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="05f4-4599-9c19-b045" primary="true" name="Support" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90" />
+        <cost name="pts" typeId="points" value="100" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Vyper" hidden="false" id="9727-d7c5-75f8-b94a">

@@ -2100,7 +2100,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <categoryLink name="Infantry" id="9f3c-9a43-41cc-cba5" hidden="false" primary="false" targetId="205c-3072-067b-d808"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="90"/>
+        <cost name="pts" typeId="points" value="80"/>
       </costs>
       <infoLinks>
         <infoLink name="Entrench" id="7b2a-0386-438e-4527" hidden="false" targetId="57ea-cdf2-571a-71ad" type="profile"/>
@@ -2376,7 +2376,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <constraint id="a33b-26ab-612f-aa5f" field="selections" scope="parent" shared="true" type="max" value="0"/>
       </constraints>
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="80"/>
       </costs>
       <infoLinks>
         <infoLink name="Forward Deploy" id="c4bd-da69-b27e-3101" hidden="false" targetId="b433-60cc-2ed2-658f" type="rule"/>
@@ -2627,7 +2627,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <categoryLink name="Infantry" id="6c06-be8d-e64f-0025" hidden="false" primary="false" targetId="205c-3072-067b-d808"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="70"/>
       </costs>
       <infoLinks>
         <infoLink name="Resilient (X)" id="3b05-cf12-4b75-f669" hidden="false" targetId="253c-c1fa-d29d-d21e" type="rule">
@@ -4064,7 +4064,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <categoryLink name="Vehicle" id="5598-3ba6-d0ff-8ef2" hidden="false" primary="false" targetId="b239-6bd1-e7a0-0a02"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80"/>
+        <cost name="pts" typeId="points" value="70"/>
       </costs>
       <infoLinks>
         <infoLink name="Transport" id="a9c5-278d-6247-b4c3" hidden="false" targetId="d78d-24c6-e7a9-e94f" type="rule"/>
@@ -4393,7 +4393,7 @@ This unit does not count towards the leader capacity of your army list.</charact
         <categoryLink name="Vehicle" id="14c5-89a3-56d4-f27f" hidden="false" primary="false" targetId="b239-6bd1-e7a0-0a02"/>
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="240"/>
+        <cost name="pts" typeId="points" value="220"/>
       </costs>
       <infoLinks>
         <infoLink name="Titan" id="e88c-ef17-e295-99de" hidden="false" targetId="8f09-c87f-c86c-8cfc" type="rule"/>

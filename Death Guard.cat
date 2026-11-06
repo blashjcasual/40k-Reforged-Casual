@@ -174,7 +174,7 @@
         <infoLink name="Heavy Armour" id="70d9-cfa4-daec-aa1d" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794" />
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lord of Contagion" hidden="false" id="21af-0583-77ad-792b">
@@ -267,7 +267,7 @@
         <infoLink name="Nurgle’s Gifts" id="4caa-9999-6f1c-9ef9" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Lord of Virulence" hidden="false" id="dad3-fa33-495e-4fe8">
@@ -716,7 +716,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         </infoLink>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="30" />
+        <cost name="pts" typeId="points" value="40" />
       </costs>
       <entryLinks>
         <entryLink import="true" name="Marines" hidden="false" id="4b3e-0a03-45e1-3d02" type="selectionEntryGroup" targetId="f4fb-15a3-adda-904d" sortIndex="1" />
@@ -1188,7 +1188,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <infoLink name="Rustplate Resilience" id="fe4f-5900-f960-a8c2" hidden="false" targetId="f608-9c5b-d98a-6032" type="profile" />
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Death guard Terminator Chaos Lord" hidden="false" id="0f13-db1b-69af-01b8">
@@ -1566,7 +1566,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <infoLink name="Nurgle’s Gifts" id="59ff-d46c-f774-09d4" hidden="false" type="profile" targetId="1d15-546a-3644-21db" />
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="70" />
+        <cost name="pts" typeId="points" value="80" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Death guard Chaos Lord" hidden="false" id="3c20-fe3d-e37c-bdbe">
@@ -2271,7 +2271,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <selectionEntryGroup name="Blightlord Terminators" id="8709-61c4-175f-a264" hidden="false" defaultSelectionEntryId="68a6-67cd-d5c5-aed2">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="0321-4671-9d5b-3f81" includeChildSelections="false" />
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="729d-c44b-4476-2dea" includeChildSelections="false" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="729d-c44b-4476-2dea" includeChildSelections="false" />
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Blightlord Terminator" hidden="false" id="68a6-67cd-d5c5-aed2">
@@ -2426,13 +2426,13 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
 </modifiers>
 </entryLink>
               </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="60" />
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="150" />
-      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Deathshroud Terminators" hidden="false" id="70d2-4be8-2c4f-0c7e" sortIndex="4">
       <categoryLinks>
@@ -2457,7 +2457,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
         <selectionEntryGroup name="Deathshroud Terminators" id="bdc9-f994-49df-65c0" hidden="false" defaultSelectionEntryId="a218-9064-8dd4-e33c">
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="c574-f769-3cc5-3364" includeChildSelections="false" />
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="1e64-6526-5c97-b955" includeChildSelections="false" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="1e64-6526-5c97-b955" includeChildSelections="false" />
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Deathshroud Terminator" hidden="false" id="a218-9064-8dd4-e33c">
@@ -2499,13 +2499,13 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                   </profiles>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="70" />
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="pts" typeId="points" value="160" />
-      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Septic Plague Marines" hidden="false" id="da3c-e19b-ad00-3529" sortIndex="1">
       <costs>

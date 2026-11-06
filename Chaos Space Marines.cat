@@ -670,7 +670,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
 
     <selectionEntry type="unit" import="true" name="Terminator Warsmith" hidden="true" id="38b7-0453-c268-5714" sortIndex="29">
       <costs>
-        <cost name="pts" typeId="points" value="110" />
+        <cost name="pts" typeId="points" value="120" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="b360-dc50-9cd2-d72a" primary="true" name="Leaders" />
@@ -1062,7 +1062,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
         <categoryLink targetId="f809-9826-f58a-6b8d" id="6f39-21e9-6049-7173" primary="false" name="Chaos" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="130" />
+        <cost name="pts" typeId="points" value="120" />
       </costs>
       <profiles>
         <profile name="Break Fortress" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="64b1-5806-22ca-e981">
@@ -1189,7 +1189,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="150" />
+        <cost name="pts" typeId="points" value="140" />
       </costs>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="9e57-f49a-aa7a-2b2f" targetId="205c-3072-067b-d808" primary="false" />
@@ -1940,7 +1940,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
         <categoryLink targetId="f809-9826-f58a-6b8d" id="6e0d-84ff-e808-5efb" primary="false" name="Chaos" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <profiles>
         <profile name="No Witnesses" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e026-530a-baa5-654c">
@@ -2180,7 +2180,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="f605-3529-64e4-a4b0" primary="false" name="Infantry" />
@@ -5192,11 +5192,14 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </costs>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="50" />
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
             <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="5eab-6753-729c-f654" includeChildSelections="false" />
-            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="d919-f7b5-0269-e9db" includeChildSelections="false" />
+            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="d919-f7b5-0269-e9db" includeChildSelections="false" />
           </constraints>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5210,9 +5213,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <categoryLink name="Infantry" hidden="false" id="352b-9bec-7bd5-9c55" targetId="205c-3072-067b-d808" primary="false" />
         <categoryLink targetId="f809-9826-f58a-6b8d" id="bace-f431-72a7-1f7b" primary="false" name="Chaos" />
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="120" />
-      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Breacher Siege Squad" hidden="false" id="f711-cdab-7f3f-3ccf" sortIndex="12">
       <categoryLinks>
@@ -6589,8 +6589,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <selectionEntryGroups>
         <selectionEntryGroup name="Havocs" id="3aee-aae6-4a2f-0b7e" hidden="false" defaultSelectionEntryId="c920-9a09-9ba6-6f99">
           <constraints>
-            <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e0c5-6f3a-6430-a68d" includeChildSelections="false" />
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="cd6b-1443-62d0-5a5d" includeChildSelections="false" />
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="e0c5-6f3a-6430-a68d" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="cd6b-1443-62d0-5a5d" includeChildSelections="false" />
           </constraints>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Havoc" hidden="false" id="c920-9a09-9ba6-6f99">
@@ -6803,9 +6803,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </selectionEntries>
                 </selectionEntryGroup>
               </selectionEntryGroups>
-              <costs>
-                <cost name="pts" typeId="points" value="40" />
-              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6822,6 +6819,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="160" />
+      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Obliterators" hidden="false" id="1b1f-15ed-7bd7-1315" sortIndex="20">
       <selectionEntryGroups>
@@ -6903,10 +6903,13 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </constraints>
                 </selectionEntry>
               </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="110" />
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="f281-621f-3403-c50c" includeChildSelections="false" />
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f281-621f-3403-c50c" includeChildSelections="false" />
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="70d3-ee33-72d9-e523" includeChildSelections="false" />
           </constraints>
         </selectionEntryGroup>
@@ -6919,9 +6922,6 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         <categoryLink targetId="6537-7b2d-b2c8-6005" id="858d-c8c9-407b-52c8" primary="false" name="Monster" />
         <categoryLink targetId="ccc6-6202-853c-23e4" id="6680-f2d8-c1f3-4fd5" primary="true" name="Support" />
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="130" />
-      </costs>
       <profiles>
         <profile name="Fleshmetal Armoury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1a2b-b48b-ea84-1cf6">
           <characteristics>
@@ -8294,7 +8294,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Basilisk" hidden="false" id="1459-4350-c6da-351a" sortIndex="1">
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="4448-60f3-6c5d-4ce8" primary="true" name="Support" />

@@ -719,7 +719,7 @@ c) RETRIBUTORS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Battle Sisters" hidden="false" id="9590-bd54-1e56-6259" sortIndex="6">
       <costs>
-        <cost name="pts" typeId="points" value="130"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="83a7-cf74-ec65-f20a" primary="false" name="Infantry"/>
@@ -1148,7 +1148,7 @@ c) RETRIBUTORS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sister Novitiates" hidden="false" id="15d9-d850-f96c-ca5f" sortIndex="7">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <constraints>
         <constraint type="max" value="0" field="selections" scope="parent" shared="true" id="91fe-8362-2fc6-38b4" includeChildSelections="false"/>
@@ -1774,7 +1774,7 @@ c) RETRIBUTORS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Celestian Sacresants" hidden="false" id="9be4-3cf2-524a-67ef" sortIndex="11">
       <costs>
-        <cost name="pts" typeId="points" value="120"/>
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Celestian Sacresants" id="4c52-6840-eaeb-6860" hidden="false" defaultSelectionEntryId="7df0-a6eb-5b1a-69c3">

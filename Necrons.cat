@@ -1563,7 +1563,7 @@ d) CRYPTOTHRALLS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Warriors" hidden="false" id="6922-faaf-ce69-d438" sortIndex="13">
       <costs>
-        <cost name="pts" typeId="points" value="140" />
+        <cost name="pts" typeId="points" value="130" />
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Warriors" id="0c1c-bb21-c9fd-5072" hidden="false" defaultSelectionEntryId="77a3-b8be-d089-d9dc">
@@ -2681,13 +2681,10 @@ d) CRYPTOTHRALLS</characteristic>
         <categoryLink name="Infantry" hidden="false" id="c956-1b91-b5c3-df80" targetId="205c-3072-067b-d808" primary="false" />
         <categoryLink targetId="ccc6-6202-853c-23e4" id="45eb-f510-f649-7e33" primary="true" name="Support" />
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="100" />
-      </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Tomb Blades" id="3f94-fd73-10b6-b223" hidden="false" defaultSelectionEntryId="a1c7-5804-2994-6f1f" sortIndex="1">
           <constraints>
-            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="e3c6-54db-5d5e-757c-min" includeChildSelections="false" />
+            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="e3c6-54db-5d5e-757c-min" includeChildSelections="false" />
             <constraint type="max" value="3" field="selections" scope="parent" shared="true" id="e3c6-54db-5d5e-757c-max" includeChildSelections="false" />
           </constraints>
           <selectionEntries>
@@ -2763,6 +2760,9 @@ d) CRYPTOTHRALLS</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name="pts" typeId="points" value="50" />
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -2934,7 +2934,7 @@ d) CRYPTOTHRALLS</characteristic>
         <categoryLink name="Vehicle" hidden="false" id="4f8a-6f7e-f9ef-3a92" targetId="b239-6bd1-e7a0-0a02" primary="false" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="130" />
+        <cost name="pts" typeId="points" value="140" />
       </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Annihilation Barge" hidden="false" id="8f0c-e98b-24f7-4f9f">

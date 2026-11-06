@@ -3434,8 +3434,8 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Gargoyles" hidden="false" id="4b77-8527-119f-5ac5">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4b77-8527-119f-5ac5-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="4b77-8527-119f-5ac5-max" includeChildSelections="false" />
+            <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="4b77-8527-119f-5ac5-min" includeChildSelections="false" />
+            <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="4b77-8527-119f-5ac5-max" includeChildSelections="false" />
           </constraints>
           <profiles>
             <profile name="Gargoyles" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="8cf7-3a81-09cc-6610">
@@ -3595,9 +3595,6 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Von Ryan's Leapers" hidden="false" id="a968-ed23-4d1f-2c89" sortIndex="1">
-      <costs>
-        <cost name="pts" typeId="points" value="30" />
-      </costs>
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="739b-4661-5096-1f40" primary="true" name="Support" />
         <categoryLink targetId="205c-3072-067b-d808" id="243e-f1b1-89a6-cc00" primary="false" name="Infantry" />
@@ -3635,8 +3632,8 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Von Ryan's Leapers" hidden="false" id="5a53-8443-f507-18c3">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5a53-8443-f507-18c3-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5a53-8443-f507-18c3-max" includeChildSelections="false" />
+            <constraint type="min" value="3" field="selections" scope="parent" shared="true" id="5a53-8443-f507-18c3-min" includeChildSelections="false" />
+            <constraint type="max" value="4" field="selections" scope="parent" shared="true" id="5a53-8443-f507-18c3-max" includeChildSelections="false" />
           </constraints>
           <profiles>
             <profile name="Von Ryan's Leapers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5d4b-7a3c-43ef-c3d2">
@@ -3648,6 +3645,9 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="30" />
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>

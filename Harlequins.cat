@@ -347,7 +347,7 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
         <categoryLink targetId="b69b-5b51-faf1-2c40" id="fa84-b143-13fe-8a8b" primary="true" name="Troops" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="150" />
+        <cost name="pts" typeId="points" value="160" />
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -569,7 +569,7 @@ Captive Audience: For each attack that targets this unit, a Hit Roll of 5+ for
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="VoidWeaver" hidden="false" id="bd11-2d3e-551a-c440" sortIndex="9">
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="140" />
       </costs>
       <categoryLinks>
         <categoryLink name="Support" hidden="false" id="c30a-3c01-b6b9-9030" targetId="ccc6-6202-853c-23e4" primary="true" />
@@ -859,7 +859,7 @@ c) TWILIGHT TROUPE</characteristic>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name="pts" typeId="points" value="50" />
+        <cost name="pts" typeId="points" value="60" />
       </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Starweaver" hidden="false" id="72e6-ef1d-a416-84ca" sortIndex="10">
@@ -909,7 +909,7 @@ c) TWILIGHT TROUPE</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Solitaire" hidden="false" id="950a-fb0f-c239-6791" sortIndex="6">
       <costs>
-        <cost name="pts" typeId="points" value="200" />
+        <cost name="pts" typeId="points" value="230" />
       </costs>
       <categoryLinks>
         <categoryLink name="Elites" hidden="false" id="6519-c79a-c208-2de9" targetId="4820-e2b5-9e00-bb68" primary="true" />
@@ -1002,7 +1002,7 @@ c) TWILIGHT TROUPE</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Skyweaver" hidden="false" id="e6b0-d300-fe0c-a665" sortIndex="8">
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="110" />
       </costs>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="2d63-6ecc-f5d6-622f" targetId="205c-3072-067b-d808" primary="false" />
@@ -1128,7 +1128,7 @@ c) TWILIGHT TROUPE</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Shadowseer" hidden="false" id="5be0-2b38-78af-32bf" sortIndex="2">
       <costs>
-        <cost name="pts" typeId="points" value="50" />
+        <cost name="pts" typeId="points" value="60" />
       </costs>
       <categoryLinks>
         <categoryLink name="Leaders" hidden="false" id="b214-328c-1d14-a202" targetId="2886-2afd-f65f-9d8e" primary="true" />

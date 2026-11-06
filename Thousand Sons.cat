@@ -973,7 +973,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rubric Marines" hidden="false" id="f404-3b3f-4974-1024" sortIndex="8">
       <costs>
-        <cost name="pts" typeId="points" value="100"/>
+        <cost name="pts" typeId="points" value="90"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="6446-f0fe-4d33-da49" primary="false" name="Infantry"/>
@@ -1156,7 +1156,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Scarab Occult Terminators" hidden="false" id="a5c8-ea12-4da7-b22f" sortIndex="10">
       <costs>
-        <cost name="pts" typeId="points" value="140"/>
+        <cost name="pts" typeId="points" value="130"/>
       </costs>
       <selectionEntryGroups>
         <selectionEntryGroup name="Scarab Occult Terminators" id="ce67-124f-cfed-03bc" hidden="false" defaultSelectionEntryId="3a4e-5e78-02c1-1050">
@@ -2098,13 +2098,10 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         <categoryLink targetId="205c-3072-067b-d808" id="4c47-606e-7f3f-f971" primary="false" name="Infantry"/>
         <categoryLink targetId="f809-9826-f58a-6b8d" id="328e-abf5-0b50-f639" primary="false" name="Chaos"/>
       </categoryLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="120"/>
-      </costs>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Seketar Robot" hidden="false" id="22c2-7e36-59ce-ec70">
           <constraints>
-            <constraint type="min" value="2" field="selections" scope="parent" shared="true" id="54c7-59fc-3a14-5560-min" includeChildSelections="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54c7-59fc-3a14-5560-min" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="54c7-59fc-3a14-5560-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
@@ -2214,6 +2211,9 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="80" />
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <infoLinks>

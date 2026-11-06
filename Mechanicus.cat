@@ -809,7 +809,7 @@ b) SKITARII VANGUARDS</characteristic>
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Servitor" hidden="false" id="8274-9414-d22c-9b9f">
               <costs>
-                <cost name="pts" typeId="points" value="20"/>
+                <cost name="pts" typeId="points" value="10"/>
               </costs>
               <profiles>
                 <profile name="Servitor" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d9e3-97b3-f316-513e">
@@ -2470,9 +2470,6 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Walker" id="877e-489e-ef6f-051a" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
         <infoLink name="Hunter Arachnids" id="4c6d-fd53-3a0d-0272" hidden="false" targetId="5112-c87f-346c-9451" type="profile"/>
       </infoLinks>
-      <costs>
-        <cost name="pts" typeId="points" value="100"/>
-      </costs>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Raiders" hidden="false" id="5382-7647-d9ef-d23d" sortIndex="4">
       <categoryLinks>
@@ -4121,8 +4118,8 @@ Command and Control: After any of your units within 24” of this unit Repairs�
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pteraxii Sterylizors" hidden="false" id="ea20-ef94-6a27-0c7e">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-max" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-min" includeChildSelections="false" />
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-max" includeChildSelections="false" />
           </constraints>
           <profiles>
             <profile name="Pteraxii Sterylizors" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f573-7d4f-d1a4-b410">
@@ -4174,8 +4171,8 @@ Command and Control: After any of your units within 24” of this unit Repairs�
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pteraxii Skystalkers" hidden="false" id="f4bf-7a95-29f6-192a">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-max" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-min" includeChildSelections="false" />
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-max" includeChildSelections="false" />
           </constraints>
           <profiles>
             <profile name="Pteraxii Skystalkers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="23e7-f9ac-5751-2c85">

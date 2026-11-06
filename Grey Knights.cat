@@ -1347,7 +1347,7 @@
         <categoryLink name="Infantry" hidden="false" id="53c7-4c79-6454-1c38" targetId="205c-3072-067b-d808" primary="false" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80" />
+        <cost name="pts" typeId="points" value="100" />
       </costs>
       <entryLinks>
         <entryLink import="true" name="Leader" hidden="false" id="7a63-7d1a-b7ae-6da2" type="selectionEntryGroup" targetId="319c-6cd7-d35e-6ca7" />
@@ -1472,7 +1472,7 @@ b) GREY KNIGHT PALADIN</characteristic>
         <categoryLink name="Infantry" hidden="false" id="daca-7e38-64d5-70d9" targetId="205c-3072-067b-d808" primary="false" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80" />
+        <cost name="pts" typeId="points" value="100" />
       </costs>
       <entryLinks>
         <entryLink import="true" name="Leader" hidden="false" id="4a84-74ab-e471-3d5c" type="selectionEntryGroup" targetId="319c-6cd7-d35e-6ca7" />
@@ -1582,7 +1582,7 @@ b) GREY KNIGHT PALADIN</characteristic>
         <categoryLink name="Rare" hidden="false" id="6bca-edd2-6c06-3070" targetId="1738-1300-9dbb-c5be" primary="false" />
       </categoryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="80" />
+        <cost name="pts" typeId="points" value="100" />
       </costs>
       <entryLinks>
         <entryLink import="true" name="Leader" hidden="false" id="706d-b5bb-28a3-b6af" type="selectionEntryGroup" targetId="319c-6cd7-d35e-6ca7" />
