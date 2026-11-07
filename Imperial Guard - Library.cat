@@ -764,7 +764,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                             <entryLink name="Power Fist" id="fd5a-20be-20f0-c198" hidden="false" import="true" sortIndex="2" targetId="e9ab-47d0-5cce-0c1d" type="selectionEntry">
                               <modifiers>
                                 <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
-                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="5+"/>
+                                <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="4+"/>
                               </modifiers>
                             </entryLink>
                             <entryLink name="Power Weapon" id="fa5e-9213-5e48-8496" hidden="false" import="true" sortIndex="3" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
@@ -2957,7 +2957,7 @@ This unit does not count towards the leader capacity of your army list.</charact
                 <entryLink name="Power Fist" id="713e-a374-45f2-e2b3" hidden="false" import="true" sortIndex="3" targetId="e9ab-47d0-5cce-0c1d" type="selectionEntry">
                   <modifiers>
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
-                    <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="6+"/>
+                    <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="5+"/>
                   </modifiers>
                 </entryLink>
                 <entryLink name="Power Sword" id="cc8a-7195-5ba0-dbd0" hidden="false" import="true" sortIndex="2" targetId="dfed-4c14-cafd-626d" type="selectionEntry">
@@ -5865,7 +5865,7 @@ This unit does not count towards the leader capacity of your army list.</charact
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
             <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-            <characteristic name="WS" typeId="459f-6890-e77f-b62f">6+</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">5+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
             <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Breach</characteristic>

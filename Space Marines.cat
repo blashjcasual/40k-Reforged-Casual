@@ -604,7 +604,7 @@
                               <entryLinks>
                                 <entryLink import="true" name="Flamer" hidden="false" id="7d48-ca0a-d070-cbfe" type="selectionEntry" targetId="4cf9-1758-d00d-29c4">
                                   <modifiers>
-                                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                     <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                                   </modifiers>
                                   <constraints>
@@ -803,7 +803,7 @@
                           <entryLinks>
                             <entryLink import="true" name="Thunder Hammer" hidden="false" id="14bb-a91a-137a-bb06" type="selectionEntry" targetId="a26d-bbe4-6e1d-51af" sortIndex="4">
                               <modifiers>
-                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                 <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
                               </modifiers>
                             </entryLink>
@@ -2364,7 +2364,7 @@ Unnerved: For each attack that targets this unit, that attack gains Suppressiv
                       </constraints>
                       <modifiers>
                         <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                     </entryLink>
                   </entryLinks>
@@ -4833,7 +4833,7 @@ d) CHAPLAIN</characteristic>
                           </constraints>
                           <modifiers>
                             <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                            <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                         </entryLink>
                       </entryLinks>

@@ -836,7 +836,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                     <entryLink import="true" name="Lightning Claw" hidden="false" id="6447-ce13-a8f0-1595" type="selectionEntry" targetId="6e69-532c-9a66-4cb2">
                       <modifiers>
                         <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                        <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="090b-bf89-d6a5-0cfc" includeChildSelections="false" />
@@ -6678,7 +6678,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                         <entryLink import="true" name="Lascannon" hidden="false" id="7101-2dba-9a35-3087" type="selectionEntry" targetId="54fc-ac08-3927-692d">
                           <modifiers>
                             <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-                            <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
+                            <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b46e-9de9-13cd-1487" includeChildSelections="false" />
