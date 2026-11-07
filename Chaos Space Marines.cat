@@ -2197,13 +2197,6 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
       <costs>
         <cost name="pts" typeId="points" value="130" />
       </costs>
-      <modifiers>
-        <modifier type="increment" value="10" field="points">
-          <conditions>
-            <condition type="atLeast" value="1" field="selections" scope="unit" childId="888b-36cb-0d3d-ecd1" shared="true" includeChildSelections="true" />
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="f605-3529-64e4-a4b0" primary="false" name="Infantry" />
         <categoryLink targetId="b69b-5b51-faf1-2c40" id="35d2-7d2d-aef2-2c3c" primary="true" name="Troops" />
@@ -2505,7 +2498,7 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
                               <modifiers>
                                 <modifier type="set" value="false" field="hidden">
                                   <conditions>
-                                    <condition type="atLeast" value="1" field="selections" scope="force" childId="d592-5a78-0580-1d03" shared="true" includeChildSelections="true" childName="Alpha Legion" />
+                                    <condition type="atLeast" value="1" field="selections" scope="unit" childId="1d3c66be-2a81-4ae2-8a5d-4d571bc97fcd" shared="true" includeChildSelections="true" />
                                   </conditions>
                                 </modifier>
                               </modifiers>
@@ -2636,6 +2629,25 @@ Breach, For each attack made for this weapon, that attack’s S is 1 higher than
             <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="6880-4215-db99-c6d7-min" includeChildSelections="false" />
             <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="6880-4215-db99-c6d7-max" includeChildSelections="false" />
           </constraints>
+        </selectionEntryGroup>
+        <selectionEntryGroup name="Quiet Killers" id="4f6b6026-4ff5-480a-8a30-913f821b1bcf" hidden="true">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Power Knives" hidden="false" id="1d3c66be-2a81-4ae2-8a5d-4d571bc97fcd">
+              <costs>
+                <cost name="pts" typeId="points" value="10" />
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="75a821da-9f82-46c3-9c45-b822fa01a534" includeChildSelections="false" />
+          </constraints>
+          <modifiers>
+            <modifier type="set" value="false" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="d592-5a78-0580-1d03" shared="true" includeChildSelections="true" childName="Alpha Legion" />
+              </conditions>
+            </modifier>
+          </modifiers>
         </selectionEntryGroup>
         <selectionEntryGroup name="Chaotic Boon" id="9d8c-82d4-8a9e-f690" hidden="false">
           <constraints>
