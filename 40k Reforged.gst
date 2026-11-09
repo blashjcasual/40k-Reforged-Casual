@@ -259,9 +259,6 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
     </rule>
     <rule name="Heavy Armour" id="ec2c-77fd-05f2-a794" hidden="false">
       <description>This unit’s T is improved by 1. This unit cannot be in cover for enemy attacks. For each SW this unit suffers, it gains Resilient 5+ for that attack or if it already has Resilient, instead add 1 to resilient rolls for that attack.</description>
-      <modifiers>
-        <modifier affects="self.entries.recursive.profiles.Unit" field="a6ad-d820-8495-f5b0" scope="unit-self" type="increment" value="1"/>
-      </modifiers>
     </rule>
     <rule name="Fatal Thread" id="209e-12d3-d64c-9005" hidden="false">
       <description>For each attack made by an Aeldari Craftworlds unit that targets this unit, a Hit Roll of 6 always wounds.</description>
