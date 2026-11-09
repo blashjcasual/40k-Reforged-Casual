@@ -58,19 +58,6 @@
             </modifier>
           </modifiers>
         </profile>
-        <profile name="Kill Them Slowly" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="1fca-a8e8-d81c-ae59">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any of your infantry units are Activated within 24" of this unit, until the End step, you may have each weapon equipped to models in that unit with Shred lose Shred and gain Suppressive, where X is equal to that weapon's D.</characteristic>
-          </characteristics>
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fa8-6666-7875-be1b" shared="true" includeChildSelections="true" childName="Night Lords"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <comment>Night Lords</comment>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Blast (X)" id="e357-a8db-91a5-c755" hidden="true" type="rule" targetId="308a-e96e-90f7-855e">
@@ -82,15 +69,7 @@
             </modifier>
           </modifiers>
         </infoLink>
-        <infoLink name="Suppressive" id="66c4-2e6e-9831-e431" hidden="true" type="rule" targetId="aed3-e154-8fa2-5378">
-          <modifiers>
-            <modifier type="set" value="false" field="hidden">
-              <conditions>
-                <condition type="atLeast" value="1" field="selections" scope="force" childId="1fa8-6666-7875-be1b" shared="true" includeChildSelections="true" childName="Night Lords"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Relics (Reference)" hidden="false" id="4a6f-61d3-7439-8e89" sortIndex="-4">
@@ -135,7 +114,7 @@
         </profile>
         <profile name="6 Despoil Dominion" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="a3fb-57ec-838a-7c1f">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After a unit gains this ability, select one of the vaults. While this unit has this unit ability, enemy units within 16" of that vault gain Ruinous Onslaught. After any of your units capture the selected vault, you may'desolate the realm'. If you do, that vault cannot be captured again in this battle. Ability from relics 5 United In Hatred &amp; 6 Despoil Dominion:</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After a unit gains this ability, select one of the vaults. While this unit has this unit ability, enemy units within 16" of the selected vault gain Ruinous Onslaught. After any of your units capture the selected vault, you may 'desolate the realm'. If you do, that vault cannot be captured again in this battle.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -261,9 +240,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         </profile>
         <profile name="3 Hindering Mecha-Serpents" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="772f-e68a-8f51-8a10">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, select one enemy unit within 16" of and visible to this unit. That unit suffers D6+3 Suppression, and gains the following ability:
-
-Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll. If this unit does not have Suppressed, it loses this ability.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, select one enemy unit within 16" of and visible to this unit. That unit gains Suppressed and the following ability: Constricted: For each Move Roll made for this unit, roll 1 less dice for that roll. If this unit does not have Suppressed, it loses this ability.</characteristic>
           </characteristics>
           <comment>Iron Warriors</comment>
           <modifiers>
@@ -302,7 +279,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </profile>
         <profile name="6 Bereft of Mercy" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="6835-d6ca-cd7d-647e">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, if any models in an enemy unit within engagement range of this unit died during this turn, if that enemy unit has Suppressed X, each enemy unit within 12" of and visible to that enemy unit suffers X Suppression. After any enemy unit with Suppressed X within engagement range of this unit is destroyed, each enemy unit within 12" of this unit suffers 2 Suppression.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, if one or more models died this turn as a result of a melee attack, all enemy units within 12" of and visible to this unit gain Suppressed. Additionally, while enemy units with Suppressed are within 12" of this unit, those units cannot be selected for Activation unless there are no other ready enemy units without Suppressed.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -315,7 +292,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </profile>
         <profile name="5 Talons of the Night Terror" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="c8b9-7071-aa05-ca47">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, roll 1+D3. Then, all enemy infantry units within engagement range of this unit suffer X Suppression and X SW where X is equal to that roll.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, all enemy infantry units within engagement range of this unit gain Suppressed. Then, those units suffer D3+1 SW.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -328,7 +305,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </profile>
         <profile name="4 Vox Daemonicus" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="a6d6-229f-a5e4-512a">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, select an enemy unit within 8" of and visible to this unit and roll 3D3. That roll is X. Then, select a second enemy unit within X" of and visible to the first, and a third within X" of and visible to the second, and so on for any number of enemy units. Each enemy unit can only be selected once, and you can stop selecting at any time. Then, each selected unit suffers 2 Suppression.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Attacks step, select an enemy unit within 8" of and visible to this unit and roll 3D3. That roll is X. Then, select a second enemy unit within X" of and visible to the first, and a third within X" of and visible to the second, and so on for any number of enemy units. Each enemy unit can only be selected once, and you can stop selecting at any time. Then, each selected unit gains Suppressed.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -437,7 +414,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </profile>
         <profile name="2 Hydra's Wail" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="true" id="f0ed-f4d6-39b1-b78d">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, select an enemy unit visible to and within 12" of this unit. All enemy units within 12" of the selected unit suffer D6+2 Suppression.</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, select an enemy unit visible to and within 12" of this unit. All enemy units within 12" of the selected unit gain Suppressed.</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="set" value="false" field="hidden">
@@ -502,7 +479,9 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
             </modifier>
           </modifiers>
         </profile>
-      </profiles>
+      
+<profile name="Ruinous Onslaught" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a3cbceac-bbd8-45be-8e6e-cc49a799a9d2"><characteristics><characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After an enemy chaos unit's Move step begins, before rolling its Move Roll, it may select this unit (only select one unit with Ruinous Onslaught). Then, add 1 D6 to that Move Roll, and this unit must end its next move closer to this unit. Additionally, for each attack made by a chaos unit that targets this unit, that attack gains Critical Hits 6+.</characteristic></characteristics></profile>
+</profiles>
       <infoLinks>
         <infoLink name="Resilient (X)" id="6537-b9be-d59f-35ac" hidden="true" type="rule" targetId="253c-c1fa-d29d-d21e">
           <modifiers>
@@ -1074,9 +1053,9 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         <cost name="pts" typeId="points" value="120"/>
       </costs>
       <profiles>
-        <profile name="Break Fortress" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="64b1-5806-22ca-e981">
+        <profile name="Fortress Breachers" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="64b1-5806-22ca-e981">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, if the target unit is within 2" of any terrain piece, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Tyrant Rocket Launcher weapons, you may instead 'breach fortress'. If you do, select a terrain piece within 24" of and visible to this unit. Then, roll 2 D6 and for each 3+ in that roll, all units within 2" of that terrain piece suffer 2 SW.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1193,7 +1172,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
       <profiles>
         <profile name="Twisted Sadists" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9ff3-d6d9-9679-0ac4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within engagement range of this unit gain the following ability until the End step:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, all enemy units within engagement range of this unit gain the following ability until the End step: Terrifying Display: After a unit gains this ability, if one or more models from this unit died this turn, all friendly units within 12" of and visible to this unit gain Suppressed.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1260,7 +1239,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Plasmagun" hidden="false" id="ca90-3b9a-31b7-7b39" sortIndex="2">
                                   <entryLinks>
                                     <entryLink import="true" name="Plasmagun" hidden="false" id="b75b-d9a7-8d0d-3304" type="selectionEntry" targetId="af5b-b208-be5c-ba5b">
@@ -1274,7 +1254,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Flamer" hidden="false" id="47ec-ea3c-8026-b5f2" sortIndex="3">
                                   <entryLinks>
                                     <entryLink import="true" name="Flamer" hidden="false" id="79cb-2905-c483-6933" type="selectionEntry" targetId="4cf9-1758-d00d-29c4">
@@ -1288,7 +1269,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Lascannon" hidden="false" id="e5ac-8fb0-3745-0f5e" sortIndex="6">
                                   <entryLinks>
                                     <entryLink import="true" name="Lascannon" hidden="false" id="794d-9788-ae85-750f" type="selectionEntry" targetId="54fc-ac08-3927-692d">
@@ -1302,7 +1284,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Autocannon" hidden="false" id="96b0-eb51-17dc-0304" sortIndex="4">
                                   <entryLinks>
                                     <entryLink import="true" name="Autocannon" hidden="false" id="c143-d7c8-72b4-0675" type="selectionEntry" targetId="a636-c9c9-ad6d-6db0">
@@ -1316,7 +1299,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Heavy Bolter" hidden="false" id="6e9c-737b-0a27-466b" sortIndex="5">
                                   <entryLinks>
                                     <entryLink import="true" name="Heavy Bolter" hidden="false" id="a888-226a-049f-b776" type="selectionEntry" targetId="82a1-b562-e748-d5ad">
@@ -1330,7 +1314,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="aa7f-9b9e-f6bb-7c31" sortIndex="7">
                                   <profiles>
                                     <profile name="Missile Launcher (Strike)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="80a2-5850-e0c6-7a3d">
@@ -1358,7 +1343,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                     <infoLink name="Blast (X)" id="3bf5-b8a1-2b82-3e10" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
                                     <infoLink name="Strike/Sweep" id="d5dd-40a1-ccdc-a9e1" hidden="false" type="rule" targetId="2757-6563-cdb2-3456"/>
                                   </infoLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Reaper Chaincannon" hidden="false" id="3254-0e8e-92c8-7b55" sortIndex="8">
                                   <entryLinks>
                                     <entryLink import="true" name="Reaper Chaincannon" hidden="false" id="6add-7764-2f2e-0538" type="selectionEntry" targetId="c1fa-ca55-7e0c-1e49">
@@ -1371,7 +1357,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Heavy Chain Axe" hidden="false" id="1302-ab91-4c06-3572" sortIndex="9">
                                   <entryLinks>
                                     <entryLink import="true" name="Heavy Chain Axe" hidden="false" id="c736-2b2f-f68f-6328" type="selectionEntry" targetId="951f-37ff-f7eb-0928">
@@ -1384,7 +1371,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </constraints>
                                     </entryLink>
                                   </entryLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Weird Claws" hidden="false" id="ba92-9846-9cd8-fdb6" sortIndex="10">
                                   <profiles>
                                     <profile name="Weird Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8731-140d-988a-769e">
@@ -1401,7 +1389,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                   <infoLinks>
                                     <infoLink name="Shred" id="299f-5e6b-f3a6-b7a8" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
                                   </infoLinks>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                                 <selectionEntry type="upgrade" import="true" name="Sorcerous Totem" hidden="false" id="5282-f29b-e828-1621" sortIndex="11">
                                   <profiles>
                                     <profile name="Sorcerous Totem" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5162-0a39-8a03-a120">
@@ -1415,7 +1404,8 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                                       </characteristics>
                                     </profile>
                                   </profiles>
-                                </selectionEntry>
+                                
+<costs><cost name="pts" typeId="points" value="10"/></costs></selectionEntry>
                               </selectionEntries>
                               <constraints>
                                 <constraint type="max" value="2" field="selections" scope="unit" shared="true" id="501d-cb89-5292-fbc4" includeChildSelections="true"/>
@@ -1612,7 +1602,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
                 </profile>
                 <profile name="Obscured Existence" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1d3e-9082-ae2b-2d7f">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units that are not visible to this unit gain the following ability until the End step:</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, all enemy units that are not visible to this unit gain the following ability until the End step: Doomed Prey: For each attack that targets this unit, add 1 to the Hit Roll of that attack.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1993,11 +1983,6 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         <characteristic name="Psychic Power" typeId="9060-973c-99e9-75b4">Select a friendly infantry unit within 12”. The selected unit Heals D3. If that unit has one or more models with Daemonic, it Heals D3+1 instead.</characteristic>
       </characteristics>
     </profile>
-    <profile name="Ancient Fury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a975-5d96-4936-cf29">
-      <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Explode Roll made for this unit, if that roll was a 3+, this unit gains Enrage (from the monster explode table).</characteristic>
-      </characteristics>
-    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Champion of Chaos" hidden="false" id="d39b-d0f0-66db-fe7f">
@@ -2086,7 +2071,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         </profile>
         <profile name="Abaddon's Contempt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="60ce-184f-ea5d-ca84">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by a Chaos Space Marines unit that targets this unit, that attack gains Critical Hits 6+. After rolling for initiative during battle round 2, select a vault at random. For the rest of the battle, after any of your units capture that vault, all enemy units gain Abaddon's Contempt for the rest of the battle. 3.4 Iron Warriors Iron Warriors Relics</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">The Long War: After rolling for initiative during battle round 1, select one enemy unit. That enemy unit and all enemy units of the same name gain the following ability: Abaddon's Contempt: For each attack made by a Chaos Space Marines unit that targets this unit, that attack gains Critical Hits 6+. After rolling for initiative during battle round 2, select a vault at random. For the rest of the battle, after any of your units capture that vault, all enemy units gain Abaddon's Contempt for the rest of the battle.</characteristic>
           </characteristics>
           <comment>Black Legion</comment>
           <modifiers>
@@ -2655,7 +2640,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
               <profiles>
                 <profile name="Khornate Bloodlust" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="cb2c-5c3a-7648-b9d9">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During an Advance, this unit may move up to an additional 2” if that move would end within 4” of any enemy units.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit visible to this unit. If you do, add 1D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2679,7 +2664,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
               <profiles>
                 <profile name="Nurglite Contagion" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8f4e-e28f-08e6-f827">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, each enemy unit within 7” of it suffers D3 suppression.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Attacks step, roll a D6. On a 4+, the closest enemy unit within 7" of this unit gains Suppressed.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2736,11 +2721,6 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
         <profile name="Devoted Mob" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ded1-6a84-6369-8bc6">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">If this unit has no leader model, after this unit's End step, if this turn was your first turn in a row, take another turn.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Call of Chaos" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="41de-33b6-cd91-0225">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After an enemy unit with Dark Gods’ Hatred within 12” of this unit dies, this unit and the active unit Heal 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3393,7 +3373,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
       <profiles>
         <profile name="Successful Hunt" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="199c-9568-1d55-309f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit destroys an enemy unit, it gains the following ability: Slice Dimensions: After any enemy unit's End step, you may remove this unit from the battlefield and place it into reserves. If you do, it loses this ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Immaterial Predators" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2757-8066-d4c1-db40">
@@ -3561,7 +3541,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
               <profiles>
                 <profile name="Glorious Jump Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="2d41-2da4-3f04-e5df">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS. 3.4 TERMINATOR CHAOS LORD - 120 points - Infantry, Chaos, Leader T Sv H 4 4+ 19 Heavy Armour, Champion of Chaos</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -4240,10 +4220,7 @@ Constricted: For each Move Roll made for this unit, roll 1 less D6 for that roll
             </profile>
             <profile name="3 Infernal Power" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="feee-22ec-1f3c-7b9c">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Until the next time this unit Activates or dies, while your units with Daemonic are within 16” of this unit, those units gain the following ability:
-
-
-Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for that attack causes an additional wound.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Until the next time this unit Activates or dies, while your units with Daemonic are within 16" of this unit, those units gain the following ability: Daemonic Strength: For each attack made for this unit, that attack gains Critical Wounds 6+.</characteristic>
               </characteristics>
             </profile>
             <profile name="4 Sacrifice" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="e9e8-a609-2de4-58be">
@@ -4275,7 +4252,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <profiles>
         <profile name="Daemonkin" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f6cb-3479-f184-11d3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, your POSSESSED units do not cost an additional 20 points for additional units. Additionally, your POSSESSED units with 3 models cost 10 less points.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">During list building, your Possessed units do not cost an additional 20 points for additional units while a Master of Possession is attached to a Possessed unit. Additionally, a 3-model Possessed unit attached to a Master of Possession costs 10 fewer points.</characteristic>
           </characteristics>
         </profile>
         <profile name="Ruinous Prophet" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="1470-390a-185b-d432">
@@ -4295,7 +4272,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   </conditions>
                 </modifier>
               </modifiers>
-            </entryLink>
+            <modifiers><modifier type="set" value="110" field="points" scope="unit" affects="self.entries.recursive.71f1-0dbd-829d-7748"><conditions><condition type="equalTo" value="3" field="selections" scope="unit" childId="model" shared="true" includeChildSelections="true" childName="model"/></conditions></modifier></modifiers></entryLink>
             <entryLink import="true" name="Warp Talons" hidden="true" id="d33b-c6e6-bace-5e23" type="selectionEntry" targetId="82c3-ad8e-81a6-af4c" sortIndex="2">
               <modifiers>
                 <modifier type="set" value="false" field="hidden">
@@ -4693,7 +4670,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
         <profile name="Binding Rites" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="01f3-e58c-4544-eca7">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, you may select any friendly vehicle or monster unit within 12" of this unit. Until the next time this unit is Activated, the selected unit gains Daemonic and the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's End step, you may select any friendly vehicle or monster unit within 12" of this unit. Until the next time this unit is Activated, the selected unit gains Daemonic and the following ability: Wailing Spirit: For each attack made by this unit that targets an enemy unit with Dark Gods' Hatred, that attack gains Critical Wounds 6+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Unleash Engine" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f5c1-8693-bf0e-c1bb">
@@ -6412,9 +6389,9 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </selectionEntry>
       </selectionEntries>
       <profiles>
-        <profile name="Indiscrimate Violence" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4979-966c-a70b-671c">
+        <profile name="Indiscriminate Violence" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4979-966c-a70b-671c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Move step, for all other units (friendly and enemy) within engagement range of this unit, make attacks with this unit’s Defiler Claws targeting each of those units.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, for all other units (friendly and enemy) within engagement range of this unit, make attacks with this unit's Defiler Claws targeting each of those units.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6427,7 +6404,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Helbrute" hidden="false" id="c95a-f982-95b6-6779" sortIndex="17">
       <categoryLinks>
-        <categoryLink targetId="6537-7b2d-b2c8-6005" id="ac07-f6c3-7595-ba32" primary="false" name="Monster"/>
+        <categoryLink targetId="b239-6bd1-e7a0-0a02" id="ac07-f6c3-7595-ba32" primary="false" name="Vehicle"/>
         <categoryLink targetId="f809-9826-f58a-6b8d" id="eb85-8a10-306f-ada5" primary="false" name="Chaos"/>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="0467-d1b9-6854-4f27" primary="true" name="Support"/>
       </categoryLinks>
@@ -6616,8 +6593,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Walker" id="faf8-d86e-c3f9-6caf" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
-      </infoLinks>
+        </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="110"/>
       </costs>
@@ -7193,7 +7169,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <profiles>
         <profile name="Ion Shield" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="69a9-f6d3-256d-345c">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may 'rotate ion shield'. If you do, roll a D6. On a 2+, you cannot make this roll again until the next battle round and this unit gains the following ability until the End step:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is targeted by one or more ranged attacks, you may 'rotate ion shield'. If you do, roll a D6. On a 2+, you cannot make this roll again until the next battle round and this unit gains the following ability until the End step: Shield Facing: For each ranged attack that targets this unit, reroll a failed Saving Throw.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -7360,7 +7336,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
                   <infoLinks>
                     <infoLink name="Overcharge" id="6010-c8e3-4195-79d0" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
                     <infoLink name="Breach" id="0fb4-4e06-6cf0-728c" hidden="false" type="rule" targetId="265b-df47-6a5e-4d1c"/>
-                  </infoLinks>
+                  
+        <infoLink name="Walker" id="f64216bc-084e-4cf6-b5f5-581a2f414b67" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/></infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Maulerfiend Fists" hidden="false" id="ac36-abc8-691e-fa46" sortIndex="3">
                   <profiles>
@@ -7471,6 +7448,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       </profiles>
       <infoLinks>
         <infoLink name="Heal/Repair (X)" id="179d-0b3e-79e4-213e" hidden="false" type="rule" targetId="02c8-1ec5-cdab-2572"/>
+      <infoLink name="Walker" id="a148c3d1-636a-40ce-aee4-02883f5a1670" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Helbrute Fist" hidden="false" id="f0d7-6cf3-6da6-4b15" sortIndex="6">
@@ -8015,21 +7993,16 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="05ca-3f31-90ae-f4d6" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="c911-a8b5-e0df-8bba" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="e2d898fe-64ec-450b-8724-ebb7df2f8080" primary="false" name="Chaos"/></categoryLinks>
       <profiles>
-        <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="628d-7086-3de4-5bc3">
+        <profile name="Duty Eternal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="628d-7086-3de4-5bc3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Venerable" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="78a2-7934-76e9-0f61">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 2. 3.4 CHAOS CONTEMPTOR DREADNOUGHT - 160 points - Vehicle, Chaos T Sv H 4 4+ 20 Walker</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your other units are within 12" of this unit, if this unit is closer to or the same distance to an active enemy unit, those units gain the following ability: Ancient's Wisdom: For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Walker" id="2553-c429-5c76-4917" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Dreadnought" hidden="false" id="f65e-1d24-667f-5ff2">
@@ -8048,6 +8021,14 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
           </profiles>
         </selectionEntry>
+      
+        <selectionEntry type="upgrade" import="true" name="Venerable" hidden="false" id="0da4cd9e-5d14-4c02-a8f3-4d75d95de97f" sortIndex="2"><constraints><constraint type="max" value="1" field="selections" scope="unit" shared="true" id="8543da13-4d2b-45da-bb5f-e2890957a5e0" includeChildSelections="true"/></constraints><costs><cost name="pts" typeId="points" value="10"/></costs><profiles>
+          <profile name="Venerable" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="78a2-7934-76e9-0f61">
+                    <characteristics>
+                      <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit's Health is improved by 2.</characteristic>
+                    </characteristics>
+                  </profile>
+          </profiles></selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Dreadnought Hammer" hidden="false" id="5262-5524-dbdd-19d6" type="selectionEntry" targetId="5760-a1e9-6ed4-249b"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Dreadnought Hammer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
@@ -8097,14 +8078,19 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="5d98-a88b-7d29-4a3e" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="cf67-8dbb-bc46-43ea" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="03873a98-1422-44dc-a5c9-f65ce20335b8" primary="false" name="Chaos"/></categoryLinks>
       <profiles>
-        <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9d79-2ad3-fe9f-cec4">
+        <profile name="Duty Eternal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9d79-2ad3-fe9f-cec4">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your other units are within 12" of this unit, if this unit is closer to or the same distance to an active enemy unit, those units gain the following ability: Ancient's Wisdom: For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Walker" id="59a854fb-6845-4149-9155-c55ce8ce48db" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
+      
+        <infoLink name="Titan" id="8127c060-e9f4-43d9-bb6a-733258be5c2c" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/></infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Leviathan Dreadnought" hidden="false" id="1fb8-5f09-93bc-ff9b">
           <constraints>
@@ -8141,7 +8127,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="88ec-53b1-70b4-9e70" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="28e8-7cf2-0d8a-b59f" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="b1ac38c8-c2b2-4aa9-8b18-c7dff70d4d78" primary="false" name="Chaos"/></categoryLinks>
       <profiles>
         <profile name="Indiscriminate Violence" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d4fa-cb1a-8b97-5778">
           <characteristics>
@@ -8149,6 +8136,10 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink name="Walker" id="653cedd6-d8c9-44b7-ab7b-3cc4f7b5fb92" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
+        <infoLink name="Titan" id="7ca7fcfd-12d7-426e-8116-724c2f6e72e3" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/>
+      </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Defiler" hidden="false" id="20d0-62bf-c097-8190">
           <constraints>
@@ -8167,7 +8158,13 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           </profiles>
         </selectionEntry>
       </selectionEntries>
-      <entryLinks>
+      <selectionEntryGroups><selectionEntryGroup name="For an additional 20 points, this model may also be equipped with either:" id="bff606e5-e0dc-4140-ad12-120b97e6dedc" hidden="false"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8a81135f-a2eb-4791-a0d6-39103d79cd83" includeChildSelections="false"/></constraints><entryLinks><entryLink import="true" name="Excruciator Cannons" hidden="false" id="4dbf-a39c-bee7-6628" type="selectionEntry" targetId="9727-bd84-06f3-3ffb"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Excruciator Cannons" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups><costs><cost name="pts" typeId="points" value="20"/></costs>
+        </entryLink><entryLink import="true" name="Magma Cutters" hidden="false" id="1a11-5ea3-0f18-403b" type="selectionEntry" targetId="d3d3-fe95-d83d-7250"><constraints><constraint type="max" value="1" field="selections" scope="parent" shared="true" id="40ac51dc-0046-4670-81b0-608b6a5c64ff" includeChildSelections="true"/></constraints><costs><cost name="pts" typeId="points" value="20"/></costs>
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
+          <modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="5" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Pierce, For each attack made for this weapon, if that attack is targeting a vehicle or monster unit, add 1 to the Wound Roll." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Magma Cutters" field="name" affects="profiles.Weapon"/></modifiers>
+        </entryLink></entryLinks></selectionEntryGroup></selectionEntryGroups>
+<entryLinks>
         <entryLink import="true" name="Defiler Battle Cannon" hidden="false" id="c9e9-eb18-71d8-bf0e" type="selectionEntry" targetId="297d-9a8f-e2cd-476e"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Defiler Battle Cannon" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Defiler Ectoplasma Cannon" hidden="false" id="5175-db2a-12fc-b2f1" type="selectionEntry" targetId="2fcf-b9c1-f5fb-84e3"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Overcharge, Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Defiler Ectoplasma Cannon" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Defiler Claws" hidden="false" id="3bfe-ffd3-418b-8ff8" type="selectionEntry" targetId="7788-8991-a3c3-b51c"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="6" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Defiler Claws" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
@@ -8210,15 +8207,13 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           <infoLinks>
             <infoLink name="Blast (X)" id="3dbbfdae-dbd5-4bab-9cf9-772d293c9ea4" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
             <infoLink name="Strike/Sweep" id="8cf5b016-4212-4549-ae3b-8154d0942928" hidden="false" type="rule" targetId="2757-6563-cdb2-3456"/>
-          </infoLinks>
+          
+        <infoLink name="Walker" id="f6d34672-533c-4f87-85e3-266e6b8c8fae" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
+        <infoLink name="Titan" id="4f2d3253-ec4d-4077-a191-c55885128ae5" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/></infoLinks>
         </selectionEntry>
         <entryLink import="true" name="Electroscourge" hidden="false" id="a6f1-e869-94c7-8c61" type="selectionEntry" targetId="b69d-1b78-a287-645f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Pierce" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Electroscourge" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Excruciator Cannons" hidden="false" id="4dbf-a39c-bee7-6628" type="selectionEntry" targetId="9727-bd84-06f3-3ffb"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Excruciator Cannons" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Magma Cutters" hidden="false" id="1a11-5ea3-0f18-403b" type="selectionEntry" targetId="d3d3-fe95-d83d-7250">
-          <modifiers>
-            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="1"/>
-          <modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="5" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Pierce, For each attack made for this weapon, if that attack is targeting a vehicle or monster unit, add 1 to the Wound Roll." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Magma Cutters" field="name" affects="profiles.Weapon"/></modifiers>
-        </entryLink>
+        
+        
       </entryLinks>
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Predator" hidden="false" id="f2f7-37cf-45cc-67d4" sortIndex="1">
@@ -8228,7 +8223,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="4f50-0830-8329-22e5" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="f214-3681-1dc5-27f0" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="38ecb9b0-b0e3-4235-84f5-d86ddd9dc08d" primary="false" name="Chaos"/></categoryLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Chaos Predator" hidden="false" id="676f-fe2a-913c-781d">
           <constraints>
@@ -8339,7 +8335,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="4448-60f3-6c5d-4ce8" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="9644-8a80-2783-e8a7" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="3b86576b-eab4-40e9-ae3f-9e3a80e669dd" primary="false" name="Chaos"/></categoryLinks>
       <profiles>
         <profile name="Artillery Support" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bf57-07d2-7802-d4b2">
           <characteristics>
@@ -8405,11 +8402,12 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="f5e0-6bc4-fccc-1e1b" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="13fc-2b76-3d5e-2994" primary="false" name="Vehicle"/>
-      </categoryLinks>
+      
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="e9347f3d-e6f5-4ea8-ae40-f4842de7966e" primary="false" name="Chaos"/></categoryLinks>
       <profiles>
-        <profile name="Ancient's Wisdom" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="899d-e029-ed7f-8522">
+        <profile name="Duty Eternal" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="899d-e029-ed7f-8522">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your other units are within 12" of this unit, if this unit is closer to or the same distance to an active enemy unit, those units gain the following ability: Ancient's Wisdom: For each attack that targets this unit, reroll a Saving Throw of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8458,6 +8456,8 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           <modifier type="set" value="CQ" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Overcharge, Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Plasma Blaster" field="name" affects="profiles.Weapon"/></modifiers>
         </entryLink>
         <entryLink import="true" name="Cyclone Missiles" hidden="false" id="f704-bb4d-10f7-4a5a" type="selectionEntry" targetId="241d-c374-f065-9144">
+<constraints><constraint type="max" value="1" field="selections" scope="unit" shared="true" id="c30ef540-e4a4-44db-b839-6c3ba0e61908" includeChildSelections="true"/></constraints>
+<costs><cost name="pts" typeId="points" value="10"/></costs>
 <modifiers>
 <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
 <modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Pierce" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Cyclone Missiles" field="name" affects="profiles.Weapon"/></modifiers>
@@ -8498,17 +8498,17 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
             <profile name="4 Aura of Decay" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="59d8-4c23-536b-eb91">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Until the next time this unit is Activated or dies, after any enemy unit is Activated within 7" of this unit, that unit suffers 1+D3 Suppression.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">While enemy units are within 7" of this unit, those units gain Suppressed.</characteristic>
               </characteristics>
             </profile>
             <profile name="5 Fleshy Abundance" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="ec48-8bed-5e7d-6a36">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select a friendly unit within 14" of this unit. Until the next time this unit is Activated or dies, the selected unit gains Resilient 6+ and the following ability:</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select a friendly unit within 14" of this unit. Until the next time this unit is Activated or dies, the selected unit gains Resilient 6+ and the following ability: Grotesquely Resilient: Add 1 to Resilient Rolls made for this unit.</characteristic>
               </characteristics>
             </profile>
             <profile name="6 Rancid Visitations" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="1480-9066-a62c-28f8">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 14" of and visible to this unit. The selected unit suffers D3+3 Suppression. If the selected unit is within 7", it suffers 2D3+3 Suppression instead.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 14" of and visible to this unit. After the Attacks step, the selected unit gains Suppressed. Then, if the selected unit is within 7", it suffers 2D3 SW.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8530,7 +8530,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
             <profile name="3 Phantasmagoria" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="3574-e8c8-648f-9b09">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">After you would select targets for this unit this turn, select an enemy infantry unit within 16" of and visible to this unit. Then, roll 1+D3. The selected unit suffers X Suppression and X SW where X is equal to that roll.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">After this unit's Attacks step, select an enemy infantry unit within 16" of and visible to this unit. The selected unit gains Suppressed. Then, it suffers D3+1 SW.</characteristic>
               </characteristics>
             </profile>
             <profile name="4 Blissful Devotion" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="f0ee-54c9-3880-6eda">
@@ -8577,7 +8577,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
             </profile>
             <profile name="5 Withering Gaze" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="3727-1908-bcb8-2bf3">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 16" of and visible to this unit. The selected enemy unit suffers 2D6 Suppression.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 16" of and visible to this unit. After the Attacks step, the selected enemy unit gains Suppressed.</characteristic>
               </characteristics>
             </profile>
             <profile name="6 Desecration of Worlds" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="6b19-076d-bfe1-d6fa">
@@ -8593,7 +8593,7 @@ Daemonic Strength: For each attack made for this unit, a Wound Roll of 6 for tha
           <profiles>
             <profile name="1 Daemonshriek" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="5c07-5228-3000-8a9d">
               <characteristics>
-                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Each enemy unit within 16" of this unit suffers 1+D3 Suppression. Then, until the next time this unit is Activated or dies, while any enemy unit in the battlefield has Suppressed, this unit gains Dark Gods'Hatred.</characteristic>
+                <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">After this unit's Attacks step, all enemy units within 16" of this unit gain Suppressed. Then, until the next time this unit is Activated or dies, while any enemy unit in the battlefield has Suppressed, that unit gains Dark Gods' Hatred.</characteristic>
               </characteristics>
             </profile>
             <profile name="2 Diabolic Strength" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="8318-1fc6-e13d-a757">
