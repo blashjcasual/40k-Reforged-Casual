@@ -480,7 +480,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
           </modifiers>
         </profile>
       
-<profile name="Ruinous Onslaught" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a3cbceac-bbd8-45be-8e6e-cc49a799a9d2"><characteristics><characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After an enemy chaos unit's Move step begins, before rolling its Move Roll, it may select this unit (only select one unit with Ruinous Onslaught). Then, add 1 D6 to that Move Roll, and this unit must end its next move closer to this unit. Additionally, for each attack made by a chaos unit that targets this unit, that attack gains Critical Hits 6+.</characteristic></characteristics></profile>
+<profile name="Ruinous Onslaught" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a3cbceac-bbd8-45be-8e6e-cc49a799a9d2"><characteristics><characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After an enemy chaos unit's Move step begins, if it is visible to and within 24" of this unit, before rolling its Move Roll, it may add 1 D6 to that Move Roll (a Move Roll can only benefit from Ruinous Onslaught once). That unit must end its next move closer to this unit. Additionally, for each attack made by a chaos unit that targets this unit, that attack gains Critical Hits 6+.</characteristic></characteristics></profile>
 </profiles>
       <infoLinks>
         <infoLink name="Resilient (X)" id="6537-b9be-d59f-35ac" hidden="true" type="rule" targetId="253c-c1fa-d29d-d21e">
@@ -1168,7 +1168,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Nemesis Claws" hidden="true" id="548a-331c-6552-54f3" sortIndex="32">
+    <selectionEntry type="unit" import="true" name="Nemesis Claw" hidden="true" id="548a-331c-6552-54f3" sortIndex="32">
       <profiles>
         <profile name="Twisted Sadists" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9ff3-d6d9-9679-0ac4">
           <characteristics>
@@ -1188,7 +1188,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         <infoLink name="Forward Deploy" id="c025-1881-e765-c6e7" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
       </infoLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Nemesis Claws" id="872d-ab4c-b1dc-cea7" hidden="false" sortIndex="1" defaultSelectionEntryId="6708-f3a3-480d-c83c">
+        <selectionEntryGroup name="Nemesis Claw" id="872d-ab4c-b1dc-cea7" hidden="false" sortIndex="1" defaultSelectionEntryId="6708-f3a3-480d-c83c">
           <selectionEntries>
             <selectionEntry type="model" import="true" name="Nemesis Claw" hidden="false" id="38bf-a83b-e344-f929">
               <profiles>
@@ -2036,7 +2036,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         </profile>
         <profile name="Iron Within" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="true" id="2be0-93a5-e801-5d38">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack that targets any of your units with Suppressed, add 1 to Resilient Rolls made for that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While your units with Suppressed are within 16" of this unit, for each attack that targets those units, add 1 to Resilient Rolls made for that attack.</characteristic>
           </characteristics>
           <comment>Iron Warriors</comment>
           <modifiers>
@@ -2644,7 +2644,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
               <profiles>
                 <profile name="Khornate Bloodlust" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="cb2c-5c3a-7648-b9d9">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit visible to this unit. If you do, add 1D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit visible to and within 24" of this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3448,7 +3448,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
       <profiles>
         <profile name="Corporeal Schisms" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f956-fe7c-550b-e1c1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to and within 24" of this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4833,7 +4833,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
       <profiles>
         <profile name="Initiation of Bloodshed" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="e471-71ba-108f-0164">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to this unit. If you do, add 1D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step begins, before rolling its Move Roll, you may select an enemy unit with Dark Gods' Hatred visible to and within 24" of this unit. If you do, add 1 D6 to that Move Roll, and this unit must end its next move closer to that enemy unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="Replenished Ranks" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b065-28a2-3a0a-58e0">
@@ -4843,7 +4843,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Terminators Squad" hidden="false" id="f846-8b20-216f-1a8c" sortIndex="10">
+    <selectionEntry type="unit" import="true" name="Chaos Terminators" hidden="false" id="f846-8b20-216f-1a8c" sortIndex="10">
       <selectionEntryGroups>
         <selectionEntryGroup name="Terminators" id="3788-3976-d7b8-2645" hidden="false" defaultSelectionEntryId="4461-0824-8f6f-dee2">
           <selectionEntries>
@@ -6299,7 +6299,6 @@ Structural Degradation: This unit cannot be selected for Activation unless their
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                         </modifierGroup>
@@ -6335,7 +6334,6 @@ Structural Degradation: This unit cannot be selected for Activation unless their
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                         </modifierGroup>
@@ -6379,7 +6377,6 @@ Structural Degradation: This unit cannot be selected for Activation unless their
                       <modifierGroups>
                         <modifierGroup type="and">
                           <modifiers>
-                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                         </modifierGroup>
@@ -6429,7 +6426,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup name="Left Arm:" id="32a7-70be-c58f-7fae" hidden="false" defaultSelectionEntryId="f4d8-122d-5e10-01a4">
+            <selectionEntryGroup name="Left Arm:" id="32a7-70be-c58f-7fae" hidden="false" defaultSelectionEntryId="1094-a5e1-83c8-2ffd">
               <selectionEntries>
                 <selectionEntry type="upgrade" import="true" name="Helbrute Hammer" hidden="false" id="1094-a5e1-83c8-2ffd" sortIndex="1">
                   <profiles>
@@ -6499,7 +6496,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8c09-55fc-2a32-7674" includeChildSelections="false"/>
               </constraints>
               <entryLinks>
-                <entryLink import="true" name="Helbrute Fist" hidden="false" id="cd53-5e77-f2c3-da19" targetId="f0d7-6cf3-6da6-4b15" type="selectionEntry" sortIndex="3"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach, Colossal 2" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Helbrute Fist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+                <entryLink import="true" name="Helbrute Fist" hidden="false" id="cd53-5e77-f2c3-da19" targetId="f0d7-6cf3-6da6-4b15" type="selectionEntry" sortIndex="3"/>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup name="Right Arm:" id="1412-6f6d-0675-e041" hidden="false" defaultSelectionEntryId="f0d7-6cf3-6da6-4b15">
@@ -6583,7 +6580,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
-                <entryLink targetId="f0d7-6cf3-6da6-4b15" id="9384-2687-3740-6249" type="selectionEntry" name="Helbrute Fist" hidden="false" sortIndex="6"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach, Colossal 2" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Helbrute Fist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+                <entryLink targetId="f0d7-6cf3-6da6-4b15" id="9384-2687-3740-6249" type="selectionEntry" name="Helbrute Fist" hidden="false" sortIndex="6"/>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
@@ -6592,7 +6589,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
       <profiles>
         <profile name="Maddening Rage" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="aa9d-df23-a04a-772d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, you must select one other unit within 4" of this unit (if able). If you did, the selected unit suffers 4 SW and until the End step, during an Advance, this unit may move up to an additional 4" if that move would end within 4" of any enemy units.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Activates, you must select one other unit within 4" of this unit (if able). If you did, the selected unit suffers 4 SW. Then, add 1 D6 to this unit's next Move Roll.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6953,6 +6950,116 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         <profile name="Manifesting Abominations" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b6d3-db8b-4dfa-857a">
           <characteristics>
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may'manifest abominations'. If you do, roll 3D6. Then, Deploy this unit anywhere in the battlefield at least X" away from all enemy units where X is the result of that roll. If you do, this unit cannot Advance or Reposition this turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mutilators" hidden="false" id="9d78e1d8-081e-4174-ace3-c4765fd42639" sortIndex="20">
+      <selectionEntryGroups>
+        <selectionEntryGroup name="Mutilators" id="ca0f9b6c-bfc7-4644-bffa-e97a0ca273d6" hidden="false" defaultSelectionEntryId="633eda64-c44b-4430-b0ef-43309927cc30">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9fb43d8e-e492-44fd-8e9f-23fa54a72668" includeChildSelections="false"/>
+            <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="cbd58f24-212a-4195-8993-771f6d0445eb" includeChildSelections="false"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="model" import="true" name="Mutilator" hidden="false" id="633eda64-c44b-4430-b0ef-43309927cc30">
+              <profiles>
+                <profile name="Mutilator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f6c072db-b03c-48d0-8535-4effa153a4f1">
+                  <characteristics>
+                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
+                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
+                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">9</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntryGroups>
+                <selectionEntryGroup name="Weapons" id="f30e1b79-4dbd-41b6-95e1-8041fc8cc6c7" hidden="false">
+                  <constraints>
+                    <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9bb6fc74-9e78-485d-bd7b-afab5e9d8969" includeChildSelections="false"/>
+                    <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bac0e9a8-af8f-4edf-afeb-55371496dd5e" includeChildSelections="false"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry type="upgrade" import="true" name="Cacophonous Chainclaws" hidden="false" id="0c5a6f55-b232-4141-9b96-569e371b9a37">
+                      <infoLinks>
+                        <infoLink name="Shred" id="80e5f96d-e3fa-45fe-838a-b1539f1438a7" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
+                        <infoLink name="Overcharge" id="b2336f09-ba6d-4272-b88e-d2e1e9baf080" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Cacophonous Chainclaws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8f9029d5-928b-4af7-b2fc-92d7690dd311">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, Overcharge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Reaping Hellblades" hidden="false" id="959815de-62ee-418f-89c8-b456b5e6d076">
+                      <infoLinks>
+                        <infoLink name="Overcharge" id="87f14749-091f-421e-b6af-0328e4231d59" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Reaping Hellblades" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c87574f1-9602-40fc-ac19-bc2e1e4dbba3">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                    <selectionEntry type="upgrade" import="true" name="Sundering Thunderbludgeon" hidden="false" id="8aff1a2c-8928-4f84-8c53-ddc68c2ddb18">
+                      <infoLinks>
+                        <infoLink name="Overcharge" id="f4014f19-90ff-4f4b-896c-c8f1f53f1056" hidden="false" type="rule" targetId="e676-2d17-e4bf-f5e8"/>
+                      </infoLinks>
+                      <profiles>
+                        <profile name="Sundering Thunderbludgeon" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="fb1727f3-172f-4df1-865e-646caf14882b">
+                          <characteristics>
+                            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                            <characteristic name="A" typeId="13c5-f234-c120-afc3">6</characteristic>
+                            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+                            <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Overcharge</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="110"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <categoryLinks>
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="01002854-5b23-46ff-8902-0d04eb23714b" primary="false" name="Chaos"/>
+        <categoryLink targetId="6537-7b2d-b2c8-6005" id="452751e0-7e15-4b91-8383-de25b33941e3" primary="false" name="Monster"/>
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="70ec3bac-ea73-4528-85db-62b058538851" primary="true" name="Support"/>
+      </categoryLinks>
+      <profiles>
+        <profile name="Manifesting Abominations" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="54bf73ba-a73a-4af6-bcfd-d08501e1f616">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated in reserves, you may 'manifest abominations'. If you do, roll 3D6. Then, Deploy this unit anywhere on the battlefield at least X" away from all enemy units where X is the result of that roll. If you do, this unit cannot Advance or Reposition this turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Fleshmetal Armoury" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7670428e-d498-4543-a1ee-f575d306eb58">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit is Activated, for each model in this unit, you may reselect that model's loadout options as you would during army list building.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Assimilate Relics" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b06e6f02-db0c-4adc-9a6f-73f8c3059724">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack this unit makes that target an enemy unit with a relic, reroll a Wound Roll of 1 for that attack. After this unit's Attacks step, if an enemy unit died and had a relic ability, you may have this unit gain that relic.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8038,7 +8145,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         <entryLink import="true" name="Dreadnought Hammer" hidden="false" id="5262-5524-dbdd-19d6" type="selectionEntry" targetId="5760-a1e9-6ed4-249b"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Dreadnought Hammer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Dreadnought Fist" hidden="false" id="1748-6ba0-8b8f-aad2" type="selectionEntry" targetId="1a5e-fc25-5530-9515"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach, Colossal 2" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Dreadnought Fist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Combi-Bolter" hidden="false" id="9896-a733-b0d8-1fff" type="selectionEntry" targetId="9aca-6746-ceac-f4fd"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Combi-Bolter" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Heavy Flamer" hidden="false" id="638b-1c1d-1bc3-261e" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Heavy Flamer" hidden="false" id="638b-1c1d-1bc3-261e" type="selectionEntry" targetId="5c44-7d31-605d-4b6f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Power Scourge" hidden="false" id="1d27-6b48-dba7-3c75" type="selectionEntry" targetId="fcd0-a3e6-1f23-f3e5"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Pierce" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Power Scourge" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <selectionEntry type="upgrade" import="true" name="Missile Launcher" hidden="false" id="e520-235d-99bb-4a73">
           <profiles>
@@ -8119,7 +8226,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         <entryLink import="true" name="Grav Flux Bombard" hidden="false" id="31b0-3368-e8b8-3dc0" type="selectionEntry" targetId="6c9c-c0fa-745e-1614"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="-" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="For each attack made for this weapon, that attack’s S is 1 higher than the target’s Toughness." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Grav Flux Bombard" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Leviathan Siege Drill" hidden="false" id="ac9e-3efb-1fec-a134" type="selectionEntry" targetId="2009-0acc-abd8-a3fe"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred, This unit may move through Structure terrain pieces as if they were not there." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Leviathan Siege Drill" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Leviathan Siege Claw" hidden="false" id="b6ef-b675-5bc2-3193" type="selectionEntry" targetId="e2a4-314f-5a16-17af"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="6" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="This unit may move through Structure terrain pieces as if they were not there." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Leviathan Siege Claw" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Meltagun" hidden="false" id="2190-7546-702e-674f" type="selectionEntry" targetId="3e64-4706-d7e4-3c17"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="CQ" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 4&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Meltagun" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Meltagun" hidden="false" id="2190-7546-702e-674f" type="selectionEntry" targetId="4260-66c2-4887-4117"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="CQ" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 4&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Meltagun" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Twin Volkite Caliver" hidden="false" id="f54e-7cff-6d25-6581" type="selectionEntry" targetId="596f-b8d3-70fc-6501"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Twin Volkite Caliver" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Twin Heavy Flamer" hidden="false" id="b6d3-deca-d4b3-1dc7" type="selectionEntry" targetId="b057-0af2-378f-cc67"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Twin Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
       </entryLinks>
@@ -8395,8 +8502,8 @@ Structural Degradation: This unit cannot be selected for Activation unless their
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Earthshaker Cannon" hidden="false" id="d191-3afd-9e2f-848c" type="selectionEntry" targetId="9b46-9576-99dc-7de3"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Barrage, Suppressive, For each successful Wound Roll made for this weapon’s attacks, the target unit suffers 4 SW." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Earthshaker Cannon" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Heavy Flamer" hidden="false" id="1668-bb45-8173-7bf2" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Heavy Bolter" hidden="false" id="3c66-ff9d-4c86-6d1e" type="selectionEntry" targetId="3822-1e7c-d739-f978"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Bolter" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Heavy Flamer" hidden="false" id="1668-bb45-8173-7bf2" type="selectionEntry" targetId="5c44-7d31-605d-4b6f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Heavy Bolter" hidden="false" id="3c66-ff9d-4c86-6d1e" type="selectionEntry" targetId="82a1-b562-e748-d5ad"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Bolter" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
       </entryLinks>
     </selectionEntry>
 <selectionEntry type="unit" import="true" name="Chaos Contemptor Dreadnought" hidden="false" id="bbcb-474d-5b97-e80a" sortIndex="1">
@@ -8441,19 +8548,19 @@ Structural Degradation: This unit cannot be selected for Activation unless their
         <entryLink import="true" name="Dual Heavy Bolter" hidden="false" id="8b72-2b89-dda9-6e3d" type="selectionEntry" targetId="a2d5-b0fb-0050-ed53"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Dual Heavy Bolter" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Assault Cannon" hidden="false" id="598b-9724-5d29-2a2c" type="selectionEntry" targetId="17ef-54a2-9d88-7e76"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="24" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Assault Cannon" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Dual Lascannon" hidden="false" id="f233-b00f-0119-81db" type="selectionEntry" targetId="8b50-fe8f-bcf1-fb1f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Dual Lascannon" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Multi-Melta" hidden="false" id="5bd9-c789-8c9b-4960" type="selectionEntry" targetId="d238-153a-c7ff-db1c"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 8&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Multi-Melta" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Multi-Melta" hidden="false" id="5bd9-c789-8c9b-4960" type="selectionEntry" targetId="8cdb-d231-cc0f-a98f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 8&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Multi-Melta" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Volkite Dual-Culverin" hidden="false" id="e688-8d85-1a4e-1921" type="selectionEntry" targetId="ce0d-419c-6db8-1bfd"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Volkite Dual-Culverin" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Heavy Conversion Beamer" hidden="false" id="e831-1500-bc01-707e" type="selectionEntry" targetId="d62d-41d7-3ee6-a7d5"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Heavy Conversion Beamer" field="name" affects="profiles.Weapon"/><modifier type="set" value="Hv" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred, For each attack made for this weapon that targets an enemy unit further than 16” away, the D of that attack improves by 2." field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Chainfist" hidden="false" id="07d8-c93f-c4de-360a" type="selectionEntry" targetId="aa97-0f03-f76b-b7a5"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Chainfist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Power Fist" hidden="false" id="4656-cbd2-727d-e910" type="selectionEntry" targetId="43bc-47fe-f208-8817"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Power Fist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Chainfist" hidden="false" id="07d8-c93f-c4de-360a" type="selectionEntry" targetId="ad98-4b41-0c98-aa4e"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Chainfist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Power Fist" hidden="false" id="4656-cbd2-727d-e910" type="selectionEntry" targetId="e9ab-47d0-5cce-0c1d"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="ML" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Breach" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Power Fist" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Combi-Bolter" hidden="false" id="3982-6a7b-c8f3-c4a2" type="selectionEntry" targetId="9aca-6746-ceac-f4fd">
           <modifiers>
             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="8"/>
           <modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="3" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Combi-Bolter" field="name" affects="profiles.Weapon"/></modifiers>
         </entryLink>
         <entryLink import="true" name="Graviton Gun" hidden="false" id="54b0-1411-7153-df5a" type="selectionEntry" targetId="76bf-8aa5-0abc-cb79"/>
-        <entryLink import="true" name="Heavy Flamer" hidden="false" id="36ce-b2ed-ee3d-01c3" type="selectionEntry" targetId="0e49-4f67-14a9-ad0c"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
-        <entryLink import="true" name="Meltagun" hidden="false" id="15ce-7aea-ff4f-ff52" type="selectionEntry" targetId="3e64-4706-d7e4-3c17"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="CQ" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 4&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Meltagun" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Heavy Flamer" hidden="false" id="36ce-b2ed-ee3d-01c3" type="selectionEntry" targetId="5c44-7d31-605d-4b6f"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="Aslt" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="2" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Ignore Cover, Purge" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Heavy Flamer" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
+        <entryLink import="true" name="Meltagun" hidden="false" id="15ce-7aea-ff4f-ff52" type="selectionEntry" targetId="4260-66c2-4887-4117"><modifierGroups><modifierGroup type="and"><modifiers><modifier type="set" value="CQ" field="6c1c-7d1d-c8b0-33ec" affects="profiles.Weapon"/><modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/><modifier type="set" value="5" field="571c-0471-2614-c57c" affects="profiles.Weapon"/><modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/><modifier type="set" value="Melt 4&quot;, Shred" field="d93f-70ee-72bc-5ef9" affects="profiles.Weapon"/><modifier type="set" value="Meltagun" field="name" affects="profiles.Weapon"/></modifiers></modifierGroup></modifierGroups></entryLink>
         <entryLink import="true" name="Plasma Blaster" hidden="false" id="3c10-2da1-41b2-5267" type="selectionEntry" targetId="99f9-3972-a2ac-88f8">
           <modifiers>
             <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
@@ -8657,7 +8764,7 @@ Structural Degradation: This unit cannot be selected for Activation unless their
     <entryLink targetId="0c99-5b95-932e-a436" id="6c21-2231-ff80-752d" type="selectionEntry" name="Raptors" hidden="false" sortIndex="14"/>
     <entryLink targetId="9efc-f95b-4cd0-65b7" id="ba5a-b9f7-350d-d7f9" type="selectionEntry" name="Rhino" hidden="false" sortIndex="13"/>
     <entryLink targetId="f711-cdab-7f3f-3ccf" id="2ded-55c1-47c8-3338" type="selectionEntry" name="Breacher Siege Squad" hidden="false" sortIndex="12"/>
-    <entryLink targetId="f846-8b20-216f-1a8c" id="e2df-ece7-fc38-9a33" type="selectionEntry" name="Terminators Squad" hidden="false" sortIndex="10"/>
+    <entryLink targetId="f846-8b20-216f-1a8c" id="e2df-ece7-fc38-9a33" type="selectionEntry" name="Chaos Terminators" hidden="false" sortIndex="10"/>
     <entryLink targetId="7f39-2d61-3915-9c0d" id="3b3c-3441-67ab-9f8f" type="selectionEntry" name="Chaos Apothecary" hidden="false" sortIndex="7"/>
     <entryLink targetId="7353-5ab5-a476-1079" id="82e6-3414-b8dd-558d" type="selectionEntry" name="Warpsmith" hidden="false" sortIndex="6"/>
     <entryLink targetId="a8dd-0986-4d63-f784" id="a833-10a3-7a28-7b50" type="selectionEntry" name="Chaos Sorcerer" hidden="false" sortIndex="4"/>

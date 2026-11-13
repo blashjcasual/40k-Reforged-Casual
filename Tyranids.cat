@@ -312,7 +312,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
         </profile>
         <profile name="Dormant Broods" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b447-f44b-affb-d634">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After your TERM AGANTS units Activate within 16" of this unit, that unit Heals D3.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After your TERMAGANTS units Activate within 16" of this unit, that unit Heals D3.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -342,7 +342,7 @@ Dominated Metabolism: Each time a model in this unit dies, do not remove it fro
           <profiles>
             <profile name="Living Incubator" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="937e-b831-3a95-fd04">
               <characteristics>
-                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For every 500 points in your army list, you may add one additional TERM AGANT unit to your army list for 0 points (1 for 800, 2 for 1200, 3 for 1600 and includes wargear).</characteristic>
+                <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For every 500 points in your army list, you may add one additional TERMAGANT unit to your army list for 0 points (1 for 800, 2 for 1200, 3 for 1600 and includes wargear).</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -824,7 +824,74 @@ GARGOYLES</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-        <selectionEntry type="unit" import="true" name="Lictor" hidden="false" id="8cae-4051-4ea1-0306" sortIndex="11">
+        <selectionEntry type="unit" import="true" name="Deathleaper" hidden="false" id="e28ec509-5e68-41ca-8330-703eecdb9e7e" sortIndex="10">
+      <costs>
+        <cost name="pts" typeId="points" value="120" />
+      </costs>
+      <infoLinks>
+        <infoLink name="Walker" id="c8baac20-5b35-4a8e-86fa-42351e91ef6f" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
+        <infoLink name="Forward Deploy" id="721ba92c-c8fc-4a86-8272-fc400e4b501a" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f" />
+      </infoLinks>
+      <profiles>
+        <profile name="Calculated Clemency" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="be6968d9-ef8d-49d8-89d9-b515a45dc5e4">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is active, if an enemy infantry unit within engagement range of this unit would be reduced to 1 Health, you may ‘leave terrifying evidence’. If you do, that unit can’t lose any more Health this turn. Then, select another enemy unit within 16” of and visible to the first enemy unit. The selected unit gains Suppressed, and if it is a leader unit, it cannot lose Suppressed for the rest of the battle. Then, this unit gains the following ability:</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="To The Shadows" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f94cb989-f0b3-43cc-9b6e-fadd617b474e">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit's End step, this unit may Advance and it loses this ability.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <selectionEntries>
+        <selectionEntry type="model" import="true" name="Deathleaper" hidden="false" id="17a35f86-a0dd-4755-8e8e-80bc4238757e">
+          <constraints>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="3ef60ecf-ee97-48fd-9fed-a19b6c9ea8cf-min" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="77dc3d83-25e1-4397-82da-06550aa91d3e-max" includeChildSelections="false" />
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Deathleaper Talons" hidden="false" id="6eb163d8-c999-4181-8572-52a4d10ed3bc">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="f5ad7200-6000-4392-8af9-94d9ba52c1ed-min" includeChildSelections="false" />
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="f1d52301-f942-4747-a225-f95efd1317c5-max" includeChildSelections="false" />
+              </constraints>
+              <profiles>
+                <profile name="Deathleaper Talons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="c37fccf6-1f90-4538-9a58-8c88caf00f07">
+                  <characteristics>
+                    <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">14</characteristic>
+                    <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                    <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                    <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Isolate, Shred</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink name="Isolate" id="4f95f902-b09a-4237-ae0e-1ae1c63f1d90" hidden="false" type="rule" targetId="db97-d77e-4392-6f10" />
+                <infoLink name="Shred" id="2045e904-41be-49fe-a8b4-11584331bcb2" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <profiles>
+            <profile name="Deathleaper" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d5901a81-7721-4faa-a625-4898f4560f55">
+              <characteristics>
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">7</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      </selectionEntries>
+      <categoryLinks>
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="64238578-1a1b-445a-87f8-f460611b7db8" primary="true" name="Support" />
+        <categoryLink targetId="205c-3072-067b-d808" id="a4a1e683-c862-4aba-9dbb-d5fbba9f3726" primary="false" name="Infantry" />
+        <categoryLink targetId="1738-1300-9dbb-c5be" id="d0bc2495-cfb3-470d-8f3c-b799586e93ec" primary="false" name="Rare" />
+      </categoryLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lictor" hidden="false" id="8cae-4051-4ea1-0306" sortIndex="11">
       <costs>
         <cost name="pts" typeId="points" value="60" />
       </costs>
@@ -1179,10 +1246,13 @@ GARGOYLES</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">After this unit makes an Advance move, this weapon gains Shred until the End step.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <infoLinks>
+                <infoLink name="Shred" id="a07b5eec-c840-46c0-91d4-a71f5568cf7a" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+              </infoLinks>
               <costs><cost name="pts" typeId="points" value="10" /></costs>
             </selectionEntry>
             <selectionEntry type="upgrade" import="true" name="Bio-Plasma Discharge" hidden="false" id="381b-ac93-d289-426e">
@@ -1531,6 +1601,7 @@ GARGOYLES</characteristic>
                                 <modifier type="set" value="4" field="571c-0471-2614-c57c" affects="profiles.Weapon" />
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
                                 <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+                                <modifier type="set" value="Guard Bone Sword" field="name" affects="profiles.Weapon" />
                               </modifiers>
                             </modifierGroup>
                           </modifierGroups>
@@ -1799,7 +1870,7 @@ GARGOYLES</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Harsupex" hidden="false" id="d1af-f8e2-83db-4789" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Haruspex" hidden="false" id="d1af-f8e2-83db-4789" sortIndex="20">
       <costs>
         <cost name="pts" typeId="points" value="160" />
       </costs>
@@ -1811,19 +1882,19 @@ GARGOYLES</characteristic>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Harsupex" hidden="false" id="2892-76a4-0989-f838">
+        <selectionEntry type="model" import="true" name="Haruspex" hidden="false" id="2892-76a4-0989-f838">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b811-0133-5b58-e381-min" includeChildSelections="false" />
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b811-0133-5b58-e381-max" includeChildSelections="false" />
           </constraints>
           <selectionEntries>
-            <selectionEntry type="upgrade" import="true" name="Harsupex Crushing Claws" hidden="false" id="c2b6-fa72-9342-986d">
+            <selectionEntry type="upgrade" import="true" name="Haruspex Crushing Claws" hidden="false" id="c2b6-fa72-9342-986d">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a495-af43-530e-f559-min" includeChildSelections="false" />
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a495-af43-530e-f559-max" includeChildSelections="false" />
               </constraints>
               <profiles>
-                <profile name="Harsupex Crushing Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3a6e-e63f-db5f-91eb">
+                <profile name="Haruspex Crushing Claws" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="3a6e-e63f-db5f-91eb">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
                     <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
@@ -1861,7 +1932,7 @@ GARGOYLES</characteristic>
             </selectionEntry>
           </selectionEntries>
           <profiles>
-            <profile name="Harsupex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a732-9627-0ee4-52de">
+            <profile name="Haruspex" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="a732-9627-0ee4-52de">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
@@ -2318,7 +2389,7 @@ GARGOYLES</characteristic>
     </profile>
     <profile name="Frenzied Feeders" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a8f5-3d8c-4b84-575a">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, create a unit of RIPPER SW ARM S with X models, where X is the total number of HORM AGAUNTS and TERM AGANTS units in your army list.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After rolling for initiative during battle round 1, create a unit of RIPPER SWARMS with X models, where X is the total number of HORMAGAUNTS and TERMAGANTS units in your army list.</characteristic>
       </characteristics>
     </profile>
     <profile name="Synapse" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ef65-9c3a-581f-6896">
@@ -2328,7 +2399,7 @@ GARGOYLES</characteristic>
     </profile>
     <profile name="Adaptation Mitosis" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="6a78-8ac7-367b-4410">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may select units in reserves to gain a relic. While your units are on the battlefield, you may only select those units to gain a relic if they are within 16" of one of your units with Synapse. If your active unit is within 16" of a unit with Synapse, while capturing a vault, you may select two of your units instead of one (both of your units gain the selected relic). If any of your other units have that relic, they do not lose it. After you capture a forge, instead of your active unit's relic becoming reforged, all of your units gain that relic for the rest of the battle. Then, your active unit becomes ready.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may select units in reserves to gain a relic. While your units are on the battlefield, you may only select those units to gain a relic if they are within 16" of one of your units with Synapse. If your active unit is within 16" of a unit with Synapse, while capturing a vault, you may select two of your units instead of one (both of your units gain the selected relic). If any of your other units have that relic, they do not lose it. After you capture a forge, instead of your active unit's relic becoming reforged, that relic becomes 'adapted' if it wasn't already. After your active unit's relic becomes adapted, that unit becomes ready. While a relic is adapted, all your units gain that relic and cannot lose it.</characteristic>
       </characteristics>
     </profile>
     <profile name="Dominating Shadow" typeId="266a-be4d-b9fa-94de" typeName="Windfall of the Warp" hidden="false" id="12e1-903d-2084-3dd7">
@@ -2349,6 +2420,21 @@ GARGOYLES</characteristic>
     <profile name="Synaptic Node" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="25a5-78c2-e19f-0550">
       <characteristics>
         <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, this unit gains Synapse.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mindless Impulses" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f5de-3f19-062e-09cd">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit cannot become ready or be selected to gain relics. After rolling for initiative, this unit must Reposition and add 1 D6 to the Move Roll for that Reposition.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Atmospheric Disturbances" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="66e0-bc57-0ad3-8e0e">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after any enemy unit finishes an Advance, Reposition or Pile In, if that unit is within 12" of this unit, that unit is 'irritating' until the End step. Then, this unit must Reposition and must end that move as close as possible to the irritating unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Reflexive Burst" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f266-6075-b64a-714b">
+      <characteristics>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes a Reposition or Pile In within engagement range of one or more enemy units, for each enemy unit within engagement range of this unit, this unit must make attacks targeting that unit. Then, this unit dies.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -2646,7 +2732,7 @@ GARGOYLES</characteristic>
       <profiles>
         <profile name="Synaptic Targeting" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="fe89-c558-cfff-62c1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, for each attack made for a weapon equipped to this unit's TERM AGANT models, add 1 to the Hit Roll of that attack.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 16" of one or more friendly units with Synapse, for each attack made for a weapon equipped to this unit's TERMAGANT models, add 1 to the Hit Roll of that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3276,7 +3362,7 @@ GARGOYLES</characteristic>
         <cost name="pts" typeId="points" value="90" />
       </costs>
       <categoryLinks>
-        <categoryLink targetId="ccc6-6202-853c-23e4" id="200d-e91d-3fe4-8a41" primary="true" name="Support" />
+        <categoryLink targetId="1dc0-a947-c240-76bb" id="200d-e91d-3fe4-8a41" primary="true" name="Countless Leader" />
         <categoryLink targetId="205c-3072-067b-d808" id="beaf-154b-bc0d-905b" primary="false" name="Infantry" />
       </categoryLinks>
       <profiles>
@@ -3324,7 +3410,7 @@ GARGOYLES</characteristic>
         <cost name="pts" typeId="points" value="80" />
       </costs>
       <categoryLinks>
-        <categoryLink targetId="ccc6-6202-853c-23e4" id="485a-3c96-e212-0ead" primary="true" name="Support" />
+        <categoryLink targetId="1dc0-a947-c240-76bb" id="485a-3c96-e212-0ead" primary="true" name="Countless Leader" />
         <categoryLink targetId="205c-3072-067b-d808" id="ba8d-adcf-d8d8-e075" primary="false" name="Infantry" />
       </categoryLinks>
       <profiles>
@@ -3754,6 +3840,7 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
         <entryLink import="true" name="Bio-Plasma Discharge" hidden="false" id="9cb4-ae30-4376-8134" type="selectionEntry" targetId="ef8a-2fb7-34cc-cf78">
           <modifiers>
             <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+            <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon" />
           </modifiers>
         </entryLink>
       </entryLinks>
@@ -3991,21 +4078,6 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
             <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack this unit makes, after the Hit Roll of that attack fails, create a spore mine unit with the same name as that attack's weapon within 6" of the selected unit outside of the engagement range of enemy units. That unit is not ready.</characteristic>
           </characteristics>
         </profile>
-        <profile name="Mindless Impulses" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f5de-3f19-062e-09cd">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit cannot become ready or be selected to gain relics. After rolling for initiative, this unit must Reposition and add 1 D6 to the Move Roll for that Reposition.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Atmospheric Disturbances" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="66e0-bc57-0ad3-8e0e">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">Once per turn, after any enemy unit finishes an Advance, Reposition or Pile In, if that unit is within 12" of this unit, that unit is 'irritating' until the End step. Then, this unit must Reposition and must end that move as close as possible to the irritating unit.</characteristic>
-          </characteristics>
-        </profile>
-        <profile name="Reflexive Burst" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f266-6075-b64a-714b">
-          <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit finishes a Reposition or Pile In within engagement range of one or more enemy units, for each enemy unit within engagement range of this unit, this unit must make attacks targeting that unit. Then, this unit dies.</characteristic>
-          </characteristics>
-        </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="2d6a-280b-d19b-e338" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15" />
@@ -4037,9 +4109,8 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Neuroloids" hidden="false" id="ee67-3a30-0ad9-c712">
       <categoryLinks>
-        <categoryLink targetId="205c-3072-067b-d808" id="2b3a-9fc5-893f-cd6a" primary="false" name="Infantry" />
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="cac7-cc54-2075-9caf" primary="false" name="Rare" />
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="2619-884b-0400-eb1c" primary="false" name="Leaders" />
+        <categoryLink targetId="6537-7b2d-b2c8-6005" id="b704-5b13-03c1-318e" primary="false" name="Monster" />
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Neuroloids" id="2e53-2561-925e-dbb5" hidden="false" defaultSelectionEntryId="608b-62df-fd8e-cd55">
@@ -4148,6 +4219,197 @@ If this unit has Winged, it must attach to WARRIOR BROOD with Winged.</character
      <infoLinks>
        <infoLink name="Shred" id="e3d4-afc4-d236-4ef5" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
      </infoLinks>
+   </selectionEntry>
+   <selectionEntry type="unit" import="true" name="Krak Spore Mine" hidden="true" id="6d01f68c-2c2e-47e4-8f0a-4c2072d50292">
+     <categoryLinks>
+       <categoryLink name="Monster" hidden="false" id="1cd386db-a3fb-4bb8-a943-a13f0d5bd4d6" targetId="6537-7b2d-b2c8-6005" primary="true" />
+     </categoryLinks>
+     <infoLinks>
+       <infoLink name="Fly" id="d53421a4-67de-4d4e-b21c-4f7a04a8a52e" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+       <infoLink name="Mindless Impulses" id="df65810e-38b9-4583-b144-3713a94d55f3" hidden="false" type="profile" targetId="f5de-3f19-062e-09cd" />
+       <infoLink name="Atmospheric Disturbances" id="d7d413a7-2bc7-4de9-a646-2ff8e153a890" hidden="false" type="profile" targetId="66e0-bc57-0ad3-8e0e" />
+       <infoLink name="Reflexive Burst" id="bb91264b-57b5-4052-a463-09953c4e3dfe" hidden="false" type="profile" targetId="f266-6075-b64a-714b" />
+     </infoLinks>
+     <selectionEntries>
+       <selectionEntry type="model" import="true" name="Krak Spore Mine" hidden="true" id="9b93b5a9-bdf4-4407-b196-cc7fe3100b01">
+         <constraints>
+           <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9b93b5a9-bdf4-4407-b196-cc7fe3100b01-min" includeChildSelections="false" />
+           <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9b93b5a9-bdf4-4407-b196-cc7fe3100b01-max" includeChildSelections="false" />
+         </constraints>
+         <profiles>
+           <profile name="Krak Spore Mine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4af45d83-745c-4d94-bc16-bd68442a7d06">
+             <characteristics>
+               <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
+               <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
+               <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
+             </characteristics>
+           </profile>
+         </profiles>
+         <selectionEntries>
+           <selectionEntry type="upgrade" import="true" name="Krak Spore Mine" hidden="true" id="d0774ec1-0526-4877-9126-963a8f9fa950">
+             <profiles>
+               <profile name="Krak Spore Mine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6e1d7efa-563d-4081-8c69-844281f70b65">
+                 <characteristics>
+                   <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                   <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                   <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                   <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
+                   <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
+                   <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2, Pierce</characteristic>
+                 </characteristics>
+               </profile>
+             </profiles>
+             <infoLinks>
+               <infoLink name="Blast (X)" id="f6825eae-1c32-4eb7-9cdc-0257a7932ed7" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+               <infoLink name="Pierce" id="4d365bdf-25b7-457c-965f-4ccd0a295934" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+             </infoLinks>
+           </selectionEntry>
+         </selectionEntries>
+       </selectionEntry>
+     </selectionEntries>
+   </selectionEntry>
+   <selectionEntry type="unit" import="true" name="Poison Spore Mine" hidden="true" id="e807bea4-372f-4a42-bc7a-d539b95a98e0">
+     <categoryLinks>
+       <categoryLink name="Monster" hidden="false" id="6fce6c80-4aa7-4920-866c-0833d45ac0af" targetId="6537-7b2d-b2c8-6005" primary="true" />
+     </categoryLinks>
+     <infoLinks>
+       <infoLink name="Fly" id="3fefbde8-cccc-48fd-8242-d354b8a70652" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+       <infoLink name="Mindless Impulses" id="1a89fab2-02b1-4f40-b912-09ba52a9b0e8" hidden="false" type="profile" targetId="f5de-3f19-062e-09cd" />
+       <infoLink name="Atmospheric Disturbances" id="0e71015c-5ae1-412d-9c39-b2ee00779ee6" hidden="false" type="profile" targetId="66e0-bc57-0ad3-8e0e" />
+       <infoLink name="Reflexive Burst" id="9ce5648e-5b5e-4b0e-9eb5-fc485a697aa9" hidden="false" type="profile" targetId="f266-6075-b64a-714b" />
+     </infoLinks>
+     <selectionEntries>
+       <selectionEntry type="model" import="true" name="Poison Spore Mine" hidden="true" id="a024ca23-47b7-4e89-90b3-734b1cd5c88d">
+         <constraints>
+           <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a024ca23-47b7-4e89-90b3-734b1cd5c88d-min" includeChildSelections="false" />
+           <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a024ca23-47b7-4e89-90b3-734b1cd5c88d-max" includeChildSelections="false" />
+         </constraints>
+         <profiles>
+           <profile name="Poison Spore Mine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="53bb743d-b2de-4554-a37c-5834af971f47">
+             <characteristics>
+               <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
+               <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
+               <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
+             </characteristics>
+           </profile>
+         </profiles>
+         <selectionEntries>
+           <selectionEntry type="upgrade" import="true" name="Poison Spore Mine" hidden="true" id="9081ae18-d034-4299-ae5b-d40e65c3d21a">
+             <profiles>
+               <profile name="Poison Spore Mine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="6f0e1af0-d80e-444e-ab2d-1ffc22824fd6">
+                 <characteristics>
+                   <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                   <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                   <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                   <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                   <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                   <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 9, Suppressive</characteristic>
+                 </characteristics>
+               </profile>
+             </profiles>
+             <infoLinks>
+               <infoLink name="Blast (X)" id="68d6b581-9df7-4122-bad4-fd58bb5efec1" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+               <infoLink name="Suppressive" id="6c31cb58-4777-44a9-9559-7027e9768908" hidden="false" type="rule" targetId="aed3-e154-8fa2-5378" />
+             </infoLinks>
+           </selectionEntry>
+         </selectionEntries>
+       </selectionEntry>
+     </selectionEntries>
+   </selectionEntry>
+   <selectionEntry type="unit" import="true" name="Frag Spore Mine" hidden="true" id="99126651-9f8a-4546-a8ea-82a3b1d255c0">
+     <categoryLinks>
+       <categoryLink name="Monster" hidden="false" id="bd972695-dd77-47c9-902c-8426be85251b" targetId="6537-7b2d-b2c8-6005" primary="true" />
+     </categoryLinks>
+     <infoLinks>
+       <infoLink name="Fly" id="c1e73a1c-19a2-47f3-908c-0d82463ed04c" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+       <infoLink name="Mindless Impulses" id="d947fc5e-2d68-47dd-a6c0-c70c52fd1dcc" hidden="false" type="profile" targetId="f5de-3f19-062e-09cd" />
+       <infoLink name="Atmospheric Disturbances" id="eb7fd1a4-6263-4dba-9ea8-1076d8820908" hidden="false" type="profile" targetId="66e0-bc57-0ad3-8e0e" />
+       <infoLink name="Reflexive Burst" id="3cb68196-df99-4672-929a-6b8b83954e00" hidden="false" type="profile" targetId="f266-6075-b64a-714b" />
+     </infoLinks>
+     <selectionEntries>
+       <selectionEntry type="model" import="true" name="Frag Spore Mine" hidden="true" id="aa22ad88-dfc7-49ce-a049-c894edb4636d">
+         <constraints>
+           <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="aa22ad88-dfc7-49ce-a049-c894edb4636d-min" includeChildSelections="false" />
+           <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="aa22ad88-dfc7-49ce-a049-c894edb4636d-max" includeChildSelections="false" />
+         </constraints>
+         <profiles>
+           <profile name="Frag Spore Mine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7aa0291a-9f09-434e-8290-a937d062d271">
+             <characteristics>
+               <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
+               <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
+               <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
+             </characteristics>
+           </profile>
+         </profiles>
+         <selectionEntries>
+           <selectionEntry type="upgrade" import="true" name="Frag Spore Mine" hidden="true" id="7244b760-2728-4e3e-8b74-2452cbb685a2">
+             <profiles>
+               <profile name="Frag Spore Mine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5ef0e2ce-bc9d-46e7-851e-0778c329bbbf">
+                 <characteristics>
+                   <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                   <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                   <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                   <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                   <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                   <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 16</characteristic>
+                 </characteristics>
+               </profile>
+             </profiles>
+             <infoLinks>
+               <infoLink name="Blast (X)" id="fe69022f-e8fc-4c9b-a605-5349522b12a8" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+             </infoLinks>
+           </selectionEntry>
+         </selectionEntries>
+       </selectionEntry>
+     </selectionEntries>
+   </selectionEntry>
+   <selectionEntry type="unit" import="true" name="Bio-Acid Spore Mine" hidden="true" id="89e2922d-247d-453e-a4e1-c26a92a1a1dc">
+     <categoryLinks>
+       <categoryLink name="Monster" hidden="false" id="d0d05495-b3b6-4c34-b366-d84f1174a267" targetId="6537-7b2d-b2c8-6005" primary="true" />
+     </categoryLinks>
+     <infoLinks>
+       <infoLink name="Fly" id="c1e2110e-ce9c-4636-bba1-5622af8143fe" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+       <infoLink name="Mindless Impulses" id="3d142cca-99c4-4e30-893b-7aa78dc71d63" hidden="false" type="profile" targetId="f5de-3f19-062e-09cd" />
+       <infoLink name="Atmospheric Disturbances" id="9b42c1c3-8bdb-4dce-954d-fef3c3d26c26" hidden="false" type="profile" targetId="66e0-bc57-0ad3-8e0e" />
+       <infoLink name="Reflexive Burst" id="07f10c3c-4a48-41d0-95fc-ecc3022217cf" hidden="false" type="profile" targetId="f266-6075-b64a-714b" />
+     </infoLinks>
+     <selectionEntries>
+       <selectionEntry type="model" import="true" name="Bio-Acid Spore Mine" hidden="true" id="5c1957df-5f98-45bf-a7b5-1d18a8e1c40b">
+         <constraints>
+           <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="5c1957df-5f98-45bf-a7b5-1d18a8e1c40b-min" includeChildSelections="false" />
+           <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5c1957df-5f98-45bf-a7b5-1d18a8e1c40b-max" includeChildSelections="false" />
+         </constraints>
+         <profiles>
+           <profile name="Bio-Acid Spore Mine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9979efec-cfef-4b3c-97f2-a4132a4d3d05">
+             <characteristics>
+               <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
+               <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
+               <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
+             </characteristics>
+           </profile>
+         </profiles>
+         <selectionEntries>
+           <selectionEntry type="upgrade" import="true" name="Bio-Acid Spore Mine" hidden="true" id="fa5ec867-4376-4dae-889d-e1d928376e56">
+             <profiles>
+               <profile name="Bio-Acid Spore Mine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4078e8d3-d1d8-49bd-8829-fd6e75ca9e2e">
+                 <characteristics>
+                   <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+                   <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+                   <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
+                   <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+                   <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
+                   <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 4, Shred</characteristic>
+                 </characteristics>
+               </profile>
+             </profiles>
+             <infoLinks>
+               <infoLink name="Blast (X)" id="c5186b91-ada5-4953-91e9-4aae0eee75db" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
+               <infoLink name="Shred" id="8d4cf3e7-7d94-4b06-b2d6-3249994b984d" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+             </infoLinks>
+           </selectionEntry>
+         </selectionEntries>
+       </selectionEntry>
+     </selectionEntries>
    </selectionEntry>
 </sharedSelectionEntries>
   <sharedSelectionEntryGroups>

@@ -335,7 +335,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
         <infoLink name="Great Traitors’ Arsenal" id="9e01-7a0b-c633-4761" hidden="false" targetId="acbf3fa5-c07c-4cfd-a767-2b6445ebab99" type="profile"/>
       </infoLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Discborn Exalted Sorcerer" hidden="false" id="9a09-390b-2968-8fee" sortIndex="2">
+    <selectionEntry type="unit" import="true" name="Discborne Exalted Sorcerer" hidden="false" id="9a09-390b-2968-8fee" sortIndex="2">
       <costs>
         <cost name="pts" typeId="points" value="120"/>
       </costs>
@@ -369,7 +369,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
         <infoLink name="Cabalistic Rituals" id="3b1f-9117-df8c-f90f" hidden="false" targetId="3fc0-f99e-3c3d-11d2" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Discborn Exalted Sorcerer" hidden="false" id="ce07-19a6-0c30-12bc">
+        <selectionEntry type="model" import="true" name="Discborne Exalted Sorcerer" hidden="false" id="ce07-19a6-0c30-12bc">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="8137-80ba-6c6e-7d81-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="8137-80ba-6c6e-7d81-max" includeChildSelections="false"/>
@@ -389,7 +389,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="2d84-18b9-b09a-e46a" type="selectionEntry" targetId="6894-2cf4-78df-13e8" sortIndex="2">
                   <modifiers>
-                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
@@ -414,7 +414,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
             </entryLink>
           </entryLinks>
           <profiles>
-            <profile name="Discborn Exalted Sorcerer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d8ce-963b-b263-83fd">
+            <profile name="Discborne Exalted Sorcerer" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="d8ce-963b-b263-83fd">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
@@ -453,12 +453,12 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
         </profile>
         <profile name="Roaring Distortion" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="89e2-c6c0-eab5-8f6e">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if there is a friendly SUM M ONED FLAM ERS unit in the battlefield, add 1 SUM M ONED FLAM ERS model to that unit. Otherwise, create a SUM M ONED FLAM ERS unit within 1" of this unit outside of the engagement range of enemy units with 1 model, and that unit is ready.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if there is a friendly SUMMONED FLAMERS unit in the battlefield, add 1 SUMMONED FLAMERS model to that unit. Otherwise, create a SUMMONED FLAMERS unit within 1" of this unit outside of the engagement range of enemy units with 1 model, and that unit is ready.</characteristic>
           </characteristics>
         </profile>
         <profile name="Manifest Tutelaries" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5159-2f30-264b-b0e1">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if there is a friendly SUM M ONED SCREAM ERS unit in the battlefield, add 1 SUM M ONED SCREAM ERS model to that unit. Otherwise, create a SUM M ONED SCREAM ERS unit within 1" of this unit outside of the engagement range of enemy units with 1 model, and that unit is ready.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit makes a Psychic Test, if there is a friendly SUMMONED SCREAMERS unit in the battlefield, add 1 SUMMONED SCREAMERS model to that unit. Otherwise, create a SUMMONED SCREAMERS unit within 1" of this unit outside of the engagement range of enemy units with 1 model, and that unit is ready.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -582,7 +582,7 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="9bae-6495-c72b-7d22" type="selectionEntry" targetId="6894-2cf4-78df-13e8" sortIndex="2">
                   <modifiers>
-                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
@@ -675,8 +675,8 @@ b) The selected unit Heals X where X is this unit&apos;s Psyker X.</characterist
                 </entryLink>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="307e-18f3-1a13-2aa1" type="selectionEntry" targetId="6894-2cf4-78df-13e8" sortIndex="2">
                   <modifiers>
-                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Warpflame Pistol" hidden="false" id="da97-0647-004f-31d9" type="selectionEntry" targetId="9779-6b3e-5fd2-ee95" sortIndex="3">
@@ -780,7 +780,7 @@ This unit does not count towards the leader maximum of the army list.</character
                 </entryLink>
                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="be7c-0082-6799-2ef4" type="selectionEntry" targetId="6894-2cf4-78df-13e8" sortIndex="2">
                   <modifiers>
-                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
@@ -966,7 +966,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
           </constraints>
           <entryLinks>
           <entryLink name="Tzaangors" id="e7ccc873-af66-44a3-9b10-22b0282522c8" hidden="false" import="true" sortIndex="1" targetId="4eac-5463-e672-2916" type="selectionEntry"/>
-          <entryLink name="Tzaangor Elightened" id="cac0ba62-7657-46dc-9b99-6309afab9cc6" hidden="false" import="true" sortIndex="2" targetId="1868-e82f-5cdd-7530" type="selectionEntry"/>
+          <entryLink name="Tzaangor Enlightened" id="cac0ba62-7657-46dc-9b99-6309afab9cc6" hidden="false" import="true" sortIndex="2" targetId="1868-e82f-5cdd-7530" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1029,7 +1029,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
       <profiles>
         <profile name="Immutable Tombs" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="91c8-206d-5814-0234">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit has Heavy Armour. After each End step, if there are no RUBRIC M ARINES models in this unit, this unit loses Heavy Armour until it gains any RUBRIC M ARINES models.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit has Heavy Armour. After each End step, if there are no RUBRIC MARINES models in this unit, this unit loses Heavy Armour until it gains any RUBRIC MARINES models.</characteristic>
           </characteristics>
         </profile>
         <profile name="Empyric Anchor" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c3ed-94b7-29c2-bdbe">
@@ -1252,7 +1252,7 @@ b) TZAANGOR ENLIGHTENED</characteristic>
       <profiles>
         <profile name="Immutable Sarcophigae" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0832-ebe6-ea7a-14bf">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any unit is Activated, if this unit has one or more SCARAB OCCULT TERM INATORS models, until the End step, this unit gains Resilient 6+.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any unit is Activated, if this unit has one or more SCARAB OCCULT TERMINATORS models, until the End step, this unit gains Resilient 6+.</characteristic>
           </characteristics>
         </profile>
         <profile name="Teleport Homer" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="a5c7-0547-be9c-1fdf">
@@ -1362,7 +1362,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Tzaangor Elightened" hidden="false" id="1868-e82f-5cdd-7530" sortIndex="11">
+    <selectionEntry type="unit" import="true" name="Tzaangor Enlightened" hidden="false" id="1868-e82f-5cdd-7530" sortIndex="11">
       <costs>
         <cost name="pts" typeId="points" value="80"/>
       </costs>
@@ -1379,11 +1379,11 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         </profile>
       </profiles>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Tzaangor Elightened" id="79b1-efd3-3048-c6b5" hidden="false" defaultSelectionEntryId="1ed2-e72c-93de-d9fc">
+        <selectionEntryGroup name="Tzaangor Enlightened" id="79b1-efd3-3048-c6b5" hidden="false" defaultSelectionEntryId="1ed2-e72c-93de-d9fc">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Tzaangor Elightened" hidden="false" id="90a3-eecb-342a-734c">
+            <selectionEntry type="model" import="true" name="Tzaangor Enlightened" hidden="false" id="90a3-eecb-342a-734c">
               <profiles>
-                <profile name="Tzaangor Elightened" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4122-b325-f4c4-30ce">
+                <profile name="Tzaangor Enlightened" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="4122-b325-f4c4-30ce">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">2+</characteristic>
@@ -1522,7 +1522,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
               <profiles>
                 <profile name="Mutating Horrors" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5877-dc42-8bfa-19d9">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Attacks step, if there is a friendly SUMMONED PINK HORRORS unit on the battlefield, add 1 SUMMONED PINK HORRORS model to that unit. Otherwise, create a SUMMONED PINK HORRORS unit within 1” of this unit outside of the engagement range of enemy units with 1 model. That unit is ready.</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit’s Attacks step, if there is a friendly SUMMONED PINK HORRORS unit in the battlefield, add 1 SUMMONED PINK HORRORS model to that unit. Otherwise, create a SUMMONED PINK HORRORS unit within 1” of this unit outside of the engagement range of enemy units with 1 model. That unit is ready.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1531,7 +1531,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Osiron Dreadnaught" hidden="false" id="d286-51a0-09da-6ebb" sortIndex="14">
+    <selectionEntry type="unit" import="true" name="Osiron Dreadnought" hidden="false" id="d286-51a0-09da-6ebb" sortIndex="14">
       <costs>
         <cost name="pts" typeId="points" value="200"/>
       </costs>
@@ -1554,7 +1554,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="8799-7f32-486a-05d5" includeChildSelections="false"/>
       </constraints>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Osiron Dreadnaught" hidden="false" id="adef-2d2d-a052-b5c0">
+        <selectionEntry type="model" import="true" name="Osiron Dreadnought" hidden="false" id="adef-2d2d-a052-b5c0">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2d8b-c801-4e36-916e-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2d8b-c801-4e36-916e-max" includeChildSelections="false"/>
@@ -1602,6 +1602,9 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <selectionEntry type="upgrade" import="true" name="Plasma Blaster" hidden="false" id="70e8-ffe5-6a91-cb67" sortIndex="2">
                           <entryLinks>
                             <entryLink import="true" name="Plasma Blaster" hidden="false" id="1feb-bc2f-7537-8c32" type="selectionEntry" targetId="f4e1-5e30-78a3-2852">
+                              <modifiers>
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2fc1-daff-bb1f-7935-min" includeChildSelections="false"/>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2fc1-daff-bb1f-7935-max" includeChildSelections="false"/>
@@ -1613,7 +1616,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                           <entryLinks>
                             <entryLink import="true" name="Grav-Gun" hidden="false" id="9b6c-b1aa-09d0-043f" type="selectionEntry" targetId="f657-b5e1-7a66-d017">
                               <modifiers>
-                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="eda9-a562-3192-0dce-min" includeChildSelections="false"/>
@@ -1626,7 +1629,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                           <entryLinks>
                             <entryLink import="true" name="Meltagun" hidden="false" id="5e74-cd99-fb57-773b" type="selectionEntry" targetId="4260-66c2-4887-4117">
                               <modifiers>
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                 <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -1636,12 +1639,42 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                             </entryLink>
                           </entryLinks>
                         </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="afe5a189-b7fc-4d3d-a615-625514634227" sortIndex="5">
+                          <entryLinks>
+                            <entryLink import="true" name="Heavy Flamer" hidden="false" id="21102851-3bf8-4e6e-9e3e-79f6adc6fd47" type="selectionEntry" targetId="5c44-7d31-605d-4b6f">
+                              <modifiers>
+                                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7c9795b5-093b-42da-b89a-b0359352bb6e-min" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7c9795b5-093b-42da-b89a-b0359352bb6e-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Heavy Warpflamer" hidden="false" id="be43896d-f2ce-4a9f-870e-b9247540ad0f" sortIndex="6">
+                          <profiles>
+                            <profile name="Heavy Warpflamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="b10ef0c0-b1dd-49bb-89c1-e325903f99a5">
+                              <characteristics>
+                                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                                <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <entryLinks>
+                            <entryLink import="true" name="Inferno (Rules Package)" hidden="false" id="a7dabd44-39ba-42e4-9c46-8ab32161384a" type="selectionEntry" targetId="8e48-0184-0153-dddc"/>
+                          </entryLinks>
+                          <infoLinks>
+                            <infoLink name="Ignore Cover" id="26ccd217-6cc4-44d3-83a5-36cd1020f8db" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+                          </infoLinks>
+                        </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
                   </selectionEntryGroups>
-                  <infoLinks>
-                    <infoLink name="Shred" id="73a5-0c6d-a720-8b76" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
-                  </infoLinks>
                 </selectionEntry>
                 <selectionEntry type="upgrade" import="true" name="Dreadnought Force Blade" hidden="false" id="19a2-2f5f-b261-e1bc" sortIndex="9">
                   <profiles>
@@ -1682,6 +1715,9 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                         <selectionEntry type="upgrade" import="true" name="Plasma Blaster" hidden="false" id="5434-729c-09ff-3e55" sortIndex="2">
                           <entryLinks>
                             <entryLink import="true" name="Plasma Blaster" hidden="false" id="556a-a4c0-1e45-023f" type="selectionEntry" targetId="f4e1-5e30-78a3-2852">
+                              <modifiers>
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2c5f-0986-52e9-49f8-min" includeChildSelections="false"/>
                                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2c5f-0986-52e9-49f8-max" includeChildSelections="false"/>
@@ -1693,7 +1729,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                           <entryLinks>
                             <entryLink import="true" name="Grav-Gun" hidden="false" id="cbbf-bd78-59d4-124f" type="selectionEntry" targetId="f657-b5e1-7a66-d017">
                               <modifiers>
-                                <modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
                                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="06db-a6ad-efdf-988d-min" includeChildSelections="false"/>
@@ -1706,7 +1742,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                           <entryLinks>
                             <entryLink import="true" name="Meltagun" hidden="false" id="1fd9-9e96-2fe5-fca4" type="selectionEntry" targetId="4260-66c2-4887-4117">
                               <modifiers>
-                                <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                 <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -1715,6 +1751,39 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                               </constraints>
                             </entryLink>
                           </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Heavy Flamer" hidden="false" id="94a46e39-b4b8-4378-b943-67d4b5262767" sortIndex="5">
+                          <entryLinks>
+                            <entryLink import="true" name="Heavy Flamer" hidden="false" id="b835e798-afe0-41ee-980f-09ac2b00e490" type="selectionEntry" targetId="5c44-7d31-605d-4b6f">
+                              <modifiers>
+                                <modifier type="set" value="12" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
+                              <constraints>
+                                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6de9a095-b46a-4af3-b550-96d2b961f5a1-min" includeChildSelections="false"/>
+                                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6de9a095-b46a-4af3-b550-96d2b961f5a1-max" includeChildSelections="false"/>
+                              </constraints>
+                            </entryLink>
+                          </entryLinks>
+                        </selectionEntry>
+                        <selectionEntry type="upgrade" import="true" name="Heavy Warpflamer" hidden="false" id="b20cc264-aa66-4f28-8bd3-97e7ae2be683" sortIndex="6">
+                          <profiles>
+                            <profile name="Heavy Warpflamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="809b40ba-be5f-40a5-909c-b7b29c82ac1c">
+                              <characteristics>
+                                <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">4</characteristic>
+                                <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+                                <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+                                <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Inferno, Ignore Cover, Purge</characteristic>
+                              </characteristics>
+                            </profile>
+                          </profiles>
+                          <entryLinks>
+                            <entryLink import="true" name="Inferno (Rules Package)" hidden="false" id="35c89584-c56b-47af-bf30-a8505d0147b8" type="selectionEntry" targetId="8e48-0184-0153-dddc"/>
+                          </entryLinks>
+                          <infoLinks>
+                            <infoLink name="Ignore Cover" id="7717d863-b2a6-4662-bf7b-29b92d237b24" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+                          </infoLinks>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -1788,8 +1857,8 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                     <entryLink import="true" name="Autocannon" hidden="false" id="d4f4-6486-90d4-8d9c" type="selectionEntry" targetId="a636-c9c9-ad6d-6db0">
                       <modifiers>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                        <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
-                        <modifier type="set" value="2" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/>
+                        <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="3" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/>
                         <modifier type="prepend" value="Dual" field="name"/>
                       </modifiers>
                       <constraints>
@@ -1818,8 +1887,8 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                   <entryLinks>
                     <entryLink import="true" name="Lascannon" hidden="false" id="04d7-517e-c391-5cfb" type="selectionEntry" targetId="54fc-ac08-3927-692d">
                       <modifiers>
-                        <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                        <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="prepend" value="Dual" field="name"/>
                       </modifiers>
                       <constraints>
@@ -1847,7 +1916,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Osiron Dreadnaught" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="664a-c231-ec8b-d921">
+            <profile name="Osiron Dreadnought" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="664a-c231-ec8b-d921">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
@@ -1875,6 +1944,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
       <infoLinks>
         <infoLink name="Fly" id="6812-08a4-1b34-4fcd" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
         <infoLink name="Ignore Cover" id="99df-210f-63dc-9155" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
+        <infoLink name="Shred" id="3a8ff0d9-f96b-408b-a441-7e951d7c32fd" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
         <infoLink name="Purge" id="1a9b-bae7-314c-a2a0" hidden="false" type="rule" targetId="d4a463a9-a785-449e-92a9-d1dad4c31a1b"/>
       </infoLinks>
       <profiles>
@@ -1885,7 +1955,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Purge</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Shred, Purge</characteristic>
           </characteristics>
         </profile>
         <profile name="Summoned Flamers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b733-7637-d46e-b9b4">
@@ -1960,7 +2030,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
       <profiles>
         <profile name="Split" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="0295-bb6d-cfbf-a2bb">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any PINK HORROR model in this unit dies, roll a D6. For each 4+, add two BLUE HORROR models to this unit. After any BLUE HORROR model in this unit dies, roll a D6. For each 4+, add one BRIM STONE HORROR model to this unit (These models all have the same characteristics, but have different weapons corresponding to their colors).</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any PINK HORROR model in this unit dies, roll a D6. For each 4+, add two BLUE HORROR models to this unit. After any BLUE HORROR model in this unit dies, roll a D6. For each 4+, add one BRIMSTONE HORROR model to this unit (These models all have the same characteristics, but have different weapons corresponding to their colors).</characteristic>
           </characteristics>
         </profile>
         <profile name="Summoned Pink Horrors" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="9991-4dc9-ae59-a05e">
@@ -2002,7 +2072,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
                 <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
               </characteristics>
             </profile>
-            <profile name="Blue Horror Flames " typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="273e-823a-cc35-94f1">
+            <profile name="Blue Horror Flames" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="273e-823a-cc35-94f1">
               <characteristics>
                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
                 <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
@@ -2095,20 +2165,20 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
         <entryLink import="true" name="Summon (Rules Package)" hidden="false" id="5a10-d675-2b9c-ba92" type="selectionEntry" targetId="1934-6ca4-3741-6c73"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Seketar Robots" hidden="false" id="2f3f-8041-86e9-b98a" sortIndex="12">
+    <selectionEntry type="unit" import="true" name="Sekhetar Robots" hidden="false" id="2f3f-8041-86e9-b98a" sortIndex="12">
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="c249-308f-963a-d967" primary="true" name="Support"/>
         <categoryLink targetId="205c-3072-067b-d808" id="4c47-606e-7f3f-f971" primary="false" name="Infantry"/>
         <categoryLink targetId="f809-9826-f58a-6b8d" id="328e-abf5-0b50-f639" primary="false" name="Chaos"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Seketar Robot" hidden="false" id="22c2-7e36-59ce-ec70">
+        <selectionEntry type="model" import="true" name="Sekhetar Robot" hidden="false" id="22c2-7e36-59ce-ec70">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="54c7-59fc-3a14-5560-min" includeChildSelections="false"/>
             <constraint type="max" value="2" field="selections" scope="parent" shared="true" id="54c7-59fc-3a14-5560-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
-            <profile name="Seketar Robot" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="005f-41ce-68ab-592a">
+            <profile name="Sekhetar Robot" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="005f-41ce-68ab-592a">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
@@ -2118,13 +2188,15 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink import="true" name="Hellfyre Missile Rack" hidden="false" id="ba80-3b7d-8158-9d9c" type="selectionEntry" targetId="a07c-9e2e-e7a1-2549">
+            <entryLink import="true" name="Hellfyre Missile Racks" hidden="false" id="ba80-3b7d-8158-9d9c" type="selectionEntry" targetId="a07c-9e2e-e7a1-2549">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="46fb-9182-74ba-6ed0-min" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="46fb-9182-74ba-6ed0-max" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                <modifier type="set" value="Hellfyre Missile Racks" field="name" affects="profiles.Weapon"/>
               </modifiers>
             </entryLink>
           </entryLinks>
@@ -2255,7 +2327,7 @@ Create the selected unit within 3” of this unit. That unit is ready.</characte
     <entryLink import="true" name="Chaos Apothecary" hidden="false" id="8f1a-a71c-d784-65dc" targetId="7f39-2d61-3915-9c0d" type="selectionEntry"/>
     <entryLink import="true" name="Legionaries" hidden="false" id="025f-17c1-db53-5692" type="selectionEntry" targetId="286f-70e0-ffba-da53"/>
     <entryLink import="true" name="Cultists" hidden="false" id="53a7-9ba4-f7f2-b808" type="selectionEntry" targetId="e6fe-5cc9-bb21-2430"/>
-    <entryLink import="true" name="Terminators Squad" hidden="false" id="3aa5-2e51-8a64-79c0" targetId="f846-8b20-216f-1a8c" type="selectionEntry"/>
+    <entryLink import="true" name="Chaos Terminators" hidden="false" id="3aa5-2e51-8a64-79c0" targetId="f846-8b20-216f-1a8c" type="selectionEntry"/>
     <entryLink import="true" name="Possessed" hidden="false" id="8e48-131c-d721-5adc" type="selectionEntry" targetId="71f1-0dbd-829d-7748"/>
     <entryLink import="true" name="Breacher Siege Squad" hidden="false" id="df45-d4c4-bd78-2e33" targetId="f711-cdab-7f3f-3ccf" type="selectionEntry"/>
     <entryLink import="true" name="Rhino" hidden="false" id="95da-ac2d-de3e-f465" targetId="9efc-f95b-4cd0-65b7" type="selectionEntry"/>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="32" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="9389-f137-0f71-fe7b" name="Sororitas" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="32" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Army Rules (Reference)" hidden="false" id="23d8-3b8d-77df-8eb4" sortIndex="-3">
       <constraints>
@@ -69,11 +68,11 @@
         <profile name="Saintly Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="7514-e404-c6d6-015e">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3">12</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">18</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 3, Ignore Cover, Holy Trinity</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Ignore Cover, Holy Trinity, Purge</characteristic>
           </characteristics>
         </profile>
         <profile name="Saintly Multi-Melta" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="5ecf-1d76-f722-4751">
@@ -82,13 +81,13 @@
             <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
-            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3+2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Holy Trinity</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Holy Trinity, Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Suppressed" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7" />
+        <infoLink name="Suppressed" id="70a0-ac66-211b-46e7" hidden="false" type="rule" targetId="63abdc13-f443-4f0b-8f25-e0222fad9ba7"/>
         <infoLink name="Critical Hits X+" id="3642-b1d5-0cfa-d0c1" hidden="false" type="rule" targetId="fff4-3f9d-5d2d-4cf9"/>
         <infoLink name="Ignore Cover" id="d8bb-2e5c-3559-44f2" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
         <infoLink name="Blast (X)" id="4e85-5fde-892c-1566" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
@@ -344,7 +343,7 @@ c) RETRIBUTORS</characteristic>
                   <entryLinks>
                     <entryLink import="true" name="Plasma Pistol" hidden="false" id="fcf7-edcd-4b04-8658" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                       <modifiers>
-                        <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                       </modifiers>
                       <constraints>
@@ -464,7 +463,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -540,12 +539,12 @@ This unit does not count towards your army list’s leader capacity</characteris
       <selectionEntryGroups>
         <selectionEntryGroup name="Leader" id="4f4aa28d-52cb-4107-b4b5-6d8e1eec5cd6" hidden="false" sortIndex="1">
           <constraints>
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a578acf-6ac3-480b-bd54-f2efaf4df225" includeChildSelections="false" />
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="0a578acf-6ac3-480b-bd54-f2efaf4df225" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink name="Battle Sisters" id="d9d6d5c4-75c4-4c03-af38-9df1a11598d5" hidden="false" import="true" targetId="9590-bd54-1e56-6259" type="selectionEntry" />
-            <entryLink name="Dominions" id="0b2a23d9-a07d-4c48-8d20-669f549c6ab4" hidden="false" import="true" targetId="e261-c7bb-30f9-15fe" type="selectionEntry" />
-            <entryLink name="Retributors" id="005aad68-4979-4c9c-8024-618ed74a2765" hidden="false" import="true" targetId="b355-ff05-8aca-5ab1" type="selectionEntry" />
+            <entryLink name="Battle Sisters" id="d9d6d5c4-75c4-4c03-af38-9df1a11598d5" hidden="false" import="true" targetId="9590-bd54-1e56-6259" type="selectionEntry"/>
+            <entryLink name="Dominions" id="0b2a23d9-a07d-4c48-8d20-669f549c6ab4" hidden="false" import="true" targetId="e261-c7bb-30f9-15fe" type="selectionEntry"/>
+            <entryLink name="Retributors" id="005aad68-4979-4c9c-8024-618ed74a2765" hidden="false" import="true" targetId="b355-ff05-8aca-5ab1" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -692,7 +691,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1075,7 +1074,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="e9a6-5b5b-778e-f883" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
@@ -1146,7 +1145,7 @@ c) RETRIBUTORS</characteristic>
         <entryLink import="true" name="Munitorum Cherub" hidden="false" id="bbe2-00fa-f8fc-4f12" type="selectionEntry" targetId="2772-031f-6d96-99c5"/>
       </entryLinks>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sister Novitiates" hidden="false" id="15d9-d850-f96c-ca5f" sortIndex="7">
+    <selectionEntry type="unit" import="true" name="Sisters Novitiates" hidden="false" id="15d9-d850-f96c-ca5f" sortIndex="7">
       <costs>
         <cost name="pts" typeId="points" value="130"/>
       </costs>
@@ -1161,7 +1160,7 @@ c) RETRIBUTORS</characteristic>
         </modifier>
       </modifiers>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Sister Novitiates" id="21e9-8b61-9046-0a86" hidden="false" defaultSelectionEntryId="19c4-b7cb-0c79-10ca">
+        <selectionEntryGroup name="Sisters Novitiates" id="21e9-8b61-9046-0a86" hidden="false" defaultSelectionEntryId="19c4-b7cb-0c79-10ca">
           <constraints>
             <constraint type="min" value="10" field="selections" scope="parent" shared="true" id="8e66-c802-4462-61ef" includeChildSelections="false"/>
             <constraint type="max" value="10" field="selections" scope="parent" shared="true" id="0805-c9f0-d039-c6ea" includeChildSelections="false"/>
@@ -1204,7 +1203,7 @@ c) RETRIBUTORS</characteristic>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7cf4-493f-fa5f-e76d-min" includeChildSelections="false"/>
                                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7cf4-493f-fa5f-e76d-max" includeChildSelections="false"/>
                                   </constraints>
-                                </entryLink>
+                                <modifiers><modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/></modifiers></entryLink>
                               </entryLinks>
                               <constraints>
                                 <constraint type="max" value="1" field="selections" scope="unit" shared="true" id="45aa-377e-f04a-457e" includeChildSelections="true"/>
@@ -1271,7 +1270,7 @@ c) RETRIBUTORS</characteristic>
                                 <entryLink import="true" name="Condemnor Boltgun" hidden="false" id="ecd6-b8de-4abe-853a" type="selectionEntry" targetId="e511-a19f-8557-dda6">
                                   <modifiers>
                                     <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
-                                    <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
                                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6def-59eb-14a4-50cf-min" includeChildSelections="false"/>
@@ -1360,7 +1359,7 @@ c) RETRIBUTORS</characteristic>
             </selectionEntry>
           </selectionEntries>
           <profiles>
-            <profile name="Sister Novitiates" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3bd1-9e26-3674-9d34">
+            <profile name="Sisters Novitiates" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3bd1-9e26-3674-9d34">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
@@ -1398,7 +1397,7 @@ c) RETRIBUTORS</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Sister Repentia" hidden="false" id="6db7-cae7-3c08-0053" sortIndex="8">
+    <selectionEntry type="unit" import="true" name="Sisters Repentia" hidden="false" id="6db7-cae7-3c08-0053" sortIndex="8">
       <costs>
         <cost name="pts" typeId="points" value="90"/>
       </costs>
@@ -1407,11 +1406,11 @@ c) RETRIBUTORS</characteristic>
         <categoryLink targetId="205c-3072-067b-d808" id="9985-ee96-2ff0-4f9e" primary="false" name="Infantry"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Sister Repentia" id="2257-ec83-aeb8-e764" hidden="false" defaultSelectionEntryId="9efe-fb54-1122-1320">
+        <selectionEntryGroup name="Sisters Repentia" id="2257-ec83-aeb8-e764" hidden="false" defaultSelectionEntryId="9efe-fb54-1122-1320">
           <selectionEntries>
-            <selectionEntry type="model" import="true" name="Sister Repentia" hidden="false" id="9efe-fb54-1122-1320">
+            <selectionEntry type="model" import="true" name="Sisters Repentia" hidden="false" id="9efe-fb54-1122-1320">
               <profiles>
-                <profile name="Sister Repentia" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7e84-1ae8-b2e5-3ef2">
+                <profile name="Sisters Repentia" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7e84-1ae8-b2e5-3ef2">
                   <characteristics>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">1</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">7+</characteristic>
@@ -1431,7 +1430,7 @@ c) RETRIBUTORS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Eviscerator" hidden="false" id="b34f-da2a-a67e-bcb7" type="selectionEntry" targetId="ef0c-44dd-fbf9-8395">
                           <modifiers>
-                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
@@ -1445,7 +1444,7 @@ c) RETRIBUTORS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Neural Whips" hidden="false" id="fbdc-2ab9-2b1f-3612" type="selectionEntry" targetId="440a-d958-0e09-218e">
                           <modifiers>
-                            <modifier type="set" value="10" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
@@ -1488,7 +1487,7 @@ c) RETRIBUTORS</characteristic>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Celestine, The living Saint" hidden="false" id="d9c5-19b0-9c68-0e69" sortIndex="9">
       <costs>
-        <cost name="pts" typeId="points" value="110" />
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="1738-1300-9dbb-c5be" id="adb7-96f0-faa0-e57b" primary="false" name="Rare"/>
@@ -1525,7 +1524,7 @@ c) RETRIBUTORS</characteristic>
         
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="unit" import="true" name="Geminae Superia (lol get reked varmint)" hidden="false" id="a6dd-c58f-b235-d858">
+        <selectionEntry type="unit" import="true" name="Geminae Superia" hidden="true" id="a6dd-c58f-b235-d858">
           <categoryLinks>
             <categoryLink name="Elites" hidden="false" id="add2-0e65-d856-96c5" targetId="4820-e2b5-9e00-bb68" primary="true"/>
             <categoryLink name="Infantry" hidden="false" id="c821-2b64-d1c1-5df4" targetId="205c-3072-067b-d808" primary="false"/>
@@ -1545,7 +1544,7 @@ c) RETRIBUTORS</characteristic>
               <profiles>
                 <profile name="Geminae Superia" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="5ce9-dc44-ead9-87c3">
                   <characteristics>
-                    <characteristic name="M" typeId="c06e-b1a2-0f87-fe2f">6&quot;</characteristic>
+                    <characteristic name="M" typeId="c06e-b1a2-0f87-fe2f">6"</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
@@ -1727,7 +1726,7 @@ c) RETRIBUTORS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1836,7 +1835,7 @@ c) RETRIBUTORS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Plasma Pistol" hidden="false" id="4d20-e9fc-bbb8-0421" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -2305,7 +2304,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="0368-c07f-dfe9-e679" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
@@ -2679,7 +2678,7 @@ c) RETRIBUTORS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Plasma Pistol" hidden="false" id="6a16-86b7-57e4-0e8c" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -2713,7 +2712,7 @@ c) RETRIBUTORS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Hand Flamer" hidden="false" id="5c31-4349-2c59-1742" type="selectionEntry" targetId="8c68-b0f9-70cd-4c1f">
                           <modifiers>
-                            <modifier type="set" value="24" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c8de-bca7-79ba-9dd5-min" includeChildSelections="false"/>
@@ -2934,7 +2933,7 @@ c) RETRIBUTORS</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Mortifier" hidden="false" id="698d-e893-3ac9-c7c5" sortIndex="20">
+    <selectionEntry type="unit" import="true" name="Mortifiers" hidden="false" id="698d-e893-3ac9-c7c5" sortIndex="20">
       <costs>
         <cost name="pts" typeId="points" value="100"/>
       </costs>
@@ -2960,7 +2959,7 @@ c) RETRIBUTORS</characteristic>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Mortifier" hidden="false" id="eb4a-6a66-69ff-0c37">
+        <selectionEntry type="model" import="true" name="Mortifiers" hidden="false" id="eb4a-6a66-69ff-0c37">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7fcf-3564-b821-e370-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7fcf-3564-b821-e370-max" includeChildSelections="false"/>
@@ -3076,7 +3075,7 @@ c) RETRIBUTORS</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Mortifier" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f656-8193-49c0-3e7f">
+            <profile name="Mortifiers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f656-8193-49c0-3e7f">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
@@ -3180,7 +3179,7 @@ c) RETRIBUTORS</characteristic>
                           <entryLinks>
                             <entryLink import="true" name="Plasma Pistol" hidden="false" id="7026-3f78-99ec-8809" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                               <modifiers>
-                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                               </modifiers>
                               <constraints>
@@ -3256,7 +3255,7 @@ c) RETRIBUTORS</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Rhino" hidden="false" id="b448-3eff-ad1c-80d9" sortIndex="17">
+    <selectionEntry type="unit" import="true" name="Rhino" hidden="true" id="b448-3eff-ad1c-80d9" sortIndex="17">
       <costs>
         <cost name="pts" typeId="points" value="120"/>
       </costs>
@@ -3355,7 +3354,7 @@ c) RETRIBUTORS</characteristic>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Penitent Engine" hidden="false" id="2ef7-8fe2-f425-4fd9" sortIndex="19">
+    <selectionEntry type="unit" import="true" name="Penitent Engines" hidden="false" id="2ef7-8fe2-f425-4fd9" sortIndex="19">
       <costs>
         <cost name="pts" typeId="points" value="80"/>
       </costs>
@@ -3376,7 +3375,7 @@ c) RETRIBUTORS</characteristic>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Penitent Engine" hidden="false" id="9b5b-fed3-ac0c-8813">
+        <selectionEntry type="model" import="true" name="Penitent Engines" hidden="false" id="9b5b-fed3-ac0c-8813">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="7773-f955-3f96-951b-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="7773-f955-3f96-951b-max" includeChildSelections="false"/>
@@ -3470,7 +3469,7 @@ c) RETRIBUTORS</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Penitent Engine" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b5a2-7dea-7ae2-76d3">
+            <profile name="Penitent Engines" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b5a2-7dea-7ae2-76d3">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
@@ -4064,7 +4063,7 @@ c) RETRIBUTORS</characteristic>
                               <entryLinks>
                                 <entryLink import="true" name="Plasma Pistol" hidden="false" id="104a-0133-6173-1478" type="selectionEntry" targetId="6894-2cf4-78df-13e8">
                                   <modifiers>
-                                    <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
@@ -4199,7 +4198,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         <profile name="Hand Flamer" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="ccc3-e760-28f7-6a10">
           <characteristics>
             <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-            <characteristic name="A" typeId="13c5-f234-c120-afc3"/>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">8</characteristic>
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
@@ -4253,7 +4252,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -4287,7 +4286,7 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
 </characteristics>
         </profile>
       </profiles>
@@ -4306,18 +4305,18 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Rearm" id="e571-7551-4cc3-710d" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772" />
-      <infoLink name="Velocity" id="924a-6ece-4a90-71b6" hidden="false" type="rule" targetId="5e3c-8b11-830c-6d2a" />
-      <infoLink name="Pierce" id="189f-7645-93fd-bf58" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97" />
+      <infoLink name="Rearm" id="e571-7551-4cc3-710d" hidden="false" type="rule" targetId="0c06-9eed-2a45-b772"/>
+      <infoLink name="Velocity" id="924a-6ece-4a90-71b6" hidden="false" type="rule" targetId="5e3c-8b11-830c-6d2a"/>
+      <infoLink name="Pierce" id="189f-7645-93fd-bf58" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sororitas Rhino" hidden="false" id="5be0-89e5-3394-61f6" sortIndex="1">
       <costs>
-        <cost name="pts" typeId="points" value="120" />
+        <cost name="pts" typeId="points" value="120"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="3239-2096-a612-ed8e" id="5a32-206a-df55-791c" primary="true" name="Transport" />
-        <categoryLink targetId="b239-6bd1-e7a0-0a02" id="8fa8-6f57-6669-eefb" primary="false" name="Vehicle" />
+        <categoryLink targetId="3239-2096-a612-ed8e" id="5a32-206a-df55-791c" primary="true" name="Transport"/>
+        <categoryLink targetId="b239-6bd1-e7a0-0a02" id="8fa8-6f57-6669-eefb" primary="false" name="Vehicle"/>
       </categoryLinks>
       <profiles>
         <profile name="Covering Fire" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="02b4-3c2e-7d85-8775">
@@ -4327,13 +4326,13 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Transport" id="1296-66c2-faa9-6905" hidden="false" type="rule" targetId="d78d-24c6-e7a9-e94f" />
+        <infoLink name="Transport" id="1296-66c2-faa9-6905" hidden="false" type="rule" targetId="d78d-24c6-e7a9-e94f"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Sororitas Rhino" hidden="false" id="d1cd-62eb-8d60-bb5a">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1cd-62eb-8d60-bb5a-min" includeChildSelections="false" />
-            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1cd-62eb-8d60-bb5a-max" includeChildSelections="false" />
+            <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="d1cd-62eb-8d60-bb5a-min" includeChildSelections="false"/>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d1cd-62eb-8d60-bb5a-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Sororitas Rhino" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="3293-6bed-1bbb-e3e5">
@@ -4348,17 +4347,17 @@ Sisters’ Song: For each attack that targets this unit, this unit gains Resili
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Storm Bolter" hidden="false" id="de7b-8129-70cf-d7cc" type="selectionEntry" targetId="44f8-c995-cb32-37f7" >
+        <entryLink import="true" name="Storm Bolter" hidden="false" id="de7b-8129-70cf-d7cc" type="selectionEntry" targetId="44f8-c995-cb32-37f7">
 <modifiers>
-<modifier type="set" value="30" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
+<modifier type="set" value="30" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
 </modifiers>
 </entryLink>
-        <entryLink import="true" name="Dozer Blade" hidden="false" id="e790-4c9b-e86c-58f6" type="selectionEntry" targetId="20bf-4d82-4ab3-3316" />
-        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="79c3-1b1d-68f1-90d6" type="selectionEntry" targetId="2f42-2fd9-ab59-8d71" />
+        <entryLink import="true" name="Dozer Blade" hidden="false" id="e790-4c9b-e86c-58f6" type="selectionEntry" targetId="20bf-4d82-4ab3-3316"/>
+        <entryLink import="true" name="Hunter-Killer Missile" hidden="false" id="79c3-1b1d-68f1-90d6" type="selectionEntry" targetId="2f42-2fd9-ab59-8d71"/>
       </entryLinks>
     </selectionEntry>
 </sharedSelectionEntries>
   <entryLinks>
-    <entryLink import="true" name="Sororitas Rhino" hidden="false" id="ffa4-e1cc-9285-4614" type="selectionEntry" targetId="5be0-89e5-3394-61f6" sortIndex="99" />
+    <entryLink import="true" name="Sororitas Rhino" hidden="false" id="ffa4-e1cc-9285-4614" type="selectionEntry" targetId="5be0-89e5-3394-61f6" sortIndex="99"/>
   </entryLinks>
 </catalogue>

@@ -166,7 +166,7 @@ You can only bring three leader units. For each unit in the Elites, Transports, 
     </profile>
     <profile name="Jet Bike" id="672a-9374-f2ed-e8b2" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Advance Roll made for this unit, add 1 D6 to that roll.</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each Move Roll made for this unit, add 1 D6 to that roll.</characteristic>
       </characteristics>
     </profile>
     <profile name="Guarded" id="5f45-8a1e-dcb3-915f" hidden="false" typeId="e9b6-89e0-ffee-5662" typeName="Ability">
@@ -192,7 +192,7 @@ After a unit with Psyker is Activated, make a Psychic Test for that unit.
 To make a Psychic Test, roll X D6 dice equal to the unit’s Psyker X. Keep track of the results.
 
 
-After the Move step for an active unit with Psyker on the battlefield, it may Cast a psychic power.
+After the Move step for an active unit with Psyker in the battlefield, it may Cast a psychic power.
 
 
 To Cast a psychic power, select a psychic power from your army rules which matches any dice in the earlier Psychic Test. If that Psychic Test had two or more dice with the same result, you may instead select any psychic power.</description>
@@ -201,23 +201,23 @@ To Cast a psychic power, select a psychic power from your army rules which match
       <description>During the Attacks step for an active unit embarked in this unit, that embarked unit may select targets for its ranged attacks using the model of this unit as the attacking model.</description>
     </rule>
     <rule name="Walker" id="4100-8e8c-47a5-3a15" hidden="false">
-      <description>This unit’s models may move over terrain 4” or less in height or units as if they were not there.</description>
+      <description>This unit’s models may move over terrain 4” or less in height or models as if they were not there.</description>
     </rule>
     <rule name="Titan" id="8f09-c87f-c86c-8cfc" hidden="false">
-      <description>The first time each battle round this unit Activates, it does not lose ready. For each Advance Roll made for this unit, roll 1 less dice for that roll.</description>
+      <description>The first time each battle round this unit is Activated, it does not lose ready. For each Move Roll made for this unit, roll 1 less dice for that roll.</description>
     </rule>
     <rule name="Forward Deploy" id="b433-60cc-2ed2-658f" hidden="false">
       <description>After this unit is Activated in reserves, roll 2D6. Then, you may Deploy this unit wholly within X” of your Deployment Zone where X is equal to that roll.</description>
     </rule>
     
     <rule name="Transport" id="d78d-24c6-e7a9-e94f" hidden="false">
-      <description>After you deploy a unit with Transport, you may select one of your infantry units in reserves to be ?embarked? within that unit.
+      <description>After you deploy a unit with Transport, you may select one of your infantry units in reserves to be 'embarked' within that unit.
 
-Embarked units are not on the battlefield (they?re never visible, cannot be within range for any abilities, can?t capture objectives, etc).
+Embarked units are not on the battlefield (they're never visible, cannot be within range for any abilities, can't capture objectives, etc).
 
-After an embarked unit?s Move step begins, that unit may Disembark.
+After an embarked unit's Move step begins, that unit may Disembark.
 
-To Disembark, Deploy the embarked unit wholly within 4? of the unit it's embarked within, in unit coherency. If it cannot meet these conditions, remove models from the unit until it can.
+To Disembark, Deploy the embarked unit wholly within 4" of the unit it's embarked within, in unit coherency. If it cannot meet these conditions, remove models from the unit until it can.
 
 After a unit with Transport with an embarked unit is destroyed, before removing it from the battlefield, the embarked unit must Disembark. Then, make an Evacuate Roll for that unit. To make an Evacuate Roll for a unit, roll a D6. Then, on a 4+ that unit gains Suppressed. Otherwise, that unit gains Suppressed and is no longer ready.</description>
     </rule>
@@ -237,7 +237,7 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
       <description>This weapon has two different profiles. Each time you select targets for a weapon with Strike or Sweep, you may select targets for only one of those two profiles.</description>
     </rule>
     <rule name="Barrage" id="9cfc-06e3-74c6-ad83" hidden="false">
-      <description>After selecting the target for this weapon, roll 2D6. Then select all other enemy units within X? of the selected target, where X is the result of that roll. Also make attacks for this weapon targeting each of the selected units (ignoring normal targeting restrictions).</description>
+      <description>After selecting the target for this weapon, roll 2D6. Then select all other enemy units within X" of the selected target, where X is the result of that roll. Also make attacks for this weapon targeting each of the selected units (ignoring normal targeting restrictions).</description>
     </rule>
     <rule name="Suppressive" id="aed3-e154-8fa2-5378" hidden="false">
       <description>After this unit's Attacks step, each unit hit by an attack made for this weapon this turn gains Suppressed.</description>
@@ -255,7 +255,7 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
       <description>For each attack made for this weapon, each wound for that attack counts as 2 wounds instead of 1 wound.</description>
     </rule>
     <rule name="Blast (X)" id="308a-e96e-90f7-855e" hidden="false">
-      <description>For each attack made for this weapon, a successful Hit Roll for that attack causes X hits instead of 1 hit</description>
+      <description>For each attack made for this weapon, each hit for that attack counts as X hits instead of 1 hit.</description>
     </rule>
     <rule name="Heavy Armour" id="ec2c-77fd-05f2-a794" hidden="false">
       <description>This unit’s T is improved by 1. This unit cannot be in cover for enemy attacks. For each SW this unit suffers, it gains Resilient 5+ for that attack or if it already has Resilient, instead add 1 to resilient rolls for that attack.</description>
@@ -264,10 +264,10 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
       <description>For each attack made by an Aeldari Craftworlds unit that targets this unit, a Hit Roll of 6 always wounds.</description>
     </rule>
     <rule name="Resilient (X)" id="253c-c1fa-d29d-d21e" hidden="false">
-      <description>For each attack that targets this unit, after a failed Saving Throw for that attack, make a Resilient roll. To make a Resilient roll, roll a D6. If the result equals or exceeds X, that attack fails.</description>
+      <description>For each attack that targets this unit, after a failed Saving Throw for that attack, make a Resilient Roll. To make a Resilient Roll, roll a D6. If the result equals or exceeds X, that attack fails.</description>
     </rule>
     <rule name="Daemonic" id="3b9e-8b58-9bed-fb98" hidden="false">
-      <description>For each attack that targets this unit, a Wound Roll of 4 or lower causes that attack to fail. A Wound Roll of 5 or 6 causes that attack to succeed. Additionally, for each SW this unit suffers, this unit gains Resilient 4+ for that attack</description>
+      <description>For each attack that targets this unit, while making the Wound Roll for that attack, instead of using Strength and Toughness to determine what result is required for a successful Wound Roll, the required result is 5+. This unit cannot be in cover for enemy attacks. Additionally, for each SW this unit suffers, this unit gains Resilient 4+ for that attack.</description>
     </rule>
     <rule name="Breach" id="265b-df47-6a5e-4d1c" hidden="false">
       <description>For each attack made for this weapon, each hit for that attack counts as 2 hits instead of 1 hit. Additionally, for each attack made for this weapon, add 1 to the Wound Roll of that attack.</description>
@@ -279,7 +279,7 @@ After a unit with Transport with an embarked unit is destroyed, before removing 
 Too Close (Velocity): This unit is an ineligible target for weapons with Velocity.</description>
     </rule>
     <rule name="Hunt" id="0f3a-7a60-a486-b805" hidden="false">
-      <description>For each attack made for this weapon that targets an infantry unit, if that isn't in cover for that attack, add 1 to the Wound Roll of that attack (unless the target has an ability which says it cannot be in cover for attacks).</description>
+      <description>For each attack made for this weapon that targets an infantry unit, if that unit isn't in cover for that attack, add 1 to the Wound Roll of that attack (unless the target has an ability which says it cannot be in cover for attacks).</description>
     </rule>
     <rule name="Haywire" id="0c93-fe53-7091-88d0" hidden="false">
       <description>For each attack made for this weapon, if the target of that attack is a vehicle unit, that attack gains Suppressive.</description>
@@ -291,7 +291,7 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
       <description>For each attack made for this weapon, a Hit Roll of X+ for that attack causes an additional hit.</description>
     </rule>
     <rule name="Shield X+" id="a04b-6862-277b-8580" hidden="false">
-      <description>After the model with this weapon is selected to suffer a wound, roll a D6. On a 5+, the Saving Throw for that wound always succeeds.</description>
+      <description>After the model with this weapon is selected to suffer a wound, roll a D6. On a X+, the Saving Throw for that wound always succeeds.</description>
     </rule>
       <rule name="Colossal (X)" id="4ceb07e0-f7a5-436b-9a90-33ed03bc62d5" hidden="false">
       <description>For each attack made for this weapon, each wound for that attack counts as X wounds instead of 1 wound.</description>
@@ -760,10 +760,10 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="3" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="2" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="3" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
+            
+            
+            
+            
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="2" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="3" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
@@ -3421,12 +3421,12 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="6" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="7" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="8" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="3" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="6" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="7" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="8" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
+            
+            
+            
+            
+            
+            
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="3" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
@@ -7230,14 +7230,14 @@ Too Close (Velocity): This unit is an ineligible target for weapons with Velocit
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="9" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="10" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="11" field="selections" scope="roster" childId="24d7-067b-fe27-bd74" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="6" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="7" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="8" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="9" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="10" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
-            <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="11" field="selections" scope="roster" childId="b116-7a52-6799-f90f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
+            
+            
+            
+            
+            
+            
+            
+            
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="4" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="5" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>
             <modifier type="increment" value="20" field="points"><conditions><condition type="atLeast" value="6" field="selections" scope="roster" childId="bd8f-13fb-6625-f36f" shared="true" includeChildForces="true" includeChildSelections="true"/></conditions></modifier>

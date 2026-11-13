@@ -40,12 +40,12 @@
         </profile>
         <profile name="3 Gift of Contagion" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="e894-0d5a-083d-c75b">
           <characteristics>
-            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select one enemy unit within 14" of this unit. Then, that unit and each enemy unit within 7" of that unit suffer X Suppression equal to the selected unit's Suppression X.</characteristic>
+            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select one enemy unit within 14” of this unit and roll 2D3. Then, after this unit’s Attacks step, that unit and all enemy units within X” of that unit gain Suppressed, where X is the result of that roll.</characteristic>
           </characteristics>
         </profile>
         <profile name="4 Curse of the Leper" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="6a08-bd43-c199-35cb">
           <characteristics>
-            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 14" of this unit. The selected unit suffers 4+D6 Suppression.</characteristic>
+            <characteristic name="Description" typeId="4b9e-dc73-b312-b42d">Select an enemy unit within 14” of this unit. That unit gains Suppressed and cannot be selected to Activate for its player’s next turn unless it is their only ready unit.</characteristic>
           </characteristics>
         </profile>
         <profile name="5 Bubotic Vitality" typeId="6406-cf2b-ec5b-c7e6" typeName="Psychic Power" hidden="false" id="bf41-f1d8-6eea-f888">
@@ -460,9 +460,14 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="a5a9-bf52-a353-ef9e" includeChildSelections="false" />
       </constraints>
       <profiles>
-        <profile name="Incubated Pathogens" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bd7e-0d37-4007-d432">
+        <profile name="Living Nurseries" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="bd7e-0d37-4007-d432">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may reroll Resilient rolls made for this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While Applying Damage to a model in this unit, instead of that model losing Health, you may split the amount of Health it would have lost between any models of your choice in this unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Incubated Infections" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9cfbe839-24d1-4cc5-b0a4-fa08764a00c6">
+          <characteristics>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit's Move step, all enemy units within 7" of this unit suffer XD3 SW where X is equal to the number of models in this unit with less Health than they started with.</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="d77d-9575-dd01-71b3">
@@ -560,9 +565,9 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="9ecc-1123-b5ea-b15b" includeChildSelections="false" />
       </constraints>
       <profiles>
-        <profile name="Virulent Blessings" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9862-06f6-3de2-22cd">
+        <profile name="Grenade Racks" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9862-06f6-3de2-22cd">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After each Wound Roll made for this unit's Injector Pistol which targeted a unit within engagement range of this unit, if that Wound Roll was successful, you may make attacks with this unit’s Hyper Blight Grenades.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After another friendly infantry unit is Activated within 14" of this unit, you may have it ?pluck spoiled fruit?. If it does, select a model in that unit. Until the End step, the selected model is equipped with Hyper Blight Grenade.</characteristic>
           </characteristics>
         </profile>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="e658-f771-65e7-91eb">
@@ -1080,7 +1085,7 @@ b) INEXORABLE PLAGUE MARINES</characteristic>
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
-                        <entryLink import="true" name="Plague Knife" hidden="false" id="d5f0-79ab-c056-c4a7" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
+                        <entryLink import="true" name="Plague Knife (Pistol)" hidden="false" id="d5f0-79ab-c056-c4a7" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2"><modifiers><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="Plague Knife (Pistol)" field="name" affects="profiles.Weapon"/></modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="26d1-5a97-2b80-4258-min" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="26d1-5a97-2b80-4258-max" includeChildSelections="false" />
@@ -1880,7 +1885,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <profiles>
                 <profile name="Glorious Jump Pack" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="c486-ebac-23cd-0693">
                   <characteristics>
-                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS. 3.4 FOUL BLIGHTSPAW N - 70 points - Infantry, Chaos, Leader, Rare T Sv H - 4+ 8 Resilient 6+</characteristic>
+                    <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">This unit gains Fly and must instead attach to RAPTORS.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -2588,7 +2593,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
-                        <entryLink import="true" name="Plague Knife" hidden="false" id="4f74-ae46-9383-40c4" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
+                        <entryLink import="true" name="Plague Knife (Pistol)" hidden="false" id="4f74-ae46-9383-40c4" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2"><modifiers><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="Plague Knife (Pistol)" field="name" affects="profiles.Weapon"/></modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="72cd-0089-a71e-311c" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="115b-f054-779c-0cd0" includeChildSelections="false" />
@@ -2749,7 +2754,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
                             <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                           </modifiers>
                         </entryLink>
-                        <entryLink import="true" name="Plague Knife" hidden="false" id="e487-7440-1a68-b75a" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2">
+                        <entryLink import="true" name="Plague Knife (Pistol)" hidden="false" id="e487-7440-1a68-b75a" type="selectionEntry" targetId="ab58-025c-5f63-7db2" sortIndex="2"><modifiers><modifier type="set" value="5" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/><modifier type="set" value="Plague Knife (Pistol)" field="name" affects="profiles.Weapon"/></modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0715-6e92-4a91-7506" includeChildSelections="false" />
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bc7f-2713-f8ec-c6b4" includeChildSelections="false" />
@@ -3016,7 +3021,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Strike, Pierce</characteristic>
           </characteristics>
         </profile>
-      </profiles>
+      <profile name="Missile Launcher (Sweep)" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="8254d9c6-bd5b-4d72-b35a-890d4d29d5e0"><characteristics><characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic><characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic><characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic><characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic><characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic><characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Sweep, Blast 7</characteristic></characteristics></profile></profiles>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Multi-Melta" hidden="false" id="d08b-4438-c923-1b00">
       <profiles>
@@ -3027,7 +3032,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
               <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
               <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
               <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hv 3 3+ 3 1 Sweep, Blast 7, Melt 8", Shred</characteristic>
+              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Melt 8", Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3183,6 +3188,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="55b3-742e-0266-6458" primary="true" name="Support" />
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="50b4-c3f0-f18a-7540" primary="false" name="Vehicle" />
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="6c2e046e-62f2-4c3e-a856-86b1cc6c2f49" primary="false" name="Chaos" />
       </categoryLinks>
       <profiles>
         <profile name="Corpse-Cloud Emission" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="8113-fe94-3feb-363c">
@@ -3222,6 +3228,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="15cf-e3dd-3c79-3b83" primary="true" name="Support" />
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="0d1a-223e-9fa2-323f" primary="false" name="Vehicle" />
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="2ac22f16-f4a9-4e71-af0b-ab12c47879cb" primary="false" name="Chaos" />
       </categoryLinks>
       <profiles>
         <profile name="Foul Temperament" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="9c33-915e-7622-58f2">
@@ -3265,11 +3272,12 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="6f24-ff5a-f914-f9b1" primary="true" name="Support" />
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="8d57-92b9-6382-c38e" primary="false" name="Vehicle" />
+        <categoryLink targetId="f809-9826-f58a-6b8d" id="654830be-9592-42dc-a5fa-10f23ccd97a6" primary="false" name="Chaos" />
       </categoryLinks>
       <profiles>
         <profile name="Siege Artillery" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7d13-8378-8a81-8f7e">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Plagueburst Mortar, if you have no ready units except units with Siege Artillery, you may instead target an enemy unit within 24" of and visible to any of your infantry units within 24" of this unit.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While selecting targets for this unit's Plagueburst Mortar, you may ‘call for an artillery strike’. If you do, select one of your not ready infantry units within 24” of this unit. Then, you may instead target an enemy unit within 24" of and visible to your selected unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3325,7 +3333,7 @@ Glorious Jump Pack: This unit gains Fly and must instead attach to RAPTORS.</ch
     <entryLink import="true" name="Chaos Apothecary" hidden="false" id="a393-a7a9-a1dd-300e" targetId="7f39-2d61-3915-9c0d" type="selectionEntry" />
     <entryLink import="true" name="Legionaries" hidden="false" id="c77e-8d73-5d5d-6c8e" type="selectionEntry" targetId="286f-70e0-ffba-da53" />
     <entryLink import="true" name="Cultists" hidden="false" id="7e0b-148b-6b82-d509" type="selectionEntry" targetId="e6fe-5cc9-bb21-2430" />
-    <entryLink import="true" name="Terminators Squad" hidden="false" id="c232-754a-64f2-fec9" targetId="f846-8b20-216f-1a8c" type="selectionEntry" />
+    <entryLink import="true" name="Chaos Terminators" hidden="false" id="c232-754a-64f2-fec9" targetId="f846-8b20-216f-1a8c" type="selectionEntry" />
     <entryLink import="true" name="Possessed" hidden="false" id="5c18-51be-15dc-69ef" type="selectionEntry" targetId="71f1-0dbd-829d-7748" />
     <entryLink import="true" name="Breacher Siege Squad" hidden="false" id="d95e-69ea-9c27-09b9" targetId="f711-cdab-7f3f-3ccf" type="selectionEntry" />
     <entryLink import="true" name="Rhino" hidden="false" id="a62c-c25f-c40a-c735" targetId="9efc-f95b-4cd0-65b7" type="selectionEntry" />

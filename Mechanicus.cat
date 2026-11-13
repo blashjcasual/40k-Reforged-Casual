@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8ebc-4141-b6f1-7899" name="Mechanicus" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="27" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<catalogue xmlns="http://www.battlescribe.net/schema/catalogueSchema" library="false" id="8ebc-4141-b6f1-7899" name="Mechanicus" gameSystemId="sys-c49b-9f87-36f1-c9b5" gameSystemRevision="73" revision="27" battleScribeVersion="2.03" type="catalogue">
   <selectionEntries>
     <selectionEntry type="upgrade" import="true" name="Current Version: 3.4" hidden="false" id="7646-5c1b-b2e9-3f1f" sortIndex="1">
       <categoryLinks>
@@ -44,7 +44,9 @@
         </profile>
         <profile name="3 Rad Grenade" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="c2e7-bf3f-277a-e0e2">
           <characteristics>
-            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, you may select an enemy unit within 12" of it. If you do, roll 2D6. The selected enemy unit gains the following ability until the end of the battle round, where X is the result.:</characteristic>
+            <characteristic name="Description" typeId="becf-f398-aed2-688b">After this unit's Move step, you may select an enemy unit within 12" of it. If you do, roll 2D6. The selected enemy unit gains the following ability until the end of the battle round, where X is the result:
+Irradiated X:
+For each attack that targets this unit and friendly units within X", add 1 to the Wound Roll of that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="4 Autocaduceus" typeId="9b56-9768-f88b-14ac" typeName="Relics" hidden="false" id="70d8-691e-adf5-33cb">
@@ -87,7 +89,6 @@
         <constraint type="max" value="1" field="selections" scope="force" shared="true" id="bd23-c116-1c56-5987" includeChildSelections="false"/>
       </constraints>
       <categoryLinks>
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="e9c6-8f00-3767-e1f1" primary="false" name="Rare"/>
         <categoryLink targetId="205c-3072-067b-d808" id="788e-79b0-4be2-4bb0" primary="false" name="Infantry"/>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="caf0-8264-c116-144d" primary="true" name="Leaders"/>
       </categoryLinks>
@@ -139,7 +140,6 @@ This unit may instead not attach to anything.</characteristic>
                 <entryLink import="true" name="Conversion Beamer" hidden="false" id="f69e-4c63-e09d-8621" type="selectionEntry" targetId="8004-44a4-150e-3506">
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                  
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
                     <modifier affects="profiles.Weapon" field="c2c0-3714-05e2-65a0" type="set" value="2"/>
                   </modifiers>
@@ -155,14 +155,12 @@ This unit may instead not attach to anything.</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
                 </selectionEntry>
-
-
-</selectionEntries>
+              </selectionEntries>
             </selectionEntryGroup>
             <selectionEntryGroup name="Secondary Gun" id="9029-26ee-3651-fd7f" hidden="false" defaultSelectionEntryId="dcae-bdab-d08e-8114">
               <constraints>
@@ -179,7 +177,7 @@ This unit may instead not attach to anything.</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">2+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -205,14 +203,14 @@ This unit may instead not attach to anything.</characteristic>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-        <selectionEntryGroup name="Leader" id="f75eddbd-5a73-437b-a7fb-4c11a70b492d" hidden="false">
-          <constraints>
-            <constraint id="e8631e82-554a-4191-9460-355db313b81b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <entryLinks>
-          <entryLink name="Servitors" id="3f8adae4-453b-4dd9-8fa1-53d26c49e2c3" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
+            <selectionEntryGroup name="Leader" id="f75eddbd-5a73-437b-a7fb-4c11a70b492d" hidden="false">
+              <constraints>
+                <constraint id="e8631e82-554a-4191-9460-355db313b81b" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Servitors" id="3f8adae4-453b-4dd9-8fa1-53d26c49e2c3" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
             <profile name="Dominus" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="fa24-f06f-e581-955f">
@@ -220,7 +218,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -284,7 +281,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">6</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -302,7 +298,7 @@ This unit may instead not attach to anything.</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -316,7 +312,7 @@ This unit may instead not attach to anything.</characteristic>
             <constraint id="069c07fe-2903-4b57-aa28-bb9b6687c794" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Servitors" id="e59150e6-77eb-47e0-bd78-5ef893d0f270" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+            <entryLink name="Servitors" id="e59150e6-77eb-47e0-bd78-5ef893d0f270" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -326,7 +322,6 @@ This unit may instead not attach to anything.</characteristic>
         <cost name="pts" typeId="points" value="40"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="9c7e-1794-dea2-104e" primary="false" name="Rare"/>
         <categoryLink targetId="205c-3072-067b-d808" id="9144-14ff-1e80-e982" primary="false" name="Infantry"/>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="4b80-e84d-ecac-88b7" primary="true" name="Leaders"/>
       </categoryLinks>
@@ -358,7 +353,7 @@ This unit may instead not attach to anything.</characteristic>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e393-b49d-3309-d546-max" includeChildSelections="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Omnissian Axe" hidden="false" id="c729-98bd-2337-f1f2" type="selectionEntry" targetId="9ccd-3d53-da9a-1566">
+            <entryLink import="true" name="Omnissian Staff" hidden="false" id="c729-98bd-2337-f1f2" type="selectionEntry" targetId="2583a2b4-4c12-4ca4-bdf6-c7168287eaef">
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="b344-35f5-e586-5284" includeChildSelections="false"/>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="abe2-3a0c-29bb-cb81" includeChildSelections="false"/>
@@ -412,14 +407,14 @@ This unit may instead not attach to anything.</characteristic>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-        <selectionEntryGroup name="Leader" id="ab245b51-1c7d-48e9-8372-cd1bfe36fd72" hidden="false">
-          <constraints>
-            <constraint id="c0ddad9f-ac82-4ed7-b950-9e3c2f489479" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
-          </constraints>
-          <entryLinks>
-          <entryLink name="Servitors" id="c40da392-bdb5-4c02-95d5-4fc551379477" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
-          </entryLinks>
-        </selectionEntryGroup>
+            <selectionEntryGroup name="Leader" id="ab245b51-1c7d-48e9-8372-cd1bfe36fd72" hidden="false">
+              <constraints>
+                <constraint id="c0ddad9f-ac82-4ed7-b950-9e3c2f489479" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
+              </constraints>
+              <entryLinks>
+                <entryLink name="Servitors" id="c40da392-bdb5-4c02-95d5-4fc551379477" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
             <profile name="Manipulus" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="7400-28ed-921c-58f3">
@@ -427,7 +422,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -439,7 +433,6 @@ This unit may instead not attach to anything.</characteristic>
         <cost name="pts" typeId="points" value="30"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="c222-6a60-e3c1-85cf" primary="false" name="Rare"/>
         <categoryLink targetId="205c-3072-067b-d808" id="2675-0de9-0b50-6ca5" primary="false" name="Infantry"/>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="dbad-ff9c-9176-c6fc" primary="true" name="Leaders"/>
       </categoryLinks>
@@ -497,7 +490,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -509,7 +501,7 @@ This unit may instead not attach to anything.</characteristic>
             <constraint id="7c89da54-1bf7-4ba4-9dec-bc95ecfefc35" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Servitors" id="a149ed49-a537-4507-befa-9950da2fa77d" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+            <entryLink name="Servitors" id="a149ed49-a537-4507-befa-9950da2fa77d" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -521,7 +513,6 @@ This unit may instead not attach to anything.</characteristic>
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="f539-dbf0-7cd5-daea" primary="false" name="Infantry"/>
         <categoryLink targetId="2886-2afd-f65f-9d8e" id="8549-4c94-1884-c8d8" primary="true" name="Leaders"/>
-        <categoryLink targetId="1738-1300-9dbb-c5be" id="d635-a204-25f1-cccd" primary="false" name="Rare"/>
       </categoryLinks>
       <profiles>
         <profile typeId="55da-e0a0-1fa3-2d1c" typeName="Leader" hidden="false" id="dd83-be75-8de8-f79c">
@@ -558,7 +549,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -590,7 +580,7 @@ This unit may instead not attach to anything.</characteristic>
             <constraint id="c84593ab-c801-4121-8aba-deb923c0a8e7" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Servitors" id="a764889b-766d-41c5-b89b-2b4f29f03efb" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+            <entryLink name="Servitors" id="a764889b-766d-41c5-b89b-2b4f29f03efb" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -652,8 +642,8 @@ This unit may instead not attach to anything.</characteristic>
                 <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="a45b-28cf-05e5-75ca" includeChildSelections="false"/>
               </constraints>
               <modifiers>
-                <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                <modifier type="set" value="2D3+1" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/>
+                <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
+                <modifier type="set" value="4" field="c2c0-3714-05e2-65a0" affects="profiles.Weapon"/>
                 <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
               </modifiers>
             </entryLink>
@@ -664,7 +654,6 @@ This unit may instead not attach to anything.</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">3</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -696,7 +685,7 @@ This unit may instead not attach to anything.</characteristic>
             <constraint id="c00a8be1-f883-48c5-9612-25b66d5a8065" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Servitors" id="8ca87688-6a20-49ea-b9e1-d700a43e594a" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
+            <entryLink name="Servitors" id="8ca87688-6a20-49ea-b9e1-d700a43e594a" hidden="false" import="true" sortIndex="1" targetId="6ec4-6d41-6c09-e300" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -706,13 +695,13 @@ This unit may instead not attach to anything.</characteristic>
         <cost name="pts" typeId="points" value="20"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="2886-2afd-f65f-9d8e" id="f908-464d-c3dc-8d23" primary="true" name="Leaders"/>
+        <categoryLink targetId="1dc0-a947-c240-76bb" id="f908-464d-c3dc-8d23" primary="true" name="Countless Leader"/>
         <categoryLink targetId="205c-3072-067b-d808" id="98b9-1b60-7233-3944" primary="false" name="Infantry"/>
       </categoryLinks>
       <profiles>
         <profile name="Advanced Uplinks" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="41da-e2a3-43c4-fb1d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, reroll a Hit Roll of 1 for that attack. This unit costs 0 leader points.</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each attack made by this unit, reroll a Hit Roll of 1 for that attack.</characteristic>
           </characteristics>
         </profile>
         <profile name="Intermediary Data-Tether" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="4a89-1b47-8df0-bc21">
@@ -724,7 +713,8 @@ This unit may instead not attach to anything.</characteristic>
           <characteristics>
             <characteristic name="Must Attach to" typeId="2c63-5e3f-9132-459d">This unit must attach to either:
 a) SKITARII RANGERS
-b) SKITARII VANGUARDS</characteristic>
+b) SKITARII VANGUARDS
+This unit costs 0 leader points.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -743,7 +733,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">-</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -761,7 +750,7 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -793,8 +782,8 @@ b) SKITARII VANGUARDS</characteristic>
             <constraint id="f284253e-0796-4412-a155-f491d8716d60" field="selections" includeChildSelections="false" scope="parent" shared="true" type="max" value="1"/>
           </constraints>
           <entryLinks>
-          <entryLink name="Skitarii Rangers" id="949cb13f-966b-4d60-9f9b-11bfb14d2493" hidden="false" import="true" sortIndex="1" targetId="4081-c623-63ea-e2a8" type="selectionEntry"/>
-          <entryLink name="Skitarii Vanguards" id="6aa01a54-4507-46c8-a165-a9b16eca7422" hidden="false" import="true" sortIndex="2" targetId="739c-6299-aa91-e513" type="selectionEntry"/>
+            <entryLink name="Skitarii Rangers" id="949cb13f-966b-4d60-9f9b-11bfb14d2493" hidden="false" import="true" sortIndex="1" targetId="4081-c623-63ea-e2a8" type="selectionEntry"/>
+            <entryLink name="Skitarii Vanguards" id="6aa01a54-4507-46c8-a165-a9b16eca7422" hidden="false" import="true" sortIndex="2" targetId="739c-6299-aa91-e513" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -802,6 +791,7 @@ b) SKITARII VANGUARDS</characteristic>
     <selectionEntry type="unit" import="true" name="Servitors" hidden="false" id="6ec4-6d41-6c09-e300" sortIndex="4.9">
       <categoryLinks>
         <categoryLink targetId="205c-3072-067b-d808" id="b9ca-c413-c000-42ee" primary="false" name="Infantry"/>
+        <categoryLink targetId="1dc0-a947-c240-76bb" id="f28b-3160-1f30-e9a2-4c65" primary="true" name="Countless Leader"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup name="Servitors" id="1a12-8c78-90c6-8989" hidden="false" defaultSelectionEntryId="8274-9414-d22c-9b9f">
@@ -816,7 +806,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -871,7 +860,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <entryLink import="true" name="Heavy Flamer" hidden="false" id="e91b-7c0a-926a-69ca" type="selectionEntry" targetId="5c44-7d31-605d-4b6f">
                           <modifiers>
                             <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="2dbf-1b20-9223-3983-min" includeChildSelections="false"/>
@@ -949,7 +938,7 @@ b) SKITARII VANGUARDS</characteristic>
                       <entryLinks>
                         <entryLink import="true" name="Plasma Cannon" hidden="false" id="2f35-5694-193e-868d" type="selectionEntry" targetId="597d-3cc2-8209-d3d1">
                           <modifiers>
-                            <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
@@ -968,7 +957,6 @@ b) SKITARII VANGUARDS</characteristic>
                           <modifiers>
                             <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                             <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                          
                             <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Aslt"/>
                           </modifiers>
                           <constraints>
@@ -1014,7 +1002,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <entryLink import="true" name="Flamer" hidden="false" id="e68a-9457-b264-3e7a" type="selectionEntry" targetId="4cf9-1758-d00d-29c4">
                           <modifiers>
                             <modifier type="set" value="5+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                            <modifier type="set" value="9" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                            <modifier type="set" value="7" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                           </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9e81-98bf-aad0-ef4e" includeChildSelections="false"/>
@@ -1066,11 +1054,11 @@ b) SKITARII VANGUARDS</characteristic>
                             <profile name="Servo Claw" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="311b-3644-e266-95d6">
                               <characteristics>
                                 <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-                                <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                                <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                                 <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                                 <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
                                 <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                                <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                               </characteristics>
                             </profile>
                           </profiles>
@@ -1150,10 +1138,10 @@ b) SKITARII VANGUARDS</characteristic>
                             <entryLink import="true" name="Radium Pistol" hidden="false" id="a567-7877-0ce1-6a61" type="selectionEntry" targetId="4de8-019c-c699-96bb" sortIndex="1"/>
                             <entryLink import="true" name="Arc Pistol" hidden="false" id="3c69-ff67-2ab5-ea00" type="selectionEntry" targetId="c91d-e5cc-7b41-4777" sortIndex="2"/>
                             <entryLink import="true" name="Phosphor Pistol" hidden="false" id="61ea-597a-199f-8e66" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3">
-<modifiers>
-<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-</modifiers>
-</entryLink>
+                              <modifiers>
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
+                            </entryLink>
                           </entryLinks>
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Melee" id="d59f-1769-e139-ecf1" hidden="false" defaultSelectionEntryId="b662-b59b-c986-6d47">
@@ -1169,11 +1157,12 @@ b) SKITARII VANGUARDS</characteristic>
                             </entryLink>
                           </entryLinks>
                           <selectionEntries>
-                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="be96-9759-e7c7-39e6" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="be96-9759-e7c7-39e6" sortIndex="2">
                               <entryLinks>
-                                <entryLink import="true" name="Power Weapon" hidden="false" id="45e0-9c7d-073e-a557" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
+                                <entryLink import="true" name="Power Sword" hidden="false" id="45e0-9c7d-073e-a557" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
-                                    <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon"/>
+                                    <modifier type="set" value="2" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
                                   <constraints>
@@ -1192,7 +1181,6 @@ b) SKITARII VANGUARDS</characteristic>
                                   </constraints>
                                   <modifiers>
                                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                                  
                                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="4"/>
                                   </modifiers>
                                 </entryLink>
@@ -1210,10 +1198,14 @@ b) SKITARII VANGUARDS</characteristic>
                       </constraints>
                       <entryLinks>
                         <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="a102-0db4-5f5e-a6ba" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1">
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </entryLink>
                         <entryLink import="true" name="Plasma Caliver" hidden="false" id="50a1-c483-b1b2-0e17" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3">
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </entryLink>
                       </entryLinks>
                       <selectionEntries>
@@ -1229,7 +1221,9 @@ b) SKITARII VANGUARDS</characteristic>
                               </constraints>
                             </entryLink>
                           </entryLinks>
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -1242,7 +1236,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1308,10 +1301,10 @@ b) SKITARII VANGUARDS</characteristic>
                             <entryLink import="true" name="Radium Pistol" hidden="false" id="6dd9-3004-4f90-170e" type="selectionEntry" targetId="4de8-019c-c699-96bb" sortIndex="1"/>
                             <entryLink import="true" name="Arc Pistol" hidden="false" id="220b-ed8a-ea33-d2ce" type="selectionEntry" targetId="c91d-e5cc-7b41-4777" sortIndex="2"/>
                             <entryLink import="true" name="Phosphor Pistol" hidden="false" id="2fdb-9ca1-c41d-2724" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7" sortIndex="3">
-<modifiers>
-<modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon" />
-</modifiers>
-</entryLink>
+                              <modifiers>
+                                <modifier type="set" value="3" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                              </modifiers>
+                            </entryLink>
                           </entryLinks>
                         </selectionEntryGroup>
                         <selectionEntryGroup name="Melee" id="29ec-23c1-23fe-e8e7" hidden="false" defaultSelectionEntryId="ec38-ca12-ed84-dd77">
@@ -1340,10 +1333,11 @@ b) SKITARII VANGUARDS</characteristic>
                                 </entryLink>
                               </entryLinks>
                             </selectionEntry>
-                            <selectionEntry type="upgrade" import="true" name="Power Weapon" hidden="false" id="3b1d-dbf2-8369-e2a8" sortIndex="2">
+                            <selectionEntry type="upgrade" import="true" name="Power Sword" hidden="false" id="3b1d-dbf2-8369-e2a8" sortIndex="2">
                               <entryLinks>
-                                <entryLink import="true" name="Power Weapon" hidden="false" id="bc6b-b1d9-2050-1043" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
+                                <entryLink import="true" name="Power Sword" hidden="false" id="bc6b-b1d9-2050-1043" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                                   <modifiers>
+                                    <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon"/>
                                     <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                                     <modifier type="set" value="2+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                                   </modifiers>
@@ -1366,10 +1360,14 @@ b) SKITARII VANGUARDS</characteristic>
                       </constraints>
                       <entryLinks>
                         <entryLink import="true" name="Transuranic Arquebus" hidden="false" id="3a31-3a54-3465-33bb" type="selectionEntry" targetId="772a-bb0a-51eb-a1dc" sortIndex="1">
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </entryLink>
                         <entryLink import="true" name="Plasma Caliver" hidden="false" id="a0e0-b24b-f159-e2f0" type="selectionEntry" targetId="5170-8876-9791-2438" sortIndex="3">
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </entryLink>
                       </entryLinks>
                       <selectionEntries>
@@ -1385,7 +1383,9 @@ b) SKITARII VANGUARDS</characteristic>
                               </constraints>
                             </entryLink>
                           </entryLinks>
-                          <costs><cost name="pts" typeId="points" value="10"/></costs>
+                          <costs>
+                            <cost name="pts" typeId="points" value="10"/>
+                          </costs>
                         </selectionEntry>
                       </selectionEntries>
                     </selectionEntryGroup>
@@ -1404,7 +1404,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -1437,7 +1436,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1522,7 +1520,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">4</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1571,7 +1568,6 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Heavy Armour" id="6572-211b-633c-a664" hidden="false" type="rule" targetId="ec2c-77fd-05f2-a794"/>
         <infoLink name="Walker" id="fd52-a71d-7b39-e11a" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
         <infoLink name="Forward Deploy" id="99c3-44e3-1f65-debf" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
-        
       </infoLinks>
       <profiles>
         <profile name="Breacher Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ff1f-a88d-f1e1-01fb">
@@ -1608,7 +1604,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1667,7 +1662,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -1689,7 +1684,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
       </profiles>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Ironstrider Ballistarii" hidden="false" id="e1f3-a199-2f4b-3e31" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Ironstrider Ballistarius" hidden="false" id="e1f3-a199-2f4b-3e31" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="1708-fad8-7b0f-808d" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="3943-958a-3193-1834" primary="false" name="Vehicle"/>
@@ -1705,7 +1700,7 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
       </profiles>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Ironstrider Ballistarii" hidden="false" id="6bd0-c046-d7d7-a68b">
+        <selectionEntry type="model" import="true" name="Ironstrider Ballistarius" hidden="false" id="6bd0-c046-d7d7-a68b">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="84c6-0831-172c-615a-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="84c6-0831-172c-615a-max" includeChildSelections="false"/>
@@ -1727,7 +1722,7 @@ b) SKITARII VANGUARDS</characteristic>
                 </entryLink>
                 <entryLink import="true" name="Autocannon" hidden="false" id="fcd2-0c24-d1e0-97d0" type="selectionEntry" targetId="a636-c9c9-ad6d-6db0">
                   <modifiers>
-                    <modifier type="prepend" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="prepend" value="11" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                     <modifier type="prepend" value="Twin Cognis" field="name"/>
                     <modifier type="prepend" value="Twin Cognis" field="name" affects="profiles.Weapon"/>
                     <modifier type="prepend" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
@@ -1737,12 +1732,11 @@ b) SKITARII VANGUARDS</characteristic>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Ironstrider Ballistarii" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e6c6-746c-ad06-9a2b">
+            <profile name="Ironstrider Ballistarius" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="e6c6-746c-ad06-9a2b">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">10</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -1771,7 +1765,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1795,7 +1788,6 @@ b) SKITARII VANGUARDS</characteristic>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="131e-c212-98ca-8f50-min" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="131e-c212-98ca-8f50-max" includeChildSelections="false"/>
                           </constraints>
-                        
                           <modifiers>
                             <modifier affects="profiles.Weapon" field="459f-6890-e77f-b62f" type="set" value="3+"/>
                           </modifiers>
@@ -1875,7 +1867,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -1951,7 +1942,6 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Walker" id="4d47-38de-13ed-435d" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
         <infoLink name="Isolate" id="66b3-aeec-4463-7737" hidden="false" type="rule" targetId="db97-d77e-4392-6f10"/>
         <infoLink name="Hunt" id="e9ac-971c-8074-02f5" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805"/>
-        
       </infoLinks>
       <profiles>
         <profile name="Population Cull" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d847-4b87-b27e-ad44">
@@ -1976,7 +1966,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2010,12 +1999,18 @@ b) SKITARII VANGUARDS</characteristic>
                     <selectionEntry type="upgrade" import="true" name="Phosphor Pistol &amp; Cavalry Arc Maul" hidden="false" id="ba9b-ab70-9072-4ef6" sortIndex="3">
                       <entryLinks>
                         <entryLink import="true" name="Phosphor Pistol" hidden="false" id="f658-90d0-a6fe-9b1b" type="selectionEntry" targetId="a0a4-a663-e4cd-9fb7">
+                          <modifiers>
+                            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="2"/>
+                          </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="fffc-8faa-e2cd-01e2-min" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="fffc-8faa-e2cd-01e2-max" includeChildSelections="false"/>
                           </constraints>
                         </entryLink>
-                        <entryLink import="true" name="Arc Maul" hidden="false" id="13a0-8ece-fdd6-8bc0" type="selectionEntry" targetId="f570-f0cc-34e0-c9be">
+                        <entryLink import="true" name="Cavalry Arc Maul" hidden="false" id="13a0-8ece-fdd6-8bc0" type="selectionEntry" targetId="f570-f0cc-34e0-c9be">
+                          <modifiers>
+                            <modifier type="prepend" value="Cavalry" field="name" affects="profiles.Weapon"/>
+                          </modifiers>
                           <constraints>
                             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="bf86-7443-c91d-f699-min" includeChildSelections="false"/>
                             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="bf86-7443-c91d-f699-max" includeChildSelections="false"/>
@@ -2108,6 +2103,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                 <modifier type="prepend" value="Cognis" field="name" affects="profiles.Weapon"/>
                 <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="981c-95b4-36a2-c4d3-min" includeChildSelections="false"/>
@@ -2145,6 +2141,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                         <modifier type="prepend" value="Coaxial Cognis" field="name" affects="profiles.Weapon"/>
                         <modifier type="set" value="6" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                        <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
                       </modifiers>
                       <constraints>
                         <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="9c66-a376-150f-bdd5-min" includeChildSelections="false"/>
@@ -2213,6 +2210,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <entryLink import="true" name="Heavy Phosphor Blaster" hidden="false" id="6cd1-bfc7-d0e4-bb7a" type="selectionEntry" targetId="9294-7ee8-16b4-b8e1" sortIndex="2">
                   <modifiers>
                     <modifier type="set" value="Twin Heavy Phosphor Blaster" field="name"/>
+                    <modifier type="set" value="Twin Heavy Phosphor Blaster" field="name" affects="profiles.Weapon"/>
                     <modifier type="set" value="15" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                   </modifiers>
@@ -2226,7 +2224,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -2260,7 +2257,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">15</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -2351,7 +2347,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2389,8 +2384,9 @@ b) SKITARII VANGUARDS</characteristic>
                     <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="988b-fd2f-56f0-50d2-max" includeChildSelections="false"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink import="true" name="Power Weapon" hidden="false" id="fe01-8dd9-5c56-0d0c" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
+                    <entryLink import="true" name="Power Sword" hidden="false" id="fe01-8dd9-5c56-0d0c" type="selectionEntry" targetId="dfed-4c14-cafd-626d">
                       <modifiers>
+                        <modifier type="set" value="Power Sword" field="name" affects="profiles.Weapon"/>
                         <modifier type="set" value="1" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                         <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                       </modifiers>
@@ -2417,7 +2413,7 @@ b) SKITARII VANGUARDS</characteristic>
                             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                             <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
                             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -2466,6 +2462,7 @@ b) SKITARII VANGUARDS</characteristic>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="877e-489e-ef6f-051a" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
+        <infoLink name="Forward Deploy" id="a14a-f0b7-3e82-466e-bb22" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
         <infoLink name="Hunter Arachnids" id="4c6d-fd53-3a0d-0272" hidden="false" targetId="5112-c87f-346c-9451" type="profile"/>
       </infoLinks>
     </selectionEntry>
@@ -2484,7 +2481,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">2</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2592,7 +2588,8 @@ b) SKITARII VANGUARDS</characteristic>
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="prepend" value="Hull Cognis" field="name" affects="profiles.Weapon"/>
-                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="20" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
                   </modifiers>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="4ed2-827a-6909-4fc8-min" includeChildSelections="false"/>
@@ -2611,7 +2608,8 @@ b) SKITARII VANGUARDS</characteristic>
                   <modifiers>
                     <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="prepend" value="Twin Cognis" field="name" affects="profiles.Weapon"/>
-                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="20" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
                   </modifiers>
                   <constraints>
                     <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="0cbc-221c-79c2-4de7-min" includeChildSelections="false"/>
@@ -2627,7 +2625,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">17</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -2650,7 +2647,16 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
         <profile name="Kastelan Protocols" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b5ed-445b-1a2d-73e3">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Deploys or an ability has this unit'change protocol', select one of the following abilities. Then, this unit gains the selected ability and loses any of the other abilities (if it has any):</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After this unit Deploys or an ability has this unit'change protocol', select one of the following abilities. Then, this unit gains the selected ability and loses any of the other abilities (if it has any):
+
+Aegis Protocol:
+For each ranged attack that targets this unit, reroll a failed Saving Throw of 1 for that attack.
+
+Conqueror Protocol:
+For each Move Roll made for this unit, add 1 D6 to that roll and discard the lowest result.
+
+Protector Protocol:
+For each attack this unit makes, add 1 to the Hit Roll for that attack.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2676,7 +2682,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2D3</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -2688,7 +2694,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <modifier type="append" value="s" field="name" join=""/>
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                     <modifier type="append" value="s" field="name" affects="profiles.Weapon" join=""/>
-                  
                     <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="15"/>
                   </modifiers>
                 </entryLink>
@@ -2739,7 +2744,6 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">4</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -2761,7 +2765,6 @@ b) SKITARII VANGUARDS</characteristic>
                     <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                     <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
                     <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
                   </characteristics>
                 </profile>
               </profiles>
@@ -2863,19 +2866,23 @@ b) SKITARII VANGUARDS</characteristic>
       <profiles>
         <profile name="Killing Machines" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="ea3a-8124-5242-bd13">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit dies from an attack made for this unit, this unit gains the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After any enemy unit dies from an attack made for this unit, this unit gains the following ability:
+
+Efficient Movement:
+After any enemy unit's End step, this unit may Advance and it loses this ability.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink name="Walker" id="0876-c2e2-b44a-6b78" hidden="false" type="rule" targetId="4100-8e8c-47a5-3a15"/>
+        <infoLink name="Forward Deploy" id="75d6-e8be-ba6b-4890-b50e" hidden="false" type="rule" targetId="b433-60cc-2ed2-658f"/>
         <infoLink targetId="5112-c87f-346c-9451" id="9d9f-d63d-092a-612a" type="profile" name="Hunter Arachnids" hidden="false"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="100"/>
       </costs>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Skorpius Disintergrator" hidden="false" id="3ed7-5075-be3c-cc3a" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Skorpius Disintegrator" hidden="false" id="3ed7-5075-be3c-cc3a" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="37e9-bc33-1c42-40fe" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="bc33-6577-cca3-542e" primary="false" name="Vehicle"/>
@@ -2894,7 +2901,7 @@ b) SKITARII VANGUARDS</characteristic>
         <infoLink name="Fly" id="2e81-fead-0944-5252" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Skorpius Disintergrator" hidden="false" id="923a-3227-f8a4-0557">
+        <selectionEntry type="model" import="true" name="Skorpius Disintegrator" hidden="false" id="923a-3227-f8a4-0557">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="c5d5-90ba-5ea5-5282-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="c5d5-90ba-5ea5-5282-max" includeChildSelections="false"/>
@@ -2950,7 +2957,8 @@ b) SKITARII VANGUARDS</characteristic>
               <modifiers>
                 <modifier type="set" value="3+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
                 <modifier type="prepend" value="Hull Cognis" field="name" affects="profiles.Weapon"/>
-                <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier type="set" value="16" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                <modifier affects="profiles.Weapon" field="6c1c-7d1d-c8b0-33ec" type="set" value="Hv"/>
               </modifiers>
               <constraints>
                 <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="a0c8-5084-01ba-e780-min" includeChildSelections="false"/>
@@ -2968,7 +2976,7 @@ b) SKITARII VANGUARDS</characteristic>
                 <profile name="Disruptor Missile Launcher" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="4c59-8169-b406-fb98">
                   <characteristics>
                     <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Hv</characteristic>
-                    <characteristic name="A" typeId="13c5-f234-c120-afc3">3</characteristic>
+                    <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">3</characteristic>
@@ -2979,12 +2987,11 @@ b) SKITARII VANGUARDS</characteristic>
             </selectionEntry>
           </selectionEntries>
           <profiles>
-            <profile name="Skorpius Disintergrator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c8cc-4562-2665-7a33">
+            <profile name="Skorpius Disintegrator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="c8cc-4562-2665-7a33">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">3</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -3023,7 +3030,7 @@ b) SKITARII VANGUARDS</characteristic>
                   <modifiers>
                     <modifier type="prepend" value="Twin" field="name" affects="profiles.Weapon"/>
                     <modifier type="set" value="4+" field="459f-6890-e77f-b62f" affects="profiles.Weapon"/>
-                    <modifier type="set" value="4" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
+                    <modifier type="set" value="8" field="13c5-f234-c120-afc3" affects="profiles.Weapon"/>
                   </modifiers>
                 </entryLink>
                 <entryLink import="true" name="Storm Bolter" hidden="false" id="08b9-77cc-9d4d-c8bb" type="selectionEntry" targetId="d215-60bd-f49d-295e" sortIndex="3">
@@ -3044,7 +3051,7 @@ b) SKITARII VANGUARDS</characteristic>
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3103,17 +3110,17 @@ b) SKITARII VANGUARDS</characteristic>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">5+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
     </selectionEntry>
-    <selectionEntry type="unit" import="true" name="Macroarid Explorator" hidden="false" id="27bc-fc56-e033-17a4" sortIndex="4">
+    <selectionEntry type="unit" import="true" name="Macrocarid Explorator" hidden="false" id="27bc-fc56-e033-17a4" sortIndex="4">
       <categoryLinks>
         <categoryLink targetId="ccc6-6202-853c-23e4" id="ee5d-9c30-6964-a9c5" primary="true" name="Support"/>
         <categoryLink targetId="b239-6bd1-e7a0-0a02" id="d052-8a1a-5e8f-3bca" primary="false" name="Vehicle"/>
+        <categoryLink targetId="1738-1300-9dbb-c5be" id="e532-13ad-8854-4af6" primary="false" name="Rare"/>
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="200"/>
@@ -3126,18 +3133,17 @@ b) SKITARII VANGUARDS</characteristic>
         </profile>
         <profile name="Command Suite" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="b236-93ae-c9bd-b15d">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 1” of another of your units Tech-Priest ability, this unit gains:
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">While this unit is within 1? of one or more of your units with Tech-Priest, this unit gains:
 
 Command and Control: After any of your units within 24” of this unit Repairs X, that unit Repairs X+1 instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        
         <infoLink name="Titan" id="6117-155c-1ed1-29b7" hidden="false" type="rule" targetId="8f09-c87f-c86c-8cfc"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry type="model" import="true" name="Macroarid Explorator" hidden="false" id="ce67-6151-8674-d352">
+        <selectionEntry type="model" import="true" name="Macrocarid Explorator" hidden="false" id="ce67-6151-8674-d352">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="47fb-ac48-5dc0-9f39-min" includeChildSelections="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="47fb-ac48-5dc0-9f39-max" includeChildSelections="false"/>
@@ -3158,7 +3164,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3189,7 +3195,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred , For each attack made for this weapon that targets an enemy unit further than 16” away, the D of that attack improves by 2.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3237,7 +3243,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3273,7 +3279,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                         <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                         <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                         <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                        <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                       </characteristics>
                     </profile>
                   </profiles>
@@ -3308,12 +3314,11 @@ Command and Control: After any of your units within 24” of this unit Repairs�
             </selectionEntryGroup>
           </selectionEntryGroups>
           <profiles>
-            <profile name="Macroarid Explorator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b4ba-1d6d-c479-2659">
+            <profile name="Macrocarid Explorator" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="b4ba-1d6d-c479-2659">
               <characteristics>
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">12</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -3344,7 +3349,6 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">5</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">14</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -3358,7 +3362,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                     <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
                     <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
                     <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+                    <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -3455,7 +3459,6 @@ Command and Control: After any of your units within 24” of this unit Repairs�
                 <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
                 <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">4+</characteristic>
                 <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">5</characteristic>
-                
               </characteristics>
             </profile>
           </profiles>
@@ -3527,7 +3530,10 @@ Command and Control: After any of your units within 24” of this unit Repairs�
       <profiles>
         <profile name="Cyborg Watchtower" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="82dc-802f-b423-8a8f">
           <characteristics>
-            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, until the end of the battle round, this unit gains the following ability:</characteristic>
+            <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">After a Move Roll made for this unit during its Move step, you may discard the highest result of that Move Roll. If you do, until the end of the battle round, this unit gains the following ability:
+
+Achillan Eye:
+After any enemy unit's Move step, as a reaction, this unit may make attacks targeting that unit (if able) and for each of those attacks, reroll a Wound Roll of 1 for that attack. Then, it loses this ability.</characteristic>
           </characteristics>
         </profile>
         <profile name="Perfectly Engineered" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="efa1-275a-d97a-b551">
@@ -3551,7 +3557,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
     </profile>
     <profile name="Manufactorum Imperium" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="37fa-7d9c-6c8c-e33c">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may add vehicle units to your army list from the documents "40k Reforged: Imperial Guard" and"40k Reforged: Space Marines". Unit &amp; Weapon Abilities:</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">You may add vehicle units to your army list from the documents "40k Reforged: Imperial Guard" and "40k Reforged: Space Marines".</characteristic>
       </characteristics>
     </profile>
     <profile name="Invocate Machine" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="f914-73c8-f087-eadf">
@@ -3571,7 +3577,10 @@ Command and Control: After any of your units within 24” of this unit Repairs�
     </profile>
     <profile name="Radioactive" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="7d55-9f74-29f2-c388">
       <characteristics>
-        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each melee attack that targets this unit, worsen the Wound Roll of that attack by 1. Additionally, while enemy infantry units are within 14" of this unit, those units gain the following ability:</characteristic>
+        <characteristic name="Description:" typeId="22b9-735d-71b1-6d7a">For each melee attack that targets this unit, worsen the Wound Roll of that attack by 1. Additionally, while enemy infantry units are within 14" of this unit, those units gain the following ability:
+
+Acute Rad-poisoning:
+For each Move Roll made for this unit, roll 1 less dice for that roll.</characteristic>
       </characteristics>
     </profile>
     <profile name="Hunter Arachnids" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="5112-c87f-346c-9451">
@@ -3598,7 +3607,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">4</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">2</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred, For each attack made for this weapon that targets an enemy unit further than 16? away, the D of that attack improves by 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3621,6 +3630,23 @@ Command and Control: After any of your units within 24” of this unit Repairs�
       </profiles>
       <infoLinks>
         <infoLink name="Pierce" id="355c-dbf3-8baf-6906" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="upgrade" import="true" name="Omnissian Staff" hidden="false" id="2583a2b4-4c12-4ca4-bdf6-c7168287eaef">
+      <profiles>
+        <profile name="Omnissian Staff" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e6bd75f9-0cdb-4417-9860-02108a240c56">
+          <characteristics>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Pierce</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink name="Pierce" id="9706c84a-eb66-4152-a605-4a78847fd90b" hidden="false" type="rule" targetId="f61d-729a-ad35-ab97"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Archeotech Pistol" hidden="false" id="4b1d-e120-e07d-968a">
@@ -3890,7 +3916,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
             <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
             <characteristic name="S" typeId="571c-0471-2614-c57c">5</characteristic>
             <characteristic name="D" typeId="c2c0-3714-05e2-65a0">4</characteristic>
-            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"></characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9"/>
           </characteristics>
         </profile>
       </profiles>
@@ -3998,99 +4024,99 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         <infoLink name="Blast (X)" id="614f-383e-5134-7ddd" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
       </infoLinks>
     </selectionEntry>
-      <selectionEntry type="upgrade" import="true" name="Phosphor Torch" hidden="false" id="61d5-d45c-286a-3e95">
+    <selectionEntry type="upgrade" import="true" name="Phosphor Torch" hidden="false" id="61d5-d45c-286a-3e95">
       <profiles>
         <profile name="Phosphor Torch" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="1265-e14b-9cfe-9204">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2, Ignore Cover</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">4+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Blast 2, Ignore Cover</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Blast (X)" id="88a4-8efa-53ae-6b46" hidden="false" type="rule" targetId="308a-e96e-90f7-855e" />
-      <infoLink name="Ignore Cover" id="f505-2fce-5549-a1ca" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742" />
+        <infoLink name="Blast (X)" id="88a4-8efa-53ae-6b46" hidden="false" type="rule" targetId="308a-e96e-90f7-855e"/>
+        <infoLink name="Ignore Cover" id="f505-2fce-5549-a1ca" hidden="false" type="rule" targetId="c88b-5cb0-aa9d-b742"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Pteraxii Talons" hidden="false" id="d670-14e0-6d8b-5dfe">
       <profiles>
         <profile name="Pteraxii Talons" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="0463-6470-c60b-4d21">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">1</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">2</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Shred" id="247b-2239-1ef1-457a" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+        <infoLink name="Shred" id="247b-2239-1ef1-457a" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alpha Flechette Blaster" hidden="false" id="6543-1c79-1ad3-c9e1">
       <profiles>
         <profile name="Alpha Flechette Blaster" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="e8cb-f9aa-48b5-e9d7">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">CQ</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Hunt" id="c265-4d5c-f05c-c5c6" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805" />
+        <infoLink name="Hunt" id="c265-4d5c-f05c-c5c6" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Alpha Taser Goad" hidden="false" id="e624-4dd2-ed9b-3e6b">
       <profiles>
         <profile name="Alpha Taser Goad" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="cbec-7811-535e-8fce">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">ML</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">2</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">3</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Shred" id="1136-25c7-bb25-eb24" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035" />
+        <infoLink name="Shred" id="1136-25c7-bb25-eb24" hidden="false" type="rule" targetId="4a04-e9da-d7b5-e035"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Flechette Carbine" hidden="false" id="470f-5a90-2957-f195">
       <profiles>
         <profile name="Flechette Carbine" typeId="2dff-53d0-6d25-8c59" typeName="Weapon" hidden="false" id="d059-cdd8-9baa-332a">
           <characteristics>
-              <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
-              <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
-              <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
-              <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
-              <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
-              <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
+            <characteristic name="Tp" typeId="6c1c-7d1d-c8b0-33ec">Aslt</characteristic>
+            <characteristic name="A" typeId="13c5-f234-c120-afc3">7</characteristic>
+            <characteristic name="WS" typeId="459f-6890-e77f-b62f">3+</characteristic>
+            <characteristic name="S" typeId="571c-0471-2614-c57c">1</characteristic>
+            <characteristic name="D" typeId="c2c0-3714-05e2-65a0">1</characteristic>
+            <characteristic name="Abilities" typeId="d93f-70ee-72bc-5ef9">Hunt</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-      <infoLink name="Hunt" id="ecee-70ae-f8ac-c06b" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805" />
+        <infoLink name="Hunt" id="ecee-70ae-f8ac-c06b" hidden="false" type="rule" targetId="0f3a-7a60-a486-b805"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Pteraxii Sterylizors" hidden="false" id="1f75-44ed-e466-bccb" sortIndex="1">
       <costs>
-        <cost name="pts" typeId="points" value="110" />
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="ccc6-6202-853c-23e4" id="0a76-05e0-8de7-0600" primary="true" name="Support" />
-        <categoryLink targetId="205c-3072-067b-d808" id="58cb-4ccb-2306-89f5" primary="false" name="Infantry" />
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="0a76-05e0-8de7-0600" primary="true" name="Support"/>
+        <categoryLink targetId="205c-3072-067b-d808" id="58cb-4ccb-2306-89f5" primary="false" name="Infantry"/>
       </categoryLinks>
       <profiles>
         <profile name="Flight Packs" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="d9b0-18af-00e7-3bbb">
@@ -4110,40 +4136,44 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Fly" id="7cf4-836f-5f30-8559" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+        <infoLink name="Fly" id="7cf4-836f-5f30-8559" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pteraxii Sterylizors" hidden="false" id="ea20-ef94-6a27-0c7e">
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-min" includeChildSelections="false" />
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-max" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-min" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="ea20-ef94-6a27-0c7e-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Pteraxii Sterylizors" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="f573-7d4f-d1a4-b410">
               <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Phosphor Torch" hidden="false" id="f236-1b86-c508-dcdd" type="selectionEntry" targetId="61d5-d45c-286a-3e95" />
-        <entryLink import="true" name="Pteraxii Talons" hidden="false" id="5739-d078-5894-f6b6" type="selectionEntry" targetId="d670-14e0-6d8b-5dfe" />
-        <entryLink import="true" name="Alpha Flechette Blaster" hidden="false" id="46c9-36e0-be77-dfa4" type="selectionEntry" targetId="6543-1c79-1ad3-c9e1" />
-        <entryLink import="true" name="Alpha Taser Goad" hidden="false" id="9886-c38d-c5fc-8224" type="selectionEntry" targetId="e624-4dd2-ed9b-3e6b" />
+        <entryLink import="true" name="Phosphor Torch" hidden="false" id="f236-1b86-c508-dcdd" type="selectionEntry" targetId="61d5-d45c-286a-3e95">
+          <modifiers>
+            <modifier affects="profiles.Weapon" field="13c5-f234-c120-afc3" type="set" value="3"/>
+            <modifier affects="profiles.Weapon" field="d93f-70ee-72bc-5ef9" type="set" value="Ignore Cover, Purge"/>
+          </modifiers>
+        </entryLink>
+        <entryLink import="true" name="Pteraxii Talons" hidden="false" id="5739-d078-5894-f6b6" type="selectionEntry" targetId="d670-14e0-6d8b-5dfe"/>
+        <entryLink import="true" name="Alpha Flechette Blaster" hidden="false" id="46c9-36e0-be77-dfa4" type="selectionEntry" targetId="6543-1c79-1ad3-c9e1"/>
+        <entryLink import="true" name="Alpha Taser Goad" hidden="false" id="9886-c38d-c5fc-8224" type="selectionEntry" targetId="e624-4dd2-ed9b-3e6b"/>
       </entryLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Pteraxii Skystalkers" hidden="false" id="1fdb-c7ba-a3fd-5da5" sortIndex="1">
       <costs>
-        <cost name="pts" typeId="points" value="110" />
+        <cost name="pts" typeId="points" value="110"/>
       </costs>
       <categoryLinks>
-        <categoryLink targetId="ccc6-6202-853c-23e4" id="d2b0-5ca2-9f5c-0c5c" primary="true" name="Support" />
-        <categoryLink targetId="205c-3072-067b-d808" id="cf31-768a-52f3-6664" primary="false" name="Infantry" />
+        <categoryLink targetId="ccc6-6202-853c-23e4" id="d2b0-5ca2-9f5c-0c5c" primary="true" name="Support"/>
+        <categoryLink targetId="205c-3072-067b-d808" id="cf31-768a-52f3-6664" primary="false" name="Infantry"/>
       </categoryLinks>
       <profiles>
         <profile name="Flight Packs" typeId="e9b6-89e0-ffee-5662" typeName="Ability" hidden="false" id="46d6-313c-d83e-ba36">
@@ -4163,34 +4193,33 @@ Command and Control: After any of your units within 24” of this unit Repairs�
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink name="Fly" id="b284-31fc-6eb6-2610" hidden="false" type="rule" targetId="449b-2864-9b01-7476" />
+        <infoLink name="Fly" id="b284-31fc-6eb6-2610" hidden="false" type="rule" targetId="449b-2864-9b01-7476"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry type="model" import="true" name="Pteraxii Skystalkers" hidden="false" id="f4bf-7a95-29f6-192a">
           <constraints>
-            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-min" includeChildSelections="false" />
-            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-max" includeChildSelections="false" />
+            <constraint type="min" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-min" includeChildSelections="false"/>
+            <constraint type="max" value="5" field="selections" scope="parent" shared="true" id="f4bf-7a95-29f6-192a-max" includeChildSelections="false"/>
           </constraints>
           <profiles>
             <profile name="Pteraxii Skystalkers" typeId="a706-96eb-fcae-b696" typeName="Unit" hidden="false" id="23e7-f9ac-5751-2c85">
               <characteristics>
-                    <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
-                    <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
-                    <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
-                    
+                <characteristic name="T" typeId="a6ad-d820-8495-f5b0">2</characteristic>
+                <characteristic name="Sv" typeId="9b7f-0dde-683f-6844">3+</characteristic>
+                <characteristic name="H" typeId="18e4-1bf9-a9b8-1e50">1</characteristic>
               </characteristics>
             </profile>
           </profiles>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Flechette Carbine" hidden="false" id="0706-b8ad-a5ba-363f" type="selectionEntry" targetId="470f-5a90-2957-f195" />
-        <entryLink import="true" name="Pteraxii Talons" hidden="false" id="b14b-cf7c-01de-c9d6" type="selectionEntry" targetId="d670-14e0-6d8b-5dfe" />
-        <entryLink import="true" name="Alpha Flechette Blaster" hidden="false" id="e569-7474-7161-677c" type="selectionEntry" targetId="6543-1c79-1ad3-c9e1" />
-        <entryLink import="true" name="Alpha Taser Goad" hidden="false" id="5027-ff9a-e7bf-4f5b" type="selectionEntry" targetId="e624-4dd2-ed9b-3e6b" />
+        <entryLink import="true" name="Flechette Carbine" hidden="false" id="0706-b8ad-a5ba-363f" type="selectionEntry" targetId="470f-5a90-2957-f195"/>
+        <entryLink import="true" name="Pteraxii Talons" hidden="false" id="b14b-cf7c-01de-c9d6" type="selectionEntry" targetId="d670-14e0-6d8b-5dfe"/>
+        <entryLink import="true" name="Alpha Flechette Blaster" hidden="false" id="e569-7474-7161-677c" type="selectionEntry" targetId="6543-1c79-1ad3-c9e1"/>
+        <entryLink import="true" name="Alpha Taser Goad" hidden="false" id="5027-ff9a-e7bf-4f5b" type="selectionEntry" targetId="e624-4dd2-ed9b-3e6b"/>
       </entryLinks>
     </selectionEntry>
-</sharedSelectionEntries>
+  </sharedSelectionEntries>
   <catalogueLinks>
     <catalogueLink type="catalogue" name="Imperial Guard" id="8abd-2c61-1ad9-2df1" targetId="f178-f218-fb11-d21a"/>
     <catalogueLink type="catalogue" name="Space Marines" id="1f1a-579f-c656-9c8d" targetId="189f-f42f-6f3b-5328"/>
@@ -4216,7 +4245,7 @@ Command and Control: After any of your units within 24” of this unit Repairs�
     <entryLink import="true" name="Land Raider" hidden="false" id="cf3f-cb25-58bb-62b6" targetId="7128-e377-d8e2-17dc" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Rhino" hidden="false" id="3ecb-d570-3f67-63ac" targetId="9884-6337-d74d-e190" type="selectionEntry" sortIndex="6"/>
     <entryLink import="true" name="Tank Commander" hidden="false" id="b8c8-6008-39a8-f614" targetId="a272-0554-6a79-2895" type="selectionEntry" sortIndex="5"/>
-      <entryLink import="true" name="Pteraxii Sterylizors" hidden="false" id="230a-a80e-2c75-d91e" type="selectionEntry" targetId="1f75-44ed-e466-bccb" sortIndex="99" />
-    <entryLink import="true" name="Pteraxii Skystalkers" hidden="false" id="b470-64ff-d2a9-62aa" type="selectionEntry" targetId="1fdb-c7ba-a3fd-5da5" sortIndex="99" />
-</entryLinks>
+    <entryLink import="true" name="Pteraxii Sterylizors" hidden="false" id="230a-a80e-2c75-d91e" type="selectionEntry" targetId="1f75-44ed-e466-bccb" sortIndex="99"/>
+    <entryLink import="true" name="Pteraxii Skystalkers" hidden="false" id="b470-64ff-d2a9-62aa" type="selectionEntry" targetId="1fdb-c7ba-a3fd-5da5" sortIndex="99"/>
+  </entryLinks>
 </catalogue>
